@@ -5,8 +5,13 @@ import numpy as np
 import time
 import re
 import requests
+import logging
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+# Onderdruk rommelige yfinance waarschuwingen over mogelijk gedenoteerde tickers
+logging.getLogger('yfinance').setLevel(logging.CRITICAL)
+logging.getLogger('urllib3').setLevel(logging.CRITICAL)
 
 def run_momentum_screener():
     # 1. Rate-limit bestendige sessie opzetten
