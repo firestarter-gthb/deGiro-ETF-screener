@@ -209,7 +209,7 @@ def generate_html_report(csv_file, output_html):
         tbody tr:hover {{ background-color: rgba(51, 65, 85, 0.5); }}
         td {{ padding: 0.75rem 1rem; font-size: 0.875rem; }}
 
-        /* Rijen waarbij de koers binnen ±1 ATR van de 20MA zit */
+        /* Rijen waarbij de koers binnen ±0.5 Z-score van de 20MA zit (pullback/consolidatie zone) */
         tbody tr.near-20ma {{ background-color: rgba(16, 185, 129, 0.07); }}
         tbody tr.near-20ma:hover {{ background-color: rgba(16, 185, 129, 0.14); }}
         tbody tr.near-20ma td {{ color: #6ee7b7; }}
@@ -487,9 +487,9 @@ def generate_html_report(csv_file, output_html):
             renderData.forEach(row => {{
                 const tr = document.createElement('tr');
                 
-                // Groene rij als koers binnen ±1 ATR van de 20-daagse MA zit
-                const atrDist = parseNum(row['ATR Dist 20MA']);
-                if (atrDist !== null && Math.abs(atrDist) <= 1) {{
+                // Groene rij als koers binnen ±0.5 Z-score van de 20MA zit (pullback/consolidatie zone)
+                const zscore = parseNum(row['Z-score 20MA']);
+                if (zscore !== null && Math.abs(zscore) <= 0.5) {{
                     tr.classList.add('near-20ma');
                 }}
                 
