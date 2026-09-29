@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 26 Momentum Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --surface-color: #1e293b;
+            --surface-hover: #334155;
+            --border-color: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-color: #3b82f6;
+            --positive: #10b981;
+            --warning: #f59e0b;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+        }
+
+        header {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+            background: linear-gradient(to right, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+        
+        .info-cards {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        
+        .card {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            padding: 1rem 1.5rem;
+            border-radius: 0.75rem;
+            text-align: center;
+        }
+        
+        .card-val {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        
+        .card-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 0.25rem;
+        }
+
+        .table-container {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            overflow: auto;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        table { width: 100%; border-collapse: collapse; text-align: left; }
+        thead { background: rgba(30, 41, 59, 0.9); border-bottom: 2px solid var(--border-color); }
+        th { padding: 1rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; }
+        
+        tbody tr { border-bottom: 1px solid var(--border-color); transition: background-color 0.15s; }
+        tbody tr:hover { background-color: var(--surface-hover); }
+        td { padding: 1rem; font-size: 0.875rem; vertical-align: middle; }
+        
+        .rank-cell {
+            font-weight: 700;
+            color: var(--positive);
+        }
+
+        .badge {
+            padding: 0.25rem 0.5rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .acc-badge {
+            background: rgba(16, 185, 129, 0.1);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+        
+        .dist-badge {
+            background: rgba(245, 158, 11, 0.1);
+            color: #fbbf24;
+            border: 1px solid rgba(245, 158, 11, 0.2);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top 26 Momentum Portfolio</h1>
+        <div class="subtitle">Equal Weight Strategie • Gegenereerd op 29-09-2026 16:06:55</div>
+    </header>
+    
+    <div class="info-cards">
+        <div class="card">
+            <div class="card-val">26</div>
+            <div class="card-label">Posities</div>
+        </div>
+        <div class="card">
+            <div class="card-val">3.8%</div>
+            <div class="card-label">Weging per positie</div>
+        </div>
+        <div class="card">
+            <div class="card-val">26</div>
+            <div class="card-label">Accumulerend</div>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Overall Rank</th>
+                    <th>Ticker</th>
+                    <th>Naam ETF</th>
+                    <th>Land / Regio</th>
+                    <th>Sector / Thema</th>
+                    <th>Type</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr>
+            <td class="rank-cell">#1</td>
+            <td><strong>AAKG.DE</strong></td>
+            <td>ARK Genomic Revolution UCITS ETF USD Acc</td>
+            <td>Wereldwijd</td>
+            <td>Genomics</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>4,0</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#3</td>
+            <td><strong>GN0M.DE</strong></td>
+            <td>Global X Genomics & Biotechnology UCITS ETF USDAcc</td>
+            <td>Wereldwijd</td>
+            <td>Genomics</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>7,75</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#4</td>
+            <td><strong>W1TB.DE</strong></td>
+            <td>WisdomTree Cybersecurity UCITS USD Acc ETF</td>
+            <td>Wereldwijd</td>
+            <td>Cybersecurity</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>18,0</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#8</td>
+            <td><strong>XMLH.DE</strong></td>
+            <td>L&G Healthcare Tech & Innovation UCITS ETF USD Acc</td>
+            <td>Wereldwijd</td>
+            <td>Healthcare</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>28,05</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#9</td>
+            <td><strong>WRNA.DE</strong></td>
+            <td>WisdomTree Biorevolution UCITS ETF USD Acc</td>
+            <td>Wereldwijd</td>
+            <td>Biotech</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>30,05</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#12</td>
+            <td><strong>IBCJ.DE</strong></td>
+            <td>iShares MSCI Poland UCITS ETF USD (Acc)</td>
+            <td>Polen</td>
+            <td>Brede Markt</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>45,5</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#13</td>
+            <td><strong>DRUP.DE</strong></td>
+            <td>Amundi Global Memory Chips UCITS ETF Acc</td>
+            <td>Wereldwijd</td>
+            <td>Semiconductors</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>46,7</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#22</td>
+            <td><strong>BUG.DE</strong></td>
+            <td>Global X Cybersecurity UCITS ETF USD Acc</td>
+            <td>Wereldwijd</td>
+            <td>Cybersecurity</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>57,95</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#23</td>
+            <td><strong>XB4A.DE</strong></td>
+            <td>Xtrackers ATX UCITS 1C ETF</td>
+            <td>Oostenrijk</td>
+            <td>Brede Markt</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>58,5</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#26</td>
+            <td><strong>2B78.DE</strong></td>
+            <td>iShares Healthcare Innovation UCITS USD (Acc) ETF</td>
+            <td>Wereldwijd</td>
+            <td>Healthcare</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>60,0</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#34</td>
+            <td><strong>QDVE.DE</strong></td>
+            <td>iShares S&P 500 Info Technolg Sctr UCITS ETF USD A</td>
+            <td>Verenigde Staten</td>
+            <td>Technologie</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>70,95</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#40</td>
+            <td><strong>XMLD.DE</strong></td>
+            <td>L&G Artificial Intelligence UCITS ETF USD Acc</td>
+            <td>Wereldwijd</td>
+            <td>AI / Robotica</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>74,2</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#41</td>
+            <td><strong>5MVL.DE</strong></td>
+            <td>iShares Edge MSCI EM Value Factor UCITS USD (Acc) ETF</td>
+            <td>Emerging Markets</td>
+            <td>Value Factor</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>75,05</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#44</td>
+            <td><strong>XDWT.DE</strong></td>
+            <td>Xtrackers MSCI World Information Technology UCITS 1C ETF</td>
+            <td>Wereldwijd</td>
+            <td>Technologie</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>79,15</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#54</td>
+            <td><strong>GOAI.DE</strong></td>
+            <td>Amundi MSCI Robotics & AI UCITS ETF Acc</td>
+            <td>Wereldwijd</td>
+            <td>AI / Robotica</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>90,8</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#60</td>
+            <td><strong>H41E.DE</strong></td>
+            <td>HSBC MSCI Emerging Markets Value Screened UCITS USD Acc ETF</td>
+            <td>Emerging Markets</td>
+            <td>Value Factor</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>106,45</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#69</td>
+            <td><strong>LBNK.DE</strong></td>
+            <td>Amundi STOXX Europe 600 Banks UCITS ETF Acc</td>
+            <td>Europa</td>
+            <td>Financiële sector</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>128,45</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#75</td>
+            <td><strong>S7XE.DE</strong></td>
+            <td>Invesco EURO STOXX Optimised Banks UCITS Acc ETF</td>
+            <td>Europa</td>
+            <td>Financiële sector</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>134,75</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#99</td>
+            <td><strong>SXR6.DE</strong></td>
+            <td>iShares MSCI Japan SRI UCITS ETF USD (Acc)</td>
+            <td>Japan</td>
+            <td>ESG / Duurzaam</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>186,3</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#173</td>
+            <td><strong>QDVS.DE</strong></td>
+            <td>iShares MSCI EM SRI UCITS ETF USD (Acc)</td>
+            <td>Emerging Markets</td>
+            <td>ESG / Duurzaam</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>296,95</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#226</td>
+            <td><strong>ASWD.DE</strong></td>
+            <td>Sprott Pure Play Copper Miners UCITS ETF Acc</td>
+            <td>Wereldwijd</td>
+            <td>Basismetalen</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>331,6</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#229</td>
+            <td><strong>QGRG.DE</strong></td>
+            <td>WisdomTree Global Quality Growth UCITS - USD Acc ETF</td>
+            <td>Wereldwijd</td>
+            <td>Growth Factor</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>333,35</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#257</td>
+            <td><strong>CEBS.DE</strong></td>
+            <td>iShares Copper Miners UCITS ETF USD (Acc)</td>
+            <td>Wereldwijd</td>
+            <td>Basismetalen</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>349,4</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#351</td>
+            <td><strong>18M2.DE</strong></td>
+            <td>Amundi MSCI EMU High Dividend UCITS ETF Acc</td>
+            <td>Wereldwijd</td>
+            <td>Dividend</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>420,35</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#467</td>
+            <td><strong>XWTS.DE</strong></td>
+            <td>Xtrackers MSCI World Communication Services UCITS 1C ETF</td>
+            <td>Wereldwijd</td>
+            <td>Communicatie</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>524,7</td>
+        </tr>
+        
+        <tr>
+            <td class="rank-cell">#535</td>
+            <td><strong>VVSM.DE</strong></td>
+            <td>VanEck Semiconductor UCITS ETF USD A</td>
+            <td>Wereldwijd</td>
+            <td>Semiconductors</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>581,4</td>
+        </tr>
+        
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

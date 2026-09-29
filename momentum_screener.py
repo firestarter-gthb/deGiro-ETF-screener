@@ -60,19 +60,19 @@ def run_momentum_screener():
             # We sturen 4 requests tegelijk (threads=True) via de veilige session
             hist = yf.download(chunk, period='1y', threads=True, session=session, progress=False)
             
-            # Controleer of we meerdere tickers succesvol terugkrijgen
-            if isinstance(hist.columns, pd.MultiIndex):
-                all_closes = hist['Close']
-            else:
-                # Mocht er onverhoopt maar 1 ticker succesvol zijn gedownload
-                all_closes = hist[['Close']].rename(columns={'Close': chunk[0]}) if not hist.empty else pd.DataFrame()
-                
             for t in chunk:
-                if t not in all_closes.columns:
-                    fail_count += 1
-                    continue
+                if isinstance(hist.columns, pd.MultiIndex):
+                    if t not in hist['Close'].columns:
+                        fail_count += 1
+                        continue
+                    df_t = hist.xs(t, level=1, axis=1).dropna()
+                else:
+                    if chunk[0] != t or hist.empty:
+                        fail_count += 1
+                        continue
+                    df_t = hist.dropna()
                     
-                closes = all_closes[t].dropna()
+                closes = df_t['Close']
                 
                 if len(closes) < 200:
                     fail_count += 1
@@ -91,8 +91,21 @@ def run_momentum_screener():
                 avg_200 = closes.tail(200).mean().item()
                 dist_200 = (current_price / avg_200) - 1
                 
+                # ATR Berekening
+                highs = df_t['High']
+                lows = df_t['Low']
+                prev_closes = closes.shift(1)
+                
+                tr1 = highs - lows
+                tr2 = (highs - prev_closes).abs()
+                tr3 = (lows - prev_closes).abs()
+                tr = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
+                
+                atr_20 = tr.rolling(window=20).mean()
+                current_atr = atr_20.iloc[-1].item() if hasattr(atr_20.iloc[-1], 'item') else atr_20.iloc[-1]
                 avg_20 = closes.tail(20).mean().item()
-                dist_20 = (current_price / avg_20) - 1
+                
+                dist_20 = (current_price - avg_20) / current_atr if current_atr else np.nan
                 
                 # Filter extreme bugs vanuit Yahoo
                 if ret_1m > 5.0 or ret_1y > 5.0 or ret_ytd > 5.0:
@@ -118,7 +131,7 @@ def run_momentum_screener():
                     'Last year': ret_1y,
                     'YTD Performance': ret_ytd,
                     '200 avg': dist_200,
-                    'Dist 20MA': dist_20
+                    'ATR Dist 20MA': dist_20
                 })
                 succes_count += 1
                 
@@ -129,7 +142,7 @@ def run_momentum_screener():
         if (i + chunk_size) % 100 == 0 or (i + chunk_size) >= len(tickers):
             print(f"  ... {min(i + chunk_size, len(tickers))} van de {len(tickers)} ETF's verwerkt ...")
             
-        time.sleep(0.5) # Korte rust na elke 4 downloads
+        time.sleep(2.5) # Korte rust na elke 4 downloads
 
     print(f"\nKlaar! {succes_count} gelukt, {fail_count} overgeslagen (onvoldoende data/fout bij Yahoo).")
 
@@ -197,10 +210,10 @@ def run_momentum_screener():
         
         output_cols = ['Rank all', 'Rank shortterm', 'Rank longterm', 'name', 'Category', 'reinvest', 'isin', 'yf_ticker', 'currency', 'totalExpenseRatio', 
                        'Current price', 'Last day', 'Last month', 'Last 3 months', 'Last year', 
-                       'YTD Performance', '200 avg', 'Dist 20MA', 'Rank 1M', 'Rank 3M', 'Rank 1 Jaar', 'Rank 200 M', 'Total score']
+                       'YTD Performance', '200 avg', 'ATR Dist 20MA', 'Rank 1M', 'Rank 3M', 'Rank 1 Jaar', 'Rank 200 M', 'Total score']
         final_df = final_df[[c for c in output_cols if c in final_df.columns]]
         
-        num_cols = ['totalExpenseRatio', 'Current price', 'Last day', 'Last month', 'Last 3 months', 'Last year', 'YTD Performance', '200 avg', 'Dist 20MA', 'Rank 1M', 'Rank 3M', 'Rank 1 Jaar', 'Rank 200 M', 'Total score']
+        num_cols = ['totalExpenseRatio', 'Current price', 'Last day', 'Last month', 'Last 3 months', 'Last year', 'YTD Performance', '200 avg', 'ATR Dist 20MA', 'Rank 1M', 'Rank 3M', 'Rank 1 Jaar', 'Rank 200 M', 'Total score']
         for c in num_cols:
             if c in final_df.columns:
                 final_df[c] = final_df[c].apply(lambda x: str(x).replace('.', ',') if pd.notnull(x) else '')
