@@ -62,7 +62,7 @@ def run_momentum_screener():
     succes_count = 0
     fail_count = 0
 
-    chunk_size = 4
+    chunk_size = 8
     
     # Maak een dictionary aan van de tickers naar hun row-data, zodat we ze makkelijk kunnen opzoeken
     unique_etfs = unique_etfs.drop_duplicates(subset=['yf_ticker'])
@@ -148,7 +148,7 @@ def run_momentum_screener():
         if (i + chunk_size) % 100 == 0 or (i + chunk_size) >= len(tickers):
             print(f"  ... {min(i + chunk_size, len(tickers))} van de {len(tickers)} ETF's verwerkt ...")
             
-        time.sleep(2.5) # Korte rust na elke 4 downloads
+        time.sleep(1.0) # 1s rust na elke 8 downloads (gefilterde lijst = minder rate-limit risico)
 
     print(f"\nKlaar! {succes_count} gelukt, {fail_count} overgeslagen (onvoldoende data/fout bij Yahoo).")
 
