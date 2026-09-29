@@ -56,7 +56,7 @@ def run_momentum_screener():
     tickers = unique_etfs['yf_ticker'].tolist()
     print(f"-> {len(tickers)} unieke tickers klaar voor verwerking.")
 
-    print("\n2. Data ophalen (in chunks van 4 om rate limits te spreiden en het te versnellen)...")
+    print("\n2. Data ophalen (in chunks van 8 om rate limits te spreiden en het te versnellen)...")
     results = []
     current_year = str(datetime.now().year)
     succes_count = 0
