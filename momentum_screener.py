@@ -144,9 +144,14 @@ def run_momentum_screener():
         except Exception as e:
             fail_count += len(chunk)
             
-        # Voortgang printen en een tiny sleep na elke chunk van 4 (ongeveer 2 requests per seconde)
-        if (i + chunk_size) % 100 == 0 or (i + chunk_size) >= len(tickers):
-            print(f"  ... {min(i + chunk_size, len(tickers))} van de {len(tickers)} ETF's verwerkt ...")
+        # Voortgang printen elke 100 tickers en tussentijds opslaan elke 200 tickers
+        processed = min(i + chunk_size, len(tickers))
+        if (i + chunk_size) % 100 == 0 or processed >= len(tickers):
+            print(f"  ... {processed} van de {len(tickers)} ETF's verwerkt ({succes_count} gelukt) ...")
+            
+        # Tussentijds bestand wegschrijven zodat je de voortgang kunt bekijken
+        if results and ((i + chunk_size) % 200 == 0 or processed >= len(tickers)):
+            pd.DataFrame(results).to_csv('momentum_screener_progress.csv', index=False, sep='|')
             
         time.sleep(1.0) # 1s rust na elke 8 downloads (gefilterde lijst = minder rate-limit risico)
 
