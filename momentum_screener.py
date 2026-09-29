@@ -21,7 +21,15 @@ def run_momentum_screener():
     session.mount("https://", adapter)
 
     print("1. DEGIRO ETF's inlezen en ontdubbelen...")
-    df = pd.read_csv('degiro_etfs.csv')
+    
+    import os
+    if os.path.exists('degiro_etfs_download_list.csv'):
+        df = pd.read_csv('degiro_etfs_download_list.csv')
+        if 'download' in df.columns:
+            df = df[df['download'] == 1]
+    else:
+        df = pd.read_csv('degiro_etfs.csv')
+        
     df['is_eur'] = df['currency'] == 'EUR'
     df = df.sort_values(by=['is_eur', 'exchangeId'], ascending=[False, True])
     unique_etfs = df.drop_duplicates(subset=['isin']).copy()
