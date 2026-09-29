@@ -39,16 +39,18 @@ def run_momentum_screener():
     df = df.sort_values(by=['is_eur', 'exchangeId'], ascending=[False, True])
     unique_etfs = df.drop_duplicates(subset=['isin']).copy()
 
-    exchange_suffix_map = {
-        '194': '.DE', '196': '.DE', '200': '.L', '570': '.AS', 
-        '608': '.SW', '710': '.PA', '947': '.MI'
-    }
-    
-    def get_yf_ticker(row):
-        exch = str(row['exchangeId'])
-        return str(row['symbol']).strip() + exchange_suffix_map.get(exch, '') if exch in exchange_suffix_map else None
+    # Gebruik de yf_ticker kolom als die al in het bestand zit (bewezen werkende tickers),
+    # anders opnieuw berekenen vanuit exchange suffix
+    if 'yf_ticker' not in unique_etfs.columns:
+        exchange_suffix_map = {
+            '194': '.DE', '196': '.DE', '200': '.L', '570': '.AS', 
+            '608': '.SW', '710': '.PA', '947': '.MI'
+        }
+        def get_yf_ticker(row):
+            exch = str(row['exchangeId'])
+            return str(row['symbol']).strip() + exchange_suffix_map.get(exch, '') if exch in exchange_suffix_map else None
+        unique_etfs['yf_ticker'] = unique_etfs.apply(get_yf_ticker, axis=1)
 
-    unique_etfs['yf_ticker'] = unique_etfs.apply(get_yf_ticker, axis=1)
     unique_etfs = unique_etfs.dropna(subset=['yf_ticker']).copy()
 
     tickers = unique_etfs['yf_ticker'].tolist()
