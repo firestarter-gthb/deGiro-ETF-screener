@@ -233,7 +233,7 @@ def run_momentum_screener():
             
         final_df['reinvest'] = final_df['name'].apply(get_reinvest)
         
-        output_cols = ['Rank all', 'Rank shortterm', 'Rank longterm', 'name', 'Category', 'reinvest', 'isin', 'yf_ticker', 'currency', 'totalExpenseRatio', 
+        output_cols = ['Action', 'Rank all', 'Rank shortterm', 'Rank longterm', 'name', 'Category', 'reinvest', 'isin', 'yf_ticker', 'currency', 'totalExpenseRatio', 
                        'Current price', 'Last day', 'Last month', 'Last 3 months', 'Last year', 
                        'YTD Performance', '200 avg', 'Z-score 20MA', 'Rank 1M', 'Rank 3M', 'Rank 1 Jaar', 'Rank 200 M', 'Total score']
         final_df = final_df[[c for c in output_cols if c in final_df.columns]]
