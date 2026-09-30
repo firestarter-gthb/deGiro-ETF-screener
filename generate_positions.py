@@ -1,0 +1,233 @@
+import pandas as pd
+from datetime import datetime
+import os
+
+def genereer_posities_dashboard(pos_csv='positions.csv', mom_csv='momentum_screener_result_final.csv', output_html='huidige_posities.html'):
+    # Lees bestanden
+    try:
+        df_pos = pd.read_csv(pos_csv, sep='|')
+        df_pos.columns = [c.strip() for c in df_pos.columns]
+    except FileNotFoundError:
+        print(f"Fout: {pos_csv} niet gevonden.")
+        return
+
+    try:
+        df_mom = pd.read_csv(mom_csv, sep='|')
+    except FileNotFoundError:
+        print(f"Fout: {mom_csv} niet gevonden.")
+        return
+
+    # Merge de data
+    # pos_csv heeft 'ISIN', mom_csv heeft 'isin'
+    df_pos['isin'] = df_pos['ISIN'].astype(str).str.strip()
+    df_mom['isin'] = df_mom['isin'].astype(str).str.strip()
+    
+    df_merged = pd.merge(df_pos, df_mom, on='isin', how='left')
+
+    current_time = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
+    
+    # HTML Genereren
+    table_rows = ""
+    for idx, row in df_merged.iterrows():
+        # Fallback voor ontbrekende momentum data
+        rank = row['Rank all'] if pd.notnull(row.get('Rank all')) else '-'
+        action = str(row.get('Action', 'N')).strip()
+        score = row['Total score'] if pd.notnull(row.get('Total score')) else '-'
+        name = row['name'] if pd.notnull(row.get('name')) else row['Symbool']
+        
+        # Z-score check voor de groene/rode rij op basis van Action
+        tr_class = ""
+        if action == 'S':
+            tr_class = ' class="under-50ma"'
+        elif action == 'B':
+            tr_class = ' class="near-20ma"'
+            
+        aantal = str(row.get('Aantal', '')).strip()
+        
+        table_rows += f"""
+        <tr{tr_class}>
+            <td><strong>{action}</strong></td>
+            <td>{aantal}</td>
+            <td class="rank-cell">#{rank}</td>
+            <td><strong>{row['Symbool']}</strong></td>
+            <td>{name}</td>
+            <td>{row.get('Category', '-')}</td>
+            <td>{score}</td>
+        </tr>
+        """
+
+    html = f"""<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huidige Posities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {{
+            --bg-color: #0f172a;
+            --surface-color: #1e293b;
+            --surface-hover: #334155;
+            --border-color: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --positive: #10b981;
+            --negative: #ef4444;
+        }}
+        
+        * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+        
+        body {{
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding: 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }}
+
+        header {{
+            text-align: center;
+            margin-bottom: 2rem;
+        }}
+
+        h1 {{
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, #60a5fa, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }}
+
+        .subtitle {{
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            font-weight: 400;
+        }}
+
+        .info-cards {{
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            justify-content: center;
+            width: 100%;
+            max-width: 1200px;
+        }}
+
+        .card {{
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            flex: 1;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }}
+
+        .card-val {{
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }}
+        
+        .card-label {{
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 0.25rem;
+        }}
+
+        .table-container {{
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            overflow: auto;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }}
+
+        table {{ width: 100%; border-collapse: collapse; text-align: left; }}
+        thead {{ background: rgba(30, 41, 59, 0.9); border-bottom: 2px solid var(--border-color); }}
+        th {{ padding: 1rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; }}
+        
+        tbody tr {{ border-bottom: 1px solid var(--border-color); transition: background-color 0.15s; }}
+        tbody tr:hover {{ background-color: var(--surface-hover); }}
+        td {{ padding: 1rem; font-size: 0.875rem; vertical-align: middle; }}
+        
+        /* Rijen waarbij de koers binnen ±0.5 Z-score van de 20MA zit (pullback/consolidatie zone) */
+        tbody tr.near-20ma {{ background-color: rgba(16, 185, 129, 0.07); }}
+        tbody tr.near-20ma:hover {{ background-color: rgba(16, 185, 129, 0.14); }}
+        tbody tr.near-20ma td {{ color: #6ee7b7; }}
+        tbody tr.near-20ma td.rank-cell {{ color: #34d399; }}
+        
+        /* Rijen waarbij koers onder de 50MA zit (verkoop/zwak) */
+        tbody tr.under-50ma {{ background-color: rgba(239, 68, 68, 0.07); }}
+        tbody tr.under-50ma:hover {{ background-color: rgba(239, 68, 68, 0.14); }}
+        tbody tr.under-50ma td {{ color: #fca5a5; }}
+        tbody tr.under-50ma td.rank-cell {{ color: #f87171; }}
+        
+        .rank-cell {{
+            font-weight: 700;
+            color: var(--positive);
+        }}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Huidige Posities</h1>
+        <div class="subtitle">Analyse van je portefeuille • Gegenereerd op {current_time}</div>
+    </header>
+    
+    <div class="info-cards">
+        <div class="card">
+            <div class="card-val">{len(df_merged)}</div>
+            <div class="card-label">Aantal Posities</div>
+        </div>
+        <div class="card">
+            <div class="card-val">{len(df_merged[df_merged['Action'] == 'S'])}</div>
+            <div class="card-label">Rood (S)</div>
+        </div>
+        <div class="card">
+            <div class="card-val">{len(df_merged[df_merged['Action'] == 'B'])}</div>
+            <div class="card-label">Groen (B)</div>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Actie</th>
+                    <th>Aantal</th>
+                    <th>Overall Rank</th>
+                    <th>Symbool</th>
+                    <th>Naam ETF</th>
+                    <th>Categorie</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {table_rows}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+"""
+    with open(output_html, 'w', encoding='utf-8') as f:
+        f.write(html)
+    print(f"Huidige posities dashboard succesvol aangemaakt: {output_html}")
+
+if __name__ == "__main__":
+    genereer_posities_dashboard()
