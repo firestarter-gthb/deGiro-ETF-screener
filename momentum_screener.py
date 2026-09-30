@@ -72,8 +72,8 @@ def run_momentum_screener():
         chunk = tickers[i:i+chunk_size]
         
         try:
-            # We sturen 4 requests tegelijk (threads=True) via de veilige session
-            hist = yf.download(chunk, period='1y', threads=True, session=session, progress=False)
+            # We sturen de requests sequentieel (threads=False) om vastlopers in yfinance te voorkomen
+            hist = yf.download(chunk, period='1y', threads=False, progress=False, timeout=10)
             
             for t in chunk:
                 if isinstance(hist.columns, pd.MultiIndex):
@@ -144,13 +144,14 @@ def run_momentum_screener():
         except Exception as e:
             fail_count += len(chunk)
             
-        # Voortgang printen elke 100 tickers en tussentijds opslaan elke 200 tickers
+        # Voortgang printen elke ~100 tickers (12 chunks van 8 = 96)
         processed = min(i + chunk_size, len(tickers))
-        if (i + chunk_size) % 100 == 0 or processed >= len(tickers):
+        chunk_index = i // chunk_size
+        if chunk_index % 12 == 0 or processed >= len(tickers):
             print(f"  ... {processed} van de {len(tickers)} ETF's verwerkt ({succes_count} gelukt) ...")
             
-        # Tussentijds bestand wegschrijven zodat je de voortgang kunt bekijken
-        if results and ((i + chunk_size) % 200 == 0 or processed >= len(tickers)):
+        # Tussentijds bestand wegschrijven (elke ~200 tickers)
+        if results and (chunk_index % 25 == 0 or processed >= len(tickers)):
             pd.DataFrame(results).to_csv('momentum_screener_progress.csv', index=False, sep='|')
             
         time.sleep(1.0) # 1s rust na elke 8 downloads (gefilterde lijst = minder rate-limit risico)
@@ -230,7 +231,7 @@ def run_momentum_screener():
                 final_df[c] = final_df[c].apply(lambda x: str(x).replace('.', ',') if pd.notnull(x) else '')
                 
         final_df.to_csv('momentum_screener_result_final.csv', index=False, sep='|')
-        print('✅ Bestand succesvol opgeslagen als momentum_screener_result_final.csv!')
+        print('Bestand succesvol opgeslagen als momentum_screener_result_final.csv!')
 
 if __name__ == "__main__":
     run_momentum_screener()
