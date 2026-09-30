@@ -27,16 +27,32 @@ Dit project bevat een geautomatiseerde momentum screener voor ETF's die verhande
 - `degiro_etfs.csv`: De brondata met de initiële ETF-mapping voor DEGIRO.
 - `momentum_screener_dashboard.html`: Het resulterende dashboard (wordt lokaal aangemaakt na een run).
 
+## Installatie / Vereisten
+
+Om deze applicatie (de screener en de dashboards) op je pc te kunnen draaien, heb je het volgende nodig:
+
+1. **Python 3.8 of nieuwer**: Zorg dat Python geïnstalleerd is op je computer. (Te downloaden via [python.org](https://www.python.org/downloads/)).
+2. **Een webbrowser**: (Google Chrome, Edge, Safari of Firefox) om de gegenereerde dashboards (`.html`) in te openen.
+3. **Python Packages**: De scripts maken gebruik van een aantal externe libraries.
+
+Installeer alle benodigde Python packages in één keer via het meegeleverde `requirements.txt` bestand. Open je terminal of command prompt in de map van dit project en run:
+
+```bash
+pip install -r requirements.txt
+```
+
+*(Mocht je ze handmatig willen installeren, de benodigde pakketten zijn o.a.: `pandas`, `numpy`, `yfinance`, `requests`, en `degiro-connector`).*
+
 ## Gebruik
 
-1. Installeer de benodigde Python packages (zoals `pandas` en `yfinance`):
-   ```bash
-   pip install pandas yfinance
-   ```
-
-2. Draai de momentum screener om de nieuwste koersen op te halen (dit kan enkele minuten duren vanwege API-limieten):
+1. **Nieuwe data ophalen & Screener draaien:** 
+   Voer het `run_screener.bat` script uit, óf draai handmatig:
    ```bash
    python momentum_screener.py
    ```
+   *Let op: Dit verzamelt de actuele koersen van honderden ETF's en kan enkele minuten duren vanwege API-limieten van Yahoo Finance.*
 
-3. Het HTML dashboard wordt automatisch gegenereerd. Open `momentum_screener_dashboard.html` in je favoriete webbrowser om de ETF's te filteren en sorteren.
+2. **Dashboards bekijken:**
+   - **Hoofd Screener:** Open `momentum_screener_dashboard.html` in je webbrowser voor de complete lijst en filters.
+   - **Top 30 Portfolio:** Open `top30_portfolio.html` voor de samengestelde portfolio van de beste ETF's.
+   - **Huidige Posities:** Vul je eigen ETF's en aankoopkoersen in binnen `positions.csv` en draai `python generate_positions.py`. Open vervolgens `huidige_posities.html` om de live voortgang van je portefeuille te tracken.
