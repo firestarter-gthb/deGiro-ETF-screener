@@ -39,7 +39,7 @@ def parse_sector(name, category):
     if 'esg' in name_lower or 'sri' in name_lower: return 'ESG / Duurzaam'
     return 'Brede Markt'
 
-def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_html='top26_portfolio.html'):
+def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_html='top30_portfolio.html'):
     try:
         df = pd.read_csv(csv_pad, sep='|')
     except FileNotFoundError:
@@ -49,11 +49,8 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
     # Zorg voor unieke tickers
     df = df.drop_duplicates(subset=['yf_ticker'], keep='first')
 
-    # Filter Olie, Energie en Grondstoffen eruit
-    uitsluiten = ['oil', 'energy', 'commodity', 'commodities', 'carbon', 'comms', 'cmci', 'agriculture']
-    mask_category = df['Category'].str.contains('Commodity|Energy', case=False, na=False)
-    mask_name = df['name'].str.contains('|'.join(uitsluiten), case=False, na=False)
-    df = df[~(mask_category | mask_name)].sort_values(by='Rank all')
+    df = df.drop_duplicates(subset=['yf_ticker'], keep='first')
+
 
     # Bepaal custom velden
     df['Land_Regio'] = df.apply(lambda row: parse_country(row['name'], row['Category']), axis=1)
@@ -70,7 +67,7 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
         s_teller = dict(sector_teller)
         
         for index, row in df.iterrows():
-            if len(selectie) >= 26:
+            if len(selectie) >= 30:
                 break
                 
             ticker = row['yf_ticker']
@@ -99,7 +96,7 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
     # Eerst ACC
     gekozen_etfs, l_counts, s_counts = pick_etfs(require_acc=True)
     # Vul aan met Distr
-    if len(gekozen_etfs) < 26:
+    if len(gekozen_etfs) < 30:
         gekozen_etfs, _, _ = pick_etfs(require_acc=False, huidige_selectie=gekozen_etfs, landen_teller=l_counts, sector_teller=s_counts)
 
     df_definitief = pd.DataFrame(gekozen_etfs).sort_values('Rank all')
@@ -137,7 +134,7 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top 26 Momentum Portfolio</title>
+    <title>Top 30 Momentum Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -275,17 +272,17 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
 </head>
 <body>
     <header>
-        <h1>Top 26 Momentum Portfolio</h1>
+        <h1>Top 30 Momentum Portfolio</h1>
         <div class="subtitle">Equal Weight Strategie • Gegenereerd op {current_time}</div>
     </header>
     
     <div class="info-cards">
         <div class="card">
-            <div class="card-val">26</div>
+            <div class="card-val">30</div>
             <div class="card-label">Posities</div>
         </div>
         <div class="card">
-            <div class="card-val">3.8%</div>
+            <div class="card-val">3.3%</div>
             <div class="card-label">Weging per positie</div>
         </div>
         <div class="card">
@@ -318,7 +315,7 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
 """
     with open(output_html, 'w', encoding='utf-8') as f:
         f.write(html)
-    print(f"Top 26 HTML dashboard succesvol aangemaakt: {output_html}")
+    print(f"Top 30 HTML dashboard succesvol aangemaakt: {output_html}")
 
 if __name__ == "__main__":
     genereer_etf_selectie()
