@@ -113,6 +113,18 @@ def run_momentum_screener():
                 
                 dist_20 = (current_price - avg_20) / std_20 if std_20 else np.nan
                 
+                # 50MA en Action bepalen
+                closes_50 = closes.tail(50)
+                avg_50 = closes_50.mean().item()
+                
+                if current_price < avg_50:
+                    action = 'S'
+                elif not np.isnan(dist_20) and abs(dist_20) <= 0.5:
+                    action = 'B'
+                else:
+                    action = 'N'
+                
+                
                 # Filter extreme bugs vanuit Yahoo
                 if ret_1m > 5.0 or ret_1y > 5.0 or ret_ytd > 5.0:
                     fail_count += 1
@@ -137,7 +149,8 @@ def run_momentum_screener():
                     'Last year': ret_1y,
                     'YTD Performance': ret_ytd,
                     '200 avg': dist_200,
-                    'Z-score 20MA': dist_20
+                    'Z-score 20MA': dist_20,
+                    'Action': action
                 })
                 succes_count += 1
                 

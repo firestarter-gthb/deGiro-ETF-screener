@@ -215,6 +215,12 @@ def generate_html_report(csv_file, output_html):
         tbody tr.near-20ma td {{ color: #6ee7b7; }}
         tbody tr.near-20ma td:first-child {{ font-weight: 600; }}
 
+        /* Rijen waarbij koers onder de 50MA zit (verkoop/zwak) */
+        tbody tr.under-50ma {{ background-color: rgba(239, 68, 68, 0.07); }}
+        tbody tr.under-50ma:hover {{ background-color: rgba(239, 68, 68, 0.14); }}
+        tbody tr.under-50ma td {{ color: #fca5a5; }}
+        tbody tr.under-50ma td:first-child {{ font-weight: 600; }}
+
         .rank-top {{ background: rgba(16, 185, 129, 0.1); color: #34d399; font-weight: 600; }}
 
         ::-webkit-scrollbar {{ width: 8px; height: 8px; }}
@@ -514,9 +520,11 @@ def generate_html_report(csv_file, output_html):
             renderData.forEach(row => {{
                 const tr = document.createElement('tr');
                 
-                // Groene rij als koers binnen ±0.5 Z-score van de 20MA zit (pullback/consolidatie zone)
-                const zscore = parseNum(row['Z-score 20MA']);
-                if (zscore !== null && Math.abs(zscore) <= 0.5) {{
+                // Groen of Rood op basis van Action kolom
+                const action = row['Action'];
+                if (action === 'S') {{
+                    tr.classList.add('under-50ma');
+                }} else if (action === 'B') {{
                     tr.classList.add('near-20ma');
                 }}
                 

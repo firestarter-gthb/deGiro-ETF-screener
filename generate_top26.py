@@ -111,14 +111,13 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
         acc_class = "acc-badge" if row['Is_Acc'] else "dist-badge"
         acc_text = "Acc" if row['Is_Acc'] else "Dist"
         
-        # Z-score check voor de groene rij
+        # Z-score check voor de groene/rode rij op basis van Action
         tr_class = ""
-        try:
-            z_val = str(row['Z-score 20MA']).replace(',', '.')
-            if abs(float(z_val)) <= 0.5:
-                tr_class = ' class="near-20ma"'
-        except:
-            pass
+        action = str(row.get('Action', 'N')).strip()
+        if action == 'S':
+            tr_class = ' class="under-50ma"'
+        elif action == 'B':
+            tr_class = ' class="near-20ma"'
             
         table_rows += f"""
         <tr{tr_class}>
@@ -129,6 +128,7 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
             <td>{row['Sector']}</td>
             <td><span class="badge {acc_class}">{acc_text}</span></td>
             <td>{row['Total score']}</td>
+            <td><strong>{action}</strong></td>
         </tr>
         """
 
@@ -241,6 +241,12 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
         tbody tr.near-20ma td {{ color: #6ee7b7; }}
         tbody tr.near-20ma td.rank-cell {{ color: #34d399; }}
         
+        /* Rijen waarbij koers onder de 50MA zit (verkoop/zwak) */
+        tbody tr.under-50ma {{ background-color: rgba(239, 68, 68, 0.07); }}
+        tbody tr.under-50ma:hover {{ background-color: rgba(239, 68, 68, 0.14); }}
+        tbody tr.under-50ma td {{ color: #fca5a5; }}
+        tbody tr.under-50ma td.rank-cell {{ color: #f87171; }}
+        
         .rank-cell {{
             font-weight: 700;
             color: var(--positive);
@@ -299,6 +305,7 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
                     <th>Sector / Thema</th>
                     <th>Type</th>
                     <th>Score</th>
+                    <th>Actie</th>
                 </tr>
             </thead>
             <tbody>
