@@ -22,6 +22,9 @@ def genereer_posities_dashboard(pos_csv='positions.csv', mom_csv='momentum_scree
     df_pos['isin'] = df_pos['ISIN'].astype(str).str.strip()
     df_mom['isin'] = df_mom['isin'].astype(str).str.strip()
     
+    # Verwijder duplicaten in de momentum data om dubbele rijen te voorkomen
+    df_mom = df_mom.drop_duplicates(subset=['isin'])
+    
     df_merged = pd.merge(df_pos, df_mom, on='isin', how='left')
 
     current_time = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
@@ -31,9 +34,15 @@ def genereer_posities_dashboard(pos_csv='positions.csv', mom_csv='momentum_scree
     for idx, row in df_merged.iterrows():
         # Fallback voor ontbrekende momentum data
         rank = row['Rank all'] if pd.notnull(row.get('Rank all')) else '-'
-        action = str(row.get('Action', 'N')).strip()
+        
+        action = row.get('Action')
+        action = str(action).strip() if pd.notnull(action) else '-'
+        
         score = row['Total score'] if pd.notnull(row.get('Total score')) else '-'
         name = row['name'] if pd.notnull(row.get('name')) else row['Symbool']
+        
+        category = row.get('Category')
+        category = str(category).strip() if pd.notnull(category) else '-'
         
         # Z-score check voor de groene/rode rij op basis van Action
         tr_class = ""
@@ -51,7 +60,7 @@ def genereer_posities_dashboard(pos_csv='positions.csv', mom_csv='momentum_scree
             <td class="rank-cell">#{rank}</td>
             <td><strong>{row['Symbool']}</strong></td>
             <td>{name}</td>
-            <td>{row.get('Category', '-')}</td>
+            <td>{category}</td>
             <td>{score}</td>
         </tr>
         """

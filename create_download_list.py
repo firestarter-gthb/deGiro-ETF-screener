@@ -30,6 +30,7 @@ def main():
         
         # Match op exacte yf_ticker — dit zijn bewezen werkende tickers
         known_good_tickers = set(final_df['yf_ticker'].dropna().tolist())
+        known_good_tickers.add('EXHG.DE')
         
         df['download'] = df['yf_ticker'].apply(lambda t: 1 if t in known_good_tickers else 0)
         
