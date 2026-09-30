@@ -22,7 +22,7 @@ def generate_html_report(csv_file, output_html):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETF Momentum Screener</title>
+    <title>ETF Dividend Screener</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#128200;</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -394,6 +394,7 @@ def generate_html_report(csv_file, output_html):
                     
                 }} else {{
                     const filterElement = document.createElement('input');
+                    filterElement.id = 'filter-input-' + col.replace(/\\s+/g, '-');
                     filterElement.className = 'filter-input';
                     filterElement.placeholder = 'Filter...';
                     filterElement.type = 'text';
@@ -507,8 +508,21 @@ def generate_html_report(csv_file, output_html):
         }}
 
         function renderTable() {{
+            const activeElem = document.activeElement;
+            const activeId = activeElem ? activeElem.id : null;
+
             renderHeaders();
             
+            if (activeId) {{
+                const el = document.getElementById(activeId);
+                if (el) {{
+                    el.focus();
+                    if (typeof el.selectionStart == "number") {{
+                        el.selectionStart = el.selectionEnd = el.value.length;
+                    }}
+                }}
+            }}
+
             tableBody.innerHTML = '';
             rowCount.innerText = `${{currentData.length}} ETF's`;
             
@@ -559,4 +573,4 @@ def generate_html_report(csv_file, output_html):
     print(f"HTML rapport gegenereerd: {output_html}")
 
 if __name__ == "__main__":
-    generate_html_report('momentum_screener_result_final.csv', 'momentum_screener_dashboard.html')
+    generate_html_report('dividend_screener_result_final.csv', 'dividend_screener_dashboard.html')

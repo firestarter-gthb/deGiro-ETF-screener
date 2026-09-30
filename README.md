@@ -1,58 +1,57 @@
-# DEGIRO ETF Momentum Screener
+# DEGIRO ETF Analyse Suite (Momentum, Dividend, Fundamentals)
 
-Dit project bevat een geautomatiseerde momentum screener voor ETF's die verhandelbaar zijn op DEGIRO. Het haalt de actuele ETF data en koersen op via Yahoo Finance, berekent diverse momentum- en performance-indicatoren, en genereert een interactief HTML-dashboard om de resultaten te analyseren.
+Dit project bevat geautomatiseerde screeners voor ETF's die verhandelbaar zijn op DEGIRO. Het haalt de actuele ETF data en koersen op via Yahoo Finance en genereert drie krachtige interactieve HTML-dashboards om de resultaten te analyseren op basis van: Momentum, Dividend, en Fundamenteel Risico.
 
-## Features
+## 🚀 De Drie Screeners
 
-- **Data Extractie:** Haalt een brede lijst aan DEGIRO ETF's op (o.a. via ISIN en Yahoo Tickers).
-- **Rate Limit Handeling:** Maakt gebruik van chunking en sessies om IP-bans (HTTP 429) van Yahoo Finance te voorkomen.
-- **Momentum Scoring:** Berekent uitgebreide statistieken zoals:
-  - Total Score (gebaseerd op wegingen van rendementen)
-  - YTD Performance
-  - Afstand tot het 20- en 200-daags voortschrijdend gemiddelde (Moving Average)
-  - Korte en lange termijn rankings
-- **Automatische Categorisatie:** Gebruikt regex om ETF's in logische sectoren (bijv. Technology, Healthcare, World, Europe) in te delen.
-- **Dividend Beleid:** Herkent automatisch of een ETF Accumulerend of Distribuerend is (Acc/Distr).
-- **Interactief Dashboard:** Genereert een lokaal HTML-bestand (`momentum_screener_dashboard.html`) met:
-  - Multi-select checkbox filtering per Categorie.
-  - Vrije tekst search voor naam of ISIN.
-  - Dropdown filtering voor valuta en dividendbeleid.
-  - Sortering per kolom.
-  - Reset filters functionaliteit.
+1. **Momentum Screener (`run_momentum_screener.bat`)**
+   - Vindt de ETF's die momenteel de sterkste stijgende trends laten zien.
+   - Berekent 1M, 3M, 6M rendementen, afstand tot 20/200 Moving Average, en een gewogen Total Score.
 
-## Bestanden
+2. **Dividend Screener (`run_dividend_screener.bat`)**
+   - Specifiek gericht op *Distribuerende* ETF's. Vindt de hoogste en meest stabiele dividendrendementen.
+   - Filtert automatisch gevaarlijke "Value Traps" (dalende koersen) en extreem risicovolle "Covered Call" constructies eruit.
 
-- `momentum_screener.py`: Het hoofdscript. Verzamelt data, berekent de scores, filtert illiquide of verouderde ETF's eruit, en slaat dit op in een CSV.
-- `generate_html.py`: Converteert de gegenereerde CSV-data naar een rijk interactief HTML dashboard zonder externe afhankelijkheden (behalve lettertypes).
-- `degiro_etfs.csv`: De brondata met de initiële ETF-mapping voor DEGIRO.
-- `momentum_screener_dashboard.html`: Het resulterende dashboard (wordt lokaal aangemaakt na een run).
+3. **Fundamentals & Risico Screener (`run_fundamentals_screener.bat`)**
+   - Kijkt puur naar het wiskundige risico over het afgelopen jaar en de fundamenten.
+   - Berekent harde metrics: *Volatiliteit* (schommelingen), *Sharpe Ratio* (rendement vs risico), en *Maximum Drawdown* (grootste historische daling).
+   - Vult aan met *P/E Ratio* en *Assets* voor de ETF's waar dit beschikbaar is op Yahoo Finance.
 
-## Installatie / Vereisten
+## 🛠 Algemene Features
 
-Om deze applicatie (de screener en de dashboards) op je pc te kunnen draaien, heb je het volgende nodig:
+- **Rate Limit Handeling:** Maakt gebruik van caching en delays om IP-bans van Yahoo Finance te voorkomen.
+- **Top 30 Portfolios:** Elke screener genereert naast de volledige lijst ook automatisch een actuele Top 30 van de absolute winnaars binnen de categorie.
+- **Huidige Posities Tracken:** Vul je eigen ETF's en aankoopkoersen in binnen de betreffende `_positions.csv` bestanden (bijv. `momentum_positions.csv`). Het script koppelt deze aan de laatste data zodat je live kunt bijhouden hoe jouw portfolio presteert!
+- **Interactieve Dashboards:** Alle resultaten worden lokaal opgeslagen als `.html` bestanden. Deze bevatten krachtige zoekvelden, multi-select filters en automatische kleurencodering, en werken direct in je browser.
 
-1. **Python 3.8 of nieuwer**: Zorg dat Python geïnstalleerd is op je computer. (Te downloaden via [python.org](https://www.python.org/downloads/)).
-2. **Een webbrowser**: (Google Chrome, Edge, Safari of Firefox) om de gegenereerde dashboards (`.html`) in te openen.
-3. **Python Packages**: De scripts maken gebruik van een aantal externe libraries.
+## 📂 Hoe te Gebruiken
 
-Installeer alle benodigde Python packages in één keer via het meegeleverde `requirements.txt` bestand. Open je terminal of command prompt in de map van dit project en run:
+1. **Data updaten & Screenen**
+   Draai simpelweg een van de `.bat` bestanden om de volledige analyse uit te voeren:
+   - `run_momentum_screener.bat`
+   - `run_dividend_screener.bat`
+   - `run_fundamentals_screener.bat`
+   *(Let op: Het ophalen van koershistorie voor ~1600 ETF's duurt per screener zo'n 10-15 minuten!)*
 
-```bash
-pip install -r requirements.txt
-```
+2. **Resultaten bekijken**
+   Na afloop opent de software automatisch twee schermen in je browser:
+   - Het **Hoofddashboard** (alle ETF's met filters)
+   - De **Top 30 Portfolio** (de winnaars)
 
-*(Mocht je ze handmatig willen installeren, de benodigde pakketten zijn o.a.: `pandas`, `numpy`, `yfinance`, `requests`, en `degiro-connector`).*
-
-## Gebruik
-
-1. **Nieuwe data ophalen & Screener draaien:** 
-   Voer het `run_screener.bat` script uit, óf draai handmatig:
+3. **Mijn Huidige Posities bekijken**
+   Vul de CSV-bestanden (zoals `fundamentals_positions.csv`) met de ETF's die je daadwerkelijk bezit. Draai vervolgens het bijbehorende script, bijvoorbeeld:
    ```bash
-   python momentum_screener.py
+   python fundamentals_generate_positions.py
    ```
-   *Let op: Dit verzamelt de actuele koersen van honderden ETF's en kan enkele minuten duren vanwege API-limieten van Yahoo Finance.*
+   Open het nieuw gemaakte `.html` bestand om je persoonlijke statistieken te bekijken.
 
-2. **Dashboards bekijken:**
-   - **Hoofd Screener:** Open `momentum_screener_dashboard.html` in je webbrowser voor de complete lijst en filters.
-   - **Top 30 Portfolio:** Open `top30_portfolio.html` voor de samengestelde portfolio van de beste ETF's.
-   - **Huidige Posities:** Vul je eigen ETF's en aankoopkoersen in binnen `positions.csv` en draai `python generate_positions.py`. Open vervolgens `huidige_posities.html` om de live voortgang van je portefeuille te tracken.
+## ⚙️ Installatie / Vereisten
+
+Om de screeners te kunnen draaien heb je het volgende nodig:
+
+1. **Python 3.8 of nieuwer**: [Download Python](https://www.python.org/downloads/).
+2. **Een webbrowser**: (Google Chrome, Edge, Safari of Firefox) om de dashboards te bekijken.
+3. **Python Packages**: Installeer de vereiste pakketten in één keer door het volgende commando uit te voeren in de projectmap:
+   ```bash
+   pip install -r requirements.txt
+   ```

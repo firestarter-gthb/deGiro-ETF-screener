@@ -39,7 +39,7 @@ def parse_sector(name, category):
     if 'esg' in name_lower or 'sri' in name_lower: return 'ESG / Duurzaam'
     return 'Brede Markt'
 
-def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_html='top30_portfolio.html'):
+def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_html='momentum_top30_portfolio.html'):
     try:
         df = pd.read_csv(csv_pad, sep='|')
     except FileNotFoundError:

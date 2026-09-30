@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mijn Huidige Fundamentals & Risico Posities</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px; background: #f4f6f9; color: #333; }
+        h1 { color: #2c3e50; }
+        .header-info { margin-bottom: 20px; color: #7f8c8d; }
+        table { border-collapse: collapse; width: 100%; background: #fff; box-shadow: 0 4px 6px rgba(0,0,0,0.1); font-size: 14px; margin-bottom: 30px; }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #8e44ad; color: white; cursor: pointer; }
+        th:hover { background: #732d91; }
+        tr:hover { background: #f1f1f1; }
+        .volatility-high { color: #e74c3c; font-weight: bold; }
+        .volatility-low { color: #27ae60; font-weight: bold; }
+        .drawdown-deep { color: #c0392b; }
+        .drawdown-safe { color: #2980b9; }
+        .sharpe-good { color: #27ae60; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>💼 Mijn Huidige Fundamentals & Risico Posities</h1>
+    <div class="header-info">
+        <p>Live risico metrics en fundamenten van je huidige portefeuille.</p>
+        <p><em>Laatste update: 30-09-2026 12:04:33</em></p>
+    </div>
+    
+    <table id="positionsTable">
+        <thead>
+            <tr>
+                <th>Start Datum</th>
+                <th>Symbool</th>
+                <th>Naam ETF</th>
+                <th>Huidige Rank</th>
+                <th>Aantal</th>
+                <th>Aankoopkoers</th>
+                <th>Huidige Prijs</th>
+                <th>Rendement (%)</th>
+                <th>Sharpe Ratio</th>
+                <th>Max Drawdown (%)</th>
+                <th>Volatiliteit (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    
+    <h2>💰 Portefeuille Overzicht</h2>
+    <table style="width: 50%;">
+        <tr><td><strong>Totale Inleg:</strong></td><td>€0.00</td></tr>
+        <tr><td><strong>Huidige Waarde:</strong></td><td>€0.00</td></tr>
+        <tr><td><strong>Totaal Rendement:</strong></td><td style="color: green; font-weight: bold;">0.00%</td></tr>
+    </table>
+    
+    <script>
+        const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+        const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
+            v1 !== '' && v2 !== '' && !isNaN(v1.replace(/[^0-9.-]+/g,"")) && !isNaN(v2.replace(/[^0-9.-]+/g,"")) ? 
+            v1.replace(/[^0-9.-]+/g,"") - v2.replace(/[^0-9.-]+/g,"") : v1.toString().localeCompare(v2)
+            )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+        document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+            const table = th.closest('table');
+            const tbody = table.querySelector('tbody');
+            Array.from(tbody.querySelectorAll('tr'))
+                .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+                .forEach(tr => tbody.appendChild(tr) );
+        })));
+    </script>
+</body>
+</html>

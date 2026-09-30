@@ -9,15 +9,15 @@ if errorlevel 1 goto error
 
 echo.
 echo Stap 2: HTML Dashboards genereren...
-python generate_html.py
-python generate_top30.py
-python generate_positions.py
+python momentum_generate_html.py
+python momentum_generate_top30.py
+python momentum_generate_positions.py
 
 echo.
 echo Stap 3: Dashboards openen in je browser...
 start momentum_screener_dashboard.html
-start top30_portfolio.html
-start huidige_posities.html
+start momentum_top30_portfolio.html
+start momentum_huidige_posities.html
 
 echo.
 echo Klaar!

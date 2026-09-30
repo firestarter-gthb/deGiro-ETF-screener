@@ -47,6 +47,8 @@ def run_momentum_screener():
             '608': '.SW', '710': '.PA', '947': '.MI'
         }
         def get_yf_ticker(row):
+            if str(row.get('isin')).strip() == 'DE000A0Q4R85':
+                return '4BRZ.DE'
             exch = str(row['exchangeId'])
             return str(row['symbol']).strip() + exchange_suffix_map.get(exch, '') if exch in exchange_suffix_map else None
         unique_etfs['yf_ticker'] = unique_etfs.apply(get_yf_ticker, axis=1)

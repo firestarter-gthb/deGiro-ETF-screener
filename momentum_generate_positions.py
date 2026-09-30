@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime
 import os
 
-def genereer_posities_dashboard(pos_csv='positions.csv', mom_csv='momentum_screener_result_final.csv', output_html='huidige_posities.html'):
+def genereer_posities_dashboard(pos_csv='momentum_positions.csv', mom_csv='momentum_screener_result_final.csv', output_html='momentum_huidige_posities.html'):
     # Lees bestanden
     try:
         df_pos = pd.read_csv(pos_csv, sep='|')
@@ -27,13 +27,23 @@ def genereer_posities_dashboard(pos_csv='positions.csv', mom_csv='momentum_scree
     
     df_merged = pd.merge(df_pos, df_mom, on='isin', how='left')
 
+    # Fallback: als ISIN niet matcht (bijv. door Degiro/Yahoo ticker dubbelingen zoals EXHG), match op Symbool
+    for idx, row in df_merged.iterrows():
+        if pd.isna(row['Rank all']):
+            sym = str(row['Symbool']).strip()
+            fallback = df_mom[df_mom['yf_ticker'].str.startswith(f"{sym}.")].head(1)
+            if not fallback.empty:
+                for col in df_mom.columns:
+                    if col != 'isin': # behoud originele ISIN
+                        df_merged.at[idx, col] = fallback.iloc[0][col]
+
     current_time = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
     
     # HTML Genereren
     table_rows = ""
     for idx, row in df_merged.iterrows():
         # Fallback voor ontbrekende momentum data
-        rank = row['Rank all'] if pd.notnull(row.get('Rank all')) else '-'
+        rank = int(row['Rank all']) if pd.notnull(row.get('Rank all')) else '-'
         
         action = row.get('Action')
         action = str(action).strip() if pd.notnull(action) else '-'
