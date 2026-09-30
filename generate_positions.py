@@ -51,16 +51,83 @@ def genereer_posities_dashboard(pos_csv='positions.csv', mom_csv='momentum_scree
         elif action == 'B':
             tr_class = ' class="near-20ma"'
             
-        aantal = str(row.get('Aantal', '')).strip()
+        aantal_raw = row.get('Aantal')
+        try:
+            aantal = float(aantal_raw) if pd.notnull(aantal_raw) else 0.0
+        except ValueError:
+            aantal = 0.0
+            
+        aankoopkoers_raw = row.get('Aankoopkoers')
+        try:
+            aankoopkoers = float(aankoopkoers_raw) if pd.notnull(aankoopkoers_raw) else 0.0
+        except ValueError:
+            aankoopkoers = 0.0
+            
+        current_price_raw = row.get('Current price')
+        try:
+            if isinstance(current_price_raw, str):
+                current_price = float(current_price_raw.replace(',', '.'))
+            else:
+                current_price = float(current_price_raw) if pd.notnull(current_price_raw) else 0.0
+        except ValueError:
+            current_price = 0.0
+
+        start_raw = row.get('Start')
+        days_open = None
+        if pd.notnull(start_raw):
+            start_str = str(int(start_raw)) if isinstance(start_raw, float) else str(start_raw).strip()
+            # Try to format YYYYMMDD to DD-MM-YYYY
+            if len(start_str) == 8 and start_str.isdigit():
+                start_formatted = f"{start_str[6:8]}-{start_str[4:6]}-{start_str[0:4]}"
+                try:
+                    start_date = datetime.strptime(start_str, "%Y%m%d")
+                    days_open = (datetime.now() - start_date).days
+                except ValueError:
+                    pass
+            else:
+                start_formatted = start_str
+        else:
+            start_formatted = '-'
+            
+        datum_huidig = datetime.now().strftime("%d-%m-%Y")
+
+        waarde_aankoop = aantal * aankoopkoers
+        waarde_nu = aantal * current_price
+
+        # Als de positie minder of gelijk aan 2 dagen open is, rapporteer 0% rendement
+        # en stel huidige waarde gelijk aan aankoopwaarde (behalve als aankoopwaarde 0 is).
+        if days_open is not None and days_open <= 2 and waarde_aankoop > 0:
+            waarde_nu = waarde_aankoop
+            rendement_pct = 0.0
+        else:
+            if waarde_aankoop > 0:
+                rendement_pct = ((waarde_nu - waarde_aankoop) / waarde_aankoop) * 100
+            else:
+                rendement_pct = 0.0
+
+        rendement_class = "rank-cell" if rendement_pct >= 0 else "under-50ma" 
+        # Actually, will just style it with custom color
+        rendement_color = "var(--text-secondary)" if rendement_pct == 0.0 else ("var(--positive)" if rendement_pct > 0 else "var(--negative)")
+        rendement_str = f"<span style='color: {rendement_color}; font-weight: 600;'>{rendement_pct:+.2f}%</span>" if waarde_aankoop > 0 else "-"
+        
+        waarde_aankoop_str = f"€ {waarde_aankoop:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.') if waarde_aankoop > 0 else "-"
+        waarde_nu_str = f"€ {waarde_nu:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.') if waarde_nu > 0 else "-"
+        
+        aantal_str = str(aantal_raw).strip() if pd.notnull(aantal_raw) else '-'
         
         table_rows += f"""
         <tr{tr_class}>
             <td><strong>{action}</strong></td>
-            <td>{aantal}</td>
+            <td>{aantal_str}</td>
             <td class="rank-cell">#{rank}</td>
             <td><strong>{row['Symbool']}</strong></td>
             <td>{name}</td>
             <td>{category}</td>
+            <td>{start_formatted}</td>
+            <td>{waarde_aankoop_str}</td>
+            <td>{datum_huidig}</td>
+            <td>{waarde_nu_str}</td>
+            <td>{rendement_str}</td>
             <td>{score}</td>
         </tr>
         """
@@ -128,7 +195,7 @@ def genereer_posities_dashboard(pos_csv='positions.csv', mom_csv='momentum_scree
             margin-bottom: 2rem;
             justify-content: center;
             width: 100%;
-            max-width: 1200px;
+            max-width: 1600px;
         }}
 
         .card {{
@@ -161,18 +228,18 @@ def genereer_posities_dashboard(pos_csv='positions.csv', mom_csv='momentum_scree
             border-radius: 0.75rem;
             overflow: auto;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-            max-width: 1200px;
+            max-width: 1600px;
             margin: 0 auto;
             width: 100%;
         }}
 
         table {{ width: 100%; border-collapse: collapse; text-align: left; }}
         thead {{ background: rgba(30, 41, 59, 0.9); border-bottom: 2px solid var(--border-color); }}
-        th {{ padding: 1rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; }}
+        th {{ padding: 1rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; white-space: nowrap; }}
         
         tbody tr {{ border-bottom: 1px solid var(--border-color); transition: background-color 0.15s; }}
         tbody tr:hover {{ background-color: var(--surface-hover); }}
-        td {{ padding: 1rem; font-size: 0.875rem; vertical-align: middle; }}
+        td {{ padding: 1rem; font-size: 0.875rem; vertical-align: middle; white-space: nowrap; }}
         
         /* Rijen waarbij de koers binnen ±0.5 Z-score van de 20MA zit (pullback/consolidatie zone) */
         tbody tr.near-20ma {{ background-color: rgba(16, 185, 129, 0.07); }}
@@ -224,6 +291,11 @@ def genereer_posities_dashboard(pos_csv='positions.csv', mom_csv='momentum_scree
                     <th>Symbool</th>
                     <th>Naam ETF</th>
                     <th>Categorie</th>
+                    <th>Openingsdatum</th>
+                    <th>Waarde bij aankoop</th>
+                    <th>Datum huidig</th>
+                    <th>Huidige waarde</th>
+                    <th>Resultaat (%)</th>
                     <th>Score</th>
                 </tr>
             </thead>

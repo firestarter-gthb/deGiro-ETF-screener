@@ -61,7 +61,7 @@
             margin-bottom: 2rem;
             justify-content: center;
             width: 100%;
-            max-width: 1200px;
+            max-width: 1600px;
         }
 
         .card {
@@ -94,18 +94,18 @@
             border-radius: 0.75rem;
             overflow: auto;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-            max-width: 1200px;
+            max-width: 1600px;
             margin: 0 auto;
             width: 100%;
         }
 
         table { width: 100%; border-collapse: collapse; text-align: left; }
         thead { background: rgba(30, 41, 59, 0.9); border-bottom: 2px solid var(--border-color); }
-        th { padding: 1rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; }
+        th { padding: 1rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.05em; white-space: nowrap; }
         
         tbody tr { border-bottom: 1px solid var(--border-color); transition: background-color 0.15s; }
         tbody tr:hover { background-color: var(--surface-hover); }
-        td { padding: 1rem; font-size: 0.875rem; vertical-align: middle; }
+        td { padding: 1rem; font-size: 0.875rem; vertical-align: middle; white-space: nowrap; }
         
         /* Rijen waarbij de koers binnen ±0.5 Z-score van de 20MA zit (pullback/consolidatie zone) */
         tbody tr.near-20ma { background-color: rgba(16, 185, 129, 0.07); }
@@ -129,7 +129,7 @@
 <body>
     <header>
         <h1>Huidige Posities</h1>
-        <div class="subtitle">Analyse van je portefeuille • Gegenereerd op 30-09-2026 08:45:23</div>
+        <div class="subtitle">Analyse van je portefeuille • Gegenereerd op 30-09-2026 09:59:37</div>
     </header>
     
     <div class="info-cards">
@@ -157,6 +157,11 @@
                     <th>Symbool</th>
                     <th>Naam ETF</th>
                     <th>Categorie</th>
+                    <th>Openingsdatum</th>
+                    <th>Waarde bij aankoop</th>
+                    <th>Datum huidig</th>
+                    <th>Huidige waarde</th>
+                    <th>Resultaat (%)</th>
                     <th>Score</th>
                 </tr>
             </thead>
@@ -169,6 +174,11 @@
             <td><strong>EXHG</strong></td>
             <td>iShares MSCI Brazil UCITS (DE) (Acc) ETF</td>
             <td>Region: Emerging Markets / Asia</td>
+            <td>29-09-2026</td>
+            <td>€ 9.959,08</td>
+            <td>30-09-2026</td>
+            <td>€ 9.959,08</td>
+            <td><span style='color: var(--text-secondary); font-weight: 600;'>+0.00%</span></td>
             <td>1366,5</td>
         </tr>
         
@@ -179,6 +189,11 @@
             <td><strong>IBCJ</strong></td>
             <td>iShares MSCI Poland UCITS ETF USD (Acc)</td>
             <td>Other</td>
+            <td>29-09-2026</td>
+            <td>€ 9.981,66</td>
+            <td>30-09-2026</td>
+            <td>€ 9.981,66</td>
+            <td><span style='color: var(--text-secondary); font-weight: 600;'>+0.00%</span></td>
             <td>35,6</td>
         </tr>
         
@@ -189,6 +204,11 @@
             <td><strong>W1TB</strong></td>
             <td>WisdomTree Cybersecurity UCITS USD Acc ETF</td>
             <td>Other</td>
+            <td>29-09-2026</td>
+            <td>€ 10.003,20</td>
+            <td>30-09-2026</td>
+            <td>€ 10.003,20</td>
+            <td><span style='color: var(--text-secondary); font-weight: 600;'>+0.00%</span></td>
             <td>18,75</td>
         </tr>
         
