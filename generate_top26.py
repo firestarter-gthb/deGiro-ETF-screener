@@ -110,8 +110,18 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
     for idx, row in df_definitief.iterrows():
         acc_class = "acc-badge" if row['Is_Acc'] else "dist-badge"
         acc_text = "Acc" if row['Is_Acc'] else "Dist"
+        
+        # Z-score check voor de groene rij
+        tr_class = ""
+        try:
+            z_val = str(row['Z-score 20MA']).replace(',', '.')
+            if abs(float(z_val)) <= 0.5:
+                tr_class = ' class="near-20ma"'
+        except:
+            pass
+            
         table_rows += f"""
-        <tr>
+        <tr{tr_class}>
             <td class="rank-cell">#{int(row['Rank all'])}</td>
             <td><strong>{row['yf_ticker']}</strong></td>
             <td>{row['name']}</td>
@@ -224,6 +234,12 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
         tbody tr {{ border-bottom: 1px solid var(--border-color); transition: background-color 0.15s; }}
         tbody tr:hover {{ background-color: var(--surface-hover); }}
         td {{ padding: 1rem; font-size: 0.875rem; vertical-align: middle; }}
+        
+        /* Rijen waarbij de koers binnen ±0.5 Z-score van de 20MA zit (pullback/consolidatie zone) */
+        tbody tr.near-20ma {{ background-color: rgba(16, 185, 129, 0.07); }}
+        tbody tr.near-20ma:hover {{ background-color: rgba(16, 185, 129, 0.14); }}
+        tbody tr.near-20ma td {{ color: #6ee7b7; }}
+        tbody tr.near-20ma td.rank-cell {{ color: #34d399; }}
         
         .rank-cell {{
             font-weight: 700;
