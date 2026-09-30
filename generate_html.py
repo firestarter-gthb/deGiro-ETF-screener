@@ -9,6 +9,9 @@ def generate_html_report(csv_file, output_html):
     
     # Haal de kolomnamen op
     columns = df.columns.tolist()
+    if 'Action' in columns:
+        columns.insert(0, columns.pop(columns.index('Action')))
+        
     data = df.to_dict(orient='records')
     data_json = json.dumps(data)
     

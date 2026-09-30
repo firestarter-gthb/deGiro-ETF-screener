@@ -107,6 +107,12 @@
         tbody tr.near-20ma td { color: #6ee7b7; }
         tbody tr.near-20ma td.rank-cell { color: #34d399; }
         
+        /* Rijen waarbij koers onder de 50MA zit (verkoop/zwak) */
+        tbody tr.under-50ma { background-color: rgba(239, 68, 68, 0.07); }
+        tbody tr.under-50ma:hover { background-color: rgba(239, 68, 68, 0.14); }
+        tbody tr.under-50ma td { color: #fca5a5; }
+        tbody tr.under-50ma td.rank-cell { color: #f87171; }
+        
         .rank-cell {
             font-weight: 700;
             color: var(--positive);
@@ -136,7 +142,7 @@
 <body>
     <header>
         <h1>Top 26 Momentum Portfolio</h1>
-        <div class="subtitle">Equal Weight Strategie • Gegenereerd op 30-09-2026 07:39:12</div>
+        <div class="subtitle">Equal Weight Strategie • Gegenereerd op 30-09-2026 08:05:45</div>
     </header>
     
     <div class="info-cards">
@@ -158,6 +164,7 @@
         <table>
             <thead>
                 <tr>
+                    <th>Actie</th>
                     <th>Overall Rank</th>
                     <th>Ticker</th>
                     <th>Naam ETF</th>
@@ -170,6 +177,7 @@
             <tbody>
                 
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#1</td>
             <td><strong>AAKG.DE</strong></td>
             <td>ARK Genomic Revolution UCITS ETF USD Acc</td>
@@ -180,6 +188,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#3</td>
             <td><strong>GN0M.DE</strong></td>
             <td>Global X Genomics & Biotechnology UCITS ETF USDAcc</td>
@@ -190,6 +199,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#5</td>
             <td><strong>W1TB.DE</strong></td>
             <td>WisdomTree Cybersecurity UCITS USD Acc ETF</td>
@@ -200,6 +210,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#9</td>
             <td><strong>XMLH.DE</strong></td>
             <td>L&G Healthcare Tech & Innovation UCITS ETF USD Acc</td>
@@ -210,6 +221,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#10</td>
             <td><strong>WRNA.DE</strong></td>
             <td>WisdomTree Biorevolution UCITS ETF USD Acc</td>
@@ -219,7 +231,8 @@
             <td>33,45</td>
         </tr>
         
-        <tr class="near-20ma">
+        <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#12</td>
             <td><strong>IBCJ.DE</strong></td>
             <td>iShares MSCI Poland UCITS ETF USD (Acc)</td>
@@ -230,6 +243,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#23</td>
             <td><strong>XB4A.DE</strong></td>
             <td>Xtrackers ATX UCITS 1C ETF</td>
@@ -240,6 +254,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#28</td>
             <td><strong>DRUP.DE</strong></td>
             <td>Amundi Global Memory Chips UCITS ETF Acc</td>
@@ -250,6 +265,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#33</td>
             <td><strong>BUG.DE</strong></td>
             <td>Global X Cybersecurity UCITS ETF USD Acc</td>
@@ -260,6 +276,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#34</td>
             <td><strong>2B78.DE</strong></td>
             <td>iShares Healthcare Innovation UCITS USD (Acc) ETF</td>
@@ -270,6 +287,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#40</td>
             <td><strong>QDVE.DE</strong></td>
             <td>iShares S&P 500 Info Technolg Sctr UCITS ETF USD A</td>
@@ -280,6 +298,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#44</td>
             <td><strong>XMLD.DE</strong></td>
             <td>L&G Artificial Intelligence UCITS ETF USD Acc</td>
@@ -290,6 +309,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#48</td>
             <td><strong>XDWT.DE</strong></td>
             <td>Xtrackers MSCI World Information Technology UCITS 1C ETF</td>
@@ -299,7 +319,8 @@
             <td>84,35</td>
         </tr>
         
-        <tr class="near-20ma">
+        <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#51</td>
             <td><strong>5MVL.DE</strong></td>
             <td>iShares Edge MSCI EM Value Factor UCITS USD (Acc) ETF</td>
@@ -310,6 +331,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#59</td>
             <td><strong>GOAI.DE</strong></td>
             <td>Amundi MSCI Robotics & AI UCITS ETF Acc</td>
@@ -319,7 +341,8 @@
             <td>110,05000000000001</td>
         </tr>
         
-        <tr class="near-20ma">
+        <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#70</td>
             <td><strong>XDEV.DE</strong></td>
             <td>Xtrackers MSCI World Value UCITS 1C ETF</td>
@@ -329,7 +352,8 @@
             <td>137,70000000000002</td>
         </tr>
         
-        <tr class="near-20ma">
+        <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#81</td>
             <td><strong>LBNK.DE</strong></td>
             <td>Amundi STOXX Europe 600 Banks UCITS ETF Acc</td>
@@ -340,6 +364,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#85</td>
             <td><strong>S7XE.DE</strong></td>
             <td>Invesco EURO STOXX Optimised Banks UCITS Acc ETF</td>
@@ -349,7 +374,8 @@
             <td>156,8</td>
         </tr>
         
-        <tr class="near-20ma">
+        <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#89</td>
             <td><strong>SXR6.DE</strong></td>
             <td>iShares MSCI Japan SRI UCITS ETF USD (Acc)</td>
@@ -360,6 +386,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#196</td>
             <td><strong>QDVS.DE</strong></td>
             <td>iShares MSCI EM SRI UCITS ETF USD (Acc)</td>
@@ -370,6 +397,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#265</td>
             <td><strong>CEBS.DE</strong></td>
             <td>iShares Copper Miners UCITS ETF USD (Acc)</td>
@@ -380,6 +408,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#271</td>
             <td><strong>ASWD.DE</strong></td>
             <td>Sprott Pure Play Copper Miners UCITS ETF Acc</td>
@@ -390,6 +419,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#287</td>
             <td><strong>18M2.DE</strong></td>
             <td>Amundi MSCI EMU High Dividend UCITS ETF Acc</td>
@@ -400,6 +430,7 @@
         </tr>
         
         <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#324</td>
             <td><strong>QGRG.DE</strong></td>
             <td>WisdomTree Global Quality Growth UCITS - USD Acc ETF</td>
@@ -409,7 +440,8 @@
             <td>405,95000000000005</td>
         </tr>
         
-        <tr class="near-20ma">
+        <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#422</td>
             <td><strong>XWTS.DE</strong></td>
             <td>Xtrackers MSCI World Communication Services UCITS 1C ETF</td>
@@ -419,7 +451,8 @@
             <td>482,0</td>
         </tr>
         
-        <tr class="near-20ma">
+        <tr>
+            <td><strong>N</strong></td>
             <td class="rank-cell">#517</td>
             <td><strong>CEML.DE</strong></td>
             <td>iShares MSCI Europe Quality Dividend Advanced UCITS EUR (Acc) ETF</td>

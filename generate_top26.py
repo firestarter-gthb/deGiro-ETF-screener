@@ -121,6 +121,7 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
             
         table_rows += f"""
         <tr{tr_class}>
+            <td><strong>{action}</strong></td>
             <td class="rank-cell">#{int(row['Rank all'])}</td>
             <td><strong>{row['yf_ticker']}</strong></td>
             <td>{row['name']}</td>
@@ -128,7 +129,6 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
             <td>{row['Sector']}</td>
             <td><span class="badge {acc_class}">{acc_text}</span></td>
             <td>{row['Total score']}</td>
-            <td><strong>{action}</strong></td>
         </tr>
         """
 
@@ -298,6 +298,7 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
         <table>
             <thead>
                 <tr>
+                    <th>Actie</th>
                     <th>Overall Rank</th>
                     <th>Ticker</th>
                     <th>Naam ETF</th>
@@ -305,7 +306,6 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
                     <th>Sector / Thema</th>
                     <th>Type</th>
                     <th>Score</th>
-                    <th>Actie</th>
                 </tr>
             </thead>
             <tbody>
