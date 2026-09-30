@@ -49,9 +49,8 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
     # Zorg voor unieke tickers
     df = df.drop_duplicates(subset=['yf_ticker'], keep='first')
 
-    df = df.drop_duplicates(subset=['yf_ticker'], keep='first')
-
-
+    # Filter ETF's eruit die onder de 50MA zitten (Action == 'S')
+    df = df[df['Action'] != 'S']
     # Bepaal custom velden
     df['Land_Regio'] = df.apply(lambda row: parse_country(row['name'], row['Category']), axis=1)
     df['Sector'] = df.apply(lambda row: parse_sector(row['name'], row['Category']), axis=1)
