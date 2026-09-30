@@ -319,6 +319,24 @@ def generate_html_report(csv_file, output_html):
                     dropdown.className = 'multi-select-dropdown';
                     dropdown.id = `multi-select-dropdown-${{col}}`;
                     
+                    const selectAllLabel = document.createElement('label');
+                    selectAllLabel.className = 'checkbox-item select-all-item';
+                    selectAllLabel.style.borderBottom = '1px solid var(--border-color)';
+                    selectAllLabel.style.paddingBottom = '8px';
+                    selectAllLabel.style.marginBottom = '8px';
+                    selectAllLabel.style.fontWeight = '600';
+                    
+                    const selectAllCb = document.createElement('input');
+                    selectAllCb.type = 'checkbox';
+                    const isAllSelected = filters[col] && filters[col].values && filters[col].values.length === uniqueValues[col].length;
+                    selectAllCb.checked = isAllSelected;
+                    
+                    selectAllCb.onchange = (e) => handleMultiFilterSelectAll(col, e.target.checked);
+                    
+                    selectAllLabel.appendChild(selectAllCb);
+                    selectAllLabel.appendChild(document.createTextNode(' (Alle selecteren)'));
+                    dropdown.appendChild(selectAllLabel);
+                    
                     uniqueValues[col].forEach(val => {{
                         const label = document.createElement('label');
                         label.className = 'checkbox-item';
@@ -398,6 +416,15 @@ def generate_html_report(csv_file, output_html):
             applyFiltersAndSort();
         }}
         
+        function handleMultiFilterSelectAll(col, isChecked) {{
+            if (isChecked) {{
+                filters[col] = {{ type: 'multi', values: [...uniqueValues[col]] }};
+            }} else {{
+                delete filters[col];
+            }}
+            applyFiltersAndSort();
+        }}
+
         function handleMultiFilter(col, value, isChecked) {{
             if (!filters[col]) {{
                 filters[col] = {{ type: 'multi', values: [] }};
