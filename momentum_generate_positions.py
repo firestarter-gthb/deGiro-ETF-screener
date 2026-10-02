@@ -133,6 +133,8 @@ def genereer_posities_dashboard(pos_csv='momentum_positions.csv', mom_csv='momen
             <td><strong>{row['Symbool']}</strong></td>
             <td>{name}</td>
             <td>{category}</td>
+            <td>{row.get('GICS Sector L1', '-')}</td>
+            <td>{row.get('GICS Sector L2', '-')}</td>
             <td>{start_formatted}</td>
             <td>{waarde_aankoop_str}</td>
             <td>{datum_huidig}</td>
@@ -301,6 +303,8 @@ def genereer_posities_dashboard(pos_csv='momentum_positions.csv', mom_csv='momen
                     <th>Symbool</th>
                     <th>Naam ETF</th>
                     <th>Categorie</th>
+                    <th>GICS Sector L1</th>
+                    <th>GICS Sector L2</th>
                     <th>Openingsdatum</th>
                     <th>Waarde bij aankoop</th>
                     <th>Datum huidig</th>

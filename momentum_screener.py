@@ -214,6 +214,25 @@ def run_momentum_screener():
             
         final_df['Category'] = final_df['name'].apply(get_category)
         
+        def get_gics_sectors(name):
+            n = str(name).lower()
+            if re.search(r'\b(tech|artificial intelligence|ai|cyber|digital|cloud|nasdaq|metaverse|semiconductor|memory chips|software|robotics|information technology)\b', n): return ('Information Technology', 'Technology Hardware & Software')
+            if re.search(r'\b(bio|genomics|health|healthcare|medical|pharma|biotech)\b', n): return ('Health Care', 'Pharmaceuticals & Biotech')
+            if re.search(r'\b(energy|oil|clean energy|bioenergy|uranium|solar)\b', n): return ('Energy', 'Energy')
+            if re.search(r'\b(commodity|commodities|gold|metal|metals|mining|agriculture|water|resources|materials|silver|copper)\b', n): return ('Materials', 'Materials')
+            if re.search(r'\b(bank|banks|financial|financials|insurance)\b', n): return ('Financials', 'Banks & Financial Services')
+            if re.search(r'\b(real estate|property|reit|reits)\b', n): return ('Real Estate', 'Real Estate')
+            if re.search(r'\b(consumer discretionary|retail|luxury|automobile|travel|leisure)\b', n): return ('Consumer Discretionary', 'Consumer Discretionary')
+            if re.search(r'\b(consumer staples|food|beverage)\b', n): return ('Consumer Staples', 'Consumer Staples')
+            if re.search(r'\b(utilities|utility|infrastructure)\b', n): return ('Utilities', 'Utilities')
+            if re.search(r'\b(industrials|industrial|aerospace|defense|logistics|transportation)\b', n): return ('Industrials', 'Industrials')
+            if re.search(r'\b(communication|telecom|media|broadband)\b', n): return ('Communication Services', 'Communication Services')
+            if re.search(r'\b(bond|bonds|treasury|corporate|high yield|fixed income|gilt|sovereign)\b', n): return ('Fixed Income', 'Bonds')
+            return ('Broad Market / Other', 'Broad Market / Other')
+            
+        final_df['GICS Sector L1'] = final_df['name'].apply(lambda x: get_gics_sectors(x)[0])
+        final_df['GICS Sector L2'] = final_df['name'].apply(lambda x: get_gics_sectors(x)[1])
+        
         def get_reinvest(name):
             n = str(name).lower()
             if re.search(r'(?<![a-z])(acc|accumulating|accum|accu|1c|2c|3c|4c)(?![a-z])', n): return 'Acc'
@@ -235,7 +254,7 @@ def run_momentum_screener():
             
         final_df['reinvest'] = final_df['name'].apply(get_reinvest)
         
-        output_cols = ['Action', 'Rank all', 'Rank shortterm', 'Rank longterm', 'name', 'Category', 'reinvest', 'isin', 'yf_ticker', 'currency', 'totalExpenseRatio', 
+        output_cols = ['Action', 'Rank all', 'Rank shortterm', 'Rank longterm', 'name', 'Category', 'GICS Sector L1', 'GICS Sector L2', 'reinvest', 'isin', 'yf_ticker', 'currency', 'totalExpenseRatio', 
                        'Current price', 'Last day', 'Last month', 'Last 3 months', 'Last year', 
                        'YTD Performance', '200 avg', 'Z-score 20MA', 'Rank 1M', 'Rank 3M', 'Rank 1 Jaar', 'Rank 200 M', 'Total score']
         final_df = final_df[[c for c in output_cols if c in final_df.columns]]

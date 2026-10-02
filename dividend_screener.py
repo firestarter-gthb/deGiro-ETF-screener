@@ -132,6 +132,33 @@ def run_dividend_screener():
     # Filter onzin yields (>20%) eruit
     df_res = df_res[df_res['Yield (%)'] < 20.0]
     
+    import re
+    def get_gics_sectors(name):
+        n = str(name).lower()
+        if re.search(r'\b(tech|artificial intelligence|ai|cyber|digital|cloud|nasdaq|metaverse|semiconductor|memory chips|software|robotics|information technology)\b', n): return ('Information Technology', 'Technology Hardware & Software')
+        if re.search(r'\b(bio|genomics|health|healthcare|medical|pharma|biotech)\b', n): return ('Health Care', 'Pharmaceuticals & Biotech')
+        if re.search(r'\b(energy|oil|clean energy|bioenergy|uranium|solar)\b', n): return ('Energy', 'Energy')
+        if re.search(r'\b(commodity|commodities|gold|metal|metals|mining|agriculture|water|resources|materials|silver|copper)\b', n): return ('Materials', 'Materials')
+        if re.search(r'\b(bank|banks|financial|financials|insurance)\b', n): return ('Financials', 'Banks & Financial Services')
+        if re.search(r'\b(real estate|property|reit|reits)\b', n): return ('Real Estate', 'Real Estate')
+        if re.search(r'\b(consumer discretionary|retail|luxury|automobile|travel|leisure)\b', n): return ('Consumer Discretionary', 'Consumer Discretionary')
+        if re.search(r'\b(consumer staples|food|beverage)\b', n): return ('Consumer Staples', 'Consumer Staples')
+        if re.search(r'\b(utilities|utility|infrastructure)\b', n): return ('Utilities', 'Utilities')
+        if re.search(r'\b(industrials|industrial|aerospace|defense|logistics|transportation)\b', n): return ('Industrials', 'Industrials')
+        if re.search(r'\b(communication|telecom|media|broadband)\b', n): return ('Communication Services', 'Communication Services')
+        if re.search(r'\b(bond|bonds|treasury|corporate|high yield|fixed income|gilt|sovereign)\b', n): return ('Fixed Income', 'Bonds')
+        return ('Broad Market / Other', 'Broad Market / Other')
+        
+    df_res['GICS Sector L1'] = df_res['name'].apply(lambda x: get_gics_sectors(x)[0])
+    df_res['GICS Sector L2'] = df_res['name'].apply(lambda x: get_gics_sectors(x)[1])
+    
+    cols = list(df_res.columns)
+    new_cols = [c for c in cols if c not in ['GICS Sector L1', 'GICS Sector L2']]
+    name_idx = new_cols.index('name')
+    new_cols.insert(name_idx + 1, 'GICS Sector L1')
+    new_cols.insert(name_idx + 2, 'GICS Sector L2')
+    df_res = df_res[new_cols]
+    
     df_res.to_csv('dividend_screener_result_final.csv', index=False, sep='|')
     print(f"Opgeslagen als 'dividend_screener_result_final.csv'")
 

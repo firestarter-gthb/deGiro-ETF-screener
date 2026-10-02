@@ -262,7 +262,7 @@ def generate_html_report(csv_file, output_html):
         const columns = {json.dumps(columns)};
         
         const dropdownCols = ['reinvest', 'currency'];
-        const multiSelectCols = ['Category'];
+        const multiSelectCols = ['Category', 'GICS Sector L1', 'GICS Sector L2'];
         
         let currentData = [...rawData];
         let filters = {{}};

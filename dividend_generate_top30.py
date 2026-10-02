@@ -93,6 +93,8 @@ def genereer_dividend_top30(csv_pad='dividend_screener_result_final.csv', output
             <td>{row['name']}</td>
             <td>{row['Land_Regio']}</td>
             <td>{row['Sector']}</td>
+            <td>{row.get('GICS Sector L1', '-')}</td>
+            <td>{row.get('GICS Sector L2', '-')}</td>
             <td>{row['Yield (%)']:.2f}%</td>
             <td>{row['Growth 3y (%)'] if not pd.isna(row['Growth 3y (%)']) else 'N/A'}</td>
             <td>{row['Score']:.2f}</td>
@@ -123,6 +125,8 @@ def genereer_dividend_top30(csv_pad='dividend_screener_result_final.csv', output
                 <th>Naam ETF</th>
                 <th>Land / Regio</th>
                 <th>Sector</th>
+                <th>GICS Sector L1</th>
+                <th>GICS Sector L2</th>
                 <th>Yield (%)</th>
                 <th>Groei 3j (%)</th>
                 <th>Score</th>

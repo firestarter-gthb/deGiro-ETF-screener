@@ -123,6 +123,8 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
             <td>{row['name']}</td>
             <td>{row['Land_Regio']}</td>
             <td>{row['Sector']}</td>
+            <td>{row.get('GICS Sector L1', '-')}</td>
+            <td>{row.get('GICS Sector L2', '-')}</td>
             <td><span class="badge {acc_class}">{acc_text}</span></td>
             <td>{row['Total score']}</td>
         </tr>
@@ -301,6 +303,8 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
                     <th>Naam ETF</th>
                     <th>Land / Regio</th>
                     <th>Sector / Thema</th>
+                    <th>GICS Sector L1</th>
+                    <th>GICS Sector L2</th>
                     <th>Type</th>
                     <th>Score</th>
                 </tr>

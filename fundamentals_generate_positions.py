@@ -68,6 +68,8 @@ def genereer_fundamentals_posities_dashboard(pos_csv='fundamentals_positions.csv
                 <th>Start Datum</th>
                 <th>Symbool</th>
                 <th>Naam ETF</th>
+                <th>GICS Sector L1</th>
+                <th>GICS Sector L2</th>
                 <th>Huidige Rank</th>
                 <th>Aantal</th>
                 <th>Aankoopkoers</th>
@@ -130,6 +132,8 @@ def genereer_fundamentals_posities_dashboard(pos_csv='fundamentals_positions.csv
                 <td>{row['Start'] if not pd.isna(row.get('Start')) else '-'}</td>
                 <td><strong>{row.get('Symbool', '-')}</strong></td>
                 <td>{naam}</td>
+                <td>{row.get('GICS Sector L1', '-')}</td>
+                <td>{row.get('GICS Sector L2', '-')}</td>
                 <td>{rank_val}</td>
                 <td>{aantal if not pd.isna(aantal) else '-'}</td>
                 <td>{aankoop_str}</td>

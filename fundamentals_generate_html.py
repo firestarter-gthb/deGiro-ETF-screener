@@ -47,6 +47,8 @@ def genereer_fundamentals_html(csv_pad='fundamentals_screener_result_final.csv',
                 <th>Ticker</th>
                 <th>Naam ETF</th>
                 <th>Prijs</th>
+                <th>GICS Sector L1</th>
+                <th>GICS Sector L2</th>
                 <th>Volatiliteit (%)</th>
                 <th>Max Drawdown (%)</th>
                 <th>Sharpe Ratio</th>
@@ -74,6 +76,8 @@ def genereer_fundamentals_html(csv_pad='fundamentals_screener_result_final.csv',
                 <td><strong>{row['yf_ticker']}</strong></td>
                 <td>{row['name']}</td>
                 <td>€{row['Price']:.2f}</td>
+                <td>{row.get('GICS Sector L1', '-')}</td>
+                <td>{row.get('GICS Sector L2', '-')}</td>
                 <td class="{vol_class}">{vol:.2f}%</td>
                 <td class="{dd_class}">{dd:.2f}%</td>
                 <td class="{sharpe_class}">{sharpe:.2f}</td>
