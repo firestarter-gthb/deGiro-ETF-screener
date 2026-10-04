@@ -1,3 +1,4 @@
+from ds_layout import apply_theme
 import pandas as pd
 import re
 from datetime import datetime
@@ -318,7 +319,7 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
 </html>
 """
     with open(output_html, 'w', encoding='utf-8') as f:
-        f.write(html)
+        f.write(apply_theme(html, 'momentum30'))
     print(f"Top 30 HTML dashboard succesvol aangemaakt: {output_html}")
 
 if __name__ == "__main__":

@@ -1,3 +1,4 @@
+from ds_layout import apply_theme
 import pandas as pd
 from datetime import datetime
 import os
@@ -111,7 +112,7 @@ def genereer_fundamentals_top30(csv_pad='fundamentals_screener_result_final.csv'
 </html>"""
 
     with open(output_html, 'w', encoding='utf-8') as f:
-        f.write(html)
+        f.write(apply_theme(html, 'fundamentals30'))
     print(f"Top 30 HTML rapport gegenereerd: {output_html}")
 
 if __name__ == "__main__":
