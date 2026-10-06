@@ -39,6 +39,8 @@ def main():
             return str(row['symbol']).strip() + exchange_suffix_map.get(exch, '') if exch in exchange_suffix_map else None
         unique_etfs['yf_ticker'] = unique_etfs.apply(get_yf_ticker, axis=1)
 
+    unique_etfs.loc[unique_etfs['isin'] == 'DE000A0Q4R85', 'yf_ticker'] = '4BRZ.DE'
+
     unique_etfs = unique_etfs.dropna(subset=['yf_ticker']).copy()
     unique_etfs = unique_etfs.drop_duplicates(subset=['yf_ticker'])
     

@@ -2,29 +2,187 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Fundamentals & Risico Top 30 Portfolio</title>
+    <title>Fundamentals Top 30-portefeuille · DataSente</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px; background: #f4f6f9; color: #333; }
         h1 { color: #2c3e50; }
-        .header-info { margin-bottom: 20px; color: #7f8c8d; }
-        table { border-collapse: collapse; width: 100%; background: #fff; box-shadow: 0 4px 6px rgba(0,0,0,0.1); font-size: 14px; }
-        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #eee; }
-        th { background: #27ae60; color: white; cursor: pointer; }
+        .header-info { margin-bottom: 20px; color: #4a4a4a; }
+        table { border-collapse: collapse; width: 100%; background: #fff; box-shadow: none; font-size: 14px; }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #111111; }
+        th { background: #27ae60; color: #111111; cursor: pointer; }
         th:hover { background: #219653; }
         tr:hover { background: #f1f1f1; }
-        .volatility-high { color: #e74c3c; font-weight: bold; }
-        .volatility-low { color: #27ae60; font-weight: bold; }
+        .volatility-high { color: #cd2a19; font-weight: bold; }
+        .volatility-low { color: #1a7440; font-weight: bold; }
         .drawdown-deep { color: #c0392b; }
-        .drawdown-safe { color: #2980b9; }
-        .sharpe-good { color: #27ae60; font-weight: bold; }
+        .drawdown-safe { color: #236fa0; }
+        .sharpe-good { color: #1a7440; font-weight: bold; }
         .value-good { color: #8e44ad; font-weight: bold; }
     </style>
-</head>
-<body>
-    <h1>🌟 Fundamentals & Risico Top 30 Portfolio</h1>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="ds-title-nl" content="Fundamentals Top 30-portefeuille · DataSente"><meta name="ds-title-en" content="Fundamentals Top 30 Portfolio · DataSente"><meta name="theme-color" content="#f3f0e8"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"><style data-ds-theme="layout">
+:root{
+  --bg:#f3f0e8;--bg-2:#e9e4d6;--surface:#fff;--surface-2:#f1eee5;
+  --ink:#111;--muted:#4a4a4a;--line:#111;
+  --lime:#c6f432;--violet:#a78bfa;--coral:#ffb4a2;--sky:#9fd8ff;
+  --pos:#0f8a3c;--neg:#d92d20;--link:#5b21b6;
+  --font-head:'Space Grotesk',system-ui,sans-serif;--font-body:'Space Grotesk',system-ui,sans-serif;--font-mono:'Space Mono',ui-monospace,monospace;
+  --shadow:6px 6px 0 var(--ink);--shadow-sm:4px 4px 0 var(--ink);
+  --header-h:72px;--maxw:1200px;--ease:cubic-bezier(.22,1,.36,1);
+}
+html.nav-open{overflow:hidden}
+.skip-link{position:absolute;left:-999px;top:8px;z-index:3000;padding:.5rem 1rem;background:var(--lime);color:var(--ink);border:3px solid var(--ink);font:700 .9rem var(--font-body)}
+.skip-link:focus{left:8px}
+.main-anchor{display:block;height:0;outline:0}
+.site-header{position:sticky;top:0;z-index:1000;height:var(--header-h);background:var(--bg);border-bottom:3px solid var(--ink);font-family:var(--font-body);color:var(--ink);transition:box-shadow .25s}
+.site-header.scrolled{box-shadow:0 6px 0 rgba(17,17,17,.12)}
+.site-header *,.mnav *,.site-footer *{box-sizing:border-box}
+.hdr-inner{position:relative;height:100%;width:min(var(--maxw),100% - 2rem);margin-inline:auto;display:flex;align-items:center;gap:1.25rem}
+.brand{display:inline-flex;align-items:center;gap:.6rem;font:700 1.35rem/1 var(--font-head);letter-spacing:-.04em;text-transform:uppercase;color:var(--ink);text-decoration:none;flex-shrink:0}
+.brand-mark{width:22px;height:22px;background:var(--ink);box-shadow:3px 3px 0 var(--violet);flex-shrink:0}
+.desk-nav{margin-left:auto}
+.desk-list{display:flex;align-items:center;gap:.15rem;list-style:none;margin:0;padding:0}
+.desk-item{position:static}
+.desk-link,.desk-trigger{display:inline-flex;align-items:center;gap:.35rem;padding:.55rem .8rem;font:700 .84rem/1 var(--font-body);text-transform:uppercase;letter-spacing:.01em;color:var(--ink);background:none;border:2px solid transparent;cursor:pointer;text-decoration:none;transition:background .15s,border-color .15s}
+.desk-link:hover,.desk-trigger:hover,.desk-item.open>.desk-trigger{background:var(--lime);border-color:var(--ink)}
+.desk-link.active,.desk-item.active>.desk-trigger{border-color:var(--ink);background:var(--surface)}
+.desk-trigger svg{width:14px;height:14px;transition:transform .2s var(--ease)}
+.desk-item.open>.desk-trigger svg{transform:rotate(180deg)}
+.mega{position:absolute;top:calc(100% + 6px);left:50%;width:min(940px,calc(100vw - 2rem));transform:translate(-50%,8px);background:var(--surface);border:3px solid var(--ink);box-shadow:8px 8px 0 var(--ink);padding:1.4rem;display:grid;gap:1.5rem;grid-template-columns:repeat(3,minmax(0,1fr));opacity:0;visibility:hidden;pointer-events:none;transition:opacity .15s,transform .2s var(--ease),visibility .15s}
+.mega.cols-2{grid-template-columns:1fr 1.4fr}
+.mega.cols-3{grid-template-columns:1fr 1fr 1.6fr}
+.mega.narrow{width:min(560px,calc(100vw - 2rem));grid-template-columns:1fr 1fr}
+.desk-item.open>.mega{opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0)}
+.mega-col h5{font:700 .72rem/1.2 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink);background:var(--violet);display:inline-block;padding:.2rem .5rem;margin:0 0 .7rem}
+.mega-col a{display:flex;align-items:center;gap:.6rem;padding:.45rem .6rem;margin-inline:-.6rem;font:500 .93rem/1.3 var(--font-body);color:var(--ink);text-decoration:none;border:2px solid transparent}
+.mega-col a:hover,.mega-col a:focus-visible{background:var(--lime);border-color:var(--ink)}
+.mega-col a[aria-current]{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:4px}
+.mega-col .tag,.acc-inner .tag{margin-left:auto;font:700 .62rem/1 var(--font-mono);letter-spacing:.04em;padding:.22rem .4rem;background:var(--ink);color:var(--lime)}
+.mega-col.two-col .links{display:grid;grid-template-columns:1fr 1fr;column-gap:1.2rem}
+.hdr-actions{display:flex;align-items:center;gap:.8rem;flex-shrink:0}
+.lang{display:inline-flex;align-items:center;gap:.3rem;font:700 .82rem/1 var(--font-mono)}
+.lang a{color:var(--muted);text-decoration:none;padding:.25rem .3rem;border:2px solid transparent}
+.lang a:hover{color:var(--ink);border-color:var(--ink)}
+.lang a.on{color:var(--ink);background:var(--lime);border-color:var(--ink)}
+.lang .sep{opacity:.4}
+.hdr-cta,.ft-cta{display:inline-flex;align-items:center;justify-content:center;gap:.4rem;padding:.6rem 1rem;font:700 .82rem/1 var(--font-body);text-transform:uppercase;color:var(--ink);background:var(--lime);border:3px solid var(--ink);box-shadow:var(--shadow-sm);text-decoration:none;white-space:nowrap;transition:transform .15s,box-shadow .15s}
+.hdr-cta:hover,.ft-cta:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
+.hdr-cta:active,.ft-cta:active{transform:translate(2px,2px);box-shadow:0 0 0 var(--ink)}
+.menu-btn{display:none;position:relative;width:46px;height:46px;border:3px solid var(--ink);background:var(--lime);box-shadow:3px 3px 0 var(--ink);cursor:pointer;padding:0}
+.menu-btn span{position:absolute;left:10px;right:10px;height:3px;background:var(--ink);transition:transform .25s var(--ease),opacity .2s}
+.menu-btn span:nth-child(1){top:12px}.menu-btn span:nth-child(2){top:19px}.menu-btn span:nth-child(3){top:26px}
+html.nav-open .menu-btn span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+html.nav-open .menu-btn span:nth-child(2){opacity:0}
+html.nav-open .menu-btn span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+/* Mobiel overlay-menu: altijd binnen 100dvh, scrollt intern */
+.mnav{position:fixed;inset:0;z-index:1500;height:100vh;height:100dvh;display:flex;flex-direction:column;background:var(--lime);color:var(--ink);font-family:var(--font-body);visibility:hidden;opacity:0;transform:scale(1.02);transition:opacity .25s,transform .3s var(--ease),visibility .3s}
+html.nav-open .mnav{visibility:visible;opacity:1;transform:none}
+.mnav-head{display:flex;align-items:center;justify-content:space-between;padding:.9rem 1.1rem;border-bottom:3px solid var(--ink);flex-shrink:0}
+.mnav-close{width:46px;height:46px;display:grid;place-items:center;border:3px solid var(--ink);background:var(--surface);box-shadow:3px 3px 0 var(--ink);cursor:pointer;color:var(--ink);padding:0}
+.mnav-close svg{width:20px;height:20px}
+.mnav-body{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:.5rem 1.1rem 1.25rem}
+.mnav-foot{flex-shrink:0;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.9rem 1.1rem calc(.9rem + env(safe-area-inset-bottom));border-top:3px solid var(--ink)}
+.mnav .lang a{color:var(--ink)}
+.mnav .lang a.on{background:var(--surface)}
+.mnav .hdr-cta{background:var(--surface)}
+.m-link,.acc-btn{width:100%;display:flex;align-items:center;justify-content:space-between;padding:.85rem .2rem;font:700 clamp(1.45rem,7vw,2rem)/1.05 var(--font-head);letter-spacing:-.04em;text-transform:uppercase;text-align:left;color:var(--ink);background:none;border:0;border-bottom:3px solid var(--ink);cursor:pointer;text-decoration:none}
+.m-link.active,.acc.active>.acc-btn{text-decoration:underline;text-decoration-thickness:4px;text-underline-offset:6px}
+.acc-btn svg{width:22px;height:22px;flex-shrink:0;transition:transform .25s var(--ease)}
+.acc.open>.acc-btn svg{transform:rotate(180deg)}
+.acc-panel{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s var(--ease)}
+.acc.open>.acc-panel{grid-template-rows:1fr}
+.acc-inner{overflow:hidden}
+.acc-inner .grp{font:700 .72rem/1 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;padding:1rem .2rem .45rem}
+.acc-inner a{display:flex;align-items:center;gap:.5rem;padding:.55rem .6rem;font:600 1rem/1.3 var(--font-body);color:var(--ink);text-decoration:none;border:2px solid transparent}
+.acc-inner a:hover,.acc-inner a:active{background:var(--surface);border-color:var(--ink)}
+.acc-inner a[aria-current]{text-decoration:underline;text-decoration-thickness:3px}
+.acc-inner .grid2{display:grid;grid-template-columns:1fr 1fr}
+.acc-inner .grid2 a{font-size:.9rem}
+.acc-inner>.list:last-child,.acc-inner>.grid2:last-child{padding-bottom:.9rem}
+@media (max-width:1099px){
+  .desk-nav,.hdr-actions .hdr-cta,.hdr-actions .lang{display:none}
+  .hdr-actions{margin-left:auto}
+  .menu-btn{display:block}
+  :root{--header-h:64px}
+}
+@media (min-width:1100px){.mnav{display:none}}
+@media (max-width:380px){.acc-inner .grid2{grid-template-columns:1fr}}
+/* Footer */
+.site-footer{background:var(--violet);border-top:3px solid var(--ink);color:var(--ink);font-family:var(--font-body);padding:3.5rem 0 2rem;margin-top:0}
+.ft-wrap{width:min(var(--maxw),100% - 2.5rem);margin-inline:auto}
+.ft-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:2rem}
+.ft-brand p{margin:.9rem 0 1.2rem;max-width:340px;font-size:.95rem;line-height:1.55}
+.site-footer h5{font:700 .75rem/1 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;margin:0 0 1rem;padding-bottom:.5rem;border-bottom:3px solid var(--ink)}
+.site-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem;font-size:.93rem}
+.site-footer ul a{color:var(--ink);text-decoration:none;font-weight:500}
+.site-footer ul a:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.ft-bottom{margin-top:2.5rem;padding-top:1.25rem;border-top:3px solid var(--ink);display:grid;gap:.6rem;font-size:.8rem;line-height:1.5}
+@media (max-width:900px){.ft-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.ft-grid{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.site-header *,.mnav,.mnav *,.mega{transition:none!important}}
+
+html{-webkit-text-size-adjust:100%}
+body{font-family:var(--font-body)!important;background:var(--bg)!important;color:var(--ink)!important;margin:0!important;padding:0!important;max-width:none!important;min-height:100vh;display:flex!important;flex-direction:column!important;line-height:1.5}
+.ds-content{flex:1 0 auto;width:100%;max-width:1680px;margin:0 auto;padding:clamp(1rem,3vw,2rem) clamp(.75rem,3vw,2rem) 3rem;display:flex;flex-direction:column;min-width:0}
+.ds-intro{margin:0 0 1rem;color:var(--muted);max-width:900px}
+.ds-kicker{align-self:flex-start;display:inline-block;font:700 .72rem/1 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;background:var(--violet);color:var(--ink);padding:.3rem .55rem;margin-bottom:.6rem}
+.ds-content h1{font-family:var(--font-head)!important;font-weight:700!important;text-transform:uppercase;letter-spacing:-.04em!important;line-height:1!important;font-size:clamp(1.6rem,4vw,2.6rem)!important;color:var(--ink)!important;-webkit-text-fill-color:currentColor!important;background:none!important;margin:0 0 .4rem!important;padding:0!important}
+.ds-content>header,.ds-content header:not(.site-header){position:static!important;top:auto!important;background:var(--surface)!important;border:3px solid var(--ink)!important;box-shadow:var(--shadow)!important;padding:1rem 1.25rem!important;margin:0 0 1.5rem!important;display:flex!important;flex-wrap:wrap;gap:.75rem 1.5rem;align-items:center;justify-content:space-between}
+.ds-content>header h1{font-size:clamp(1.3rem,3vw,1.9rem)!important;margin:0!important}
+.ds-content main{padding:0!important;overflow:visible!important}
+.ds-content p{max-width:900px}
+.ds-content em{font-style:normal}
+.meta-info{color:var(--ink)!important;flex-wrap:wrap;gap:.75rem 1rem!important;font-size:.85rem!important}
+.meta-info .badge,#row-count{background:var(--ink)!important;color:var(--lime)!important;border-radius:0!important;font-family:var(--font-mono);font-weight:700!important;padding:.3rem .6rem!important}
+.clear-btn{background:var(--coral)!important;color:var(--ink)!important;border:2px solid var(--ink)!important;border-radius:0!important;box-shadow:3px 3px 0 var(--ink);font-weight:700!important;text-transform:uppercase;font-family:var(--font-body)!important}
+.clear-btn:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--ink)}
+.table-container,.ds-scroll{background:var(--surface)!important;border:3px solid var(--ink)!important;border-radius:0!important;box-shadow:var(--shadow)!important;overflow:auto!important;max-height:calc(100vh - 150px);max-height:calc(100dvh - 150px);-webkit-overflow-scrolling:touch}
+.ds-scroll{max-height:none}
+.ds-scroll>table,.table-container>table{box-shadow:none!important;border:0!important;margin:0!important}
+.ds-content table{border-collapse:collapse!important;width:100%;font-size:.86rem;font-variant-numeric:tabular-nums;background:var(--surface)!important}
+.ds-content thead{background:var(--ink)!important}
+.ds-content th{background:var(--ink)!important;color:var(--bg)!important;border-bottom:3px solid var(--ink)!important;text-transform:uppercase;font-size:.72rem!important;letter-spacing:.04em;font-weight:700!important;white-space:nowrap}
+.ds-content th:hover{background:#2a2a2a!important}
+.ds-content .col-title{color:var(--bg)!important}
+.ds-content td{border-bottom:1.5px solid var(--ink)!important;color:var(--ink)}
+.ds-content tbody tr:hover{background:var(--lime)!important}
+.ds-content tr:nth-child(even){background:transparent}
+.filter-input,.filter-select,.multi-select-btn{background:var(--surface)!important;color:var(--ink)!important;border:2px solid var(--ink)!important;border-radius:0!important;font-family:var(--font-body)!important}
+.filter-input:focus,.filter-select:focus{box-shadow:3px 3px 0 var(--lime)!important;border-color:var(--ink)!important}
+.multi-select-dropdown{background:var(--surface)!important;border:3px solid var(--ink)!important;border-radius:0!important;box-shadow:var(--shadow)!important}
+.checkbox-item{color:var(--ink)!important;text-transform:none;letter-spacing:0;font-weight:500}
+.checkbox-item:hover{background:var(--lime)}
+tbody tr.near-20ma{background:#eef9d2!important}
+tbody tr.near-20ma td{color:var(--ink)!important}
+tbody tr.near-20ma td:first-child,tbody tr.near-20ma td.rank-cell{color:var(--pos)!important;font-weight:700}
+tbody tr.under-50ma{background:#ffe7e1!important}
+tbody tr.under-50ma td{color:var(--ink)!important}
+tbody tr.under-50ma td:first-child,tbody tr.under-50ma td.rank-cell{color:var(--neg)!important;font-weight:700}
+tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!important}
+.rank-top{background:var(--lime)!important;color:var(--ink)!important;font-weight:700!important}
+.trend-bullish,.delta-positive,.volatility-low,.sharpe-good{color:var(--pos)!important;font-weight:700}
+.trend-bearish,.delta-negative,.volatility-high,.drawdown-deep{color:var(--neg)!important;font-weight:700}
+.drawdown-safe{color:#1d4ed8!important}.value-good{color:var(--link)!important;font-weight:700}
+.info-cards{gap:1rem!important}
+.info-cards .card,.ds-content .card{background:var(--surface)!important;border:3px solid var(--ink)!important;border-radius:0!important;box-shadow:var(--shadow)!important}
+.card-val{color:var(--ink)!important;font-family:var(--font-head)}
+.card-label,.subtitle{color:var(--muted)!important}
+.badge,.acc-badge,.dist-badge{border-radius:0!important;border:1.5px solid var(--ink)!important;color:var(--ink)!important}
+.header-info{color:var(--muted)!important}
+#no-results{color:var(--muted)!important}
+.ds-legend{display:flex;flex-wrap:wrap;gap:.5rem 1rem;margin:0 0 1rem;font-size:.8rem}
+.ds-legend span{display:inline-flex;align-items:center;gap:.4rem}
+.ds-legend i{width:14px;height:14px;border:2px solid var(--ink);display:inline-block}
+.plotly-graph-div{border:3px solid var(--ink);box-shadow:var(--shadow);background:#fff;max-width:100%}
+::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-track{background:var(--bg-2)}::-webkit-scrollbar-thumb{background:var(--ink);border-radius:0}
+.site-footer{margin-top:2rem}
+@media (max-width:640px){.ds-content td,.ds-content th{padding:.55rem .6rem!important}.table-container{max-height:calc(100dvh - 120px)}}
+</style></head>
+<body data-ds-theme="fundamentals30"><div data-lang-block="nl"><a class="skip-link" href="#main">Naar inhoud</a><div class="site-header" id="top" role=banner><div class="hdr-inner"><a href="index_nl.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><nav class="desk-nav" aria-label="Hoofdmenu"><ul class="desk-list"><li class="desk-item"><a class="desk-link" href="index_nl.html">Home</a></li><li class="desk-item" data-key="sol"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-sol">Oplossingen<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega narrow cols-2" id="mega-sol"><div class="mega-col"><h5>Diensten</h5><div class="links"><a href="solutions_nl.html">Oplossingen &amp; diensten</a><a href="options_nl.html">Optiehandel</a><a href="go_nl.html">DataSente &amp; Go</a></div></div><div class="mega-col"><h5>Kennis</h5><div class="links"><a href="insights_nl.html">Insights (blog)</a><a href="github_nl.html">GitHub-portfolio</a></div></div></div></li><li class="desk-item" data-key="strat"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-strat">Strategieën<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega wide cols-2" id="mega-strat"><div class="mega-col"><h5>Handleidingen &amp; research</h5><div class="links"><a href="es_short_put_handleiding.html">ES Short Put<span class="tag">KERN</span></a><a href="presidential_cycle_handleiding.html">Presidentscyclus<span class="tag">STUDIE</span></a><a href="annual_cycle_handleiding.html">Jaarcyclus<span class="tag">STUDIE</span></a><a href="covered_call_handleiding.html">Covered Call</a><a href="meic_nl.html">MEIC-tranches</a><a href="strategies_nl.html">Alle strategieën →</a></div></div><div class="mega-col two-col"><h5>Systematische strategieën</h5><div class="links"><a href="strategies_nl.html#strat-1">Short Put (naked)</a><a href="strategies_nl.html#strat-2">Jade Lizard</a><a href="strategies_nl.html#strat-3">Covered Call</a><a href="strategies_nl.html#strat-4">Short Put Spread</a><a href="strategies_nl.html#strat-5">Put Ratio Spread</a><a href="strategies_nl.html#strat-6">Short Call Spread</a><a href="strategies_nl.html#strat-7">Broken Wing Butterfly</a><a href="strategies_nl.html#strat-8">Unbalanced Iron Condor</a><a href="strategies_nl.html#strat-9">Iron Condor</a><a href="strategies_nl.html#strat-10">Short Strangle</a><a href="strategies_nl.html#strat-11">Pairs Trading</a></div></div></div></li><li class="desk-item active" data-key="dash"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-dash">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega cols-3" id="mega-dash"><div class="mega-col"><h5>S&amp;P 500</h5><div class="links"><a href="entry_dashboard.html?lang=nl">S&amp;P 500 Entry-dashboard</a></div></div><div class="mega-col"><h5>Interactive Brokers</h5><div class="links"><a href="ib_screener_dashboard.html?lang=nl">IB Momentum-screener</a><a href="ib_top25_portfolio.html?lang=nl">IB Top 25-portefeuille</a></div></div><div class="mega-col two-col"><h5>DeGiro ETF</h5><div class="links"><a href="momentum_screener_dashboard.html?lang=nl">ETF Momentum-screener</a><a href="momentum_top30_portfolio.html?lang=nl">Momentum Top 30-portefeuille</a><a href="dividend_screener_dashboard.html?lang=nl">ETF Dividend-screener</a><a href="dividend_top30_portfolio.html?lang=nl">Dividend Top 30-portefeuille</a><a href="fundamentals_screener_dashboard.html?lang=nl">ETF Fundamentals &amp; risico</a><a href="fundamentals_top30_portfolio.html?lang=nl" aria-current="page">Fundamentals Top 30-portefeuille</a></div></div></div></li><li class="desk-item"><a class="desk-link" href="insights_nl.html">Insights</a></li><li class="desk-item"><a class="desk-link" href="about_nl.html">Over ons</a></li></ul></nav><div class="hdr-actions"><div class="lang" aria-label="Taal"><a href="fundamentals_top30_portfolio.html?lang=en" hreflang="en" lang="en">EN</a><span class="sep" aria-hidden="true">/</span><a href="fundamentals_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl" class=on aria-current=true>NL</a></div><a href="about_nl.html#contact" class="hdr-cta">Contact</a><button type="button" class="menu-btn" aria-label="Menu openen" aria-controls="mnav" aria-expanded="false"><span></span><span></span><span></span></button></div></div></div><aside class="mnav" id="mnav" aria-label="Mobiel menu" aria-hidden="true"><div class="mnav-head"><a href="index_nl.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><button type="button" class="mnav-close" data-close aria-label="Menu sluiten"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div><div class="mnav-body"><a class="m-link" href="index_nl.html">Home</a><div class="acc" data-key="sol"><button type="button" class="acc-btn" aria-expanded="false">Oplossingen<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Diensten</div><div class="list"><a href="solutions_nl.html">Oplossingen &amp; diensten</a><a href="options_nl.html">Optiehandel</a><a href="go_nl.html">DataSente &amp; Go</a></div><div class="grp">Kennis</div><div class="list"><a href="insights_nl.html">Insights (blog)</a><a href="github_nl.html">GitHub-portfolio</a></div></div></div></div><div class="acc" data-key="strat"><button type="button" class="acc-btn" aria-expanded="false">Strategieën<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Handleidingen &amp; research</div><div class="list"><a href="es_short_put_handleiding.html">ES Short Put<span class="tag">KERN</span></a><a href="presidential_cycle_handleiding.html">Presidentscyclus<span class="tag">STUDIE</span></a><a href="annual_cycle_handleiding.html">Jaarcyclus<span class="tag">STUDIE</span></a><a href="covered_call_handleiding.html">Covered Call</a><a href="meic_nl.html">MEIC-tranches</a><a href="strategies_nl.html">Alle strategieën →</a></div><div class="grp">Systematische strategieën</div><div class="grid2"><a href="strategies_nl.html#strat-1">Short Put (naked)</a><a href="strategies_nl.html#strat-2">Jade Lizard</a><a href="strategies_nl.html#strat-3">Covered Call</a><a href="strategies_nl.html#strat-4">Short Put Spread</a><a href="strategies_nl.html#strat-5">Put Ratio Spread</a><a href="strategies_nl.html#strat-6">Short Call Spread</a><a href="strategies_nl.html#strat-7">Broken Wing Butterfly</a><a href="strategies_nl.html#strat-8">Unbalanced Iron Condor</a><a href="strategies_nl.html#strat-9">Iron Condor</a><a href="strategies_nl.html#strat-10">Short Strangle</a><a href="strategies_nl.html#strat-11">Pairs Trading</a></div></div></div></div><div class="acc active" data-key="dash"><button type="button" class="acc-btn" aria-expanded="false">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">S&amp;P 500</div><div class="list"><a href="entry_dashboard.html?lang=nl">S&amp;P 500 Entry-dashboard</a></div><div class="grp">Interactive Brokers</div><div class="list"><a href="ib_screener_dashboard.html?lang=nl">IB Momentum-screener</a><a href="ib_top25_portfolio.html?lang=nl">IB Top 25-portefeuille</a></div><div class="grp">DeGiro ETF</div><div class="grid2"><a href="momentum_screener_dashboard.html?lang=nl">ETF Momentum-screener</a><a href="momentum_top30_portfolio.html?lang=nl">Momentum Top 30-portefeuille</a><a href="dividend_screener_dashboard.html?lang=nl">ETF Dividend-screener</a><a href="dividend_top30_portfolio.html?lang=nl">Dividend Top 30-portefeuille</a><a href="fundamentals_screener_dashboard.html?lang=nl">ETF Fundamentals &amp; risico</a><a href="fundamentals_top30_portfolio.html?lang=nl" aria-current="page">Fundamentals Top 30-portefeuille</a></div></div></div></div><a class="m-link" href="insights_nl.html">Insights</a><a class="m-link" href="about_nl.html">Over ons</a></div><div class="mnav-foot"><div class="lang" aria-label="Taal"><a href="fundamentals_top30_portfolio.html?lang=en" hreflang="en" lang="en">EN</a><span class="sep" aria-hidden="true">/</span><a href="fundamentals_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl" class=on aria-current=true>NL</a></div><a href="about_nl.html#contact" class="hdr-cta">Contact</a></div></aside><span id="main" class="main-anchor" tabindex="-1"></span></div><div data-lang-block="en" hidden><a class="skip-link" href="#main">Skip to content</a><div class="site-header" id="top" role=banner><div class="hdr-inner"><a href="index.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><nav class="desk-nav" aria-label="Main menu"><ul class="desk-list"><li class="desk-item"><a class="desk-link" href="index.html">Home</a></li><li class="desk-item" data-key="sol"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-sol">Solutions<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega narrow cols-2" id="mega-sol"><div class="mega-col"><h5>Services</h5><div class="links"><a href="solutions.html">Solutions &amp; Services</a><a href="options.html">Option Trading</a><a href="go.html">DataSente &amp; Go</a></div></div><div class="mega-col"><h5>Knowledge</h5><div class="links"><a href="insights.html">Insights (blog)</a><a href="github.html">GitHub portfolio</a></div></div></div></li><li class="desk-item" data-key="strat"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-strat">Strategies<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega wide cols-2" id="mega-strat"><div class="mega-col"><h5>Guides &amp; research</h5><div class="links"><a href="es_short_put_guide.html">ES Short Put<span class="tag">CORE</span></a><a href="presidential_cycle_guide.html">Presidential Cycle<span class="tag">STUDY</span></a><a href="annual_cycle_guide.html">Annual Cycle<span class="tag">STUDY</span></a><a href="covered_call_guide.html">Covered Call</a><a href="meic.html">MEIC tranches</a><a href="strategies.html">All strategies →</a></div></div><div class="mega-col two-col"><h5>Systematic strategies</h5><div class="links"><a href="strategies.html#strat-1">Short Put (naked)</a><a href="strategies.html#strat-2">Jade Lizard</a><a href="strategies.html#strat-3">Covered Call</a><a href="strategies.html#strat-4">Short Put Spread</a><a href="strategies.html#strat-5">Put Ratio Spread</a><a href="strategies.html#strat-6">Short Call Spread</a><a href="strategies.html#strat-7">Broken Wing Butterfly</a><a href="strategies.html#strat-8">Unbalanced Iron Condor</a><a href="strategies.html#strat-9">Iron Condor</a><a href="strategies.html#strat-10">Short Strangle</a><a href="strategies.html#strat-11">Pairs Trading</a></div></div></div></li><li class="desk-item active" data-key="dash"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-dash">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega cols-3" id="mega-dash"><div class="mega-col"><h5>S&amp;P 500</h5><div class="links"><a href="entry_dashboard.html?lang=en">S&amp;P 500 Entry Dashboard</a></div></div><div class="mega-col"><h5>Interactive Brokers</h5><div class="links"><a href="ib_screener_dashboard.html?lang=en">IB Momentum Screener</a><a href="ib_top25_portfolio.html?lang=en">IB Top 25 Portfolio</a></div></div><div class="mega-col two-col"><h5>DeGiro ETF</h5><div class="links"><a href="momentum_screener_dashboard.html?lang=en">ETF Momentum Screener</a><a href="momentum_top30_portfolio.html?lang=en">Momentum Top 30 Portfolio</a><a href="dividend_screener_dashboard.html?lang=en">ETF Dividend Screener</a><a href="dividend_top30_portfolio.html?lang=en">Dividend Top 30 Portfolio</a><a href="fundamentals_screener_dashboard.html?lang=en">ETF Fundamentals &amp; Risk</a><a href="fundamentals_top30_portfolio.html?lang=en" aria-current="page">Fundamentals Top 30 Portfolio</a></div></div></div></li><li class="desk-item"><a class="desk-link" href="insights.html">Insights</a></li><li class="desk-item"><a class="desk-link" href="about.html">About us</a></li></ul></nav><div class="hdr-actions"><div class="lang" aria-label="Language"><a href="fundamentals_top30_portfolio.html?lang=en" hreflang="en" lang="en" class=on aria-current=true>EN</a><span class="sep" aria-hidden="true">/</span><a href="fundamentals_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl">NL</a></div><a href="about.html#contact" class="hdr-cta">Contact</a><button type="button" class="menu-btn" aria-label="Open menu" aria-controls="mnav" aria-expanded="false"><span></span><span></span><span></span></button></div></div></div><aside class="mnav" id="mnav" aria-label="Mobile menu" aria-hidden="true"><div class="mnav-head"><a href="index.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><button type="button" class="mnav-close" data-close aria-label="Close menu"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div><div class="mnav-body"><a class="m-link" href="index.html">Home</a><div class="acc" data-key="sol"><button type="button" class="acc-btn" aria-expanded="false">Solutions<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Services</div><div class="list"><a href="solutions.html">Solutions &amp; Services</a><a href="options.html">Option Trading</a><a href="go.html">DataSente &amp; Go</a></div><div class="grp">Knowledge</div><div class="list"><a href="insights.html">Insights (blog)</a><a href="github.html">GitHub portfolio</a></div></div></div></div><div class="acc" data-key="strat"><button type="button" class="acc-btn" aria-expanded="false">Strategies<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Guides &amp; research</div><div class="list"><a href="es_short_put_guide.html">ES Short Put<span class="tag">CORE</span></a><a href="presidential_cycle_guide.html">Presidential Cycle<span class="tag">STUDY</span></a><a href="annual_cycle_guide.html">Annual Cycle<span class="tag">STUDY</span></a><a href="covered_call_guide.html">Covered Call</a><a href="meic.html">MEIC tranches</a><a href="strategies.html">All strategies →</a></div><div class="grp">Systematic strategies</div><div class="grid2"><a href="strategies.html#strat-1">Short Put (naked)</a><a href="strategies.html#strat-2">Jade Lizard</a><a href="strategies.html#strat-3">Covered Call</a><a href="strategies.html#strat-4">Short Put Spread</a><a href="strategies.html#strat-5">Put Ratio Spread</a><a href="strategies.html#strat-6">Short Call Spread</a><a href="strategies.html#strat-7">Broken Wing Butterfly</a><a href="strategies.html#strat-8">Unbalanced Iron Condor</a><a href="strategies.html#strat-9">Iron Condor</a><a href="strategies.html#strat-10">Short Strangle</a><a href="strategies.html#strat-11">Pairs Trading</a></div></div></div></div><div class="acc active" data-key="dash"><button type="button" class="acc-btn" aria-expanded="false">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">S&amp;P 500</div><div class="list"><a href="entry_dashboard.html?lang=en">S&amp;P 500 Entry Dashboard</a></div><div class="grp">Interactive Brokers</div><div class="list"><a href="ib_screener_dashboard.html?lang=en">IB Momentum Screener</a><a href="ib_top25_portfolio.html?lang=en">IB Top 25 Portfolio</a></div><div class="grp">DeGiro ETF</div><div class="grid2"><a href="momentum_screener_dashboard.html?lang=en">ETF Momentum Screener</a><a href="momentum_top30_portfolio.html?lang=en">Momentum Top 30 Portfolio</a><a href="dividend_screener_dashboard.html?lang=en">ETF Dividend Screener</a><a href="dividend_top30_portfolio.html?lang=en">Dividend Top 30 Portfolio</a><a href="fundamentals_screener_dashboard.html?lang=en">ETF Fundamentals &amp; Risk</a><a href="fundamentals_top30_portfolio.html?lang=en" aria-current="page">Fundamentals Top 30 Portfolio</a></div></div></div></div><a class="m-link" href="insights.html">Insights</a><a class="m-link" href="about.html">About us</a></div><div class="mnav-foot"><div class="lang" aria-label="Language"><a href="fundamentals_top30_portfolio.html?lang=en" hreflang="en" lang="en" class=on aria-current=true>EN</a><span class="sep" aria-hidden="true">/</span><a href="fundamentals_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl">NL</a></div><a href="about.html#contact" class="hdr-cta">Contact</a></div></aside><span id="main" class="main-anchor" tabindex="-1"></span></div><div class="ds-content"><span class="ds-kicker">Dashboard · DataSente</span>
+    <h1>🌟 Fundamentals & Risico Top 30 Portfolio</h1><p class="ds-intro" data-lang-block="nl">Top 30 ETF’s op basis van fundamentals en risico.</p><p class="ds-intro" data-lang-block="en" hidden>Top 30 ETFs based on fundamentals and risk.</p>
     <div class="header-info">
         <p>De absolute top 30 ETF's gebaseerd op de beste verhouding tussen risico (Drawdown/Volatiliteit) en rendement (Sharpe Ratio).</p>
-        <p><em>Laatste update: 02-10-2026 15:51:45</em></p>
+        <p><em>Laatste update: 06-10-2026 16:45:15</em></p>
     </div>
     
     <table id="top30Table">
@@ -49,13 +207,13 @@
                 <td>#1</td>
                 <td><strong>QDVI.DE</strong></td>
                 <td>iShares Edge MSCI USA Val Fctr UCITS ETF USD A</td>
-                <td>€17.25</td>
+                <td>€17.13</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="">18.15%</td>
+                <td class="">18.06%</td>
                 <td class="drawdown-safe">-7.48%</td>
-                <td class="sharpe-good">3.72</td>
-                <td>69.42%</td>
+                <td class="sharpe-good">3.56</td>
+                <td>66.24%</td>
                 <td class="">-</td>
                 <td>3897.7</td>
             </tr>
@@ -63,13 +221,13 @@
                 <td>#2</td>
                 <td><strong>IS3S.DE</strong></td>
                 <td>iShares Edge MSCI Wld Val Fctr UCITS ETF USD A</td>
-                <td>€72.37</td>
+                <td>€72.45</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="">15.68%</td>
+                <td class="">15.69%</td>
                 <td class="drawdown-safe">-6.09%</td>
-                <td class="sharpe-good">3.32</td>
-                <td>54.04%</td>
+                <td class="sharpe-good">3.19</td>
+                <td>52.08%</td>
                 <td class="">-</td>
                 <td>7642.9</td>
             </tr>
@@ -77,13 +235,13 @@
                 <td>#3</td>
                 <td><strong>FLXT.DE</strong></td>
                 <td>Franklin FTSE Taiwan UCITS ETF</td>
-                <td>€68.32</td>
+                <td>€69.66</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-high">28.81%</td>
+                <td class="volatility-high">28.84%</td>
                 <td class="">-19.92%</td>
-                <td class="sharpe-good">3.42</td>
-                <td>100.41%</td>
+                <td class="sharpe-good">3.41</td>
+                <td>100.35%</td>
                 <td class="">-</td>
                 <td>1231.9</td>
             </tr>
@@ -91,379 +249,379 @@
                 <td>#4</td>
                 <td><strong>ZPRU.DE</strong></td>
                 <td>StSt SPDR MSCI USA Value UCITS ETF</td>
-                <td>€89.64</td>
+                <td>€89.66</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-low">14.59%</td>
+                <td class="volatility-low">14.50%</td>
                 <td class="drawdown-safe">-5.56%</td>
-                <td class="sharpe-good">3.11</td>
-                <td>47.31%</td>
+                <td class="sharpe-good">3.00</td>
+                <td>45.48%</td>
                 <td class="">-</td>
                 <td>328.3</td>
             </tr>
             <tr>
                 <td>#5</td>
-                <td><strong>EVSD.DE</strong></td>
-                <td>Global X European Superdividend UCITS EUR Distribution ETF</td>
-                <td>€20.43</td>
-                <td>Broad Market / Other</td>
-                <td>Broad Market / Other</td>
-                <td class="volatility-low">13.20%</td>
-                <td class="drawdown-safe">-8.98%</td>
-                <td class="sharpe-good">3.06</td>
-                <td>42.34%</td>
-                <td class="value-good">9.8</td>
-                <td>73.3</td>
-            </tr>
-            <tr>
-                <td>#6</td>
                 <td><strong>IQQT.DE</strong></td>
                 <td>iShares MSCI Taiwan UCITS ETF USD (Dist)</td>
-                <td>€190.50</td>
+                <td>€194.74</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-high">29.89%</td>
+                <td class="volatility-high">29.93%</td>
                 <td class="">-19.86%</td>
                 <td class="sharpe-good">3.23</td>
-                <td>98.52%</td>
+                <td>98.73%</td>
                 <td class="">-</td>
                 <td>1741.7</td>
             </tr>
             <tr>
-                <td>#7</td>
+                <td>#6</td>
                 <td><strong>ISPA.DE</strong></td>
                 <td>iShares STOXX Global Select Dividend 100 UCITS (DE) ETF</td>
-                <td>€39.29</td>
+                <td>€39.48</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-low">8.71%</td>
+                <td class="volatility-low">8.75%</td>
                 <td class="drawdown-safe">-3.63%</td>
-                <td class="sharpe-good">2.82</td>
-                <td>26.52%</td>
-                <td class="value-good">12.76</td>
+                <td class="sharpe-good">2.78</td>
+                <td>26.35%</td>
+                <td class="value-good">12.82</td>
                 <td>5227.9</td>
+            </tr>
+            <tr>
+                <td>#7</td>
+                <td><strong>EVSD.DE</strong></td>
+                <td>Global X European Superdividend UCITS EUR Distribution ETF</td>
+                <td>€20.40</td>
+                <td>Broad Market / Other</td>
+                <td>Broad Market / Other</td>
+                <td class="volatility-low">13.17%</td>
+                <td class="drawdown-safe">-8.98%</td>
+                <td class="sharpe-good">2.84</td>
+                <td>39.42%</td>
+                <td class="value-good">9.79</td>
+                <td>73.3</td>
             </tr>
             <tr>
                 <td>#8</td>
                 <td><strong>H412.DE</strong></td>
                 <td>HSBC MSCI AC Far East ex Japan UCITS ETF USD</td>
-                <td>€39.42</td>
+                <td>€39.65</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-low">11.41%</td>
+                <td class="volatility-low">11.38%</td>
                 <td class="drawdown-safe">-5.54%</td>
-                <td class="sharpe-good">2.66</td>
-                <td>32.32%</td>
+                <td class="sharpe-good">2.63</td>
+                <td>31.90%</td>
                 <td class="">-</td>
                 <td>1067.8</td>
             </tr>
             <tr>
                 <td>#9</td>
-                <td><strong>SEC0.DE</strong></td>
-                <td>iShares MSCI Global Semiconductors UCITS ETF USD A</td>
-                <td>€19.75</td>
-                <td>Broad Market / Other</td>
-                <td>Broad Market / Other</td>
-                <td class="volatility-high">41.97%</td>
-                <td class="drawdown-deep">-28.43%</td>
-                <td class="sharpe-good">3.06</td>
-                <td>130.37%</td>
-                <td class="">-</td>
-                <td>5891.3</td>
-            </tr>
-            <tr>
-                <td>#10</td>
-                <td><strong>AIFS.DE</strong></td>
-                <td>iShares AI Infrastructure UCITS ETF USD (Acc)</td>
-                <td>€10.74</td>
-                <td>Information Technology</td>
-                <td>Technology Hardware & Software</td>
-                <td class="volatility-high">28.73%</td>
-                <td class="">-16.83%</td>
-                <td class="sharpe-good">2.82</td>
-                <td>82.93%</td>
-                <td class="">-</td>
-                <td>1268.9</td>
-            </tr>
-            <tr>
-                <td>#11</td>
-                <td><strong>OIGS.DE</strong></td>
-                <td>Amundi STOXX Europe 600 Energy Screened UCITS Dist ETF</td>
-                <td>€149.10</td>
-                <td>Energy</td>
-                <td>Energy</td>
-                <td class="">18.12%</td>
-                <td class="">-11.63%</td>
-                <td class="sharpe-good">2.71</td>
-                <td>51.15%</td>
-                <td class="">15.18</td>
-                <td>300.7</td>
-            </tr>
-            <tr>
-                <td>#12</td>
-                <td><strong>FLXK.DE</strong></td>
-                <td>Franklin FTSE Korea UCITS ETF</td>
-                <td>€95.02</td>
-                <td>Broad Market / Other</td>
-                <td>Broad Market / Other</td>
-                <td class="volatility-high">48.96%</td>
-                <td class="drawdown-deep">-32.79%</td>
-                <td class="sharpe-good">3.13</td>
-                <td>155.12%</td>
-                <td class="">-</td>
-                <td>5073.3</td>
-            </tr>
-            <tr>
-                <td>#13</td>
-                <td><strong>WMMS.DE</strong></td>
-                <td>Amundi MSCI World IMI Value Advanced UCITS ACC ETF</td>
-                <td>€13.61</td>
-                <td>Broad Market / Other</td>
-                <td>Broad Market / Other</td>
-                <td class="volatility-low">11.67%</td>
-                <td class="drawdown-safe">-6.17%</td>
-                <td class="sharpe-good">2.59</td>
-                <td>32.28%</td>
-                <td class="">-</td>
-                <td>595.9</td>
-            </tr>
-            <tr>
-                <td>#14</td>
-                <td><strong>QDVW.DE</strong></td>
-                <td>Ishrs World Quality Div Usd Adv Dist</td>
-                <td>€8.56</td>
-                <td>Broad Market / Other</td>
-                <td>Broad Market / Other</td>
-                <td class="volatility-low">10.27%</td>
-                <td class="drawdown-safe">-5.65%</td>
-                <td class="sharpe-good">2.57</td>
-                <td>28.41%</td>
-                <td class="">-</td>
-                <td>2363.4</td>
-            </tr>
-            <tr>
-                <td>#15</td>
-                <td><strong>MTVR.DE</strong></td>
-                <td>L&G Metaverse UCITS USD Acc ETF</td>
-                <td>€40.37</td>
-                <td>Information Technology</td>
-                <td>Technology Hardware & Software</td>
-                <td class="volatility-high">33.21%</td>
-                <td class="">-21.21%</td>
-                <td class="sharpe-good">2.87</td>
-                <td>97.14%</td>
-                <td class="">-</td>
-                <td>19.1</td>
-            </tr>
-            <tr>
-                <td>#16</td>
-                <td><strong>VVSM.DE</strong></td>
-                <td>VanEck Semiconductor UCITS ETF USD A</td>
-                <td>€105.38</td>
-                <td>Information Technology</td>
-                <td>Technology Hardware & Software</td>
-                <td class="volatility-high">39.66%</td>
-                <td class="">-23.17%</td>
-                <td class="sharpe-good">2.90</td>
-                <td>117.05%</td>
-                <td class="">-</td>
-                <td>8581.2</td>
-            </tr>
-            <tr>
-                <td>#17</td>
                 <td><strong>XY7D.DE</strong></td>
                 <td>Global X S&P 500 Covered Call UCITS ETF USD Dist</td>
-                <td>€14.08</td>
+                <td>€14.15</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-low">8.39%</td>
+                <td class="volatility-low">8.42%</td>
                 <td class="drawdown-safe">-3.73%</td>
-                <td class="sharpe-good">2.51</td>
-                <td>23.01%</td>
+                <td class="sharpe-good">2.59</td>
+                <td>23.83%</td>
                 <td class="">-</td>
                 <td>215.8</td>
             </tr>
             <tr>
-                <td>#18</td>
+                <td>#10</td>
+                <td><strong>OIGS.DE</strong></td>
+                <td>Amundi STOXX Europe 600 Energy Screened UCITS Dist ETF</td>
+                <td>€150.64</td>
+                <td>Energy</td>
+                <td>Energy</td>
+                <td class="">18.12%</td>
+                <td class="">-11.63%</td>
+                <td class="sharpe-good">2.70</td>
+                <td>50.97%</td>
+                <td class="">15.34</td>
+                <td>300.7</td>
+            </tr>
+            <tr>
+                <td>#11</td>
+                <td><strong>GASF.DE</strong></td>
+                <td>Goldman Sachs Access China Gv Bd UCITS ETF USD Dis</td>
+                <td>€51.28</td>
+                <td>Broad Market / Other</td>
+                <td>Broad Market / Other</td>
+                <td class="volatility-low">4.79%</td>
+                <td class="drawdown-safe">-2.69%</td>
+                <td class="sharpe-good">2.47</td>
+                <td>13.81%</td>
+                <td class="">-</td>
+                <td>111.7</td>
+            </tr>
+            <tr>
+                <td>#12</td>
+                <td><strong>QDVW.DE</strong></td>
+                <td>Ishrs World Quality Div Usd Adv Dist</td>
+                <td>€8.59</td>
+                <td>Broad Market / Other</td>
+                <td>Broad Market / Other</td>
+                <td class="volatility-low">10.24%</td>
+                <td class="drawdown-safe">-5.65%</td>
+                <td class="sharpe-good">2.52</td>
+                <td>27.83%</td>
+                <td class="">-</td>
+                <td>2363.4</td>
+            </tr>
+            <tr>
+                <td>#13</td>
+                <td><strong>AIFS.DE</strong></td>
+                <td>iShares AI Infrastructure UCITS ETF USD (Acc)</td>
+                <td>€10.84</td>
+                <td>Information Technology</td>
+                <td>Technology Hardware & Software</td>
+                <td class="volatility-high">28.64%</td>
+                <td class="">-16.83%</td>
+                <td class="sharpe-good">2.74</td>
+                <td>80.54%</td>
+                <td class="">-</td>
+                <td>1268.9</td>
+            </tr>
+            <tr>
+                <td>#14</td>
+                <td><strong>WMMS.DE</strong></td>
+                <td>Amundi MSCI World IMI Value Advanced UCITS ACC ETF</td>
+                <td>€13.64</td>
+                <td>Broad Market / Other</td>
+                <td>Broad Market / Other</td>
+                <td class="volatility-low">11.65%</td>
+                <td class="drawdown-safe">-6.17%</td>
+                <td class="sharpe-good">2.52</td>
+                <td>31.36%</td>
+                <td class="">-</td>
+                <td>595.9</td>
+            </tr>
+            <tr>
+                <td>#15</td>
+                <td><strong>FLXK.DE</strong></td>
+                <td>Franklin FTSE Korea UCITS ETF</td>
+                <td>€94.40</td>
+                <td>Broad Market / Other</td>
+                <td>Broad Market / Other</td>
+                <td class="volatility-high">48.89%</td>
+                <td class="drawdown-deep">-32.79%</td>
+                <td class="sharpe-good">3.01</td>
+                <td>149.11%</td>
+                <td class="">-</td>
+                <td>5073.3</td>
+            </tr>
+            <tr>
+                <td>#16</td>
                 <td><strong>FTGN.DE</strong></td>
                 <td>First Trust Vest US Eq Mod BffrUCITS ETFNovAUSDAcc</td>
-                <td>€33.66</td>
+                <td>€33.58</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-low">6.12%</td>
+                <td class="volatility-low">6.06%</td>
                 <td class="drawdown-safe">-3.25%</td>
-                <td class="sharpe-good">2.46</td>
-                <td>17.08%</td>
+                <td class="sharpe-good">2.41</td>
+                <td>16.60%</td>
                 <td class="">-</td>
                 <td>35.7</td>
             </tr>
             <tr>
-                <td>#19</td>
-                <td><strong>GN0M.DE</strong></td>
-                <td>Global X Genomics & Biotechnology UCITS ETF USDAcc</td>
-                <td>€11.07</td>
-                <td>Health Care</td>
-                <td>Pharmaceuticals & Biotech</td>
-                <td class="volatility-high">30.16%</td>
-                <td class="">-16.68%</td>
-                <td class="sharpe-good">2.69</td>
-                <td>83.28%</td>
+                <td>#17</td>
+                <td><strong>DBX5.DE</strong></td>
+                <td>Xtrackers MSCI Taiwan UCITS 1C ETF</td>
+                <td>€149.10</td>
+                <td>Broad Market / Other</td>
+                <td>Broad Market / Other</td>
+                <td class="volatility-high">35.89%</td>
+                <td class="">-19.63%</td>
+                <td class="sharpe-good">2.71</td>
+                <td>99.25%</td>
                 <td class="">-</td>
-                <td>67.0</td>
+                <td>528.1</td>
+            </tr>
+            <tr>
+                <td>#18</td>
+                <td><strong>MTVR.DE</strong></td>
+                <td>L&G Metaverse UCITS USD Acc ETF</td>
+                <td>€40.69</td>
+                <td>Information Technology</td>
+                <td>Technology Hardware & Software</td>
+                <td class="volatility-high">33.09%</td>
+                <td class="">-21.21%</td>
+                <td class="sharpe-good">2.74</td>
+                <td>92.64%</td>
+                <td class="">-</td>
+                <td>19.1</td>
+            </tr>
+            <tr>
+                <td>#19</td>
+                <td><strong>JC11.DE</strong></td>
+                <td>UBS J.P. Morgan CNY China Gov 1-10 UCITS USD acc ETF</td>
+                <td>€12.50</td>
+                <td>Broad Market / Other</td>
+                <td>Broad Market / Other</td>
+                <td class="volatility-low">4.79%</td>
+                <td class="drawdown-safe">-2.75%</td>
+                <td class="sharpe-good">2.37</td>
+                <td>13.36%</td>
+                <td class="">-</td>
+                <td>12.7</td>
             </tr>
             <tr>
                 <td>#20</td>
-                <td><strong>IQQK.DE</strong></td>
-                <td>iShares MSCI Korea UCITS ETF USD (Dist)</td>
-                <td>€123.20</td>
+                <td><strong>SEC0.DE</strong></td>
+                <td>iShares MSCI Global Semiconductors UCITS ETF USD A</td>
+                <td>€19.80</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-high">49.14%</td>
-                <td class="drawdown-deep">-32.87%</td>
-                <td class="sharpe-good">3.00</td>
-                <td>149.43%</td>
+                <td class="volatility-high">41.74%</td>
+                <td class="drawdown-deep">-28.43%</td>
+                <td class="sharpe-good">2.88</td>
+                <td>122.00%</td>
                 <td class="">-</td>
-                <td>1204.8</td>
+                <td>5891.3</td>
             </tr>
             <tr>
                 <td>#21</td>
                 <td><strong>PSWD.DE</strong></td>
                 <td>Invesco RAFI All-World Fundamental Val UCITS ETF D</td>
-                <td>€35.92</td>
+                <td>€36.31</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-low">10.73%</td>
+                <td class="volatility-low">10.83%</td>
                 <td class="drawdown-safe">-5.88%</td>
-                <td class="sharpe-good">2.44</td>
-                <td>28.14%</td>
+                <td class="sharpe-good">2.41</td>
+                <td>28.05%</td>
                 <td class="">-</td>
                 <td>315.7</td>
             </tr>
             <tr>
                 <td>#22</td>
-                <td><strong>DBX5.DE</strong></td>
-                <td>Xtrackers MSCI Taiwan UCITS 1C ETF</td>
-                <td>€145.90</td>
+                <td><strong>XB4A.DE</strong></td>
+                <td>Xtrackers ATX UCITS 1C ETF</td>
+                <td>€141.86</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-high">35.83%</td>
-                <td class="">-19.63%</td>
-                <td class="sharpe-good">2.71</td>
-                <td>98.94%</td>
-                <td class="">-</td>
-                <td>528.1</td>
+                <td class="">17.98%</td>
+                <td class="">-10.88%</td>
+                <td class="sharpe-good">2.50</td>
+                <td>46.99%</td>
+                <td class="value-good">14.31</td>
+                <td>148.7</td>
             </tr>
             <tr>
                 <td>#23</td>
-                <td><strong>GASF.DE</strong></td>
-                <td>Goldman Sachs Access China Gv Bd UCITS ETF USD Dis</td>
-                <td>€51.27</td>
-                <td>Broad Market / Other</td>
-                <td>Broad Market / Other</td>
-                <td class="volatility-low">4.88%</td>
-                <td class="drawdown-safe">-2.69%</td>
-                <td class="sharpe-good">2.34</td>
-                <td>13.42%</td>
-                <td class="">-</td>
-                <td>111.7</td>
-            </tr>
-            <tr>
-                <td>#24</td>
-                <td><strong>JC11.DE</strong></td>
-                <td>UBS J.P. Morgan CNY China Gov 1-10 UCITS USD acc ETF</td>
-                <td>€12.52</td>
-                <td>Broad Market / Other</td>
-                <td>Broad Market / Other</td>
-                <td class="volatility-low">4.90%</td>
-                <td class="drawdown-safe">-2.75%</td>
-                <td class="sharpe-good">2.34</td>
-                <td>13.48%</td>
-                <td class="">-</td>
-                <td>12.7</td>
-            </tr>
-            <tr>
-                <td>#25</td>
-                <td><strong>FCHP.DE</strong></td>
-                <td>First Trust Bloomberg Global Semiconductor Supply Chain UCITS - A USD ACC ETF</td>
-                <td>€47.54</td>
-                <td>Information Technology</td>
-                <td>Technology Hardware & Software</td>
-                <td class="volatility-high">36.97%</td>
-                <td class="">-24.98%</td>
-                <td class="sharpe-good">2.78</td>
-                <td>104.69%</td>
-                <td class="">-</td>
-                <td>36.8</td>
-            </tr>
-            <tr>
-                <td>#26</td>
-                <td><strong>UEQU.DE</strong></td>
-                <td>UBS CMCI ex-Agriculture SF UCITS USD acc ETF</td>
-                <td>€277.05</td>
-                <td>Materials</td>
-                <td>Materials</td>
-                <td class="">16.05%</td>
-                <td class="drawdown-safe">-9.84%</td>
-                <td class="sharpe-good">2.45</td>
-                <td>41.40%</td>
-                <td class="">-</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>#27</td>
                 <td><strong>VDIV.DE</strong></td>
                 <td>VanEck Ms Developed Markets Div Lead UCITS ETF</td>
-                <td>€53.48</td>
+                <td>€53.95</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-low">9.24%</td>
-                <td class="drawdown-safe">-4.11%</td>
-                <td class="sharpe-good">2.30</td>
-                <td>23.24%</td>
-                <td class="value-good">13.51</td>
+                <td class="volatility-low">9.23%</td>
+                <td class="drawdown-safe">-4.02%</td>
+                <td class="sharpe-good">2.36</td>
+                <td>23.79%</td>
+                <td class="value-good">13.63</td>
                 <td>9478.8</td>
             </tr>
             <tr>
-                <td>#28</td>
-                <td><strong>IQQX.DE</strong></td>
-                <td>iShares Asia Pacific Dividend UCITS ETF USD (Dist)</td>
-                <td>€27.96</td>
-                <td>Broad Market / Other</td>
-                <td>Broad Market / Other</td>
-                <td class="volatility-low">11.28%</td>
-                <td class="drawdown-safe">-6.17%</td>
-                <td class="sharpe-good">2.34</td>
-                <td>28.36%</td>
+                <td>#24</td>
+                <td><strong>VVSM.DE</strong></td>
+                <td>VanEck Semiconductor UCITS ETF USD A</td>
+                <td>€105.78</td>
+                <td>Information Technology</td>
+                <td>Technology Hardware & Software</td>
+                <td class="volatility-high">39.46%</td>
+                <td class="">-23.17%</td>
+                <td class="sharpe-good">2.74</td>
+                <td>110.05%</td>
                 <td class="">-</td>
-                <td>740.1</td>
+                <td>8581.2</td>
             </tr>
             <tr>
-                <td>#29</td>
+                <td>#25</td>
+                <td><strong>IQQK.DE</strong></td>
+                <td>iShares MSCI Korea UCITS ETF USD (Dist)</td>
+                <td>€122.40</td>
+                <td>Broad Market / Other</td>
+                <td>Broad Market / Other</td>
+                <td class="volatility-high">49.04%</td>
+                <td class="drawdown-deep">-32.87%</td>
+                <td class="sharpe-good">2.88</td>
+                <td>143.33%</td>
+                <td class="">-</td>
+                <td>1204.8</td>
+            </tr>
+            <tr>
+                <td>#26</td>
                 <td><strong>VGWE.DE</strong></td>
                 <td>Vanguard FTSE All-Wld Hgh Div Yld UCITS ETF USD A</td>
-                <td>€92.84</td>
+                <td>€93.60</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="volatility-low">9.04%</td>
+                <td class="volatility-low">9.11%</td>
                 <td class="drawdown-safe">-6.00%</td>
                 <td class="sharpe-good">2.33</td>
-                <td>23.03%</td>
+                <td>23.24%</td>
                 <td class="">-</td>
                 <td>14834.4</td>
             </tr>
             <tr>
-                <td>#30</td>
-                <td><strong>H41E.DE</strong></td>
-                <td>HSBC MSCI Emerging Markets Value Screened UCITS USD Acc ETF</td>
-                <td>€24.30</td>
+                <td>#27</td>
+                <td><strong>IQQX.DE</strong></td>
+                <td>iShares Asia Pacific Dividend UCITS ETF USD (Dist)</td>
+                <td>€28.15</td>
                 <td>Broad Market / Other</td>
                 <td>Broad Market / Other</td>
-                <td class="">22.22%</td>
-                <td class="">-13.17%</td>
-                <td class="sharpe-good">2.41</td>
-                <td>55.65%</td>
+                <td class="volatility-low">11.31%</td>
+                <td class="drawdown-safe">-6.17%</td>
+                <td class="sharpe-good">2.33</td>
+                <td>28.39%</td>
                 <td class="">-</td>
-                <td>126.3</td>
+                <td>740.1</td>
+            </tr>
+            <tr>
+                <td>#28</td>
+                <td><strong>FCHP.DE</strong></td>
+                <td>First Trust Bloomberg Global Semiconductor Supply Chain UCITS - A USD ACC ETF</td>
+                <td>€48.04</td>
+                <td>Information Technology</td>
+                <td>Technology Hardware & Software</td>
+                <td class="volatility-high">36.65%</td>
+                <td class="">-24.98%</td>
+                <td class="sharpe-good">2.69</td>
+                <td>100.61%</td>
+                <td class="">-</td>
+                <td>36.8</td>
+            </tr>
+            <tr>
+                <td>#29</td>
+                <td><strong>5PAH.DE</strong></td>
+                <td>Global X S&P 500 Annual Tail Hdg UCITS ETF USD Acc</td>
+                <td>€18.29</td>
+                <td>Broad Market / Other</td>
+                <td>Broad Market / Other</td>
+                <td class="volatility-low">5.90%</td>
+                <td class="drawdown-safe">-2.90%</td>
+                <td class="sharpe-good">2.22</td>
+                <td>15.12%</td>
+                <td class="">-</td>
+                <td>0.8</td>
+            </tr>
+            <tr>
+                <td>#30</td>
+                <td><strong>UEQU.DE</strong></td>
+                <td>UBS CMCI ex-Agriculture SF UCITS USD acc ETF</td>
+                <td>€277.30</td>
+                <td>Materials</td>
+                <td>Materials</td>
+                <td class="">16.06%</td>
+                <td class="drawdown-safe">-9.84%</td>
+                <td class="sharpe-good">2.35</td>
+                <td>39.80%</td>
+                <td class="">-</td>
+                <td>-</td>
             </tr>
         </tbody>
     </table>
@@ -482,5 +640,73 @@
                 .forEach(tr => tbody.appendChild(tr) );
         })));
     </script>
-</body>
+</div><div data-lang-block="nl"><div class="site-footer" role=contentinfo><div class="ft-wrap"><div class="ft-grid"><div class="ft-brand"><a href="index_nl.html" class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><p>Data engineering en trading automation voor family offices en vermogensbeheerders. Behoud het initiatief — behoud Sente.</p><a class="ft-cta" href="about_nl.html#contact">Neem contact op →</a></div><div><h5>Oplossingen</h5><ul><li><a href="solutions_nl.html">Oplossingen &amp; diensten</a></li><li><a href="options_nl.html">Optiehandel</a></li><li><a href="go_nl.html">DataSente &amp; Go</a></li><li><a href="insights_nl.html">Insights (blog)</a></li><li><a href="github_nl.html">GitHub-portfolio</a></li><li><a href="about_nl.html">Over ons</a></li></ul></div><div><h5>Strategieën</h5><ul><li><a href="strategies_nl.html">Alle strategieën</a></li><li><a href="es_short_put_handleiding.html">ES Short Put</a></li><li><a href="meic_nl.html">MEIC-tranches</a></li><li><a href="presidential_cycle_handleiding.html">Presidentscyclus</a></li><li><a href="annual_cycle_handleiding.html">Jaarcyclus</a></li><li><a href="covered_call_handleiding.html">Covered Call</a></li></ul></div><div><h5>Dashboards</h5><ul><li><a href="entry_dashboard.html?lang=nl">S&amp;P 500 Entry-dashboard</a></li><li><a href="ib_screener_dashboard.html?lang=nl">IB Momentum-screener</a></li><li><a href="momentum_screener_dashboard.html?lang=nl">ETF Momentum-screener</a></li><li><a href="dividend_screener_dashboard.html?lang=nl">ETF Dividend-screener</a></li><li><a href="fundamentals_screener_dashboard.html?lang=nl">ETF Fundamentals &amp; risico</a></li></ul></div></div><div class="ft-bottom"><span>&copy; 2026 DataSente. Alle rechten voorbehouden.</span><span>Disclaimer: handelen in opties en futures brengt aanzienlijke risico’s met zich mee en is niet geschikt voor iedere belegger. De informatie op deze website is uitsluitend bedoeld voor educatieve doeleinden en vormt geen financieel advies of beleggingsadvies.</span></div></div></div></div><div data-lang-block="en" hidden><div class="site-footer" role=contentinfo><div class="ft-wrap"><div class="ft-grid"><div class="ft-brand"><a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><p>Data engineering and trading automation for family offices and wealth managers. Keep the initiative — keep Sente.</p><a class="ft-cta" href="about.html#contact">Get in touch →</a></div><div><h5>Solutions</h5><ul><li><a href="solutions.html">Solutions &amp; Services</a></li><li><a href="options.html">Option Trading</a></li><li><a href="go.html">DataSente &amp; Go</a></li><li><a href="insights.html">Insights (blog)</a></li><li><a href="github.html">GitHub portfolio</a></li><li><a href="about.html">About us</a></li></ul></div><div><h5>Strategies</h5><ul><li><a href="strategies.html">All strategies</a></li><li><a href="es_short_put_guide.html">ES Short Put</a></li><li><a href="meic.html">MEIC tranches</a></li><li><a href="presidential_cycle_guide.html">Presidential Cycle</a></li><li><a href="annual_cycle_guide.html">Annual Cycle</a></li><li><a href="covered_call_guide.html">Covered Call</a></li></ul></div><div><h5>Dashboards</h5><ul><li><a href="entry_dashboard.html?lang=en">S&amp;P 500 Entry Dashboard</a></li><li><a href="ib_screener_dashboard.html?lang=en">IB Momentum Screener</a></li><li><a href="momentum_screener_dashboard.html?lang=en">ETF Momentum Screener</a></li><li><a href="dividend_screener_dashboard.html?lang=en">ETF Dividend Screener</a></li><li><a href="fundamentals_screener_dashboard.html?lang=en">ETF Fundamentals &amp; Risk</a></li></ul></div></div><div class="ft-bottom"><span>&copy; 2026 DataSente. All rights reserved.</span><span>Disclaimer: trading options and futures involves substantial risk and is not suitable for every investor. The information on this website is for educational purposes only and does not constitute financial or investment advice.</span></div></div></div></div><script>window.DS_I18N={"Filters wissen": "Clear filters", "Laatste update": "Last update", "Gegenereerd op": "Generated on", "Geen ETF's gevonden die aan je filters voldoen.": "No ETFs match your filters.", "Geen aandelen gevonden die aan je filters voldoen.": "No stocks match your filters.", "Geen resultaten gevonden die aan je filters voldoen.": "No results match your filters.", "(Alle selecteren)": "(Select all)", "geselecteerd": "selected", "Alle...": "All...", "Aantal ETF's": "Number of ETFs", "ETF's": "ETFs", "aandelen": "stocks", "Aandelen": "Stocks", "Naam ETF": "ETF name", "Prijs": "Price", "Volatiliteit": "Volatility", "Rendement 1J": "Return 1Y", "Land / Regio": "Country / Region", "Groei 3j": "Growth 3y", "Gefilterd op onderliggende waarde en wiskundig risico (1 jaar historie).": "Filtered on underlying value and mathematical risk (1-year history).", "Gefilterd op kwaliteit, gevaarlijke yields (Value Traps / Covered Calls) zijn weggelaten, met sectorspreiding.": "Filtered on quality; risky yields (value traps / covered-call ETFs) are excluded, with sector diversification.", "Groen": "Green", "Rood": "Red", "Koers binnen ±0,5σ van de 20-daags gemiddelde (instapzone)": "Price within ±0.5σ of the 20-day average (entry zone)", "Koers onder het 50-daags gemiddelde (zwak / verkopen)": "Price below the 50-day average (weak / sell)", "Top 10 binnen de ranking": "Top 10 in the ranking", "Klik op een kolomkop om te sorteren.": "Click a column header to sort."};</script><script data-ds-theme="layout">
+(function(){
+  var root=document.documentElement;
+  /* Dashboards bevatten een NL- en EN-header; kies de taal (?lang= > localStorage > nl) */
+  var blocks=document.querySelectorAll('[data-lang-block]');
+  if(blocks.length){
+    var q=new URLSearchParams(location.search).get('lang'),lang='nl';
+    try{lang=(q||localStorage.getItem('ds-lang')||'nl').toLowerCase();if(q)localStorage.setItem('ds-lang',lang);}catch(e){lang=(q||'nl').toLowerCase();}
+    if(lang!=='en')lang='nl';
+    blocks.forEach(function(b){if(b.getAttribute('data-lang-block')!==lang)b.parentNode.removeChild(b);else b.hidden=false;});
+    root.lang=lang;
+    var mt=document.querySelector('meta[name="ds-title-'+lang+'"]');if(mt)document.title=mt.content;
+    if(lang==='en'&&window.DS_I18N)dsTranslate(window.DS_I18N);
+    var content=document.querySelector('.ds-content');
+    if(content){content.querySelectorAll('table').forEach(function(tb){
+      for(var el=tb.parentElement;el&&el!==content;el=el.parentElement){var o=getComputedStyle(el).overflowX;if(o==='auto'||o==='scroll')return;}
+      var w=document.createElement('div');w.className='ds-scroll';tb.parentNode.insertBefore(w,tb);w.appendChild(tb);});}
+  }
+  function dsTranslate(dict){
+    var keys=Object.keys(dict).sort(function(a,b){return b.length-a.length;});
+    function tr(s){var o=s;for(var i=0;i<keys.length;i++){if(o.indexOf(keys[i])>-1)o=o.split(keys[i]).join(dict[keys[i]]);}return o;}
+    function walk(node){
+      if(node.nodeType===3){var v=node.nodeValue;if(v&&v.trim()){var n=tr(v);if(n!==v)node.nodeValue=n;}return;}
+      if(node.nodeType!==1)return;
+      var tag=node.tagName;if(tag==='SCRIPT'||tag==='STYLE'||tag==='TBODY'||node.classList.contains('site-header')||node.classList.contains('site-footer')||node.classList.contains('mnav'))return;
+      ['placeholder','title','aria-label'].forEach(function(a){var v=node.getAttribute&&node.getAttribute(a);if(v){var n=tr(v);if(n!==v)node.setAttribute(a,n);}});
+      for(var c=node.firstChild;c;c=c.nextSibling)walk(c);
+    }
+    walk(document.body);
+    var busy=false,mo=new MutationObserver(function(ms){if(busy)return;busy=true;ms.forEach(function(m){m.addedNodes.forEach(walk);if(m.type==='characterData')walk(m.target);});busy=false;});
+    mo.observe(document.body,{childList:true,subtree:true,characterData:true});
+  }
+  var hdr=document.querySelector('.site-header');
+  if(hdr){var onS=function(){hdr.classList.toggle('scrolled',window.scrollY>8);};addEventListener('scroll',onS,{passive:true});onS();}
+  /* Desktop mega-menu: klik + hover (met korte vertraging) */
+  var items=[].slice.call(document.querySelectorAll('.desk-item[data-key]'));
+  function closeAll(except){items.forEach(function(it){if(it!==except){it.classList.remove('open');it.querySelector('.desk-trigger').setAttribute('aria-expanded','false');}});}
+  items.forEach(function(it){
+    var btn=it.querySelector('.desk-trigger'),t;
+    function open(){clearTimeout(t);closeAll(it);it.classList.add('open');btn.setAttribute('aria-expanded','true');}
+    btn.addEventListener('click',function(e){e.stopPropagation();it.classList.contains('open')?closeAll():open();});
+    it.addEventListener('mouseenter',function(){if(matchMedia('(hover:hover)').matches)open();});
+    it.addEventListener('mouseleave',function(){t=setTimeout(function(){it.classList.remove('open');btn.setAttribute('aria-expanded','false');},200);});
+    it.addEventListener('focusout',function(e){if(!it.contains(e.relatedTarget)){it.classList.remove('open');btn.setAttribute('aria-expanded','false');}});
+  });
+  document.addEventListener('click',function(e){if(!e.target.closest||!e.target.closest('.desk-item'))closeAll();});
+  /* Mobiel overlay-menu */
+  var mnav=document.getElementById('mnav'),menuBtn=document.querySelector('.menu-btn');
+  function setAcc(a,open){a.classList.toggle('open',open);a.querySelector('.acc-btn').setAttribute('aria-expanded',String(open));}
+  function setNav(open){
+    if(!mnav)return;root.classList.toggle('nav-open',open);mnav.setAttribute('aria-hidden',String(!open));
+    if(menuBtn)menuBtn.setAttribute('aria-expanded',String(open));
+    if(open){var act=mnav.querySelector('.acc.active');mnav.querySelectorAll('.acc').forEach(function(a){setAcc(a,a===act);});
+      var c=mnav.querySelector('.mnav-close');if(c)setTimeout(function(){c.focus();},50);}
+    else if(menuBtn&&mnav.contains(document.activeElement))menuBtn.focus();
+  }
+  if(menuBtn)menuBtn.addEventListener('click',function(){setNav(!root.classList.contains('nav-open'));});
+  document.querySelectorAll('[data-close]').forEach(function(el){el.addEventListener('click',function(){setNav(false);});});
+  if(mnav){
+    mnav.querySelectorAll('.acc-btn').forEach(function(b){b.addEventListener('click',function(){
+      var a=b.parentElement,open=!a.classList.contains('open');
+      mnav.querySelectorAll('.acc').forEach(function(x){setAcc(x,false);});setAcc(a,open);
+      if(open)setTimeout(function(){a.scrollIntoView({block:'nearest',behavior:'smooth'});},220);});});
+    mnav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){setNav(false);});});
+  }
+  addEventListener('keydown',function(e){if(e.key==='Escape'){setNav(false);closeAll();}});
+  matchMedia('(min-width: 1100px)').addEventListener('change',function(e){if(e.matches)setNav(false);});
+})();
+</script></body>
 </html>

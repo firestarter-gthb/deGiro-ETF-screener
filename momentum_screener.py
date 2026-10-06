@@ -53,6 +53,9 @@ def run_momentum_screener():
             return str(row['symbol']).strip() + exchange_suffix_map.get(exch, '') if exch in exchange_suffix_map else None
         unique_etfs['yf_ticker'] = unique_etfs.apply(get_yf_ticker, axis=1)
 
+    # Forceer 4BRZ.DE voor de Brazil ETF, zelfs als yf_ticker uit de CSV komt (vermijdt EXHG clash)
+    unique_etfs.loc[unique_etfs['isin'] == 'DE000A0Q4R85', 'yf_ticker'] = '4BRZ.DE'
+
     unique_etfs = unique_etfs.dropna(subset=['yf_ticker']).copy()
 
     tickers = unique_etfs['yf_ticker'].tolist()

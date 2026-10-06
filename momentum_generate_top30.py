@@ -93,11 +93,8 @@ def genereer_etf_selectie(csv_pad='momentum_screener_result_final.csv', output_h
             
         return selectie, l_teller, s_teller
 
-    # Eerst ACC
+    # Enkel ACC ETF's in de top 30 toegestaan
     gekozen_etfs, l_counts, s_counts = pick_etfs(require_acc=True)
-    # Vul aan met Distr
-    if len(gekozen_etfs) < 30:
-        gekozen_etfs, _, _ = pick_etfs(require_acc=False, huidige_selectie=gekozen_etfs, landen_teller=l_counts, sector_teller=s_counts)
 
     df_definitief = pd.DataFrame(gekozen_etfs).sort_values('Rank all')
     current_time = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
