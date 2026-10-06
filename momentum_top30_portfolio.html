@@ -242,7 +242,7 @@ html.nav-open .mnav{visibility:visible;opacity:1;transform:none}
 
 html{-webkit-text-size-adjust:100%}
 body{font-family:var(--font-body)!important;background:var(--bg)!important;color:var(--ink)!important;margin:0!important;padding:0!important;max-width:none!important;min-height:100vh;display:flex!important;flex-direction:column!important;line-height:1.5}
-.ds-content{flex:1 0 auto;width:100%;max-width:1680px;margin:0 auto;padding:clamp(1rem,3vw,2rem) clamp(.75rem,3vw,2rem) 3rem;display:flex;flex-direction:column;min-width:0}
+.ds-content{box-sizing:border-box;flex:1 0 auto;width:100%;max-width:1680px;margin:0 auto;padding:clamp(1rem,3vw,2rem) clamp(.75rem,3vw,2rem) 3rem;display:flex;flex-direction:column;min-width:0}
 .ds-intro{margin:0 0 1rem;color:var(--muted);max-width:900px}
 .ds-kicker{align-self:flex-start;display:inline-block;font:700 .72rem/1 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;background:var(--violet);color:var(--ink);padding:.3rem .55rem;margin-bottom:.6rem}
 .ds-content h1{font-family:var(--font-head)!important;font-weight:700!important;text-transform:uppercase;letter-spacing:-.04em!important;line-height:1!important;font-size:clamp(1.6rem,4vw,2.6rem)!important;color:var(--ink)!important;-webkit-text-fill-color:currentColor!important;background:none!important;margin:0 0 .4rem!important;padding:0!important}
@@ -297,10 +297,10 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
 .site-footer{margin-top:2rem}
 @media (max-width:640px){.ds-content td,.ds-content th{padding:.55rem .6rem!important}.table-container{max-height:calc(100dvh - 120px)}}
 </style></head>
-<body data-ds-theme="momentum30"><div data-lang-block="nl"><a class="skip-link" href="#main">Naar inhoud</a><div class="site-header" id="top" role=banner><div class="hdr-inner"><a href="index_nl.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><nav class="desk-nav" aria-label="Hoofdmenu"><ul class="desk-list"><li class="desk-item"><a class="desk-link" href="index_nl.html">Home</a></li><li class="desk-item" data-key="sol"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-sol">Oplossingen<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega narrow cols-2" id="mega-sol"><div class="mega-col"><h5>Diensten</h5><div class="links"><a href="solutions_nl.html">Oplossingen &amp; diensten</a><a href="options_nl.html">Optiehandel</a><a href="go_nl.html">DataSente &amp; Go</a></div></div><div class="mega-col"><h5>Kennis</h5><div class="links"><a href="insights_nl.html">Insights (blog)</a><a href="github_nl.html">GitHub-portfolio</a></div></div></div></li><li class="desk-item" data-key="strat"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-strat">Strategieën<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega wide cols-2" id="mega-strat"><div class="mega-col"><h5>Handleidingen &amp; research</h5><div class="links"><a href="es_short_put_handleiding.html">ES Short Put<span class="tag">KERN</span></a><a href="presidential_cycle_handleiding.html">Presidentscyclus<span class="tag">STUDIE</span></a><a href="annual_cycle_handleiding.html">Jaarcyclus<span class="tag">STUDIE</span></a><a href="covered_call_handleiding.html">Covered Call</a><a href="meic_nl.html">MEIC-tranches</a><a href="strategies_nl.html">Alle strategieën →</a></div></div><div class="mega-col two-col"><h5>Systematische strategieën</h5><div class="links"><a href="strategies_nl.html#strat-1">Short Put (naked)</a><a href="strategies_nl.html#strat-2">Jade Lizard</a><a href="strategies_nl.html#strat-3">Covered Call</a><a href="strategies_nl.html#strat-4">Short Put Spread</a><a href="strategies_nl.html#strat-5">Put Ratio Spread</a><a href="strategies_nl.html#strat-6">Short Call Spread</a><a href="strategies_nl.html#strat-7">Broken Wing Butterfly</a><a href="strategies_nl.html#strat-8">Unbalanced Iron Condor</a><a href="strategies_nl.html#strat-9">Iron Condor</a><a href="strategies_nl.html#strat-10">Short Strangle</a><a href="strategies_nl.html#strat-11">Pairs Trading</a></div></div></div></li><li class="desk-item active" data-key="dash"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-dash">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega cols-3" id="mega-dash"><div class="mega-col"><h5>S&amp;P 500</h5><div class="links"><a href="entry_dashboard.html?lang=nl">S&amp;P 500 Entry-dashboard</a></div></div><div class="mega-col"><h5>Interactive Brokers</h5><div class="links"><a href="ib_screener_dashboard.html?lang=nl">IB Momentum-screener</a><a href="ib_top25_portfolio.html?lang=nl">IB Top 25-portefeuille</a></div></div><div class="mega-col two-col"><h5>DeGiro ETF</h5><div class="links"><a href="momentum_screener_dashboard.html?lang=nl">ETF Momentum-screener</a><a href="momentum_top30_portfolio.html?lang=nl" aria-current="page">Momentum Top 30-portefeuille</a><a href="dividend_screener_dashboard.html?lang=nl">ETF Dividend-screener</a><a href="dividend_top30_portfolio.html?lang=nl">Dividend Top 30-portefeuille</a><a href="fundamentals_screener_dashboard.html?lang=nl">ETF Fundamentals &amp; risico</a><a href="fundamentals_top30_portfolio.html?lang=nl">Fundamentals Top 30-portefeuille</a></div></div></div></li><li class="desk-item"><a class="desk-link" href="insights_nl.html">Insights</a></li><li class="desk-item"><a class="desk-link" href="about_nl.html">Over ons</a></li></ul></nav><div class="hdr-actions"><div class="lang" aria-label="Taal"><a href="momentum_top30_portfolio.html?lang=en" hreflang="en" lang="en">EN</a><span class="sep" aria-hidden="true">/</span><a href="momentum_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl" class=on aria-current=true>NL</a></div><a href="about_nl.html#contact" class="hdr-cta">Contact</a><button type="button" class="menu-btn" aria-label="Menu openen" aria-controls="mnav" aria-expanded="false"><span></span><span></span><span></span></button></div></div></div><aside class="mnav" id="mnav" aria-label="Mobiel menu" aria-hidden="true"><div class="mnav-head"><a href="index_nl.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><button type="button" class="mnav-close" data-close aria-label="Menu sluiten"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div><div class="mnav-body"><a class="m-link" href="index_nl.html">Home</a><div class="acc" data-key="sol"><button type="button" class="acc-btn" aria-expanded="false">Oplossingen<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Diensten</div><div class="list"><a href="solutions_nl.html">Oplossingen &amp; diensten</a><a href="options_nl.html">Optiehandel</a><a href="go_nl.html">DataSente &amp; Go</a></div><div class="grp">Kennis</div><div class="list"><a href="insights_nl.html">Insights (blog)</a><a href="github_nl.html">GitHub-portfolio</a></div></div></div></div><div class="acc" data-key="strat"><button type="button" class="acc-btn" aria-expanded="false">Strategieën<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Handleidingen &amp; research</div><div class="list"><a href="es_short_put_handleiding.html">ES Short Put<span class="tag">KERN</span></a><a href="presidential_cycle_handleiding.html">Presidentscyclus<span class="tag">STUDIE</span></a><a href="annual_cycle_handleiding.html">Jaarcyclus<span class="tag">STUDIE</span></a><a href="covered_call_handleiding.html">Covered Call</a><a href="meic_nl.html">MEIC-tranches</a><a href="strategies_nl.html">Alle strategieën →</a></div><div class="grp">Systematische strategieën</div><div class="grid2"><a href="strategies_nl.html#strat-1">Short Put (naked)</a><a href="strategies_nl.html#strat-2">Jade Lizard</a><a href="strategies_nl.html#strat-3">Covered Call</a><a href="strategies_nl.html#strat-4">Short Put Spread</a><a href="strategies_nl.html#strat-5">Put Ratio Spread</a><a href="strategies_nl.html#strat-6">Short Call Spread</a><a href="strategies_nl.html#strat-7">Broken Wing Butterfly</a><a href="strategies_nl.html#strat-8">Unbalanced Iron Condor</a><a href="strategies_nl.html#strat-9">Iron Condor</a><a href="strategies_nl.html#strat-10">Short Strangle</a><a href="strategies_nl.html#strat-11">Pairs Trading</a></div></div></div></div><div class="acc active" data-key="dash"><button type="button" class="acc-btn" aria-expanded="false">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">S&amp;P 500</div><div class="list"><a href="entry_dashboard.html?lang=nl">S&amp;P 500 Entry-dashboard</a></div><div class="grp">Interactive Brokers</div><div class="list"><a href="ib_screener_dashboard.html?lang=nl">IB Momentum-screener</a><a href="ib_top25_portfolio.html?lang=nl">IB Top 25-portefeuille</a></div><div class="grp">DeGiro ETF</div><div class="grid2"><a href="momentum_screener_dashboard.html?lang=nl">ETF Momentum-screener</a><a href="momentum_top30_portfolio.html?lang=nl" aria-current="page">Momentum Top 30-portefeuille</a><a href="dividend_screener_dashboard.html?lang=nl">ETF Dividend-screener</a><a href="dividend_top30_portfolio.html?lang=nl">Dividend Top 30-portefeuille</a><a href="fundamentals_screener_dashboard.html?lang=nl">ETF Fundamentals &amp; risico</a><a href="fundamentals_top30_portfolio.html?lang=nl">Fundamentals Top 30-portefeuille</a></div></div></div></div><a class="m-link" href="insights_nl.html">Insights</a><a class="m-link" href="about_nl.html">Over ons</a></div><div class="mnav-foot"><div class="lang" aria-label="Taal"><a href="momentum_top30_portfolio.html?lang=en" hreflang="en" lang="en">EN</a><span class="sep" aria-hidden="true">/</span><a href="momentum_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl" class=on aria-current=true>NL</a></div><a href="about_nl.html#contact" class="hdr-cta">Contact</a></div></aside><span id="main" class="main-anchor" tabindex="-1"></span></div><div data-lang-block="en" hidden><a class="skip-link" href="#main">Skip to content</a><div class="site-header" id="top" role=banner><div class="hdr-inner"><a href="index.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><nav class="desk-nav" aria-label="Main menu"><ul class="desk-list"><li class="desk-item"><a class="desk-link" href="index.html">Home</a></li><li class="desk-item" data-key="sol"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-sol">Solutions<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega narrow cols-2" id="mega-sol"><div class="mega-col"><h5>Services</h5><div class="links"><a href="solutions.html">Solutions &amp; Services</a><a href="options.html">Option Trading</a><a href="go.html">DataSente &amp; Go</a></div></div><div class="mega-col"><h5>Knowledge</h5><div class="links"><a href="insights.html">Insights (blog)</a><a href="github.html">GitHub portfolio</a></div></div></div></li><li class="desk-item" data-key="strat"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-strat">Strategies<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega wide cols-2" id="mega-strat"><div class="mega-col"><h5>Guides &amp; research</h5><div class="links"><a href="es_short_put_guide.html">ES Short Put<span class="tag">CORE</span></a><a href="presidential_cycle_guide.html">Presidential Cycle<span class="tag">STUDY</span></a><a href="annual_cycle_guide.html">Annual Cycle<span class="tag">STUDY</span></a><a href="covered_call_guide.html">Covered Call</a><a href="meic.html">MEIC tranches</a><a href="strategies.html">All strategies →</a></div></div><div class="mega-col two-col"><h5>Systematic strategies</h5><div class="links"><a href="strategies.html#strat-1">Short Put (naked)</a><a href="strategies.html#strat-2">Jade Lizard</a><a href="strategies.html#strat-3">Covered Call</a><a href="strategies.html#strat-4">Short Put Spread</a><a href="strategies.html#strat-5">Put Ratio Spread</a><a href="strategies.html#strat-6">Short Call Spread</a><a href="strategies.html#strat-7">Broken Wing Butterfly</a><a href="strategies.html#strat-8">Unbalanced Iron Condor</a><a href="strategies.html#strat-9">Iron Condor</a><a href="strategies.html#strat-10">Short Strangle</a><a href="strategies.html#strat-11">Pairs Trading</a></div></div></div></li><li class="desk-item active" data-key="dash"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-dash">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega cols-3" id="mega-dash"><div class="mega-col"><h5>S&amp;P 500</h5><div class="links"><a href="entry_dashboard.html?lang=en">S&amp;P 500 Entry Dashboard</a></div></div><div class="mega-col"><h5>Interactive Brokers</h5><div class="links"><a href="ib_screener_dashboard.html?lang=en">IB Momentum Screener</a><a href="ib_top25_portfolio.html?lang=en">IB Top 25 Portfolio</a></div></div><div class="mega-col two-col"><h5>DeGiro ETF</h5><div class="links"><a href="momentum_screener_dashboard.html?lang=en">ETF Momentum Screener</a><a href="momentum_top30_portfolio.html?lang=en" aria-current="page">Momentum Top 30 Portfolio</a><a href="dividend_screener_dashboard.html?lang=en">ETF Dividend Screener</a><a href="dividend_top30_portfolio.html?lang=en">Dividend Top 30 Portfolio</a><a href="fundamentals_screener_dashboard.html?lang=en">ETF Fundamentals &amp; Risk</a><a href="fundamentals_top30_portfolio.html?lang=en">Fundamentals Top 30 Portfolio</a></div></div></div></li><li class="desk-item"><a class="desk-link" href="insights.html">Insights</a></li><li class="desk-item"><a class="desk-link" href="about.html">About us</a></li></ul></nav><div class="hdr-actions"><div class="lang" aria-label="Language"><a href="momentum_top30_portfolio.html?lang=en" hreflang="en" lang="en" class=on aria-current=true>EN</a><span class="sep" aria-hidden="true">/</span><a href="momentum_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl">NL</a></div><a href="about.html#contact" class="hdr-cta">Contact</a><button type="button" class="menu-btn" aria-label="Open menu" aria-controls="mnav" aria-expanded="false"><span></span><span></span><span></span></button></div></div></div><aside class="mnav" id="mnav" aria-label="Mobile menu" aria-hidden="true"><div class="mnav-head"><a href="index.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><button type="button" class="mnav-close" data-close aria-label="Close menu"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div><div class="mnav-body"><a class="m-link" href="index.html">Home</a><div class="acc" data-key="sol"><button type="button" class="acc-btn" aria-expanded="false">Solutions<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Services</div><div class="list"><a href="solutions.html">Solutions &amp; Services</a><a href="options.html">Option Trading</a><a href="go.html">DataSente &amp; Go</a></div><div class="grp">Knowledge</div><div class="list"><a href="insights.html">Insights (blog)</a><a href="github.html">GitHub portfolio</a></div></div></div></div><div class="acc" data-key="strat"><button type="button" class="acc-btn" aria-expanded="false">Strategies<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Guides &amp; research</div><div class="list"><a href="es_short_put_guide.html">ES Short Put<span class="tag">CORE</span></a><a href="presidential_cycle_guide.html">Presidential Cycle<span class="tag">STUDY</span></a><a href="annual_cycle_guide.html">Annual Cycle<span class="tag">STUDY</span></a><a href="covered_call_guide.html">Covered Call</a><a href="meic.html">MEIC tranches</a><a href="strategies.html">All strategies →</a></div><div class="grp">Systematic strategies</div><div class="grid2"><a href="strategies.html#strat-1">Short Put (naked)</a><a href="strategies.html#strat-2">Jade Lizard</a><a href="strategies.html#strat-3">Covered Call</a><a href="strategies.html#strat-4">Short Put Spread</a><a href="strategies.html#strat-5">Put Ratio Spread</a><a href="strategies.html#strat-6">Short Call Spread</a><a href="strategies.html#strat-7">Broken Wing Butterfly</a><a href="strategies.html#strat-8">Unbalanced Iron Condor</a><a href="strategies.html#strat-9">Iron Condor</a><a href="strategies.html#strat-10">Short Strangle</a><a href="strategies.html#strat-11">Pairs Trading</a></div></div></div></div><div class="acc active" data-key="dash"><button type="button" class="acc-btn" aria-expanded="false">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">S&amp;P 500</div><div class="list"><a href="entry_dashboard.html?lang=en">S&amp;P 500 Entry Dashboard</a></div><div class="grp">Interactive Brokers</div><div class="list"><a href="ib_screener_dashboard.html?lang=en">IB Momentum Screener</a><a href="ib_top25_portfolio.html?lang=en">IB Top 25 Portfolio</a></div><div class="grp">DeGiro ETF</div><div class="grid2"><a href="momentum_screener_dashboard.html?lang=en">ETF Momentum Screener</a><a href="momentum_top30_portfolio.html?lang=en" aria-current="page">Momentum Top 30 Portfolio</a><a href="dividend_screener_dashboard.html?lang=en">ETF Dividend Screener</a><a href="dividend_top30_portfolio.html?lang=en">Dividend Top 30 Portfolio</a><a href="fundamentals_screener_dashboard.html?lang=en">ETF Fundamentals &amp; Risk</a><a href="fundamentals_top30_portfolio.html?lang=en">Fundamentals Top 30 Portfolio</a></div></div></div></div><a class="m-link" href="insights.html">Insights</a><a class="m-link" href="about.html">About us</a></div><div class="mnav-foot"><div class="lang" aria-label="Language"><a href="momentum_top30_portfolio.html?lang=en" hreflang="en" lang="en" class=on aria-current=true>EN</a><span class="sep" aria-hidden="true">/</span><a href="momentum_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl">NL</a></div><a href="about.html#contact" class="hdr-cta">Contact</a></div></aside><span id="main" class="main-anchor" tabindex="-1"></span></div><div class="ds-content"><span class="ds-kicker">Dashboard · DataSente</span>
+<body data-ds-theme="momentum30"><div data-lang-block="nl"><a class="skip-link" href="#main">Naar inhoud</a><div class="site-header" id="top" role=banner><div class="hdr-inner"><a href="index_nl.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><nav class="desk-nav" aria-label="Hoofdmenu"><ul class="desk-list"><li class="desk-item"><a class="desk-link" href="index_nl.html">Home</a></li><li class="desk-item" data-key="sol"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-sol">Oplossingen<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega narrow cols-2" id="mega-sol"><div class="mega-col"><h5>Diensten</h5><div class="links"><a href="solutions_nl.html">Oplossingen &amp; diensten</a><a href="options_nl.html">Optiehandel</a><a href="go_nl.html">DataSente &amp; Go</a></div></div><div class="mega-col"><h5>Kennis</h5><div class="links"><a href="insights_nl.html">Insights (blog)</a><a href="github_nl.html">GitHub-portfolio</a></div></div></div></li><li class="desk-item" data-key="strat"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-strat">Strategieën<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega wide cols-2" id="mega-strat"><div class="mega-col"><h5>Handleidingen &amp; research</h5><div class="links"><a href="es_short_put_handleiding.html">ES Short Put<span class="tag">KERN</span></a><a href="presidential_cycle_handleiding.html">Presidentscyclus<span class="tag">STUDIE</span></a><a href="annual_cycle_handleiding.html">Jaarcyclus<span class="tag">STUDIE</span></a><a href="covered_call_handleiding.html">Covered Call</a><a href="meic_nl.html">MEIC-tranches</a><a href="strategies_nl.html">Alle strategieën →</a></div></div><div class="mega-col two-col"><h5>Systematische strategieën</h5><div class="links"><a href="strategies_nl.html#strat-1">Short Put (naked)</a><a href="strategies_nl.html#strat-2">Jade Lizard</a><a href="strategies_nl.html#strat-3">Covered Call</a><a href="strategies_nl.html#strat-4">Short Put Spread</a><a href="strategies_nl.html#strat-5">Put Ratio Spread</a><a href="strategies_nl.html#strat-6">Short Call Spread</a><a href="strategies_nl.html#strat-7">Broken Wing Butterfly</a><a href="strategies_nl.html#strat-8">Unbalanced Iron Condor</a><a href="strategies_nl.html#strat-9">Iron Condor</a><a href="strategies_nl.html#strat-10">Short Strangle</a><a href="strategies_nl.html#strat-11">Pairs Trading</a></div></div></div></li><li class="desk-item active" data-key="dash"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-dash">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega cols-3" id="mega-dash"><div class="mega-col"><h5>Dashboards</h5><div class="links"><a href="entry_dashboard.html?lang=nl">S&amp;P 500 Entry-dashboard</a><a href="momentum_seasonality.html?lang=nl">Momentum Seasonality</a></div></div><div class="mega-col"><h5>Stock screener</h5><div class="links"><a href="ib_screener_dashboard.html?lang=nl">Stock Momentum-screener</a><a href="ib_top25_portfolio.html?lang=nl">Stock Top 25-portefeuille</a></div></div><div class="mega-col two-col"><h5>ETF screener</h5><div class="links"><a href="momentum_screener_dashboard.html?lang=nl">ETF Momentum-screener</a><a href="momentum_top30_portfolio.html?lang=nl" aria-current="page">Momentum Top 30-portefeuille</a><a href="dividend_screener_dashboard.html?lang=nl">ETF Dividend-screener</a><a href="dividend_top30_portfolio.html?lang=nl">Dividend Top 30-portefeuille</a><a href="fundamentals_screener_dashboard.html?lang=nl">ETF Fundamentals &amp; risico</a><a href="fundamentals_top30_portfolio.html?lang=nl">Fundamentals Top 30-portefeuille</a></div></div></div></li><li class="desk-item"><a class="desk-link" href="insights_nl.html">Insights</a></li><li class="desk-item"><a class="desk-link" href="about_nl.html">Over ons</a></li></ul></nav><div class="hdr-actions"><div class="lang" aria-label="Taal"><a href="momentum_top30_portfolio.html?lang=en" hreflang="en" lang="en">EN</a><span class="sep" aria-hidden="true">/</span><a href="momentum_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl" class=on aria-current=true>NL</a></div><a href="about_nl.html#contact" class="hdr-cta">Contact</a><button type="button" class="menu-btn" aria-label="Menu openen" aria-controls="mnav" aria-expanded="false"><span></span><span></span><span></span></button></div></div></div><aside class="mnav" id="mnav" aria-label="Mobiel menu" aria-hidden="true"><div class="mnav-head"><a href="index_nl.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><button type="button" class="mnav-close" data-close aria-label="Menu sluiten"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div><div class="mnav-body"><a class="m-link" href="index_nl.html">Home</a><div class="acc" data-key="sol"><button type="button" class="acc-btn" aria-expanded="false">Oplossingen<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Diensten</div><div class="list"><a href="solutions_nl.html">Oplossingen &amp; diensten</a><a href="options_nl.html">Optiehandel</a><a href="go_nl.html">DataSente &amp; Go</a></div><div class="grp">Kennis</div><div class="list"><a href="insights_nl.html">Insights (blog)</a><a href="github_nl.html">GitHub-portfolio</a></div></div></div></div><div class="acc" data-key="strat"><button type="button" class="acc-btn" aria-expanded="false">Strategieën<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Handleidingen &amp; research</div><div class="list"><a href="es_short_put_handleiding.html">ES Short Put<span class="tag">KERN</span></a><a href="presidential_cycle_handleiding.html">Presidentscyclus<span class="tag">STUDIE</span></a><a href="annual_cycle_handleiding.html">Jaarcyclus<span class="tag">STUDIE</span></a><a href="covered_call_handleiding.html">Covered Call</a><a href="meic_nl.html">MEIC-tranches</a><a href="strategies_nl.html">Alle strategieën →</a></div><div class="grp">Systematische strategieën</div><div class="grid2"><a href="strategies_nl.html#strat-1">Short Put (naked)</a><a href="strategies_nl.html#strat-2">Jade Lizard</a><a href="strategies_nl.html#strat-3">Covered Call</a><a href="strategies_nl.html#strat-4">Short Put Spread</a><a href="strategies_nl.html#strat-5">Put Ratio Spread</a><a href="strategies_nl.html#strat-6">Short Call Spread</a><a href="strategies_nl.html#strat-7">Broken Wing Butterfly</a><a href="strategies_nl.html#strat-8">Unbalanced Iron Condor</a><a href="strategies_nl.html#strat-9">Iron Condor</a><a href="strategies_nl.html#strat-10">Short Strangle</a><a href="strategies_nl.html#strat-11">Pairs Trading</a></div></div></div></div><div class="acc active" data-key="dash"><button type="button" class="acc-btn" aria-expanded="false">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Dashboards</div><div class="list"><a href="entry_dashboard.html?lang=nl">S&amp;P 500 Entry-dashboard</a><a href="momentum_seasonality.html?lang=nl">Momentum Seasonality</a></div><div class="grp">Stock screener</div><div class="list"><a href="ib_screener_dashboard.html?lang=nl">Stock Momentum-screener</a><a href="ib_top25_portfolio.html?lang=nl">Stock Top 25-portefeuille</a></div><div class="grp">ETF screener</div><div class="grid2"><a href="momentum_screener_dashboard.html?lang=nl">ETF Momentum-screener</a><a href="momentum_top30_portfolio.html?lang=nl" aria-current="page">Momentum Top 30-portefeuille</a><a href="dividend_screener_dashboard.html?lang=nl">ETF Dividend-screener</a><a href="dividend_top30_portfolio.html?lang=nl">Dividend Top 30-portefeuille</a><a href="fundamentals_screener_dashboard.html?lang=nl">ETF Fundamentals &amp; risico</a><a href="fundamentals_top30_portfolio.html?lang=nl">Fundamentals Top 30-portefeuille</a></div></div></div></div><a class="m-link" href="insights_nl.html">Insights</a><a class="m-link" href="about_nl.html">Over ons</a></div><div class="mnav-foot"><div class="lang" aria-label="Taal"><a href="momentum_top30_portfolio.html?lang=en" hreflang="en" lang="en">EN</a><span class="sep" aria-hidden="true">/</span><a href="momentum_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl" class=on aria-current=true>NL</a></div><a href="about_nl.html#contact" class="hdr-cta">Contact</a></div></aside><span id="main" class="main-anchor" tabindex="-1"></span></div><div data-lang-block="en" hidden><a class="skip-link" href="#main">Skip to content</a><div class="site-header" id="top" role=banner><div class="hdr-inner"><a href="index.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><nav class="desk-nav" aria-label="Main menu"><ul class="desk-list"><li class="desk-item"><a class="desk-link" href="index.html">Home</a></li><li class="desk-item" data-key="sol"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-sol">Solutions<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega narrow cols-2" id="mega-sol"><div class="mega-col"><h5>Services</h5><div class="links"><a href="solutions.html">Solutions &amp; Services</a><a href="options.html">Option Trading</a><a href="go.html">DataSente &amp; Go</a></div></div><div class="mega-col"><h5>Knowledge</h5><div class="links"><a href="insights.html">Insights (blog)</a><a href="github.html">GitHub portfolio</a></div></div></div></li><li class="desk-item" data-key="strat"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-strat">Strategies<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega wide cols-2" id="mega-strat"><div class="mega-col"><h5>Guides &amp; research</h5><div class="links"><a href="es_short_put_guide.html">ES Short Put<span class="tag">CORE</span></a><a href="presidential_cycle_guide.html">Presidential Cycle<span class="tag">STUDY</span></a><a href="annual_cycle_guide.html">Annual Cycle<span class="tag">STUDY</span></a><a href="covered_call_guide.html">Covered Call</a><a href="meic.html">MEIC tranches</a><a href="strategies.html">All strategies →</a></div></div><div class="mega-col two-col"><h5>Systematic strategies</h5><div class="links"><a href="strategies.html#strat-1">Short Put (naked)</a><a href="strategies.html#strat-2">Jade Lizard</a><a href="strategies.html#strat-3">Covered Call</a><a href="strategies.html#strat-4">Short Put Spread</a><a href="strategies.html#strat-5">Put Ratio Spread</a><a href="strategies.html#strat-6">Short Call Spread</a><a href="strategies.html#strat-7">Broken Wing Butterfly</a><a href="strategies.html#strat-8">Unbalanced Iron Condor</a><a href="strategies.html#strat-9">Iron Condor</a><a href="strategies.html#strat-10">Short Strangle</a><a href="strategies.html#strat-11">Pairs Trading</a></div></div></div></li><li class="desk-item active" data-key="dash"><button type="button" class="desk-trigger" aria-expanded="false" aria-controls="mega-dash">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="mega cols-3" id="mega-dash"><div class="mega-col"><h5>Dashboards</h5><div class="links"><a href="entry_dashboard.html?lang=en">S&amp;P 500 Entry Dashboard</a><a href="momentum_seasonality.html?lang=en">Momentum Seasonality</a></div></div><div class="mega-col"><h5>Stock screener</h5><div class="links"><a href="ib_screener_dashboard.html?lang=en">Stock Momentum Screener</a><a href="ib_top25_portfolio.html?lang=en">Stock Top 25 Portfolio</a></div></div><div class="mega-col two-col"><h5>ETF screener</h5><div class="links"><a href="momentum_screener_dashboard.html?lang=en">ETF Momentum Screener</a><a href="momentum_top30_portfolio.html?lang=en" aria-current="page">Momentum Top 30 Portfolio</a><a href="dividend_screener_dashboard.html?lang=en">ETF Dividend Screener</a><a href="dividend_top30_portfolio.html?lang=en">Dividend Top 30 Portfolio</a><a href="fundamentals_screener_dashboard.html?lang=en">ETF Fundamentals &amp; Risk</a><a href="fundamentals_top30_portfolio.html?lang=en">Fundamentals Top 30 Portfolio</a></div></div></div></li><li class="desk-item"><a class="desk-link" href="insights.html">Insights</a></li><li class="desk-item"><a class="desk-link" href="about.html">About us</a></li></ul></nav><div class="hdr-actions"><div class="lang" aria-label="Language"><a href="momentum_top30_portfolio.html?lang=en" hreflang="en" lang="en" class=on aria-current=true>EN</a><span class="sep" aria-hidden="true">/</span><a href="momentum_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl">NL</a></div><a href="about.html#contact" class="hdr-cta">Contact</a><button type="button" class="menu-btn" aria-label="Open menu" aria-controls="mnav" aria-expanded="false"><span></span><span></span><span></span></button></div></div></div><aside class="mnav" id="mnav" aria-label="Mobile menu" aria-hidden="true"><div class="mnav-head"><a href="index.html" class="brand" aria-label="DataSente — home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><button type="button" class="mnav-close" data-close aria-label="Close menu"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div><div class="mnav-body"><a class="m-link" href="index.html">Home</a><div class="acc" data-key="sol"><button type="button" class="acc-btn" aria-expanded="false">Solutions<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Services</div><div class="list"><a href="solutions.html">Solutions &amp; Services</a><a href="options.html">Option Trading</a><a href="go.html">DataSente &amp; Go</a></div><div class="grp">Knowledge</div><div class="list"><a href="insights.html">Insights (blog)</a><a href="github.html">GitHub portfolio</a></div></div></div></div><div class="acc" data-key="strat"><button type="button" class="acc-btn" aria-expanded="false">Strategies<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Guides &amp; research</div><div class="list"><a href="es_short_put_guide.html">ES Short Put<span class="tag">CORE</span></a><a href="presidential_cycle_guide.html">Presidential Cycle<span class="tag">STUDY</span></a><a href="annual_cycle_guide.html">Annual Cycle<span class="tag">STUDY</span></a><a href="covered_call_guide.html">Covered Call</a><a href="meic.html">MEIC tranches</a><a href="strategies.html">All strategies →</a></div><div class="grp">Systematic strategies</div><div class="grid2"><a href="strategies.html#strat-1">Short Put (naked)</a><a href="strategies.html#strat-2">Jade Lizard</a><a href="strategies.html#strat-3">Covered Call</a><a href="strategies.html#strat-4">Short Put Spread</a><a href="strategies.html#strat-5">Put Ratio Spread</a><a href="strategies.html#strat-6">Short Call Spread</a><a href="strategies.html#strat-7">Broken Wing Butterfly</a><a href="strategies.html#strat-8">Unbalanced Iron Condor</a><a href="strategies.html#strat-9">Iron Condor</a><a href="strategies.html#strat-10">Short Strangle</a><a href="strategies.html#strat-11">Pairs Trading</a></div></div></div></div><div class="acc active" data-key="dash"><button type="button" class="acc-btn" aria-expanded="false">Dashboards<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="m6 9 6 6 6-6"/></svg></button><div class="acc-panel"><div class="acc-inner"><div class="grp">Dashboards</div><div class="list"><a href="entry_dashboard.html?lang=en">S&amp;P 500 Entry Dashboard</a><a href="momentum_seasonality.html?lang=en">Momentum Seasonality</a></div><div class="grp">Stock screener</div><div class="list"><a href="ib_screener_dashboard.html?lang=en">Stock Momentum Screener</a><a href="ib_top25_portfolio.html?lang=en">Stock Top 25 Portfolio</a></div><div class="grp">ETF screener</div><div class="grid2"><a href="momentum_screener_dashboard.html?lang=en">ETF Momentum Screener</a><a href="momentum_top30_portfolio.html?lang=en" aria-current="page">Momentum Top 30 Portfolio</a><a href="dividend_screener_dashboard.html?lang=en">ETF Dividend Screener</a><a href="dividend_top30_portfolio.html?lang=en">Dividend Top 30 Portfolio</a><a href="fundamentals_screener_dashboard.html?lang=en">ETF Fundamentals &amp; Risk</a><a href="fundamentals_top30_portfolio.html?lang=en">Fundamentals Top 30 Portfolio</a></div></div></div></div><a class="m-link" href="insights.html">Insights</a><a class="m-link" href="about.html">About us</a></div><div class="mnav-foot"><div class="lang" aria-label="Language"><a href="momentum_top30_portfolio.html?lang=en" hreflang="en" lang="en" class=on aria-current=true>EN</a><span class="sep" aria-hidden="true">/</span><a href="momentum_top30_portfolio.html?lang=nl" hreflang="nl" lang="nl">NL</a></div><a href="about.html#contact" class="hdr-cta">Contact</a></div></aside><span id="main" class="main-anchor" tabindex="-1"></span></div><div class="ds-content"><span class="ds-kicker">Dashboard · DataSente</span>
     <header>
         <h1>Top 30 Momentum Portfolio</h1>
-        <div class="subtitle">Equal Weight Strategie • Gegenereerd op 06-10-2026 16:31:21</div>
+        <div class="subtitle">Equal Weight Strategie • Gegenereerd op 06-10-2026 17:35:28</div>
     </header><p class="ds-intro" data-lang-block="nl">Top 30 momentum-ETF’s met spreiding over landen en sectoren.</p><p class="ds-intro" data-lang-block="en" hidden>Top 30 momentum ETFs with diversification across countries and sectors.</p><div class="ds-legend" data-lang-block="nl"><span><i style="background:#eef9d2"></i>Koers binnen ±0,5σ van de 20-daags gemiddelde (instapzone)</span><span><i style="background:#ffe7e1"></i>Koers onder het 50-daags gemiddelde (zwak / verkopen)</span><span><i style="background:#c6f432"></i>Top 10 binnen de ranking</span></div><div class="ds-legend" data-lang-block="en" hidden><span><i style="background:#eef9d2"></i>Price within ±0.5σ of the 20-day average (entry zone)</span><span><i style="background:#ffe7e1"></i>Price below the 50-day average (weak / sell)</span><span><i style="background:#c6f432"></i>Top 10 in the ranking</span></div>
     
     <div class="info-cards">
@@ -313,7 +313,7 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <div class="card-label">Weging per positie</div>
         </div>
         <div class="card">
-            <div class="card-val">25</div>
+            <div class="card-val">26</div>
             <div class="card-label">Accumulerend</div>
         </div>
     </div>
@@ -346,7 +346,7 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Broad Market / Other</td>
             <td>Broad Market / Other</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>4,2</td>
+            <td>6,25</td>
         </tr>
         
         <tr>
@@ -359,7 +359,7 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Broad Market / Other</td>
             <td>Broad Market / Other</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>7,3500000000000005</td>
+            <td>7,0</td>
         </tr>
         
         <tr>
@@ -372,7 +372,7 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Health Care</td>
             <td>Pharmaceuticals & Biotech</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>9,9</td>
+            <td>13,75</td>
         </tr>
         
         <tr>
@@ -385,12 +385,12 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Information Technology</td>
             <td>Technology Hardware & Software</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>17,700000000000003</td>
+            <td>18,9</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#6</td>
+            <td class="rank-cell">#7</td>
             <td><strong>XMLD.DE</strong></td>
             <td>L&G Artificial Intelligence UCITS ETF USD Acc</td>
             <td>Wereldwijd</td>
@@ -398,7 +398,7 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Information Technology</td>
             <td>Technology Hardware & Software</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>19,35</td>
+            <td>20,9</td>
         </tr>
         
         <tr>
@@ -411,38 +411,25 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Broad Market / Other</td>
             <td>Broad Market / Other</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>27,0</td>
+            <td>28,35</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#14</td>
-            <td><strong>WRNA.DE</strong></td>
-            <td>WisdomTree Biorevolution UCITS ETF USD Acc</td>
-            <td>Wereldwijd</td>
-            <td>Biotech</td>
-            <td>Broad Market / Other</td>
-            <td>Broad Market / Other</td>
-            <td><span class="badge acc-badge">Acc</span></td>
-            <td>32,4</td>
-        </tr>
-        
-        <tr>
-            <td><strong>N</strong></td>
-            <td class="rank-cell">#16</td>
-            <td><strong>4BRZ.DE</strong></td>
-            <td>iShares MSCI Brazil UCITS (DE) (Acc) ETF</td>
+            <td class="rank-cell">#13</td>
+            <td><strong>MTVR.DE</strong></td>
+            <td>L&G Metaverse UCITS USD Acc ETF</td>
             <td>Wereldwijd</td>
             <td>Brede Markt</td>
-            <td>Broad Market / Other</td>
-            <td>Broad Market / Other</td>
+            <td>Information Technology</td>
+            <td>Technology Hardware & Software</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>33,55</td>
+            <td>29,299999999999997</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#18</td>
+            <td class="rank-cell">#17</td>
             <td><strong>AIFS.DE</strong></td>
             <td>iShares AI Infrastructure UCITS ETF USD (Acc)</td>
             <td>Wereldwijd</td>
@@ -450,12 +437,12 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Information Technology</td>
             <td>Technology Hardware & Software</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>34,45</td>
+            <td>34,7</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#21</td>
+            <td class="rank-cell">#19</td>
             <td><strong>FCHP.DE</strong></td>
             <td>First Trust Bloomberg Global Semiconductor Supply Chain UCITS - A USD ACC ETF</td>
             <td>Wereldwijd</td>
@@ -463,38 +450,12 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Information Technology</td>
             <td>Technology Hardware & Software</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>48,85</td>
-        </tr>
-        
-        <tr>
-            <td><strong>N</strong></td>
-            <td class="rank-cell">#24</td>
-            <td><strong>DRUP.DE</strong></td>
-            <td>Amundi Global Memory Chips UCITS ETF Acc</td>
-            <td>Wereldwijd</td>
-            <td>Semiconductors</td>
-            <td>Information Technology</td>
-            <td>Technology Hardware & Software</td>
-            <td><span class="badge acc-badge">Acc</span></td>
-            <td>51,199999999999996</td>
+            <td>47,75000000000001</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
             <td class="rank-cell">#26</td>
-            <td><strong>XMLH.DE</strong></td>
-            <td>L&G Healthcare Tech & Innovation UCITS ETF USD Acc</td>
-            <td>Wereldwijd</td>
-            <td>Healthcare</td>
-            <td>Information Technology</td>
-            <td>Technology Hardware & Software</td>
-            <td><span class="badge acc-badge">Acc</span></td>
-            <td>52,099999999999994</td>
-        </tr>
-        
-        <tr>
-            <td><strong>N</strong></td>
-            <td class="rank-cell">#28</td>
             <td><strong>XDWT.DE</strong></td>
             <td>Xtrackers MSCI World Information Technology UCITS 1C ETF</td>
             <td>Wereldwijd</td>
@@ -502,25 +463,64 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Information Technology</td>
             <td>Technology Hardware & Software</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>54,35000000000001</td>
+            <td>52,7</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#30</td>
-            <td><strong>ZPDT.DE</strong></td>
-            <td>StSt SPDR S&P US Technology Sel Sctr UCITS ETF Acc</td>
+            <td class="rank-cell">#27</td>
+            <td><strong>QDVE.DE</strong></td>
+            <td>iShares S&P 500 Info Technolg Sctr UCITS ETF USD A</td>
             <td>Verenigde Staten</td>
             <td>Technologie</td>
             <td>Broad Market / Other</td>
             <td>Broad Market / Other</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>56,300000000000004</td>
+            <td>53,1</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#58</td>
+            <td class="rank-cell">#28</td>
+            <td><strong>DRUP.DE</strong></td>
+            <td>Amundi Global Memory Chips UCITS ETF Acc</td>
+            <td>Wereldwijd</td>
+            <td>Semiconductors</td>
+            <td>Information Technology</td>
+            <td>Technology Hardware & Software</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>53,55</td>
+        </tr>
+        
+        <tr>
+            <td><strong>N</strong></td>
+            <td class="rank-cell">#34</td>
+            <td><strong>XMLH.DE</strong></td>
+            <td>L&G Healthcare Tech & Innovation UCITS ETF USD Acc</td>
+            <td>Wereldwijd</td>
+            <td>Healthcare</td>
+            <td>Information Technology</td>
+            <td>Technology Hardware & Software</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>58,550000000000004</td>
+        </tr>
+        
+        <tr>
+            <td><strong>N</strong></td>
+            <td class="rank-cell">#56</td>
+            <td><strong>WRNA.DE</strong></td>
+            <td>WisdomTree Biorevolution UCITS ETF USD Acc</td>
+            <td>Wereldwijd</td>
+            <td>Biotech</td>
+            <td>Broad Market / Other</td>
+            <td>Broad Market / Other</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>84,4</td>
+        </tr>
+        
+        <tr>
+            <td><strong>N</strong></td>
+            <td class="rank-cell">#60</td>
             <td><strong>5MVL.DE</strong></td>
             <td>iShares Edge MSCI EM Value Factor UCITS USD (Acc) ETF</td>
             <td>Emerging Markets</td>
@@ -528,12 +528,12 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Broad Market / Other</td>
             <td>Broad Market / Other</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>88,55000000000001</td>
+            <td>93,55</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#73</td>
+            <td class="rank-cell">#91</td>
             <td><strong>2B78.DE</strong></td>
             <td>iShares Healthcare Innovation UCITS USD (Acc) ETF</td>
             <td>Wereldwijd</td>
@@ -541,7 +541,7 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Health Care</td>
             <td>Pharmaceuticals & Biotech</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>120,5</td>
+            <td>134,64999999999998</td>
         </tr>
         
         <tr>
@@ -554,12 +554,12 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Broad Market / Other</td>
             <td>Broad Market / Other</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>140,4</td>
+            <td>136,55</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#124</td>
+            <td class="rank-cell">#133</td>
             <td><strong>EDMJ.DE</strong></td>
             <td>iShares MSCI Japan ESG Enhanced CTB UCITS USD (Acc) ETF</td>
             <td>Japan</td>
@@ -567,12 +567,12 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Broad Market / Other</td>
             <td>Broad Market / Other</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>167,9</td>
+            <td>175,7</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#156</td>
+            <td class="rank-cell">#151</td>
             <td><strong>QDVS.DE</strong></td>
             <td>iShares MSCI EM SRI UCITS ETF USD (Acc)</td>
             <td>Emerging Markets</td>
@@ -580,12 +580,12 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Broad Market / Other</td>
             <td>Broad Market / Other</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>198,0</td>
+            <td>197,9</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#189</td>
+            <td class="rank-cell">#186</td>
             <td><strong>QGRG.DE</strong></td>
             <td>WisdomTree Global Quality Growth UCITS - USD Acc ETF</td>
             <td>Wereldwijd</td>
@@ -593,12 +593,12 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Broad Market / Other</td>
             <td>Broad Market / Other</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>231,25</td>
+            <td>230,35</td>
         </tr>
         
         <tr class="near-20ma">
             <td><strong>B</strong></td>
-            <td class="rank-cell">#204</td>
+            <td class="rank-cell">#197</td>
             <td><strong>ASWD.DE</strong></td>
             <td>Sprott Pure Play Copper Miners UCITS ETF Acc</td>
             <td>Wereldwijd</td>
@@ -606,12 +606,12 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Materials</td>
             <td>Materials</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>244,55</td>
+            <td>244,09999999999997</td>
         </tr>
         
         <tr class="near-20ma">
             <td><strong>B</strong></td>
-            <td class="rank-cell">#291</td>
+            <td class="rank-cell">#275</td>
             <td><strong>CEBS.DE</strong></td>
             <td>iShares Copper Miners UCITS ETF USD (Acc)</td>
             <td>Wereldwijd</td>
@@ -619,25 +619,12 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Materials</td>
             <td>Materials</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>319,4</td>
+            <td>301,45</td>
         </tr>
         
         <tr>
             <td><strong>N</strong></td>
-            <td class="rank-cell">#483</td>
-            <td><strong>MAGR.DE</strong></td>
-            <td>iShares Growth Portfolio UCITS ETF EUR Acc</td>
-            <td>Wereldwijd</td>
-            <td>Growth Factor</td>
-            <td>Broad Market / Other</td>
-            <td>Broad Market / Other</td>
-            <td><span class="badge acc-badge">Acc</span></td>
-            <td>529,4000000000001</td>
-        </tr>
-        
-        <tr>
-            <td><strong>N</strong></td>
-            <td class="rank-cell">#500</td>
+            <td class="rank-cell">#484</td>
             <td><strong>XWTS.DE</strong></td>
             <td>Xtrackers MSCI World Communication Services UCITS 1C ETF</td>
             <td>Wereldwijd</td>
@@ -645,7 +632,20 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Communication Services</td>
             <td>Communication Services</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>551,3</td>
+            <td>529,1</td>
+        </tr>
+        
+        <tr>
+            <td><strong>N</strong></td>
+            <td class="rank-cell">#495</td>
+            <td><strong>MAGR.DE</strong></td>
+            <td>iShares Growth Portfolio UCITS ETF EUR Acc</td>
+            <td>Wereldwijd</td>
+            <td>Growth Factor</td>
+            <td>Broad Market / Other</td>
+            <td>Broad Market / Other</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>544,25</td>
         </tr>
         
         <tr>
@@ -658,13 +658,26 @@ tbody tr.near-20ma:hover,tbody tr.under-50ma:hover{background:var(--lime)!import
             <td>Industrials</td>
             <td>Industrials</td>
             <td><span class="badge acc-badge">Acc</span></td>
-            <td>608,6</td>
+            <td>608,7</td>
+        </tr>
+        
+        <tr>
+            <td><strong>N</strong></td>
+            <td class="rank-cell">#694</td>
+            <td><strong>LDGA.DE</strong></td>
+            <td>L&G Global Quality Dividends UCITS ETF USD Acc</td>
+            <td>Wereldwijd</td>
+            <td>Dividend</td>
+            <td>Broad Market / Other</td>
+            <td>Broad Market / Other</td>
+            <td><span class="badge acc-badge">Acc</span></td>
+            <td>758,8</td>
         </tr>
         
             </tbody>
         </table>
     </div>
-</div><div data-lang-block="nl"><div class="site-footer" role=contentinfo><div class="ft-wrap"><div class="ft-grid"><div class="ft-brand"><a href="index_nl.html" class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><p>Data engineering en trading automation voor family offices en vermogensbeheerders. Behoud het initiatief — behoud Sente.</p><a class="ft-cta" href="about_nl.html#contact">Neem contact op →</a></div><div><h5>Oplossingen</h5><ul><li><a href="solutions_nl.html">Oplossingen &amp; diensten</a></li><li><a href="options_nl.html">Optiehandel</a></li><li><a href="go_nl.html">DataSente &amp; Go</a></li><li><a href="insights_nl.html">Insights (blog)</a></li><li><a href="github_nl.html">GitHub-portfolio</a></li><li><a href="about_nl.html">Over ons</a></li></ul></div><div><h5>Strategieën</h5><ul><li><a href="strategies_nl.html">Alle strategieën</a></li><li><a href="es_short_put_handleiding.html">ES Short Put</a></li><li><a href="meic_nl.html">MEIC-tranches</a></li><li><a href="presidential_cycle_handleiding.html">Presidentscyclus</a></li><li><a href="annual_cycle_handleiding.html">Jaarcyclus</a></li><li><a href="covered_call_handleiding.html">Covered Call</a></li></ul></div><div><h5>Dashboards</h5><ul><li><a href="entry_dashboard.html?lang=nl">S&amp;P 500 Entry-dashboard</a></li><li><a href="ib_screener_dashboard.html?lang=nl">IB Momentum-screener</a></li><li><a href="momentum_screener_dashboard.html?lang=nl">ETF Momentum-screener</a></li><li><a href="dividend_screener_dashboard.html?lang=nl">ETF Dividend-screener</a></li><li><a href="fundamentals_screener_dashboard.html?lang=nl">ETF Fundamentals &amp; risico</a></li></ul></div></div><div class="ft-bottom"><span>&copy; 2026 DataSente. Alle rechten voorbehouden.</span><span>Disclaimer: handelen in opties en futures brengt aanzienlijke risico’s met zich mee en is niet geschikt voor iedere belegger. De informatie op deze website is uitsluitend bedoeld voor educatieve doeleinden en vormt geen financieel advies of beleggingsadvies.</span></div></div></div></div><div data-lang-block="en" hidden><div class="site-footer" role=contentinfo><div class="ft-wrap"><div class="ft-grid"><div class="ft-brand"><a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><p>Data engineering and trading automation for family offices and wealth managers. Keep the initiative — keep Sente.</p><a class="ft-cta" href="about.html#contact">Get in touch →</a></div><div><h5>Solutions</h5><ul><li><a href="solutions.html">Solutions &amp; Services</a></li><li><a href="options.html">Option Trading</a></li><li><a href="go.html">DataSente &amp; Go</a></li><li><a href="insights.html">Insights (blog)</a></li><li><a href="github.html">GitHub portfolio</a></li><li><a href="about.html">About us</a></li></ul></div><div><h5>Strategies</h5><ul><li><a href="strategies.html">All strategies</a></li><li><a href="es_short_put_guide.html">ES Short Put</a></li><li><a href="meic.html">MEIC tranches</a></li><li><a href="presidential_cycle_guide.html">Presidential Cycle</a></li><li><a href="annual_cycle_guide.html">Annual Cycle</a></li><li><a href="covered_call_guide.html">Covered Call</a></li></ul></div><div><h5>Dashboards</h5><ul><li><a href="entry_dashboard.html?lang=en">S&amp;P 500 Entry Dashboard</a></li><li><a href="ib_screener_dashboard.html?lang=en">IB Momentum Screener</a></li><li><a href="momentum_screener_dashboard.html?lang=en">ETF Momentum Screener</a></li><li><a href="dividend_screener_dashboard.html?lang=en">ETF Dividend Screener</a></li><li><a href="fundamentals_screener_dashboard.html?lang=en">ETF Fundamentals &amp; Risk</a></li></ul></div></div><div class="ft-bottom"><span>&copy; 2026 DataSente. All rights reserved.</span><span>Disclaimer: trading options and futures involves substantial risk and is not suitable for every investor. The information on this website is for educational purposes only and does not constitute financial or investment advice.</span></div></div></div></div><script>window.DS_I18N={"Filters wissen": "Clear filters", "Laatste update": "Last update", "Gegenereerd op": "Generated on", "Geen ETF's gevonden die aan je filters voldoen.": "No ETFs match your filters.", "Geen aandelen gevonden die aan je filters voldoen.": "No stocks match your filters.", "Geen resultaten gevonden die aan je filters voldoen.": "No results match your filters.", "(Alle selecteren)": "(Select all)", "geselecteerd": "selected", "Alle...": "All...", "Aantal ETF's": "Number of ETFs", "ETF's": "ETFs", "aandelen": "stocks", "Aandelen": "Stocks", "Naam ETF": "ETF name", "Prijs": "Price", "Volatiliteit": "Volatility", "Rendement 1J": "Return 1Y", "Land / Regio": "Country / Region", "Groei 3j": "Growth 3y", "Gefilterd op onderliggende waarde en wiskundig risico (1 jaar historie).": "Filtered on underlying value and mathematical risk (1-year history).", "Gefilterd op kwaliteit, gevaarlijke yields (Value Traps / Covered Calls) zijn weggelaten, met sectorspreiding.": "Filtered on quality; risky yields (value traps / covered-call ETFs) are excluded, with sector diversification.", "Groen": "Green", "Rood": "Red", "Koers binnen ±0,5σ van de 20-daags gemiddelde (instapzone)": "Price within ±0.5σ of the 20-day average (entry zone)", "Koers onder het 50-daags gemiddelde (zwak / verkopen)": "Price below the 50-day average (weak / sell)", "Top 10 binnen de ranking": "Top 10 in the ranking", "Klik op een kolomkop om te sorteren.": "Click a column header to sort."};</script><script data-ds-theme="layout">
+</div><div data-lang-block="nl"><div class="site-footer" role=contentinfo><div class="ft-wrap"><div class="ft-grid"><div class="ft-brand"><a href="index_nl.html" class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><p>Data engineering en trading automation voor family offices en vermogensbeheerders. Behoud het initiatief — behoud Sente.</p><a class="ft-cta" href="about_nl.html#contact">Neem contact op →</a></div><div><h5>Oplossingen</h5><ul><li><a href="solutions_nl.html">Oplossingen &amp; diensten</a></li><li><a href="options_nl.html">Optiehandel</a></li><li><a href="go_nl.html">DataSente &amp; Go</a></li><li><a href="insights_nl.html">Insights (blog)</a></li><li><a href="github_nl.html">GitHub-portfolio</a></li><li><a href="about_nl.html">Over ons</a></li></ul></div><div><h5>Strategieën</h5><ul><li><a href="strategies_nl.html">Alle strategieën</a></li><li><a href="es_short_put_handleiding.html">ES Short Put</a></li><li><a href="meic_nl.html">MEIC-tranches</a></li><li><a href="presidential_cycle_handleiding.html">Presidentscyclus</a></li><li><a href="annual_cycle_handleiding.html">Jaarcyclus</a></li><li><a href="covered_call_handleiding.html">Covered Call</a></li></ul></div><div><h5>Dashboards</h5><ul><li><a href="entry_dashboard.html?lang=nl">S&amp;P 500 Entry-dashboard</a></li><li><a href="ib_screener_dashboard.html?lang=nl">Stock Momentum-screener</a></li><li><a href="momentum_seasonality.html?lang=nl">Momentum Seasonality</a></li><li><a href="momentum_screener_dashboard.html?lang=nl">ETF Momentum-screener</a></li><li><a href="dividend_screener_dashboard.html?lang=nl">ETF Dividend-screener</a></li><li><a href="fundamentals_screener_dashboard.html?lang=nl">ETF Fundamentals &amp; risico</a></li></ul></div></div><div class="ft-bottom"><span>&copy; 2026 DataSente. Alle rechten voorbehouden.</span><span>Disclaimer: handelen in opties en futures brengt aanzienlijke risico’s met zich mee en is niet geschikt voor iedere belegger. De informatie op deze website is uitsluitend bedoeld voor educatieve doeleinden en vormt geen financieel advies of beleggingsadvies.</span></div></div></div></div><div data-lang-block="en" hidden><div class="site-footer" role=contentinfo><div class="ft-wrap"><div class="ft-grid"><div class="ft-brand"><a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span><span class="brand-txt">DataSente</span></a><p>Data engineering and trading automation for family offices and wealth managers. Keep the initiative — keep Sente.</p><a class="ft-cta" href="about.html#contact">Get in touch →</a></div><div><h5>Solutions</h5><ul><li><a href="solutions.html">Solutions &amp; Services</a></li><li><a href="options.html">Option Trading</a></li><li><a href="go.html">DataSente &amp; Go</a></li><li><a href="insights.html">Insights (blog)</a></li><li><a href="github.html">GitHub portfolio</a></li><li><a href="about.html">About us</a></li></ul></div><div><h5>Strategies</h5><ul><li><a href="strategies.html">All strategies</a></li><li><a href="es_short_put_guide.html">ES Short Put</a></li><li><a href="meic.html">MEIC tranches</a></li><li><a href="presidential_cycle_guide.html">Presidential Cycle</a></li><li><a href="annual_cycle_guide.html">Annual Cycle</a></li><li><a href="covered_call_guide.html">Covered Call</a></li></ul></div><div><h5>Dashboards</h5><ul><li><a href="entry_dashboard.html?lang=en">S&amp;P 500 Entry Dashboard</a></li><li><a href="ib_screener_dashboard.html?lang=en">Stock Momentum Screener</a></li><li><a href="momentum_seasonality.html?lang=en">Momentum Seasonality</a></li><li><a href="momentum_screener_dashboard.html?lang=en">ETF Momentum Screener</a></li><li><a href="dividend_screener_dashboard.html?lang=en">ETF Dividend Screener</a></li><li><a href="fundamentals_screener_dashboard.html?lang=en">ETF Fundamentals &amp; Risk</a></li></ul></div></div><div class="ft-bottom"><span>&copy; 2026 DataSente. All rights reserved.</span><span>Disclaimer: trading options and futures involves substantial risk and is not suitable for every investor. The information on this website is for educational purposes only and does not constitute financial or investment advice.</span></div></div></div></div><script>window.DS_I18N={"Filters wissen": "Clear filters", "Laatste update": "Last update", "Gegenereerd op": "Generated on", "Geen ETF's gevonden die aan je filters voldoen.": "No ETFs match your filters.", "Geen aandelen gevonden die aan je filters voldoen.": "No stocks match your filters.", "Geen resultaten gevonden die aan je filters voldoen.": "No results match your filters.", "(Alle selecteren)": "(Select all)", "geselecteerd": "selected", "Alle...": "All...", "Aantal ETF's": "Number of ETFs", "ETF's": "ETFs", "aandelen": "stocks", "Aandelen": "Stocks", "Naam ETF": "ETF name", "Prijs": "Price", "Volatiliteit": "Volatility", "Rendement 1J": "Return 1Y", "Land / Regio": "Country / Region", "Groei 3j": "Growth 3y", "Gefilterd op onderliggende waarde en wiskundig risico (1 jaar historie).": "Filtered on underlying value and mathematical risk (1-year history).", "Gefilterd op kwaliteit, gevaarlijke yields (Value Traps / Covered Calls) zijn weggelaten, met sectorspreiding.": "Filtered on quality; risky yields (value traps / covered-call ETFs) are excluded, with sector diversification.", "Groen": "Green", "Rood": "Red", "Koers binnen ±0,5σ van de 20-daags gemiddelde (instapzone)": "Price within ±0.5σ of the 20-day average (entry zone)", "Koers onder het 50-daags gemiddelde (zwak / verkopen)": "Price below the 50-day average (weak / sell)", "Top 10 binnen de ranking": "Top 10 in the ranking", "Klik op een kolomkop om te sorteren.": "Click a column header to sort."};</script><script data-ds-theme="layout">
 (function(){
   var root=document.documentElement;
   /* Dashboards bevatten een NL- en EN-header; kies de taal (?lang= > localStorage > nl) */
