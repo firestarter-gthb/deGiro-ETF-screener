@@ -1,575 +1,576 @@
 yf_ticker|name|GICS Sector L1|GICS Sector L2|price|Yield (%)|Growth 3y (%)|Score|Divs TTM|Currency
-XY7D.DE|Global X S&P 500 Covered Call UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|13.58|12.72|38.87|17.72|15|EUR
+XY7D.DE|Global X S&P 500 Covered Call UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|13.44|12.85|38.87|17.85|15|EUR
 FFGH.DE|Fidelity Gl HY Crp Bd Rs Enh PAB UCITS ETF Inc USD|Broad Market / Other|Broad Market / Other|4.5|11.44|16.23|16.44|7|EUR
-WINC.DE|iShares World Eqt High Income Actv UCITS ETF USD D|Broad Market / Other|Broad Market / Other|5.02|10.82|52.39|15.82|6|EUR
-JGPI.DE|JPM Global Eq Prem Inc Active UCITS ETF USD (dist)|Broad Market / Other|Broad Market / Other|24.15|8.21|18.64|13.21|13|EUR
-IS3K.DE|iShares $ Sht Duration HY Crp Bd UCITS ETF USD D|Broad Market / Other|Broad Market / Other|76.9|8.11|13.37|13.11|4|EUR
-ASWL.DE|Rex Tech Innovation Inc & Growth UCITS ETF USD Dis|Information Technology|Technology Hardware & Software|22.06|12.86||12.86|11|EUR
-FYUE.DE|Fidelity USD HY Crp Bd Rs Enh PAB UCITS ETFIncEURH|Broad Market / Other|Broad Market / Other|4.49|12.7||12.7|7|EUR
-IBC7.DE|iShares Fallen Angels High Yield Corp Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.35|7.37|12.43|12.37|4|EUR
-UIMB.DE|UBS BBG TIPS 10+ UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|7.98|7.23|5.09|12.23|2|EUR
-QDVQ.DE|iShares Fallen Angels HY Corp Bd UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.68|7.11|10.94|12.11|4|EUR
-EH1Y.DE|iShares Broad EUR High Yield Corp Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|4.63|7.1|7.1|12.1|4|EUR
-IS0Q.DE|iShares J.P. Morgan $ EM Corp Bd UCITS ETF USD D|Broad Market / Other|Broad Market / Other|79.29|6.88|13.02|11.88|4|EUR
-FYUI.DE|Fidelity USD HY Crp Bd Rs Enh PAB UCITS ETFInc USD|Broad Market / Other|Broad Market / Other|4.27|11.86||11.86|7|EUR
-JEQP.DE|JPMorgan NASDAQ Eqt Prem Inc Actv UCITS ETF USD D|Information Technology|Technology Hardware & Software|22.55|11.72||11.72|12|EUR
-INCU.DE|iShares US Equity High Income Actv UCITS ETF USD D|Broad Market / Other|Broad Market / Other|5.03|6.65|27.43|11.65|5|EUR
-SEAD.DE|UBS J.P. Morgan USD EM Diversified Bond 1-5 UCITS hEUR dis ETF|Fixed Income|Bonds|9.11|7.11|4.47|11.58|2|EUR
-FFGC.DE|Fidelity Global Government Bond Climate Aware UCITS - EUR Hedged Inc ETF|Fixed Income|Bonds|4.61|6.58|28.65|11.58|7|EUR
-SY7D.DE|Global X EURO STOXX 50 Covered Call UCITS - EUR Distributing ETF|Broad Market / Other|Broad Market / Other|14.47|11.41||11.41|12|EUR
-FEUI.DE|Fidelity Europe Quality Income UCITS - Inc EUR ETF|Broad Market / Other|Broad Market / Other|7.41|6.14|37.35|11.14|7|EUR
-JEQE.DE|JPM Nasdaq Equity Premium Income Active UCITS EUR Hedged dist ETF|Information Technology|Technology Hardware & Software|19.9|11.12||11.12|11|EUR
-FYEQ.DE|Fidelity Emerging Markets Quality Income UCITS - Inc USD ETF|Broad Market / Other|Broad Market / Other|6.45|5.92|46.3|10.92|7|EUR
-QYLE.DE|Global X Nasdaq 100 Covered Call UCITS ETF|Information Technology|Technology Hardware & Software|13.88|12.32|-1.53|10.79|12|EUR
+WINC.DE|iShares World Eqt High Income Actv UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.96|10.95|52.39|15.95|6|EUR
+JGPI.DE|JPM Global Eq Prem Inc Active UCITS ETF USD (dist)|Broad Market / Other|Broad Market / Other|24.12|8.22|18.64|13.22|13|EUR
+ASWL.DE|Rex Tech Innovation Inc & Growth UCITS ETF USD Dis|Information Technology|Technology Hardware & Software|21.47|13.21||13.21|11|EUR
+IS3K.DE|iShares $ Sht Duration HY Crp Bd UCITS ETF USD D|Broad Market / Other|Broad Market / Other|76.62|8.14|13.37|13.14|4|EUR
+FYUE.DE|Fidelity USD HY Crp Bd Rs Enh PAB UCITS ETFIncEURH|Broad Market / Other|Broad Market / Other|4.5|12.67||12.67|7|EUR
+IBC7.DE|iShares Fallen Angels High Yield Corp Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.36|7.36|12.43|12.36|4|EUR
+UIMB.DE|UBS BBG TIPS 10+ UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|7.97|7.25|5.09|12.25|2|EUR
+QDVQ.DE|iShares Fallen Angels HY Corp Bd UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.67|7.13|10.94|12.13|4|EUR
+EH1Y.DE|iShares Broad EUR High Yield Corp Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|4.65|7.07|7.1|12.07|4|EUR
+JEQP.DE|JPMorgan NASDAQ Eqt Prem Inc Actv UCITS ETF USD D|Information Technology|Technology Hardware & Software|22.05|11.98||11.98|12|EUR
+IS0Q.DE|iShares J.P. Morgan $ EM Corp Bd UCITS ETF USD D|Broad Market / Other|Broad Market / Other|79.09|6.9|13.02|11.9|4|EUR
+FYUI.DE|Fidelity USD HY Crp Bd Rs Enh PAB UCITS ETFInc USD|Broad Market / Other|Broad Market / Other|4.28|11.84||11.84|7|EUR
+INCU.DE|iShares US Equity High Income Actv UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.97|6.74|27.43|11.74|5|EUR
+SEAD.DE|UBS J.P. Morgan USD EM Diversified Bond 1-5 UCITS hEUR dis ETF|Fixed Income|Bonds|9.12|7.1|4.47|11.57|2|EUR
+FFGC.DE|Fidelity Global Government Bond Climate Aware UCITS - EUR Hedged Inc ETF|Fixed Income|Bonds|4.63|6.57|28.65|11.57|7|EUR
+SY7D.DE|Global X EURO STOXX 50 Covered Call UCITS - EUR Distributing ETF|Broad Market / Other|Broad Market / Other|14.46|11.42||11.42|12|EUR
+JEQE.DE|JPM Nasdaq Equity Premium Income Active UCITS EUR Hedged dist ETF|Information Technology|Technology Hardware & Software|19.63|11.27||11.27|11|EUR
+FEUI.DE|Fidelity Europe Quality Income UCITS - Inc EUR ETF|Broad Market / Other|Broad Market / Other|7.4|6.14|37.35|11.14|7|EUR
+FYEQ.DE|Fidelity Emerging Markets Quality Income UCITS - Inc USD ETF|Broad Market / Other|Broad Market / Other|6.31|6.05|46.3|11.05|7|EUR
+QYLE.DE|Global X Nasdaq 100 Covered Call UCITS ETF|Information Technology|Technology Hardware & Software|13.69|12.49|-1.53|10.96|12|EUR
 UEFE.DE|UBS JPM EM Mlt-Fc Enhcd LC Bond UCITS ETF USD dis|Fixed Income|Bonds|11.43|5.71|7.07|10.71|2|EUR
-IUS7.DE|iShares JP Morgan $ EM Bond UCITS ETF USD Dis|Fixed Income|Bonds|79.56|5.76|4.88|10.64|12|EUR
-IM2A.DE|BNPPE FTSEEPRA/NAREITEurozone Capped UCITS ETF QDD|Broad Market / Other|Broad Market / Other|5.85|5.64|12.66|10.64|4|EUR
-UEF9.DE|UBS Core BBG US Liquid Corp UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|12.8|5.44|5.07|10.44|2|EUR
-EXSH.DE|iShares STOXX Europe Select Dividend 30 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|25.71|5.31|17.82|10.31|4|EUR
-FRC4.DE|UBS BBG Euro Inflation Linked 10+ UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|14.14|4.97|28.05|9.97|2|EUR
-CBUS.DE|iShares Core UK Gilts UCITS EUR Hedged (Dist) ETF|Broad Market / Other|Broad Market / Other|4.31|4.72|8.31|9.72|2|EUR
-EXH6.DE|iShares STOXX Europe 600 Media UCITS (DE) ETF|Communication Services|Communication Services|33.56|4.71|49.46|9.71|3|EUR
-BAT3.DE|L&G UK Quality Div Gbp Dist|Broad Market / Other|Broad Market / Other|14.76|4.61|9.14|9.61|4|EUR
-IQQD.DE|iShares UK Dividend UCITS ETF GBP (Dist)|Broad Market / Other|Broad Market / Other|11.84|4.57|5.33|9.57|4|EUR
-BS30.DE|Invesco BlltShs 2030 USD Crp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.52|4.48|80.86|9.48|4|EUR
-BS29.DE|Invesco BlltShs 2029 USD Crp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.74|4.45|82.95|9.45|4|EUR
-EXSG.DE|iShares EURO STOXX Select Dividend 30 UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|23.42|4.45|5.86|9.45|4|EUR
-GLBD.DE|Invesco Gl Crp Bd ESG Cl Transition UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.54|4.43|56.21|9.43|4|EUR
-IQQA.DE|iShares Euro Dividend UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|26.23|4.39|6.36|9.39|4|EUR
-SPYV.DE|State Street SPDR S&P Emerging Markets Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|14.48|4.37|6.92|9.37|2|EUR
-DXSA.DE|Xtrackers Euro Stoxx Quality Dividend UCITS ETF 1D|Broad Market / Other|Broad Market / Other|30.55|4.36|6.58|9.36|4|EUR
-BS28.DE|Invesco BlltShs 2028 USD Crp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.79|4.34|78.71|9.34|4|EUR
-ASWN.DE|Infrastructure Capital Prfrd Inc UCITS ETF USD Dis|Utilities|Utilities|15.5|9.33||9.33|12|EUR
-IBCQ.DE|iShares Global Corp Bond EUR Hedged UCITS (Dist) ETF|Fixed Income|Bonds|80.98|4.37|4.96|9.33|2|EUR
-BS27.DE|Invesco BlltShs 2027 USD Crp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.86|4.19|76.07|9.19|4|EUR
-BS26.DE|Invesco BlltShs 2026 USD Crp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.89|4.15|72.16|9.15|4|EUR
-IS06.DE|iShares   Corp Bond BBB-BB UCITS ETF EUR (Dist)|Fixed Income|Bonds|4.72|4.11|24.47|9.11|4|EUR
-CEBX.DE|iShares US Aggregate Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.69|4.1|23.97|9.1|2|EUR
-DBXI.DE|Xtrackers FTSE MIB UCITS 1D ETF|Broad Market / Other|Broad Market / Other|47.81|4.03|12.5|9.03|2|EUR
-SYBG.DE|State Street SPDR Bloomberg UK Gilt UCITS ETF|Fixed Income|Bonds|49.33|3.94|19.16|8.94|2|EUR
-EXV1.DE|iShares STOXX Europe 600 Banks UCITS (DE) ETF|Financials|Banks & Financial Services|38.35|3.94|14.55|8.94|4|EUR
-FLXD.DE|Franklin European Quality Dividend UCITS ETF|Broad Market / Other|Broad Market / Other|36.82|3.94|12.09|8.94|4|EUR
-SYBM.DE|StSt SPDR BBG Em Mkts Local Bond UCITS ETF Dist|Fixed Income|Bonds|50.5|5.27|3.6|8.87|2|EUR
-36B7.DE|iShares Global Corp Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.03|4.46|4.39|8.85|2|EUR
-SPP3.DE|StSt SPDR BBG 3-7 Y U.S. Treas Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|25.03|3.82|7.34|8.82|2|EUR
-EXX1.DE|iShares EURO STOXX Banks 30-15 UCITS (DE) EUR (Dist) ETF|Financials|Banks & Financial Services|27.91|3.81|20.42|8.81|3|EUR
+IUS7.DE|iShares JP Morgan $ EM Bond UCITS ETF USD Dis|Fixed Income|Bonds|79.36|5.78|4.88|10.66|12|EUR
+IM2A.DE|BNPPE FTSEEPRA/NAREITEurozone Capped UCITS ETF QDD|Broad Market / Other|Broad Market / Other|5.86|5.63|12.66|10.63|4|EUR
+UEF9.DE|UBS Core BBG US Liquid Corp UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|12.84|5.42|5.07|10.42|2|EUR
+EXSH.DE|iShares STOXX Europe Select Dividend 30 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|25.64|5.32|17.82|10.32|4|EUR
+FRC4.DE|UBS BBG Euro Inflation Linked 10+ UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|14.19|4.95|28.05|9.95|2|EUR
+CBUS.DE|iShares Core UK Gilts UCITS EUR Hedged (Dist) ETF|Broad Market / Other|Broad Market / Other|4.32|4.71|8.31|9.71|2|EUR
+EXH6.DE|iShares STOXX Europe 600 Media UCITS (DE) ETF|Communication Services|Communication Services|33.78|4.68|49.46|9.68|3|EUR
+BAT3.DE|L&G UK Quality Div Gbp Dist|Broad Market / Other|Broad Market / Other|14.81|4.59|9.14|9.59|4|EUR
+IQQD.DE|iShares UK Dividend UCITS ETF GBP (Dist)|Broad Market / Other|Broad Market / Other|11.82|4.58|5.33|9.58|4|EUR
+BS30.DE|Invesco BlltShs 2030 USD Crp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.53|4.47|80.86|9.47|4|EUR
+EXSG.DE|iShares EURO STOXX Select Dividend 30 UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|23.48|4.44|5.86|9.44|4|EUR
+BS29.DE|Invesco BlltShs 2029 USD Crp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.75|4.44|82.95|9.44|4|EUR
+SPYV.DE|State Street SPDR S&P Emerging Markets Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|14.33|4.41|6.92|9.41|2|EUR
+GLBD.DE|Invesco Gl Crp Bd ESG Cl Transition UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.55|4.41|56.21|9.41|4|EUR
+IQQA.DE|iShares Euro Dividend UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|26.25|4.38|6.36|9.38|4|EUR
+ASWN.DE|Infrastructure Capital Prfrd Inc UCITS ETF USD Dis|Utilities|Utilities|15.47|9.35||9.35|12|EUR
+DXSA.DE|Xtrackers Euro Stoxx Quality Dividend UCITS ETF 1D|Broad Market / Other|Broad Market / Other|30.6|4.35|6.58|9.35|4|EUR
+BS28.DE|Invesco BlltShs 2028 USD Crp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.8|4.33|78.71|9.33|4|EUR
+IBCQ.DE|iShares Global Corp Bond EUR Hedged UCITS (Dist) ETF|Fixed Income|Bonds|81.26|4.36|4.96|9.32|2|EUR
+BS27.DE|Invesco BlltShs 2027 USD Crp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.87|4.19|76.07|9.19|4|EUR
+BS26.DE|Invesco BlltShs 2026 USD Crp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.9|4.15|72.16|9.15|4|EUR
+IS06.DE|iShares   Corp Bond BBB-BB UCITS ETF EUR (Dist)|Fixed Income|Bonds|4.73|4.1|24.47|9.1|4|EUR
+CEBX.DE|iShares US Aggregate Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.7|4.09|23.97|9.09|2|EUR
+DBXI.DE|Xtrackers FTSE MIB UCITS 1D ETF|Broad Market / Other|Broad Market / Other|47.96|4.02|12.5|9.02|2|EUR
+EXV1.DE|iShares STOXX Europe 600 Banks UCITS (DE) ETF|Financials|Banks & Financial Services|37.9|3.98|14.55|8.98|4|EUR
+SYBG.DE|State Street SPDR Bloomberg UK Gilt UCITS ETF|Fixed Income|Bonds|49.49|3.93|19.16|8.93|2|EUR
+FLXD.DE|Franklin European Quality Dividend UCITS ETF|Broad Market / Other|Broad Market / Other|36.96|3.92|12.09|8.92|4|EUR
+SYBM.DE|StSt SPDR BBG Em Mkts Local Bond UCITS ETF Dist|Fixed Income|Bonds|50.55|5.26|3.6|8.87|2|EUR
+EXX1.DE|iShares EURO STOXX Banks 30-15 UCITS (DE) EUR (Dist) ETF|Financials|Banks & Financial Services|27.59|3.86|20.42|8.86|3|EUR
+36B7.DE|iShares Global Corp Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.04|4.45|4.39|8.84|2|EUR
+SPP3.DE|StSt SPDR BBG 3-7 Y U.S. Treas Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|25.0|3.83|7.34|8.83|2|EUR
 CEBW.DE|iShares US Mortgage Backed Securities UCITS EUR Hedged (Dist) ETF|Broad Market / Other|Broad Market / Other|4.87|3.8|94.55|8.8|2|EUR
-UIME.DE|UBS MSCI EMU Value UCITS ETF EUR dis|Broad Market / Other|Broad Market / Other|63.47|3.79|24.65|8.79|2|EUR
-IS05.DE|iShares EUR Govt Bond 20yr Target Duration UCITS EUR (Dist) ETF|Fixed Income|Bonds|2.99|3.77|5.21|8.77|2|EUR
-VAGE.DE|Vanguard Global Aggregate Bond UCITS EUR Hedged Distributing ETF|Fixed Income|Bonds|19.86|3.76|7.49|8.76|12|EUR
-LGGE.DE|L&G Eur X-UK Qual Div Eur Dist|Broad Market / Other|Broad Market / Other|18.09|3.71|17.2|8.71|4|EUR
-SPYW.DE|State Street SPDR S&P Euro Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|30.38|3.69|13.27|8.69|2|EUR
-EHBD.DE|Invesco Euro Corporate Hybrid Bond UCITS Dist ETF|Fixed Income|Bonds|38.11|3.68|10.3|8.68|4|EUR
-SYB5.DE|State Street SPDR Bloomberg 1-5 Year Gilt UCITS ETF|Fixed Income|Bonds|57.54|3.65|15.91|8.65|2|EUR
-TCBT.DE|VanEck iBoxx EUR Corporates UCITS ETF|Broad Market / Other|Broad Market / Other|16.48|3.64|32.84|8.64|4|EUR
-SYBT.DE|StSt SPDR Bloomberg U.S. Treas Bond UCITS ETF Dist|Fixed Income|Bonds|86.4|3.64|7.81|8.64|2|EUR
-GSXG.DE|Goldman Sachs Global Green Bond UCITS - Class EUR-Hedged (dist) ETF|Fixed Income|Bonds|47.54|3.63|39.0|8.63|2|EUR
-IQQS.DE|iShares EURO STOXX Small UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|50.97|3.63|28.43|8.63|4|EUR
-SYBV.DE|State Street SPDR Bloomberg 10+ Year Euro Government Bond UCITS ETF|Fixed Income|Bonds|21.46|3.63|5.7|8.63|2|EUR
-PR1P.DE|Amundi Core USD Corporate Bond UCITS Dist ETF|Fixed Income|Bonds|15.8|4.52|4.11|8.62|1|EUR
-V20D.DE|Vanguard LifeStrategy 20% Equity UCITS ETF EUR Dis|Broad Market / Other|Broad Market / Other|22.12|3.57|9.28|8.57|2|EUR
-SPYG.DE|State Street SPDR S&P UK Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|16.01|3.55|14.34|8.55|2|EUR
-SPP7.DE|StSt SPDR BBG 7-10 Y U.S. Treas Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|22.83|4.03|4.51|8.54|2|EUR
-SYBL.DE|State Street SPDR Bloomberg 15+ Year Gilt UCITS ETF|Fixed Income|Bonds|40.0|5.08|3.44|8.53|2|EUR
-LGGM.DE|L&G Em Quality Div USD Dist|Broad Market / Other|Broad Market / Other|11.31|3.47|6.88|8.47|4|EUR
-LDCE.DE|PIMCO Advantage Euro Low Duration Corporate Bond UCITS - EUR Income ETF|Fixed Income|Bonds|98.74|3.46|12.5|8.46|4|EUR
-ZPD3.DE|State Street SPDR S&P Global Dividend Aristocrats Screened UCITS ETF|Broad Market / Other|Broad Market / Other|21.61|3.44|5.39|8.44|4|EUR
-FRC3.DE|UBS CoreBBG Euro Inflation Linked Bond 1-10 UCITS EUR dis ETF|Fixed Income|Bonds|14.13|3.41|32.71|8.41|2|EUR
-AK8C.DE|Amundi Global Government Tilted Green Bond UCITS DIST ETF|Fixed Income|Bonds|18.22|3.4|118.36|8.4|1|EUR
-SPFE.DE|StSt SPDR BBG Gl Aggrt Bd EUR Hdg UCITS ETF Dist|Broad Market / Other|Broad Market / Other|25.17|3.38|7.63|8.38|2|EUR
-UEF6.DE|UBS BBG Euro Area Liq Crp 1-5 UCITS ETF EUR dis|Broad Market / Other|Broad Market / Other|12.92|3.34|13.35|8.34|2|EUR
-CHSC.DE|UBS MSCI United Kingdom UCITS ETF hEUR dis|Broad Market / Other|Broad Market / Other|3.02|3.33|29.14|8.33|2|EUR
-IS3J.DE|iShares $ Short Dur Corp Bd UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|90.27|4.2|4.12|8.32|4|EUR
-FGEU.DE|Fidelity Global Quality Income UCITS - EUR hedged Inc ETF|Broad Market / Other|Broad Market / Other|9.41|3.3|30.05|8.3|7|EUR
-EXH5.DE|iShares STOXX Europe 600 Insurance UCITS (DE) ETF|Financials|Banks & Financial Services|56.83|3.27|12.89|8.27|4|EUR
-XZDZ.DE|Xtrackers MSCI EMU High Dividend Yield ESG UCITS ETF|Broad Market / Other|Broad Market / Other|40.31|3.25|9.56|8.25|4|EUR
-IBCS.DE|iShares   Corp Bond Large Cap UCITS ETF EUR Dist|Fixed Income|Bonds|121.48|3.24|8.64|8.24|4|EUR
-UIMA.DE|UBS Core MSCI Europe UCITS ETF EUR dis|Broad Market / Other|Broad Market / Other|104.42|3.22|23.03|8.22|2|EUR
-IBB1.DE|iShares USD Treasury Bond 7-10yr UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|3.71|4.53|3.67|8.21|2|EUR
-DXPJ.DE|Xtrackers MSCI Pacific ex Japan UCITS ETF|Broad Market / Other|Broad Market / Other|10.02|3.18|93.96|8.18|2|EUR
+UIME.DE|UBS MSCI EMU Value UCITS ETF EUR dis|Broad Market / Other|Broad Market / Other|63.33|3.79|24.65|8.79|2|EUR
+VAGE.DE|Vanguard Global Aggregate Bond UCITS EUR Hedged Distributing ETF|Fixed Income|Bonds|19.92|3.75|7.49|8.75|12|EUR
+IS05.DE|iShares EUR Govt Bond 20yr Target Duration UCITS EUR (Dist) ETF|Fixed Income|Bonds|3.01|3.75|5.21|8.75|2|EUR
+LGGE.DE|L&G Eur X-UK Qual Div Eur Dist|Broad Market / Other|Broad Market / Other|18.06|3.71|17.2|8.71|4|EUR
+EHBD.DE|Invesco Euro Corporate Hybrid Bond UCITS Dist ETF|Fixed Income|Bonds|38.2|3.67|10.3|8.67|4|EUR
+SPYW.DE|State Street SPDR S&P Euro Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|30.58|3.66|13.27|8.66|2|EUR
+IQQS.DE|iShares EURO STOXX Small UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|50.69|3.65|28.43|8.65|4|EUR
+SYB5.DE|State Street SPDR Bloomberg 1-5 Year Gilt UCITS ETF|Fixed Income|Bonds|57.55|3.65|15.91|8.65|2|EUR
+TCBT.DE|VanEck iBoxx EUR Corporates UCITS ETF|Broad Market / Other|Broad Market / Other|16.52|3.63|32.84|8.63|4|EUR
+SYBT.DE|StSt SPDR Bloomberg U.S. Treas Bond UCITS ETF Dist|Fixed Income|Bonds|86.72|3.63|7.81|8.63|2|EUR
+PR1P.DE|Amundi Core USD Corporate Bond UCITS Dist ETF|Fixed Income|Bonds|15.82|4.51|4.11|8.62|1|EUR
+GSXG.DE|Goldman Sachs Global Green Bond UCITS - Class EUR-Hedged (dist) ETF|Fixed Income|Bonds|47.65|3.62|39.0|8.62|2|EUR
+SYBV.DE|State Street SPDR Bloomberg 10+ Year Euro Government Bond UCITS ETF|Fixed Income|Bonds|21.58|3.61|5.7|8.61|2|EUR
+SPYG.DE|State Street SPDR S&P UK Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|15.95|3.56|14.34|8.56|2|EUR
+V20D.DE|Vanguard LifeStrategy 20% Equity UCITS ETF EUR Dis|Broad Market / Other|Broad Market / Other|22.17|3.56|9.28|8.56|2|EUR
+SPP7.DE|StSt SPDR BBG 7-10 Y U.S. Treas Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|22.76|4.04|4.51|8.55|2|EUR
+LGGM.DE|L&G Em Quality Div USD Dist|Broad Market / Other|Broad Market / Other|11.18|3.51|6.88|8.51|4|EUR
+SYBL.DE|State Street SPDR Bloomberg 15+ Year Gilt UCITS ETF|Fixed Income|Bonds|40.08|5.07|3.44|8.51|2|EUR
+LDCE.DE|PIMCO Advantage Euro Low Duration Corporate Bond UCITS - EUR Income ETF|Fixed Income|Bonds|99.06|3.45|12.5|8.45|4|EUR
+ZPD3.DE|State Street SPDR S&P Global Dividend Aristocrats Screened UCITS ETF|Broad Market / Other|Broad Market / Other|21.65|3.44|5.39|8.44|4|EUR
+FRC3.DE|UBS CoreBBG Euro Inflation Linked Bond 1-10 UCITS EUR dis ETF|Fixed Income|Bonds|14.14|3.41|32.71|8.41|2|EUR
+AK8C.DE|Amundi Global Government Tilted Green Bond UCITS DIST ETF|Fixed Income|Bonds|18.3|3.38|118.36|8.38|1|EUR
+SPFE.DE|StSt SPDR BBG Gl Aggrt Bd EUR Hdg UCITS ETF Dist|Broad Market / Other|Broad Market / Other|25.28|3.37|7.63|8.37|2|EUR
+UEF6.DE|UBS BBG Euro Area Liq Crp 1-5 UCITS ETF EUR dis|Broad Market / Other|Broad Market / Other|12.94|3.34|13.35|8.34|2|EUR
+CHSC.DE|UBS MSCI United Kingdom UCITS ETF hEUR dis|Broad Market / Other|Broad Market / Other|3.03|3.31|29.14|8.31|2|EUR
+IS3J.DE|iShares $ Short Dur Corp Bd UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|90.45|4.19|4.12|8.31|4|EUR
+FGEU.DE|Fidelity Global Quality Income UCITS - EUR hedged Inc ETF|Broad Market / Other|Broad Market / Other|9.51|3.26|30.05|8.26|7|EUR
+EXH5.DE|iShares STOXX Europe 600 Insurance UCITS (DE) ETF|Financials|Banks & Financial Services|56.98|3.26|12.89|8.26|4|EUR
+IBCS.DE|iShares   Corp Bond Large Cap UCITS ETF EUR Dist|Fixed Income|Bonds|121.57|3.23|8.64|8.23|4|EUR
+UIMA.DE|UBS Core MSCI Europe UCITS ETF EUR dis|Broad Market / Other|Broad Market / Other|104.32|3.22|23.03|8.22|2|EUR
+XZDZ.DE|Xtrackers MSCI EMU High Dividend Yield ESG UCITS ETF|Broad Market / Other|Broad Market / Other|40.58|3.22|9.56|8.22|4|EUR
+IBB1.DE|iShares USD Treasury Bond 7-10yr UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|3.73|4.51|3.67|8.19|2|EUR
 BD30.DE|Invesco BulletShares 2030 EUR Corporate Bond UCITS - Dist ETF|Fixed Income|Bonds|5.02|3.18|113.78|8.18|4|EUR
-BE29.DE|Invesco BulletShares 2029 EUR Corporate Bond UCITS - Dist ETF|Fixed Income|Bonds|5.08|3.18|116.67|8.18|4|EUR
-SYBZ.DE|StSt SPDR BBG Global Aggregate Bond UCITS ETF Dis|Fixed Income|Bonds|22.71|3.18|5.35|8.18|2|EUR
-UBUM.DE|UBS S&P Dividend Aristocrats ESG Elite UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|11.67|3.16|18.74|8.16|2|EUR
-XZDE.DE|Xtrackers MSCI Europe High Dividend Yield ESG UCITS ETF|Broad Market / Other|Broad Market / Other|40.99|3.14|6.61|8.14|4|EUR
-XDEP.DE|Xtrackers iBoxx EUR Corp Bd Yld Plus UCITS ETF 1D|Broad Market / Other|Broad Market / Other|14.78|3.1|15.27|8.1|2|EUR
-EUNT.DE|iShares   Corp Bond 1-5 yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|105.53|3.1|9.96|8.1|2|EUR
-MDBU.DE|UBS Sustainable Dev Bank Bonds UCITS ETF USD dis|Financials|Banks & Financial Services|9.75|3.09|18.66|8.09|2|EUR
-UIMC.DE|UBS BBG MSCI Euro Area Liquid Corp Sustainable UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|12.65|3.55|4.54|8.08|2|EUR
-EXSE.DE|iShares STOXX Europe Small 200 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|39.33|3.08|23.07|8.08|4|EUR
-30IG.DE|iShares iBonds Dec 2030 Term Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|5.04|3.07|67.3|8.07|4|EUR
-UET5.DE|UBS EURO STOXX 50 ESG UCITS ETF EUR dis|Broad Market / Other|Broad Market / Other|22.08|3.06|9.66|8.06|2|EUR
-FGEQ.DE|Fidelity Global Quality Income UCITS Inc-USD ETF|Broad Market / Other|Broad Market / Other|10.26|3.05|27.56|8.05|7|EUR
-HYLE.DE|iShares Global High Yield Corp Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.14|5.98|2.06|8.04|3|EUR
-LMVF.DE|Amundi Core MSCI EMU UCITS ETF Dist|Broad Market / Other|Broad Market / Other|80.44|3.01|27.02|8.01|1|EUR
-EHDL.DE|Invesco FTSE EM High Div Low Vlty UCITS ETF Dist|Broad Market / Other|Broad Market / Other|25.66|4.83|3.17|8.0|4|EUR
-EIGC.DE|Franklin Euro IG Corporate UCITS ETF|Fixed Income|Bonds|25.94|3.0|17.22|8.0|2|EUR
-GRON.DE|iShares EUR Green Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|3.81|3.04|4.96|8.0|2|EUR
-V40D.DE|Vanguard LifeStrategy 40% Equity UCITS ETF EUR Dis|Broad Market / Other|Broad Market / Other|26.58|2.97|9.17|7.97|2|EUR
-EUNR.DE|iShares   Corp Bond ex-Financials UCITS ETF EUR D|Financials|Banks & Financial Services|106.49|2.96|12.77|7.96|2|EUR
-IS0M.DE|iShares Italy Govt Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|147.15|2.93|7.94|7.93|2|EUR
-ZPRI.DE|StSt SPDR Mstar Mlt-Asst Gl Infra UCITS ETF Dist|Broad Market / Other|Broad Market / Other|33.97|2.93|6.14|7.93|2|EUR
-EXXV.DE|iShares Dow Jones Eurozone Sustainability Screened UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|22.25|2.92|20.17|7.92|4|EUR
-29GI.DE|iShares iBonds Dec 2029 Term Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|5.06|2.89|64.9|7.89|4|EUR
-EXH9.DE|iShares STOXX Europe 600 Utilities UCITS (DE) ETF|Utilities|Utilities|58.09|2.88|14.63|7.88|4|EUR
-IS0Z.DE|iShares Global AAA-AA Govt Bd UCITS ETF USD D|Broad Market / Other|Broad Market / Other|68.53|2.86|8.86|7.86|2|EUR
-SECD.DE|iShares EUR Govt Bond Climate UCITS EUR (Dist) ETF|Fixed Income|Bonds|3.93|2.86|7.98|7.86|2|EUR
-BE27.DE|Invesco BulletShares 2027 EUR Corporate Bond UCITS - Dist ETF|Fixed Income|Bonds|5.35|2.86|107.45|7.86|4|EUR
-QDVX.DE|Ishrs Europe Quality Adv Div Eur Dist|Broad Market / Other|Broad Market / Other|7.38|2.86|5.81|7.86|4|EUR
-UEFI.DE|UBS Core BBG US Treasury 7-10 UCITS USD dis ETF|Fixed Income|Bonds|34.51|2.85|6.41|7.85|2|EUR
+SYBZ.DE|StSt SPDR BBG Global Aggregate Bond UCITS ETF Dis|Fixed Income|Bonds|22.74|3.18|5.35|8.18|2|EUR
+DXPJ.DE|Xtrackers MSCI Pacific ex Japan UCITS ETF|Broad Market / Other|Broad Market / Other|10.06|3.17|93.96|8.17|2|EUR
+BE29.DE|Invesco BulletShares 2029 EUR Corporate Bond UCITS - Dist ETF|Fixed Income|Bonds|5.09|3.17|116.67|8.17|4|EUR
+UBUM.DE|UBS S&P Dividend Aristocrats ESG Elite UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|11.69|3.15|18.74|8.15|2|EUR
+XZDE.DE|Xtrackers MSCI Europe High Dividend Yield ESG UCITS ETF|Broad Market / Other|Broad Market / Other|41.12|3.13|6.61|8.13|4|EUR
+EXSE.DE|iShares STOXX Europe Small 200 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|39.1|3.1|23.07|8.1|4|EUR
+MDBU.DE|UBS Sustainable Dev Bank Bonds UCITS ETF USD dis|Financials|Banks & Financial Services|9.73|3.1|18.66|8.1|2|EUR
+EUNT.DE|iShares   Corp Bond 1-5 yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|105.61|3.1|9.96|8.1|2|EUR
+EHDL.DE|Invesco FTSE EM High Div Low Vlty UCITS ETF Dist|Broad Market / Other|Broad Market / Other|25.19|4.92|3.17|8.09|4|EUR
+XDEP.DE|Xtrackers iBoxx EUR Corp Bd Yld Plus UCITS ETF 1D|Broad Market / Other|Broad Market / Other|14.83|3.09|15.27|8.09|2|EUR
+UET5.DE|UBS EURO STOXX 50 ESG UCITS ETF EUR dis|Broad Market / Other|Broad Market / Other|21.95|3.08|9.66|8.08|2|EUR
+UIMC.DE|UBS BBG MSCI Euro Area Liquid Corp Sustainable UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|12.68|3.54|4.54|8.07|2|EUR
+30IG.DE|iShares iBonds Dec 2030 Term Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|5.03|3.07|67.3|8.07|4|EUR
+HYLE.DE|iShares Global High Yield Corp Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.11|6.01|2.06|8.07|3|EUR
+FGEQ.DE|Fidelity Global Quality Income UCITS Inc-USD ETF|Broad Market / Other|Broad Market / Other|10.19|3.07|27.56|8.07|7|EUR
+LMVF.DE|Amundi Core MSCI EMU UCITS ETF Dist|Broad Market / Other|Broad Market / Other|80.08|3.02|27.02|8.02|1|EUR
+GRON.DE|iShares EUR Green Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|3.82|3.04|4.96|8.0|2|EUR
+EIGC.DE|Franklin Euro IG Corporate UCITS ETF|Fixed Income|Bonds|26.01|3.0|17.22|8.0|2|EUR
+ZPRI.DE|StSt SPDR Mstar Mlt-Asst Gl Infra UCITS ETF Dist|Broad Market / Other|Broad Market / Other|33.75|2.95|6.14|7.95|2|EUR
+EUNR.DE|iShares   Corp Bond ex-Financials UCITS ETF EUR D|Financials|Banks & Financial Services|106.65|2.95|12.77|7.95|2|EUR
+V40D.DE|Vanguard LifeStrategy 40% Equity UCITS ETF EUR Dis|Broad Market / Other|Broad Market / Other|26.73|2.95|9.17|7.95|2|EUR
+EXXV.DE|iShares Dow Jones Eurozone Sustainability Screened UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|22.13|2.93|20.17|7.93|4|EUR
+IS0M.DE|iShares Italy Govt Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|147.39|2.92|7.94|7.92|2|EUR
+29GI.DE|iShares iBonds Dec 2029 Term Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|5.07|2.89|64.9|7.89|4|EUR
+EXH9.DE|iShares STOXX Europe 600 Utilities UCITS (DE) ETF|Utilities|Utilities|58.29|2.87|14.63|7.87|4|EUR
+BE27.DE|Invesco BulletShares 2027 EUR Corporate Bond UCITS - Dist ETF|Fixed Income|Bonds|5.36|2.86|107.45|7.86|4|EUR
+SECD.DE|iShares EUR Govt Bond Climate UCITS EUR (Dist) ETF|Fixed Income|Bonds|3.94|2.85|7.98|7.85|2|EUR
+IS0Z.DE|iShares Global AAA-AA Govt Bd UCITS ETF USD D|Broad Market / Other|Broad Market / Other|68.72|2.85|8.86|7.85|2|EUR
+EXV6.DE|iShares STOXX Europe 600 Basic Resources UCITS (DE) ETF|Materials|Materials|66.91|2.85|6.47|7.85|3|EUR
+QDVX.DE|Ishrs Europe Quality Adv Div Eur Dist|Broad Market / Other|Broad Market / Other|7.4|2.85|5.81|7.85|4|EUR
 BE28.DE|Invesco BulletShares 2028 EUR Corporate Bond UCITS - Dist ETF|Fixed Income|Bonds|5.23|2.84|105.98|7.84|4|EUR
-EXSD.DE|iShares STOXX Europe Mid 200 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|66.34|2.83|10.44|7.83|4|EUR
-V3ET.DE|VanEck European Equal Weight Screened UCITS ETF|Broad Market / Other|Broad Market / Other|93.65|2.77|14.08|7.77|4|EUR
-JAGG.DE|JPM Glbl Aggrgte Bd Active UCITS ETF - USD (dist)|Broad Market / Other|Broad Market / Other|9.02|2.77|27.38|7.77|2|EUR
-PR1R.DE|Amundi Prime Euro Government Bond UCITS Dist ETF|Fixed Income|Bonds|16.64|2.76|18.07|7.76|1|EUR
-EXV6.DE|iShares STOXX Europe 600 Basic Resources UCITS (DE) ETF|Materials|Materials|69.18|2.75|6.47|7.75|3|EUR
+UEFI.DE|UBS Core BBG US Treasury 7-10 UCITS USD dis ETF|Fixed Income|Bonds|34.61|2.84|6.41|7.84|2|EUR
+EXSD.DE|iShares STOXX Europe Mid 200 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|66.33|2.83|10.44|7.83|4|EUR
+AH50.DE|Xtrackers Harvest CSI A500 UCITS 1D ETF|Broad Market / Other|Broad Market / Other|26.27|2.79|12.07|7.79|3|EUR
+V3ET.DE|VanEck European Equal Weight Screened UCITS ETF|Broad Market / Other|Broad Market / Other|93.45|2.77|14.08|7.77|4|EUR
+PR1R.DE|Amundi Prime Euro Government Bond UCITS Dist ETF|Fixed Income|Bonds|16.68|2.76|18.07|7.76|1|EUR
+JAGG.DE|JPM Glbl Aggrgte Bd Active UCITS ETF - USD (dist)|Broad Market / Other|Broad Market / Other|9.07|2.75|27.38|7.75|2|EUR
 BE26.DE|Invesco BulletShares 2026 EUR Corporate Bond UCITS - Dist ETF|Fixed Income|Bonds|5.43|2.75|101.15|7.75|4|EUR
-AH50.DE|Xtrackers Harvest CSI A500 UCITS 1D ETF|Broad Market / Other|Broad Market / Other|26.73|2.74|12.07|7.74|3|EUR
-EUNS.DE|iShares   CpBd exFin 1-5Yr ESG SRI UCITS ETF EURD|Broad Market / Other|Broad Market / Other|104.81|2.74|15.26|7.74|2|EUR
-D5BE.DE|Xtrackers II US Treasuries 1-3 UCITS ETF|Broad Market / Other|Broad Market / Other|152.9|2.74|8.48|7.74|2|EUR
-XZEP.DE|Xtrackers MSCI Europe ESG UCITS ETF|Broad Market / Other|Broad Market / Other|579.8|2.74|735.46|7.74|2|EUR
-IS3B.DE|iShares EUR Corp Bond Financials UCITS EUR (Dist) ETF|Financials|Banks & Financial Services|98.37|3.33|4.42|7.74|2|EUR
+D5BE.DE|Xtrackers II US Treasuries 1-3 UCITS ETF|Broad Market / Other|Broad Market / Other|152.66|2.74|8.48|7.74|2|EUR
+EUNS.DE|iShares   CpBd exFin 1-5Yr ESG SRI UCITS ETF EURD|Broad Market / Other|Broad Market / Other|104.85|2.74|15.26|7.74|2|EUR
+IS3B.DE|iShares EUR Corp Bond Financials UCITS EUR (Dist) ETF|Financials|Banks & Financial Services|98.63|3.32|4.42|7.74|2|EUR
+XZEP.DE|Xtrackers MSCI Europe ESG UCITS ETF|Broad Market / Other|Broad Market / Other|583.0|2.73|735.46|7.73|2|EUR
 EXI5.DE|iShares STOXX Europe 600 Real Estate UCITS (DE) ETF|Real Estate|Real Estate|13.37|2.69|20.87|7.69|4|EUR
-LCUK.DE|Amundi UK Equity All Cap UCITS ETF - Dist|Broad Market / Other|Broad Market / Other|17.87|2.69|11.76|7.69|1|EUR
-CGB.DE|Xtrackers II Harvest China Government Bond UCITS 1D ETF|Fixed Income|Bonds|21.24|2.68|8.21|7.68|3|EUR
-EUNH.DE|iShares Core   Govt Bond UCITS ETF EUR D|Fixed Income|Bonds|106.07|2.67|19.1|7.67|2|EUR
-EXSI.DE|iShares EURO STOXX UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|64.54|2.66|12.24|7.66|4|EUR
-XMVE.DE|Xtrackers MSCI EMU Screened UCITS - 1D ETF|Broad Market / Other|Broad Market / Other|37.88|2.64|5.47|7.64|2|EUR
-IQQM.DE|iShares EURO STOXX Mid UCITS ETF EUR (Dist)|Broad Market / Other|Broad Market / Other|87.03|2.64|6.04|7.64|4|EUR
-EUN4.DE|iShares   Aggregate Bond ESG SRI UCITS ETF EUR D|Fixed Income|Bonds|104.67|2.62|13.84|7.62|2|EUR
-EXW1.DE|iShares Core EURO STOXX 50 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|61.4|2.62|8.34|7.62|4|EUR
-SLMB.DE|iShares MSCI EMU Screened UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|8.78|2.61|5.69|7.61|2|EUR
-XDDX.DE|Xtrackers DAX ESG Screened UCITS ETF|Broad Market / Other|Broad Market / Other|160.04|2.61|8.97|7.61|1|EUR
-SYBB.DE|State Street SPDR Bloomberg Euro Government Bond UCITS ETF|Fixed Income|Bonds|54.28|2.59|30.03|7.59|2|EUR
-TGBT.DE|VanEck iBoxx EUR Sovereign Diversifi 1-10|Fixed Income|Bonds|11.95|2.59|21.5|7.59|3|EUR
-EXSA.DE|iShares STOXX Europe 600 UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|63.15|2.59|9.05|7.59|4|EUR
-UIM4.DE|UBS Core MSCI EMU UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|206.6|2.58|10.6|7.58|2|EUR
-EXSC.DE|iShares STOXX Europe Large 200 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|65.38|2.56|8.16|7.56|4|EUR
-EUN8.DE|iShares   Govt Bond 10-15yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|139.93|3.49|4.06|7.55|2|EUR
-XD5E.DE|Xtrackers MSCI EMU UCITS 1D ETF|Broad Market / Other|Broad Market / Other|65.76|2.55|7.06|7.55|2|EUR
-IQQY.DE|iShares Core MSCI Europe UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|39.57|2.54|5.42|7.54|4|EUR
-JRED.DE|JPM Europe Rsrch Enh Idx Eqty Actv UCITS ETF EUR D|Broad Market / Other|Broad Market / Other|50.02|2.53|10.11|7.53|4|EUR
-10AK.DE|Amundi Core Global Government Bond UCITS Dist ETF|Fixed Income|Bonds|44.27|2.53|16.16|7.53|1|EUR
-IS0P.DE|iShares Spain Govt Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|148.21|2.53|22.76|7.53|2|EUR
-FJPI.DE|Fidelity Japan Eq Research Enh UCITS ETF Inc JPY|Broad Market / Other|Broad Market / Other|4.45|2.52|31.58|7.52|3|EUR
-UEFD.DE|UBS MSCI EMU Small Cap UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|143.76|2.52|6.86|7.52|1|EUR
-9E0E.DE|Amundi Euro Aggregate Bond ESG UCITS DR - EUR (D) ETF|Fixed Income|Bonds|44.12|2.52|24.16|7.52|1|EUR
-COVR.DE|PIMCO Advantage Covered Bond UCITS - EUR Income ETF|Fixed Income|Bonds|102.79|2.51|21.12|7.51|1|EUR
-SYBA.DE|State Street SPDR Bloomberg Euro Aggregate Bond UCITS ETF|Fixed Income|Bonds|53.01|2.51|17.62|7.51|2|EUR
-UIMD.DE|UBS MSCI Pacific ex Japan UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|47.08|3.07|4.44|7.51|2|EUR
-IS0X.DE|iShares Global Corp Bond UCITS ETF USD Dist|Fixed Income|Bonds|77.92|4.32|3.2|7.51|2|EUR
-IQQL.DE|iShares Listed Private Equity UCITS ETF USD D|Broad Market / Other|Broad Market / Other|26.84|4.12|3.38|7.5|2|EUR
+LCUK.DE|Amundi UK Equity All Cap UCITS ETF - Dist|Broad Market / Other|Broad Market / Other|17.91|2.68|11.76|7.68|1|EUR
+CGB.DE|Xtrackers II Harvest China Government Bond UCITS 1D ETF|Fixed Income|Bonds|21.27|2.68|8.21|7.68|3|EUR
+EXSI.DE|iShares EURO STOXX UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|64.2|2.67|12.24|7.67|4|EUR
+EUNH.DE|iShares Core   Govt Bond UCITS ETF EUR D|Fixed Income|Bonds|106.21|2.66|19.1|7.66|2|EUR
+EXW1.DE|iShares Core EURO STOXX 50 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|61.06|2.64|8.34|7.64|4|EUR
+IQQM.DE|iShares EURO STOXX Mid UCITS ETF EUR (Dist)|Broad Market / Other|Broad Market / Other|87.32|2.63|6.04|7.63|4|EUR
+XMVE.DE|Xtrackers MSCI EMU Screened UCITS - 1D ETF|Broad Market / Other|Broad Market / Other|38.06|2.63|5.47|7.63|2|EUR
+EUN4.DE|iShares   Aggregate Bond ESG SRI UCITS ETF EUR D|Fixed Income|Bonds|104.84|2.62|13.84|7.62|2|EUR
+XDDX.DE|Xtrackers DAX ESG Screened UCITS ETF|Broad Market / Other|Broad Market / Other|159.44|2.62|8.97|7.62|1|EUR
+UIM4.DE|UBS Core MSCI EMU UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|205.15|2.6|10.6|7.6|2|EUR
+SLMB.DE|iShares MSCI EMU Screened UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|8.83|2.6|5.69|7.6|2|EUR
+EXSA.DE|iShares STOXX Europe 600 UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|63.05|2.59|9.05|7.59|4|EUR
+TGBT.DE|VanEck iBoxx EUR Sovereign Diversifi 1-10|Fixed Income|Bonds|11.98|2.59|21.5|7.59|3|EUR
+SYBB.DE|State Street SPDR Bloomberg Euro Government Bond UCITS ETF|Fixed Income|Bonds|54.38|2.58|30.03|7.58|2|EUR
+XD5E.DE|Xtrackers MSCI EMU UCITS 1D ETF|Broad Market / Other|Broad Market / Other|65.43|2.57|7.06|7.57|2|EUR
+EXSC.DE|iShares STOXX Europe Large 200 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|65.28|2.56|8.16|7.56|4|EUR
+IQQY.DE|iShares Core MSCI Europe UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|39.49|2.55|5.42|7.55|4|EUR
+UEFD.DE|UBS MSCI EMU Small Cap UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|142.98|2.54|6.86|7.54|1|EUR
+EUN8.DE|iShares   Govt Bond 10-15yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|140.41|3.48|4.06|7.54|2|EUR
+JRED.DE|JPM Europe Rsrch Enh Idx Eqty Actv UCITS ETF EUR D|Broad Market / Other|Broad Market / Other|50.12|2.53|10.11|7.53|4|EUR
+UIMD.DE|UBS MSCI Pacific ex Japan UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|46.76|3.09|4.44|7.53|2|EUR
+IS0P.DE|iShares Spain Govt Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|148.44|2.52|22.76|7.52|2|EUR
+10AK.DE|Amundi Core Global Government Bond UCITS Dist ETF|Fixed Income|Bonds|44.38|2.52|16.16|7.52|1|EUR
+IS0X.DE|iShares Global Corp Bond UCITS ETF USD Dist|Fixed Income|Bonds|77.91|4.32|3.2|7.51|2|EUR
+SYBA.DE|State Street SPDR Bloomberg Euro Aggregate Bond UCITS ETF|Fixed Income|Bonds|53.04|2.51|17.62|7.51|2|EUR
+9E0E.DE|Amundi Euro Aggregate Bond ESG UCITS DR - EUR (D) ETF|Fixed Income|Bonds|44.23|2.51|24.16|7.51|1|EUR
+COVR.DE|PIMCO Advantage Covered Bond UCITS - EUR Income ETF|Fixed Income|Bonds|103.19|2.5|21.12|7.5|1|EUR
 28IY.DE|iShares iBonds Dec 2028 Term Italy Govt Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|5.09|2.5|49.53|7.5|4|EUR
-X03C.DE|Xtrackers II Eurozone Government Bond 3-5 UCITS 1D ETF|Fixed Income|Bonds|180.99|2.49|51.62|7.49|2|EUR
-RIZD.DE|Rize Global Sustainable Infrastructure UCITS USD acc ETF|Utilities|Utilities|5.6|2.46|15.14|7.46|2|EUR
-X03F.DE|Xtrackers II Eurozone Government Bond UCITS 1D ETF|Fixed Income|Bonds|165.11|2.45|7.45|7.45|2|EUR
-RQFI.DE|Xtrackers Harvest CSI300 UCITS 1D ETF|Broad Market / Other|Broad Market / Other|10.63|2.45|35.35|7.45|3|EUR
-FUSD.DE|Fidelity US Quality Income UCITS Inc-USD ETF|Broad Market / Other|Broad Market / Other|12.05|2.43|25.75|7.43|7|EUR
-UETC.DE|UBS MSCI China Universal UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|8.65|2.42|70.17|7.42|2|EUR
-EXV7.DE|iShares STOXX Europe 600 Chemicals UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|133.22|2.42|15.68|7.42|4|EUR
-LYMH.DE|Amundi MSCI Greece UCITS ETF Dist|Broad Market / Other|Broad Market / Other|2.9|2.41|52.75|7.41|1|EUR
-V60D.DE|Vanguard LifeStrategy 60% Equity UCITS ETF EUR Dis|Broad Market / Other|Broad Market / Other|32.24|2.39|9.67|7.39|2|EUR
-JRZD.DE|JPM Eurozone Research Enhanced Index Equity Active UCITS EUR (dist) ETF|Broad Market / Other|Broad Market / Other|38.77|2.39|6.06|7.39|4|EUR
-V50D.DE|Amundi Core EURO STOXX 50 UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|98.75|2.35|7.7|7.35|1|EUR
-6PSC.DE|Invesco RAFI Europe Fundamental Value UCITS ETF D|Broad Market / Other|Broad Market / Other|15.95|2.83|4.53|7.35|4|EUR
-PR1Z.DE|Amundi Prime Eurozone UCITS ETF DR D|Broad Market / Other|Broad Market / Other|38.47|2.34|8.11|7.34|1|EUR
-UIMZ.DE|UBS Factor MSCI EMU Prime Value Screened UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|26.58|2.33|8.0|7.33|2|EUR
-FLXX.DE|Franklin Global Quality Dividend UCITS ETF|Broad Market / Other|Broad Market / Other|40.25|2.32|9.86|7.32|4|EUR
-IBC9.DE|iShares Global HY Corp Bond UCITS ETF USD Dist|Fixed Income|Bonds|77.5|5.79|1.54|7.32|3|EUR
-EVSD.DE|Global X European Superdividend UCITS EUR Distribution ETF|Broad Market / Other|Broad Market / Other|19.28|7.32||7.32|12|EUR
-JEIP.DE|JPMorgan US Eqt Premium Inc Active UCITS ETF USD D|Broad Market / Other|Broad Market / Other|21.87|7.32||7.32|12|EUR
-ICFP.DE|Invesco MSCI Europe Cath Principles UCITS ETF Dis|Broad Market / Other|Broad Market / Other|68.64|2.29|9.01|7.29|4|EUR
-IUS6.DE|iShares EUR Covered Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|139.12|2.27|21.39|7.27|2|EUR
-IS0L.DE|iShares Germany Govt Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|116.85|2.26|31.15|7.26|2|EUR
-JSRI.DE|BNP Paribas Easy MSCI Japan SRI PAB UCITS ETF|Broad Market / Other|Broad Market / Other|24.76|2.26|18.32|7.26|1|EUR
-XEZB.DE|Xtrackers II Eurozone Government Bond ESG Tilted UCITS ETF|Fixed Income|Bonds|39.49|2.25|8.55|7.25|2|EUR
-XUEK.DE|Xtrackers S&P Europe ex UK UCITS ETF 1D|Broad Market / Other|Broad Market / Other|86.91|2.47|4.78|7.25|4|EUR
+IQQL.DE|iShares Listed Private Equity UCITS ETF USD D|Broad Market / Other|Broad Market / Other|26.94|4.11|3.38|7.49|2|EUR
+X03C.DE|Xtrackers II Eurozone Government Bond 3-5 UCITS 1D ETF|Fixed Income|Bonds|181.27|2.49|51.62|7.49|2|EUR
+RQFI.DE|Xtrackers Harvest CSI300 UCITS 1D ETF|Broad Market / Other|Broad Market / Other|10.49|2.48|35.35|7.48|3|EUR
+FJPI.DE|Fidelity Japan Eq Research Enh UCITS ETF Inc JPY|Broad Market / Other|Broad Market / Other|4.52|2.48|31.58|7.48|3|EUR
+RIZD.DE|Rize Global Sustainable Infrastructure UCITS USD acc ETF|Utilities|Utilities|5.57|2.47|15.14|7.47|2|EUR
+FUSD.DE|Fidelity US Quality Income UCITS Inc-USD ETF|Broad Market / Other|Broad Market / Other|11.92|2.46|25.75|7.46|7|EUR
+X03F.DE|Xtrackers II Eurozone Government Bond UCITS 1D ETF|Fixed Income|Bonds|165.6|2.44|7.45|7.44|2|EUR
+UETC.DE|UBS MSCI China Universal UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|8.61|2.43|70.17|7.43|2|EUR
+EXV7.DE|iShares STOXX Europe 600 Chemicals UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|133.54|2.42|15.68|7.42|4|EUR
+LYMH.DE|Amundi MSCI Greece UCITS ETF Dist|Broad Market / Other|Broad Market / Other|2.89|2.42|52.75|7.42|1|EUR
+V60D.DE|Vanguard LifeStrategy 60% Equity UCITS ETF EUR Dis|Broad Market / Other|Broad Market / Other|32.1|2.4|9.67|7.4|2|EUR
+JRZD.DE|JPM Eurozone Research Enhanced Index Equity Active UCITS EUR (dist) ETF|Broad Market / Other|Broad Market / Other|38.66|2.4|6.06|7.4|4|EUR
+V50D.DE|Amundi Core EURO STOXX 50 UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|97.99|2.37|7.7|7.37|1|EUR
+IBC9.DE|iShares Global HY Corp Bond UCITS ETF USD Dist|Fixed Income|Bonds|76.95|5.83|1.54|7.37|3|EUR
+6PSC.DE|Invesco RAFI Europe Fundamental Value UCITS ETF D|Broad Market / Other|Broad Market / Other|15.93|2.83|4.53|7.36|4|EUR
+PR1Z.DE|Amundi Prime Eurozone UCITS ETF DR D|Broad Market / Other|Broad Market / Other|38.28|2.35|8.11|7.35|1|EUR
+UIMZ.DE|UBS Factor MSCI EMU Prime Value Screened UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|26.56|2.34|8.0|7.34|2|EUR
+FLXX.DE|Franklin Global Quality Dividend UCITS ETF|Broad Market / Other|Broad Market / Other|40.06|2.33|9.86|7.33|4|EUR
+JEIP.DE|JPMorgan US Eqt Premium Inc Active UCITS ETF USD D|Broad Market / Other|Broad Market / Other|21.85|7.32||7.32|12|EUR
+ICFP.DE|Invesco MSCI Europe Cath Principles UCITS ETF Dis|Broad Market / Other|Broad Market / Other|68.92|2.28|9.01|7.28|4|EUR
+EVSD.DE|Global X European Superdividend UCITS EUR Distribution ETF|Broad Market / Other|Broad Market / Other|19.39|7.28||7.28|12|EUR
+IUS6.DE|iShares EUR Covered Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|139.36|2.27|21.39|7.27|2|EUR
+IS0L.DE|iShares Germany Govt Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|116.89|2.26|31.15|7.26|2|EUR
+JSRI.DE|BNP Paribas Easy MSCI Japan SRI PAB UCITS ETF|Broad Market / Other|Broad Market / Other|24.85|2.25|18.32|7.25|1|EUR
+XEZB.DE|Xtrackers II Eurozone Government Bond ESG Tilted UCITS ETF|Fixed Income|Bonds|39.6|2.25|8.55|7.25|2|EUR
+XUEK.DE|Xtrackers S&P Europe ex UK UCITS ETF 1D|Broad Market / Other|Broad Market / Other|87.42|2.46|4.78|7.24|4|EUR
 26TP.DE|iShares iBonds Dec 2026 Term Italy Govt Bond UCITS EUR (Dist) ETF|Fixed Income|Bonds|5.07|2.24|40.26|7.24|4|EUR
 IS3C.DE|iShares J.P. Morgan $ EM Bond EUR Hgd UCITS ETF D|Fixed Income|Bonds|63.7|6.02|1.16|7.18|12|EUR
-EXW3.DE|iShares STOXX Europe 600 Top 20 UCITS ETF (DE)|Broad Market / Other|Broad Market / Other|53.0|2.18|7.27|7.18|4|EUR
-WTEQ.DE|WisdomTree Global Quality Div Growth UCITS ETF USD|Broad Market / Other|Broad Market / Other|36.61|2.11|22.09|7.11|7|EUR
-AE5B.DE|Amundi MSCI Europe Action UCITS Dist ETF|Broad Market / Other|Broad Market / Other|134.34|2.11|107.07|7.11|1|EUR
-IQQU.DE|iShares MSCI Europe ex-UK UCITS ETF EUR (Dist)|Broad Market / Other|Broad Market / Other|54.06|2.1|6.08|7.1|4|EUR
-36B5.DE|iShares MSCI EM SRI UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|5.78|2.08|7.29|7.08|2|EUR
-EXH3.DE|iShares STOXX Europe 600 Food & Beverage UCITS (DE) ETF|Consumer Staples|Consumer Staples|69.17|2.16|4.89|7.05|4|EUR
-CBUE.DE|iShares USD Treasury Bond 3-7yr UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.03|4.08|2.95|7.04|2|EUR
-EXH2.DE|iShares STOXX Europe 600 Financial Services UCITS (DE) ETF|Financials|Banks & Financial Services|93.92|2.01|23.31|7.01|4|EUR
-UDIV.DE|Global X Superdividend UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|7.53|11.17|-4.19|6.98|12|EUR
-EXV8.DE|iShares STOXX Europe 600 Construction & Materials UCITS (DE) ETF|Materials|Materials|86.58|1.97|18.4|6.97|3|EUR
-SPPD.DE|State Street SPDR S&P U.S. Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|9.42|1.97|5.03|6.97|4|EUR
-WELY.DE|Amundi S&P World Financials Screened UCITS Dist ETF|Financials|Banks & Financial Services|18.59|1.93|25.14|6.93|1|EUR
-SYBD.DE|StSt SPDR BBG 0-3 Year Euro Corp Bd UCITS ETF Dis|Broad Market / Other|Broad Market / Other|29.73|2.86|4.07|6.93|2|EUR
-V3PL.DE|Vanguard ESG DevAsiaPacific AC UCITS ETF Dis|Broad Market / Other|Broad Market / Other|7.97|1.92|7.34|6.92|4|EUR
-SEAA.DE|UBS J.P. Morgan USD EM Diversified Bond 1-5 UCITS USD dis ETF|Fixed Income|Bonds|9.81|5.36|1.55|6.91|2|EUR
-EGV5.DE|Amundi Euro Government Bond 3-5Y UCITS Dist ETF|Fixed Income|Bonds|130.1|1.91|27.99|6.91|1|EUR
-UEF5.DE|UBS MSCI EM Socially Responsible UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|18.59|1.87|23.93|6.87|2|EUR
-D5BB.DE|Xtrackers II Germany Government Bond UCITS 1D ETF|Fixed Income|Bonds|163.51|1.85|14.01|6.85|2|EUR
-WTER.DE|WisdomTree New Economy Real Estate UCITS ETF USD|Real Estate|Real Estate|22.11|1.84|8.98|6.84|2|EUR
-PDSE.DE|Invesco Preferred Shares UCITS EUR Hgd Dist ETF|Broad Market / Other|Broad Market / Other|11.0|6.4|0.44|6.83|4|EUR
-EXHE.DE|iShares Pfandbriefe UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|95.36|1.82|21.12|6.82|4|EUR
-UIMI.DE|UBS Core MSCI EM UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|135.26|1.8|6.86|6.8|2|EUR
-X03B.DE|Xtrackers II Eurozone Government Bond 1-3 UCITS 1D ETF|Fixed Income|Bonds|157.6|1.8|34.97|6.8|2|EUR
-LHKG.DE|Amundi MSCI China ESG Selection Extra UCITS Dist ETF|Broad Market / Other|Broad Market / Other|21.35|1.78|255.9|6.78|1|EUR
-IBCM.DE|iShares   Govt Bond 7-10yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|177.03|3.12|3.59|6.71|2|EUR
-UBUR.DE|UBS Factor MSCI USA Low Volatility UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|33.33|1.71|8.12|6.71|2|EUR
-SLMD.DE|iShares MSCI Europe ESG Screened UCITS ETF EUR Dis|Broad Market / Other|Broad Market / Other|8.85|2.49|4.21|6.71|2|EUR
-PR1E.DE|Amundi Prime Europe - UCITS ETF DR (D)|Broad Market / Other|Broad Market / Other|36.73|2.31|4.39|6.7|1|EUR
-UIMR.DE|UBS MSCI EMU Socially Responsible UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|140.86|1.8|4.88|6.68|2|EUR
-CEB0.DE|iShares China CNY Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|5.36|1.68|119.26|6.68|2|EUR
-UIM5.DE|UBS Core MSCI Japan UCITS JPY dis ETF|Broad Market / Other|Broad Market / Other|64.3|1.66|10.86|6.66|2|EUR
-QDVW.DE|Ishrs World Quality Div Usd Adv Dist|Broad Market / Other|Broad Market / Other|8.47|2.14|4.49|6.63|4|EUR
-NADA.DE|Amundi Core MSCI Japan UCITS Dist ETF|Broad Market / Other|Broad Market / Other|87.29|1.63|15.86|6.63|1|EUR
-XAT1.DE|Invesco USD AT1 CoCo Bond UCITS - EUR Hdg Dist ETF|Fixed Income|Bonds|15.69|6.27|0.34|6.62|4|EUR
-JNHD.DE|Amundi Core MSCI Japan UCITS EUR Hedged Dist ETF|Broad Market / Other|Broad Market / Other|39.52|1.62|26.49|6.62|1|EUR
-JGPD.DE|JPM Global Equity Premium Income Active UCITS EUR Dist ETF|Broad Market / Other|Broad Market / Other|22.9|6.61||6.61|11|EUR
-IQQJ.DE|iShares MSCI Japan UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|21.11|1.56|15.73|6.56|2|EUR
-UEFS.DE|UBS BBG USD EM Sovereign UCITS USD dis ETF|Fixed Income|Bonds|8.26|6.49|0.0|6.5|2|EUR
-PR1J.DE|Amundi Prime Japan UCITS DR (D) ETF|Broad Market / Other|Broad Market / Other|36.66|1.49|7.1|6.49|1|EUR
-EXV4.DE|iShares STOXX Europe 600 Health Care UCITS (DE) ETF|Health Care|Pharmaceuticals & Biotech|123.6|1.49|8.37|6.49|4|EUR
-EMNJ.DE|iShares MSCI Japan CTB Enh ESG UCITS ETF USD D|Broad Market / Other|Broad Market / Other|7.64|1.45|7.95|6.45|2|EUR
-XDNY.DE|Xtrackers MSCI Japan Screened UCITS ETF|Broad Market / Other|Broad Market / Other|19.58|1.44|6.21|6.44|2|EUR
-D5BC.DE|Xtrackers II Germany Government Bond 1-3 UCITS 1D ETF|Fixed Income|Bonds|138.04|1.41|100.94|6.41|2|EUR
-ISPA.DE|iShares STOXX Global Select Dividend 100 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|39.34|3.89|2.49|6.39|4|EUR
-XMA1.DE|Xtrackers MSCI EM Asia Screened Swap UCITS ETF|Broad Market / Other|Broad Market / Other|23.41|1.38|55.68|6.38|2|EUR
-UBU7.DE|UBS Core MSCI World UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|106.57|1.37|10.72|6.37|2|EUR
-DXS0.DE|Xtrackers SLI UCITS 1D ETF|Broad Market / Other|Broad Market / Other|269.4|1.33|9.51|6.33|1|EUR
-EXHA.DE|iShares eb.rexx Government Germany UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|122.06|1.3|31.87|6.3|4|EUR
-K0MR.DE|L&G Gerd Kommer Multifactor Equity UCITS ETF|Broad Market / Other|Broad Market / Other|14.03|1.39|4.91|6.29|4|EUR
-WELG.DE|Amundi S&P World Health Care Screened UCITS Dist ETF|Health Care|Pharmaceuticals & Biotech|12.84|1.27|26.6|6.27|1|EUR
-IQQQ.DE|iShares Global Water UCITS ETF USD (Dist)|Materials|Materials|67.69|1.24|14.44|6.24|2|EUR
-UBUS.DE|UBS Factor MSCI USA Prime Value Screened UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|37.59|1.21|42.16|6.21|2|EUR
-IBCL.DE|iShares Govt Bond 15-30yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|151.49|3.95|2.26|6.21|2|EUR
-S6X0.DE|Invesco EURO STOXX 50 UCITS Dist ETF|Broad Market / Other|Broad Market / Other|58.83|2.84|3.34|6.18|2|EUR
-V3AL.DE|Vanguard ESG Global All Cap UCITS ETF (USD) Dist|Broad Market / Other|Broad Market / Other|6.95|1.16|5.93|6.16|4|EUR
-IUSM.DE|iShares $ Treasury Bd 7-10y UCITS ETF USD Dist|Fixed Income|Bonds|150.73|4.33|1.84|6.16|2|EUR
-XUFN.DE|Xtrackers MSCI USA Financials UCITS 1D ETF|Financials|Banks & Financial Services|37.2|1.15|8.05|6.15|2|EUR
-EUNX.DE|iShares US Aggregate Bond UCITS ETF USD (Dist)|Fixed Income|Bonds|82.69|3.93|2.22|6.15|2|EUR
-XDJP.DE|Xtrackers Nikkei 225 UCITS ETF 1D|Broad Market / Other|Broad Market / Other|34.87|1.12|6.77|6.12|2|EUR
-LYYA.DE|Amundi MSCI World Swap II UCITS ETF Dist|Broad Market / Other|Broad Market / Other|425.67|1.11|10.96|6.11|1|EUR
-EXIC.DE|iShares Core DAX UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|7.1|1.8|4.31|6.11|2|EUR
-UBUD.DE|UBS Solactive Global Pure Gold Miners UCITS USD dis ETF|Materials|Materials|39.88|1.1|95.7|6.1|2|EUR
-HDLV.DE|Invesco S&P 500 High Div Low Vlty UCITS ETF Dist|Broad Market / Other|Broad Market / Other|35.22|3.44|2.66|6.1|4|EUR
-CBUF.DE|iShares MSCI Wld Hlth Care Sec Adv UCITS ETF USD D|Broad Market / Other|Broad Market / Other|8.01|1.08|12.93|6.08|2|EUR
-JRGD.DE|JPM Global Rsrch Enh Idx Eqty Actv UCITS ETF USD D|Broad Market / Other|Broad Market / Other|53.92|1.08|12.73|6.08|4|EUR
-TIUP.DE|Amundi US TIPS UCITS ETF Dist|Broad Market / Other|Broad Market / Other|106.17|1.04|24.63|6.04|1|EUR
-TSWE.DE|VanEck World Equal Weight Screened UCITS ETF|Broad Market / Other|Broad Market / Other|41.51|1.83|4.2|6.03|4|EUR
-GUHY.DE|Goldman Sachs USD HY Bond Active UCITS ETF USD Dis|Fixed Income|Bonds|44.9|6.0||6.0|2|EUR
-UBU9.DE|UBS Core S&P 500 UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|106.0|0.99|9.22|5.99|2|EUR
-IQQP.DE|iShares European Property Yield UCITS ETF EUR D|Real Estate|Real Estate|27.31|3.22|2.77|5.99|4|EUR
-EXX5.DE|iShares Dow Jones U.S. Select Dividend UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|101.64|2.28|3.71|5.99|4|EUR
-IQQG.DE|iShares Euro Total Market Growth Large UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|65.56|0.99|5.5|5.99|3|EUR
-LYM8.DE|Amundi MSCI Water UCITS ETF Dist|Materials|Materials|73.33|0.98|18.82|5.98|1|EUR
-E15H.DE|Amundi Euro Government Inflation-Linked Bond UCITS Dist ETF|Fixed Income|Bonds|140.34|0.97|13.81|5.97|1|EUR
-DJAD.DE|Amundi US Treasury Bond Long Dated UCITS ETF Dist|Fixed Income|Bonds|90.1|3.35|2.62|5.97|1|EUR
-B8TQ.DE|Amundi Global Government Inflation-Linked Bond 1-10Y UCITS EUR Hedged Dist ETF|Fixed Income|Bonds|10.62|0.94|19.52|5.94|1|EUR
-QVMP.DE|Invesco S&P 500 QVM UCITS ETF Dist|Broad Market / Other|Broad Market / Other|62.14|0.91|7.61|5.91|4|EUR
-UIQL.DE|UBS Core BBG Euro Area Liquid Corp UCITS ETF EURd|Broad Market / Other|Broad Market / Other|10.16|3.62|2.29|5.91|2|EUR
-SP2D.DE|Invesco S&P 500 Equal Weight UCITS ETF Dist|Broad Market / Other|Broad Market / Other|61.61|1.24|4.66|5.9|4|EUR
-6TVM.DE|Amundi Core S&P 500 Swap Etf|Broad Market / Other|Broad Market / Other|68.49|0.88|15.09|5.88|1|EUR
-LYPS.DE|Amundi Core S&P 500 Swap UCITS EUR Dist ETF|Broad Market / Other|Broad Market / Other|68.05|0.88|14.21|5.88|1|EUR
+EXW3.DE|iShares STOXX Europe 600 Top 20 UCITS ETF (DE)|Broad Market / Other|Broad Market / Other|53.27|2.17|7.27|7.17|4|EUR
+WTEQ.DE|WisdomTree Global Quality Div Growth UCITS ETF USD|Broad Market / Other|Broad Market / Other|36.42|2.12|22.09|7.12|7|EUR
+IQQU.DE|iShares MSCI Europe ex-UK UCITS ETF EUR (Dist)|Broad Market / Other|Broad Market / Other|54.41|2.09|6.08|7.09|4|EUR
+AE5B.DE|Amundi MSCI Europe Action UCITS Dist ETF|Broad Market / Other|Broad Market / Other|135.2|2.09|107.07|7.09|1|EUR
+CBUE.DE|iShares USD Treasury Bond 3-7yr UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.04|4.07|2.95|7.03|2|EUR
+EXH3.DE|iShares STOXX Europe 600 Food & Beverage UCITS (DE) ETF|Consumer Staples|Consumer Staples|70.04|2.13|4.89|7.02|4|EUR
+36B5.DE|iShares MSCI EM SRI UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|5.97|2.02|7.29|7.02|2|EUR
+UDIV.DE|Global X Superdividend UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|7.52|11.19|-4.19|7.0|12|EUR
+EXH2.DE|iShares STOXX Europe 600 Financial Services UCITS (DE) ETF|Financials|Banks & Financial Services|94.5|1.99|23.31|6.99|4|EUR
+EXV8.DE|iShares STOXX Europe 600 Construction & Materials UCITS (DE) ETF|Materials|Materials|86.28|1.98|18.4|6.98|3|EUR
+SPPD.DE|State Street SPDR S&P U.S. Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|9.49|1.96|5.03|6.96|4|EUR
+SYBD.DE|StSt SPDR BBG 0-3 Year Euro Corp Bd UCITS ETF Dis|Broad Market / Other|Broad Market / Other|29.74|2.86|4.07|6.93|2|EUR
+WELY.DE|Amundi S&P World Financials Screened UCITS Dist ETF|Financials|Banks & Financial Services|18.65|1.92|25.14|6.92|1|EUR
+UEF5.DE|UBS MSCI EM Socially Responsible UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|18.12|1.92|23.93|6.92|2|EUR
+SEAA.DE|UBS J.P. Morgan USD EM Diversified Bond 1-5 UCITS USD dis ETF|Fixed Income|Bonds|9.82|5.35|1.55|6.91|2|EUR
+EGV5.DE|Amundi Euro Government Bond 3-5Y UCITS Dist ETF|Fixed Income|Bonds|130.31|1.91|27.99|6.91|1|EUR
+V3PL.DE|Vanguard ESG DevAsiaPacific AC UCITS ETF Dis|Broad Market / Other|Broad Market / Other|8.12|1.88|7.34|6.88|4|EUR
+D5BB.DE|Xtrackers II Germany Government Bond UCITS 1D ETF|Fixed Income|Bonds|163.8|1.85|14.01|6.85|2|EUR
+UIMI.DE|UBS Core MSCI EM UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|131.87|1.85|6.86|6.85|2|EUR
+EXHE.DE|iShares Pfandbriefe UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|95.33|1.83|21.12|6.83|4|EUR
+WTER.DE|WisdomTree New Economy Real Estate UCITS ETF USD|Real Estate|Real Estate|22.24|1.83|8.98|6.83|2|EUR
+X03B.DE|Xtrackers II Eurozone Government Bond 1-3 UCITS 1D ETF|Fixed Income|Bonds|157.7|1.8|34.97|6.8|2|EUR
+LHKG.DE|Amundi MSCI China ESG Selection Extra UCITS Dist ETF|Broad Market / Other|Broad Market / Other|21.2|1.79|255.9|6.79|1|EUR
+PDSE.DE|Invesco Preferred Shares UCITS EUR Hgd Dist ETF|Broad Market / Other|Broad Market / Other|11.16|6.31|0.44|6.74|4|EUR
+SLMD.DE|iShares MSCI Europe ESG Screened UCITS ETF EUR Dis|Broad Market / Other|Broad Market / Other|8.84|2.5|4.21|6.71|2|EUR
+PR1E.DE|Amundi Prime Europe - UCITS ETF DR (D)|Broad Market / Other|Broad Market / Other|36.62|2.32|4.39|6.71|1|EUR
+IBCM.DE|iShares   Govt Bond 7-10yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|177.18|3.12|3.59|6.71|2|EUR
+UBUR.DE|UBS Factor MSCI USA Low Volatility UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|33.6|1.7|8.12|6.7|2|EUR
+UIMR.DE|UBS MSCI EMU Socially Responsible UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|140.1|1.81|4.88|6.69|2|EUR
+CEB0.DE|iShares China CNY Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|5.35|1.68|119.26|6.68|2|EUR
+QDVW.DE|Ishrs World Quality Div Usd Adv Dist|Broad Market / Other|Broad Market / Other|8.4|2.16|4.49|6.65|4|EUR
+NADA.DE|Amundi Core MSCI Japan UCITS Dist ETF|Broad Market / Other|Broad Market / Other|86.26|1.65|15.86|6.65|1|EUR
+JNHD.DE|Amundi Core MSCI Japan UCITS EUR Hedged Dist ETF|Broad Market / Other|Broad Market / Other|39.24|1.63|26.49|6.63|1|EUR
+UIM5.DE|UBS Core MSCI Japan UCITS JPY dis ETF|Broad Market / Other|Broad Market / Other|65.54|1.62|10.86|6.62|2|EUR
+XAT1.DE|Invesco USD AT1 CoCo Bond UCITS - EUR Hdg Dist ETF|Fixed Income|Bonds|15.7|6.27|0.34|6.61|4|EUR
+JGPD.DE|JPM Global Equity Premium Income Active UCITS EUR Dist ETF|Broad Market / Other|Broad Market / Other|22.94|6.59||6.59|11|EUR
+IQQJ.DE|iShares MSCI Japan UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|20.82|1.58|15.73|6.58|2|EUR
+UEFS.DE|UBS BBG USD EM Sovereign UCITS USD dis ETF|Fixed Income|Bonds|8.24|6.51|0.0|6.52|2|EUR
+PR1J.DE|Amundi Prime Japan UCITS DR (D) ETF|Broad Market / Other|Broad Market / Other|36.26|1.51|7.1|6.51|1|EUR
+EXV4.DE|iShares STOXX Europe 600 Health Care UCITS (DE) ETF|Health Care|Pharmaceuticals & Biotech|124.5|1.48|8.37|6.48|4|EUR
+EMNJ.DE|iShares MSCI Japan CTB Enh ESG UCITS ETF USD D|Broad Market / Other|Broad Market / Other|7.69|1.44|7.95|6.44|2|EUR
+XDNY.DE|Xtrackers MSCI Japan Screened UCITS ETF|Broad Market / Other|Broad Market / Other|19.56|1.44|6.21|6.44|2|EUR
+D5BC.DE|Xtrackers II Germany Government Bond 1-3 UCITS 1D ETF|Fixed Income|Bonds|138.15|1.41|100.94|6.41|2|EUR
+ISPA.DE|iShares STOXX Global Select Dividend 100 UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|39.19|3.91|2.49|6.4|4|EUR
+UBU7.DE|UBS Core MSCI World UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|105.34|1.39|10.72|6.39|2|EUR
+XMA1.DE|Xtrackers MSCI EM Asia Screened Swap UCITS ETF|Broad Market / Other|Broad Market / Other|24.15|1.34|56.0|6.34|2|EUR
+DXS0.DE|Xtrackers SLI UCITS 1D ETF|Broad Market / Other|Broad Market / Other|270.1|1.33|9.51|6.33|1|EUR
+K0MR.DE|L&G Gerd Kommer Multifactor Equity UCITS ETF|Broad Market / Other|Broad Market / Other|13.84|1.41|4.91|6.31|4|EUR
+EXHA.DE|iShares eb.rexx Government Germany UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|122.24|1.3|31.87|6.3|4|EUR
+WELG.DE|Amundi S&P World Health Care Screened UCITS Dist ETF|Health Care|Pharmaceuticals & Biotech|12.91|1.26|26.6|6.26|1|EUR
+IQQQ.DE|iShares Global Water UCITS ETF USD (Dist)|Materials|Materials|68.2|1.23|14.44|6.23|2|EUR
+UBUS.DE|UBS Factor MSCI USA Prime Value Screened UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|37.79|1.2|42.16|6.2|2|EUR
+IBCL.DE|iShares Govt Bond 15-30yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|152.29|3.93|2.26|6.19|2|EUR
+S6X0.DE|Invesco EURO STOXX 50 UCITS Dist ETF|Broad Market / Other|Broad Market / Other|58.56|2.86|3.34|6.19|2|EUR
+V3AL.DE|Vanguard ESG Global All Cap UCITS ETF (USD) Dist|Broad Market / Other|Broad Market / Other|6.88|1.17|5.93|6.17|4|EUR
+IUSM.DE|iShares $ Treasury Bd 7-10y UCITS ETF USD Dist|Fixed Income|Bonds|150.93|4.32|1.84|6.16|2|EUR
+XUFN.DE|Xtrackers MSCI USA Financials UCITS 1D ETF|Financials|Banks & Financial Services|37.09|1.16|8.05|6.16|2|EUR
+EUNX.DE|iShares US Aggregate Bond UCITS ETF USD (Dist)|Fixed Income|Bonds|82.61|3.93|2.22|6.15|2|EUR
+XDJP.DE|Xtrackers Nikkei 225 UCITS ETF 1D|Broad Market / Other|Broad Market / Other|34.36|1.14|6.77|6.14|2|EUR
+LYYA.DE|Amundi MSCI World Swap II UCITS ETF Dist|Broad Market / Other|Broad Market / Other|420.0|1.13|10.96|6.13|1|EUR
+EXIC.DE|iShares Core DAX UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|7.07|1.81|4.31|6.12|2|EUR
+UBUD.DE|UBS Solactive Global Pure Gold Miners UCITS USD dis ETF|Materials|Materials|39.37|1.11|95.7|6.11|2|EUR
+CBUF.DE|iShares MSCI Wld Hlth Care Sec Adv UCITS ETF USD D|Broad Market / Other|Broad Market / Other|8.02|1.08|12.93|6.08|2|EUR
+JRGD.DE|JPM Global Rsrch Enh Idx Eqty Actv UCITS ETF USD D|Broad Market / Other|Broad Market / Other|54.19|1.08|12.73|6.08|4|EUR
+HDLV.DE|Invesco S&P 500 High Div Low Vlty UCITS ETF Dist|Broad Market / Other|Broad Market / Other|35.45|3.42|2.66|6.08|4|EUR
+TSWE.DE|VanEck World Equal Weight Screened UCITS ETF|Broad Market / Other|Broad Market / Other|41.1|1.85|4.2|6.05|4|EUR
+TIUP.DE|Amundi US TIPS UCITS ETF Dist|Broad Market / Other|Broad Market / Other|105.75|1.05|24.63|6.05|1|EUR
+GUHY.DE|Goldman Sachs USD HY Bond Active UCITS ETF USD Dis|Fixed Income|Bonds|44.69|6.03||6.03|2|EUR
+IQQG.DE|iShares Euro Total Market Growth Large UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|64.56|1.01|5.5|6.01|3|EUR
+UBU9.DE|UBS Core S&P 500 UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|105.84|0.99|9.22|5.99|2|EUR
+IQQP.DE|iShares European Property Yield UCITS ETF EUR D|Real Estate|Real Estate|27.36|3.21|2.77|5.98|4|EUR
+EXX5.DE|iShares Dow Jones U.S. Select Dividend UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|102.2|2.27|3.71|5.98|4|EUR
+LYM8.DE|Amundi MSCI Water UCITS ETF Dist|Materials|Materials|73.86|0.97|18.82|5.97|1|EUR
+E15H.DE|Amundi Euro Government Inflation-Linked Bond UCITS Dist ETF|Fixed Income|Bonds|140.56|0.97|13.81|5.97|1|EUR
+DJAD.DE|Amundi US Treasury Bond Long Dated UCITS ETF Dist|Fixed Income|Bonds|90.36|3.34|2.62|5.96|1|EUR
+B8TQ.DE|Amundi Global Government Inflation-Linked Bond 1-10Y UCITS EUR Hedged Dist ETF|Fixed Income|Bonds|10.64|0.94|19.52|5.94|1|EUR
+QVMP.DE|Invesco S&P 500 QVM UCITS ETF Dist|Broad Market / Other|Broad Market / Other|62.2|0.91|7.61|5.91|4|EUR
+SP2D.DE|Invesco S&P 500 Equal Weight UCITS ETF Dist|Broad Market / Other|Broad Market / Other|61.57|1.24|4.66|5.9|4|EUR
+UIQL.DE|UBS Core BBG Euro Area Liquid Corp UCITS ETF EURd|Broad Market / Other|Broad Market / Other|10.19|3.61|2.29|5.9|2|EUR
+6TVM.DE|Amundi Core S&P 500 Swap Etf|Broad Market / Other|Broad Market / Other|67.68|0.89|15.09|5.89|1|EUR
+IQQT.DE|iShares MSCI Taiwan UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|149.1|0.89|5.15|5.89|1|EUR
+LYPS.DE|Amundi Core S&P 500 Swap UCITS EUR Dist ETF|Broad Market / Other|Broad Market / Other|67.65|0.89|14.21|5.89|1|EUR
 CEMH.DE|iShares $ Short Duration High Yield Corp Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|4.71|5.84||5.84|3|EUR
-IQQT.DE|iShares MSCI Taiwan UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|158.54|0.83|5.15|5.83|1|EUR
-EXH7.DE|iShares STOXX Europe 600 Personal & Household Goods UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|94.08|2.66|3.13|5.79|4|EUR
-WEBC.DE|Amundi MSCI North America ESG Broad Transition UCITS Dist ETF|Broad Market / Other|Broad Market / Other|140.44|0.77|8.3|5.77|1|EUR
-SPPX.DE|StSt SPDR BBG 10+ Y U.S. Treas Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|18.16|4.7|1.05|5.75|2|EUR
-4UBK.DE|UBS MSCI USA Socially Responsible UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|20.88|0.73|29.71|5.73|2|EUR
-SYBC.DE|State Street SPDR Bloomberg Euro Corporate Bond UCITS ETF|Fixed Income|Bonds|52.13|3.34|2.39|5.73|2|EUR
-XDGM.DE|Xtrackers MDAX ESG Screened UCITS ETF|Broad Market / Other|Broad Market / Other|21.72|1.92|3.78|5.71|1|EUR
-XB4F.DE|Xtrackers II ESG EUR Corporate Bond UCITS 1D ETF|Fixed Income|Bonds|138.9|2.82|2.88|5.71|4|EUR
-JRUD.DE|JPM US Research Enhanced Index Equity Active UCITS USD (dist) ETF|Broad Market / Other|Broad Market / Other|59.75|0.68|26.09|5.68|1|EUR
+WEBC.DE|Amundi MSCI North America ESG Broad Transition UCITS Dist ETF|Broad Market / Other|Broad Market / Other|139.08|0.78|8.3|5.78|1|EUR
+EXH7.DE|iShares STOXX Europe 600 Personal & Household Goods UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|94.94|2.63|3.13|5.77|4|EUR
+SYBC.DE|State Street SPDR Bloomberg Euro Corporate Bond UCITS ETF|Fixed Income|Bonds|52.04|3.35|2.39|5.74|2|EUR
+4UBK.DE|UBS MSCI USA Socially Responsible UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|20.73|0.74|29.71|5.74|2|EUR
+SPPX.DE|StSt SPDR BBG 10+ Y U.S. Treas Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|18.21|4.68|1.05|5.73|2|EUR
+XDGM.DE|Xtrackers MDAX ESG Screened UCITS ETF|Broad Market / Other|Broad Market / Other|21.53|1.94|3.78|5.72|1|EUR
+XB4F.DE|Xtrackers II ESG EUR Corporate Bond UCITS 1D ETF|Fixed Income|Bonds|138.96|2.82|2.88|5.7|4|EUR
+JRUD.DE|JPM US Research Enhanced Index Equity Active UCITS USD (dist) ETF|Broad Market / Other|Broad Market / Other|60.45|0.67|26.09|5.67|1|EUR
 36BA.DE|iShares USD Corp Bond ESG UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|3.68|5.17|0.48|5.65|2|EUR
-LYXE.DE|Amundi USD High Yield Corp Bd ESG UCITS ETF EURH D|Fixed Income|Bonds|72.35|5.61||5.61|1|EUR
-ZPRC.DE|StSt SPDR FTSE Gl Conv Bond UCITS ETF Dist|Fixed Income|Bonds|57.51|0.6|26.47|5.6|2|EUR
-JRDC.DE|JPM China A Research Enhanced Index Equity (ESG) UCITS ETF USD (dist)|Broad Market / Other|Broad Market / Other|18.84|1.95|3.6|5.55|4|EUR
-WELR.DE|Amundi S&P World Communication Services Screened UCITS Dist ETF|Communication Services|Communication Services|18.85|0.54|16.28|5.54|1|EUR
-EXV3.DE|iShares STOXX Europe 600 Technology UCITS (DE) EUR (Dist) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|90.22|0.54|18.58|5.54|4|EUR
-SPYD.DE|StSt SPDR S&P U.S. Div Aristocrats UCITS ETF Dist|Broad Market / Other|Broad Market / Other|80.25|1.88|3.65|5.53|4|EUR
-JSUD.DE|JPM US RschEnhIdx Eqt SRI PA Atv UCITS ETF USDD|Broad Market / Other|Broad Market / Other|36.05|0.52|32.74|5.52|1|EUR
-TRDE.DE|Invesco US Treasury Bond 7-10 Year UCITS - EUR Hdg Dist ETF|Fixed Income|Bonds|29.34|4.47|1.03|5.5|4|EUR
-UBU3.DE|UBS Core MSCI USA UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|159.39|0.88|4.61|5.49|2|EUR
-SELD.DE|Amundi Stoxx Europe Select Dividend 30 UCITS ETF D|Broad Market / Other|Broad Market / Other|24.23|5.49||5.49|1|EUR
-XUCD.DE|Xtrackers MSCI USA Cons Discretionary UCITS ETF 1D|Broad Market / Other|Broad Market / Other|88.7|0.47|8.3|5.47|2|EUR
-UIM1.DE|UBS Core EURO STOXX 50 UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|61.14|2.57|2.84|5.4|2|EUR
-XDN0.DE|Xtrackers MSCI Nordic UCITS 1D ETF|Broad Market / Other|Broad Market / Other|53.6|2.62|2.62|5.24|2|EUR
-SYBU.DE|StSt SPDR BBG U.S. Aggregate Bond UCITS ETF Dist|Fixed Income|Bonds|84.46|4.05|1.17|5.22|2|EUR
-VDIV.DE|VanEck Ms Developed Markets Div Lead UCITS ETF|Broad Market / Other|Broad Market / Other|55.27|3.06|2.14|5.2|4|EUR
-BBCK.DE|Invesco Global Buyback Achievers UCITS ETF Dist|Broad Market / Other|Broad Market / Other|66.9|1.43|3.76|5.19|4|EUR
-QDVP.DE|iShares US Mortgage Backed Sec UCITS ETF USD D|Broad Market / Other|Broad Market / Other|3.74|3.57|1.57|5.14|2|EUR
-EHDV.DE|Invesco EURO STOXX Hi Div Low Vlty UCITS ETF Dist|Broad Market / Other|Broad Market / Other|35.47|4.06|1.05|5.11|4|EUR
-FTGG.DE|First Trust Germany AlphaDEX UCITS ETF|Broad Market / Other|Broad Market / Other|33.08|1.78|3.34|5.11|2|EUR
-GIGU.DE|Goldman Sachs USD InvGr Crp Bd Act UCITS ETF USD D|Broad Market / Other|Broad Market / Other|44.76|4.97||4.97|2|EUR
-EMNU.DE|iShares MSCI Europe ESG Enhanced UCITS ETF EUR Dis|Broad Market / Other|Broad Market / Other|8.2|2.43|2.53|4.96|2|EUR
-GAEM.DE|Goldman Sachs Emerging Markets Green and Social Bond Active UCITS ETF EUR Hedged (Dist)|Fixed Income|Bonds|48.66|4.91||4.91|2|EUR
-CHSS.DE|UBS Core US Treasury 10+ d ETF|Fixed Income|Bonds|8.48|4.84||4.84|2|EUR
-INDA.DE|Amundi STOXX Europe 600 Banks UCITS Dist ETF|Financials|Banks & Financial Services|90.55|4.84||4.84|1|EUR
-JEYE.DE|JPM EUR High Yield Bond Active UCITS ETF EUR D|Fixed Income|Bonds|9.75|4.83||4.83|2|EUR
-IWLE.DE|iShares Core MSCI World UCITS EUR Hedged (Dist) ETF|Broad Market / Other|Broad Market / Other|10.21|1.14|3.62|4.76|4|EUR
-SYB4.DE|StSt SPDR BBG 3-5 Year Euro Govt Bd UCITS ETF Dis|Broad Market / Other|Broad Market / Other|28.42|2.45|2.24|4.69|2|EUR
-GXHY.DE|Goldman Sachs EUR HY Bond Active UCITS ETF EUR Dis|Fixed Income|Bonds|48.6|4.68||4.68|2|EUR
-DX2G.DE|Xtrackers CAC 40 UCITS 1D ETF|Broad Market / Other|Broad Market / Other|81.2|2.91|1.73|4.63|2|EUR
-XSX7.DE|Xtrackers STOXX Europe 600 UCITS ETF|Broad Market / Other|Broad Market / Other|98.43|2.73|1.8|4.53|4|EUR
-EXH4.DE|iShares STOXX Europe 600 Industrial Goods & Services UCITS (DE) ETF|Industrials|Industrials|110.84|1.27|3.17|4.44|4|EUR
-EXH8.DE|iShares STOXX Europe 600 Retail UCITS (DE) ETF|Consumer Discretionary|Consumer Discretionary|49.52|2.13|2.25|4.37|4|EUR
-EUN9.DE|iShares   Govt Bond 5-7yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|139.18|2.74|1.6|4.34|2|EUR
-CHST.DE|UBS BBG MSCI Gl Liq Crp Sust UCITS ETF hEUR dis|Broad Market / Other|Broad Market / Other|8.83|4.3||4.3|2|EUR
-EXH1.DE|iShares STOXX Europe 600 Oil & Gas UCITS (DE) ETF|Energy|Energy|53.79|2.92|1.38|4.3|4|EUR
-EUN2.DE|iShares Core EURO STOXX 50 UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|61.92|2.5|1.74|4.24|4|EUR
-SYBF.DE|State Street SPDR Bloomberg 0-3 Year U.S. Corporate Bond UCITS ETF|Fixed Income|Bonds|45.24|4.17||4.17|2|EUR
-IUSZ.DE|iShares Core FTSE 100 UCITS ETF GBP Dist|Broad Market / Other|Broad Market / Other|12.19|3.01|1.12|4.13|4|EUR
-FTWD.DE|Invesco FTSE All World UCITS ETF Dist|Broad Market / Other|Broad Market / Other|7.57|1.31|2.82|4.13|4|EUR
-OM3Y.DE|iShares MSCI EM IMI ESG Screened UCITS ETF USD D|Broad Market / Other|Broad Market / Other|6.87|1.87|2.22|4.09|2|EUR
-XUHC.DE|Xtrackers MSCI USA Health Care UCITS ETF 1D|Health Care|Pharmaceuticals & Biotech|65.36|1.06|2.93|3.99|2|EUR
-IQQX.DE|iShares Asia Pacific Dividend UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|27.68|4.16|-0.17|3.99|4|EUR
-OM3F.DE|iShares   Corp Bond ESG SRI UCITS ETF EUR Dis|Fixed Income|Bonds|4.57|3.35|0.63|3.98|2|EUR
-IBC2.DE|iShares USD High Yield Corp Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|3.67|6.48|-2.51|3.97|4|EUR
-ASHE.DE|BNP PARIBAS EASY II Short Duration Income Opportunities UCITS EUR (H) Dist ETF|Broad Market / Other|Broad Market / Other|9.72|3.93||3.93|12|EUR
-SYBN.DE|State Street SPDR Bloomberg 10+ Year U.S. Corporate Bond UCITS ETF|Fixed Income|Bonds|22.82|5.52|-1.6|3.91|2|EUR
-CHSK.DE|UBS Sustainable Dev Bank Bonds UCITS ETF hEUR dis|Financials|Banks & Financial Services|9.57|3.86||3.86|2|EUR
-IQQE.DE|iShares MSCI EM UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|53.1|1.69|2.16|3.86|4|EUR
-IUSV.DE|Ish Trsry Bond 20 Yr Ucits Hgd Dist|Fixed Income|Bonds|2.67|4.87|-1.06|3.81|2|EUR
-XQUA.DE|Xtrackers ESG USD Emerging Markets Bond Quality Weighted UCITS 1D ETF|Fixed Income|Bonds|9.1|4.62|-0.9|3.72|2|EUR
-EXV9.DE|iShares STOXX Europe 600 Travel & Leisure UCITS (DE) ETF|Consumer Discretionary|Consumer Discretionary|26.45|1.52|2.13|3.65|4|EUR
-SYBW.DE|StSt SPDR BBG 1-3 Y U.S. Treas Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|43.63|3.65||3.65|2|EUR
-XUTE.DE|Xtrackers II US Treasuries UCITS 2D EUR Hedged ETF|Broad Market / Other|Broad Market / Other|86.88|3.73|-0.1|3.63|4|EUR
-34GI.DE|iShares iBonds Dec 2034 Term Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|4.81|3.57||3.57|4|EUR
-EGV1.DE|Amundi STOXX Europe 600 Insurance UCITS Dist ETF|Financials|Banks & Financial Services|117.36|3.57||3.57|1|EUR
-DFOB.DE|Amundi Euro Government Bond 25+Y UCITS Dist ETF|Fixed Income|Bonds|120.02|3.54||3.54|1|EUR
-IQQ7.DE|iShares US Property Yield UCITS ETF USD (Dist)|Real Estate|Real Estate|28.64|2.98|0.54|3.53|4|EUR
-TRDX.DE|Invesco US Treasury Bond 7-10 Year UCITS ETF Dist|Fixed Income|Bonds|31.41|4.19|-0.68|3.52|4|EUR
-33GI.DE|iShares iBonds Dec 2033 Term Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|4.81|3.51||3.51|4|EUR
+LYXE.DE|Amundi USD High Yield Corp Bd ESG UCITS ETF EURH D|Fixed Income|Bonds|72.27|5.62||5.62|1|EUR
+ZPRC.DE|StSt SPDR FTSE Gl Conv Bond UCITS ETF Dist|Fixed Income|Bonds|57.07|0.6|26.47|5.6|2|EUR
+EXV3.DE|iShares STOXX Europe 600 Technology UCITS (DE) EUR (Dist) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|88.81|0.55|18.58|5.55|4|EUR
+JRDC.DE|JPM China A Research Enhanced Index Equity (ESG) UCITS ETF USD (dist)|Broad Market / Other|Broad Market / Other|18.82|1.96|3.6|5.55|4|EUR
+WELR.DE|Amundi S&P World Communication Services Screened UCITS Dist ETF|Communication Services|Communication Services|18.81|0.54|16.28|5.54|1|EUR
+SPYD.DE|StSt SPDR S&P U.S. Div Aristocrats UCITS ETF Dist|Broad Market / Other|Broad Market / Other|80.67|1.87|3.65|5.52|4|EUR
+SELD.DE|Amundi Stoxx Europe Select Dividend 30 UCITS ETF D|Broad Market / Other|Broad Market / Other|24.15|5.51||5.51|1|EUR
+JSUD.DE|JPM US RschEnhIdx Eqt SRI PA Atv UCITS ETF USDD|Broad Market / Other|Broad Market / Other|36.46|0.51|32.74|5.51|1|EUR
+TRDE.DE|Invesco US Treasury Bond 7-10 Year UCITS - EUR Hdg Dist ETF|Fixed Income|Bonds|29.41|4.46|1.03|5.49|4|EUR
+UBU3.DE|UBS Core MSCI USA UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|159.2|0.88|4.61|5.49|2|EUR
+XUCD.DE|Xtrackers MSCI USA Cons Discretionary UCITS ETF 1D|Broad Market / Other|Broad Market / Other|88.16|0.47|8.3|5.47|2|EUR
+UIM1.DE|UBS Core EURO STOXX 50 UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|60.94|2.58|2.84|5.41|2|EUR
+XDN0.DE|Xtrackers MSCI Nordic UCITS 1D ETF|Broad Market / Other|Broad Market / Other|53.56|2.62|2.62|5.24|2|EUR
+SYBU.DE|StSt SPDR BBG U.S. Aggregate Bond UCITS ETF Dist|Fixed Income|Bonds|84.22|4.06|1.17|5.23|2|EUR
+VDIV.DE|VanEck Ms Developed Markets Div Lead UCITS ETF|Broad Market / Other|Broad Market / Other|55.32|3.05|2.14|5.19|4|EUR
+BBCK.DE|Invesco Global Buyback Achievers UCITS ETF Dist|Broad Market / Other|Broad Market / Other|66.58|1.44|3.76|5.19|4|EUR
+QDVP.DE|iShares US Mortgage Backed Sec UCITS ETF USD D|Broad Market / Other|Broad Market / Other|3.75|3.56|1.57|5.13|2|EUR
+FTGG.DE|First Trust Germany AlphaDEX UCITS ETF|Broad Market / Other|Broad Market / Other|33.07|1.78|3.34|5.11|2|EUR
+EHDV.DE|Invesco EURO STOXX Hi Div Low Vlty UCITS ETF Dist|Broad Market / Other|Broad Market / Other|35.56|4.05|1.05|5.1|4|EUR
+EMNU.DE|iShares MSCI Europe ESG Enhanced UCITS ETF EUR Dis|Broad Market / Other|Broad Market / Other|8.19|2.43|2.53|4.96|2|EUR
+GIGU.DE|Goldman Sachs USD InvGr Crp Bd Act UCITS ETF USD D|Broad Market / Other|Broad Market / Other|45.08|4.93||4.93|2|EUR
+GAEM.DE|Goldman Sachs Emerging Markets Green and Social Bond Active UCITS ETF EUR Hedged (Dist)|Fixed Income|Bonds|48.8|4.89||4.89|2|EUR
+INDA.DE|Amundi STOXX Europe 600 Banks UCITS Dist ETF|Financials|Banks & Financial Services|90.05|4.86||4.86|1|EUR
+CHSS.DE|UBS Core US Treasury 10+ d ETF|Fixed Income|Bonds|8.51|4.83||4.83|2|EUR
+JEYE.DE|JPM EUR High Yield Bond Active UCITS ETF EUR D|Fixed Income|Bonds|9.78|4.82||4.82|2|EUR
+IWLE.DE|iShares Core MSCI World UCITS EUR Hedged (Dist) ETF|Broad Market / Other|Broad Market / Other|10.13|1.15|3.62|4.77|4|EUR
+SYB4.DE|StSt SPDR BBG 3-5 Year Euro Govt Bd UCITS ETF Dis|Broad Market / Other|Broad Market / Other|28.47|2.45|2.24|4.69|2|EUR
+GXHY.DE|Goldman Sachs EUR HY Bond Active UCITS ETF EUR Dis|Fixed Income|Bonds|48.64|4.67||4.67|2|EUR
+DX2G.DE|Xtrackers CAC 40 UCITS 1D ETF|Broad Market / Other|Broad Market / Other|81.97|2.88|1.73|4.61|2|EUR
+XSX7.DE|Xtrackers STOXX Europe 600 UCITS ETF|Broad Market / Other|Broad Market / Other|98.24|2.73|1.8|4.54|4|EUR
+EXH4.DE|iShares STOXX Europe 600 Industrial Goods & Services UCITS (DE) ETF|Industrials|Industrials|110.2|1.28|3.17|4.45|4|EUR
+EXH8.DE|iShares STOXX Europe 600 Retail UCITS (DE) ETF|Consumer Discretionary|Consumer Discretionary|49.11|2.14|2.25|4.39|4|EUR
+EUN9.DE|iShares   Govt Bond 5-7yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|139.52|2.74|1.6|4.33|2|EUR
+EXH1.DE|iShares STOXX Europe 600 Oil & Gas UCITS (DE) ETF|Energy|Energy|53.31|2.95|1.38|4.33|4|EUR
+CHST.DE|UBS BBG MSCI Gl Liq Crp Sust UCITS ETF hEUR dis|Broad Market / Other|Broad Market / Other|8.85|4.29||4.29|2|EUR
+EUN2.DE|iShares Core EURO STOXX 50 UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|61.5|2.52|1.74|4.25|4|EUR
+SYBF.DE|State Street SPDR Bloomberg 0-3 Year U.S. Corporate Bond UCITS ETF|Fixed Income|Bonds|45.07|4.18||4.18|2|EUR
+IUSZ.DE|iShares Core FTSE 100 UCITS ETF GBP Dist|Broad Market / Other|Broad Market / Other|12.2|3.0|1.12|4.13|4|EUR
+FTWD.DE|Invesco FTSE All World UCITS ETF Dist|Broad Market / Other|Broad Market / Other|7.65|1.3|2.82|4.12|4|EUR
+OM3Y.DE|iShares MSCI EM IMI ESG Screened UCITS ETF USD D|Broad Market / Other|Broad Market / Other|7.06|1.82|2.22|4.04|2|EUR
+IQQX.DE|iShares Asia Pacific Dividend UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|27.4|4.2|-0.17|4.03|4|EUR
+IBC2.DE|iShares USD High Yield Corp Bond UCITS EUR Hedged (Dist) ETF|Fixed Income|Bonds|3.66|6.49|-2.51|3.98|4|EUR
+XUHC.DE|Xtrackers MSCI USA Health Care UCITS ETF 1D|Health Care|Pharmaceuticals & Biotech|65.85|1.05|2.93|3.98|2|EUR
+OM3F.DE|iShares   Corp Bond ESG SRI UCITS ETF EUR Dis|Fixed Income|Bonds|4.58|3.35|0.63|3.97|2|EUR
+SYBN.DE|State Street SPDR Bloomberg 10+ Year U.S. Corporate Bond UCITS ETF|Fixed Income|Bonds|22.73|5.54|-1.6|3.93|2|EUR
+ASHE.DE|BNP PARIBAS EASY II Short Duration Income Opportunities UCITS EUR (H) Dist ETF|Broad Market / Other|Broad Market / Other|9.73|3.93||3.93|12|EUR
+IQQE.DE|iShares MSCI EM UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|51.89|1.73|2.16|3.9|4|EUR
+CHSK.DE|UBS Sustainable Dev Bank Bonds UCITS ETF hEUR dis|Financials|Banks & Financial Services|9.59|3.85||3.85|2|EUR
+IUSV.DE|Ish Trsry Bond 20 Yr Ucits Hgd Dist|Fixed Income|Bonds|2.69|4.84|-1.06|3.78|2|EUR
+XQUA.DE|Xtrackers ESG USD Emerging Markets Bond Quality Weighted UCITS 1D ETF|Fixed Income|Bonds|9.13|4.6|-0.9|3.7|2|EUR
+SYBW.DE|StSt SPDR BBG 1-3 Y U.S. Treas Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|43.7|3.64||3.64|2|EUR
+EXV9.DE|iShares STOXX Europe 600 Travel & Leisure UCITS (DE) ETF|Consumer Discretionary|Consumer Discretionary|26.58|1.52|2.13|3.64|4|EUR
+XUTE.DE|Xtrackers II US Treasuries UCITS 2D EUR Hedged ETF|Broad Market / Other|Broad Market / Other|87.13|3.72|-0.1|3.62|4|EUR
+34GI.DE|iShares iBonds Dec 2034 Term Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|4.81|3.58||3.58|4|EUR
+EGV1.DE|Amundi STOXX Europe 600 Insurance UCITS Dist ETF|Financials|Banks & Financial Services|117.96|3.55||3.55|1|EUR
+IQQ7.DE|iShares US Property Yield UCITS ETF USD (Dist)|Real Estate|Real Estate|28.62|2.98|0.54|3.53|4|EUR
+DFOB.DE|Amundi Euro Government Bond 25+Y UCITS Dist ETF|Fixed Income|Bonds|120.88|3.52||3.52|1|EUR
+TRDX.DE|Invesco US Treasury Bond 7-10 Year UCITS ETF Dist|Fixed Income|Bonds|31.47|4.18|-0.68|3.51|4|EUR
 CEBD.DE|iShares iBond Dec 2027 Term   Corp UCITS ETF EUR D|Broad Market / Other|Broad Market / Other|5.13|2.84|0.66|3.5|4|EUR
-WELM.DE|Amundi S&P World Consumer Staples Screened UCITS Dist ETF|Consumer Staples|Consumer Staples|11.35|1.89|1.58|3.46|1|EUR
-FESE.DE|Fidelity ESG USD EM Bond UCITS ETF Inc EURH|Fixed Income|Bonds|4.52|3.29||3.29|2|EUR
-IQSD.DE|Invesco Gl Active ESG Eq UCITS ETF EUR PfHdg Dist|Broad Market / Other|Broad Market / Other|72.84|1.32|1.97|3.29|4|EUR
-XYPD.DE|Xtrackers II iBoxx Eurozone Government Bond Yield Plus UCITS 1D ETF|Fixed Income|Bonds|138.59|2.67|0.62|3.29|2|EUR
-31IG.DE|iShares iBonds Dec 2031 Term Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|4.9|3.26||3.26|4|EUR
-LUTL.DE|Amundi STOXX Europe 600 Utilities UCITS Dist ETF|Utilities|Utilities|159.7|3.24||3.24|1|EUR
-JEBE.DE|JPM EUR IG Corporate Bond Active UCITS ETF EUR D|Fixed Income|Bonds|98.35|3.18||3.18|2|EUR
-SPY5.DE|StSt SPDR S&P 500 UCITS ETF Dist|Broad Market / Other|Broad Market / Other|662.66|0.89|2.25|3.14|4|EUR
-CLOD.DE|Invesco EUR AAA CLO UCITS ETF Dist|Broad Market / Other|Broad Market / Other|20.15|3.12||3.12|4|EUR
-GIGE.DE|Goldman Sachs EUR InvGr Crp Bd Act UCITS ETF EUR D|Broad Market / Other|Broad Market / Other|49.19|3.12||3.12|2|EUR
-JGGE.DE|JPM EUR Aggregate Bond Active UCITS ETF EUR dist|Fixed Income|Bonds|9.64|3.1||3.1|2|EUR
-IUSA.DE|iShares Core S&P 500 UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|66.16|0.86|2.22|3.08|4|EUR
-LGWS.DE|Amundi MSCI EMU Value Factor UCITS ETF Dist|Broad Market / Other|Broad Market / Other|189.24|2.94||2.94|1|EUR
-UEEA.DE|iShares MSCI World SRI UCITS ETF EUR Hedged (Dist)|Broad Market / Other|Broad Market / Other|8.08|1.24|1.64|2.88|4|EUR
-XGII.DE|Xtrackers II Global Inflation-Linked Bond UCITS 1D EUR Hedged ETF|Fixed Income|Bonds|185.93|1.07|1.8|2.87|4|EUR
-CHSP.DE|UBS J.P. Morgan Global Gov ESG Liquid Bond UCITS hEUR dis ETF|Fixed Income|Bonds|8.59|2.84||2.84|2|EUR
-OIGS.DE|Amundi STOXX Europe 600 Energy Screened UCITS Dist ETF|Energy|Energy|142.86|2.81||2.81|1|EUR
-BJLT.DE|BNPP Easy EUR Corp Bond SRI PAB 7-10Y UCITS ETF D|Fixed Income|Bonds|10.0|2.7||2.7|1|EUR
-XWD1.DE|Xtrackers MSCI World Swap UCITS 1D ETF|Broad Market / Other|Broad Market / Other|25.29|1.5|1.17|2.66|2|EUR
-FYEI.DE|Fidelity EUR HY Crp Bd Rs Enh PAB UCITS ETFInc EUR|Broad Market / Other|Broad Market / Other|4.73|2.65||2.65|2|EUR
-V3GE.DE|Vanguard ESG Global Corporate Bond UCITS EUR Hedged - Dist ETF|Fixed Income|Bonds|3.85|4.52|-1.87|2.65|12|EUR
-XB27.DE|Xtrackers II Target Maturity Sept 2027 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|25.87|2.63|0.0|2.63|4|EUR
-JGAD.DE|JPM Global Aggregate Bond Active UCITS - EUR Hedged (dist) ETF|Fixed Income|Bonds|8.22|2.6||2.6|2|EUR
-XUIN.DE|Xtrackers MSCI USA Industrials UCITS 1D ETF|Industrials|Industrials|94.89|0.96|1.64|2.59|2|EUR
-QDVD.DE|iShares MSCI USA Quality Dividend Advanced UCITS ETF|Broad Market / Other|Broad Market / Other|58.67|1.59|0.98|2.57|4|EUR
-IBCD.DE|iShares $ Corp Bond UCITS ETF USD Dist|Fixed Income|Bonds|88.65|4.94|-2.38|2.56|4|EUR
-IQQ6.DE|iShares Dvlp Mrkts Prop Yld UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|22.19|3.03|-0.52|2.51|4|EUR
-G1CD.DE|Invesco Global Clean Energy UCITS ETF Dist|Energy|Energy|15.64|1.29|1.17|2.46|4|EUR
-SNA2.DE|iShares $ Treasury Bond UCITS ETF USD Dist|Fixed Income|Bonds|3.78|3.99|-1.52|2.46|2|EUR
-TRET.DE|VanEck Global Real Estate UCITS ETF|Real Estate|Real Estate|41.51|3.2|-0.74|2.46|4|EUR
-LGWU.DE|Amundi MSCI EMU SmCp ESG Brd Trnstn UCITS ETF D|Broad Market / Other|Broad Market / Other|417.55|2.45||2.45|1|EUR
+33GI.DE|iShares iBonds Dec 2033 Term Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|4.82|3.5||3.5|4|EUR
+WELM.DE|Amundi S&P World Consumer Staples Screened UCITS Dist ETF|Consumer Staples|Consumer Staples|11.44|1.87|1.58|3.45|1|EUR
+XYPD.DE|Xtrackers II iBoxx Eurozone Government Bond Yield Plus UCITS 1D ETF|Fixed Income|Bonds|138.99|2.66|0.62|3.28|2|EUR
+FESE.DE|Fidelity ESG USD EM Bond UCITS ETF Inc EURH|Fixed Income|Bonds|4.53|3.28||3.28|2|EUR
+IQSD.DE|Invesco Gl Active ESG Eq UCITS ETF EUR PfHdg Dist|Broad Market / Other|Broad Market / Other|73.89|1.3|1.97|3.27|4|EUR
+31IG.DE|iShares iBonds Dec 2031 Term Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|4.92|3.24||3.24|4|EUR
+LUTL.DE|Amundi STOXX Europe 600 Utilities UCITS Dist ETF|Utilities|Utilities|160.36|3.23||3.23|1|EUR
+JEBE.DE|JPM EUR IG Corporate Bond Active UCITS ETF EUR D|Fixed Income|Bonds|98.52|3.17||3.17|2|EUR
+SPY5.DE|StSt SPDR S&P 500 UCITS ETF Dist|Broad Market / Other|Broad Market / Other|654.8|0.91|2.25|3.15|4|EUR
+CLOD.DE|Invesco EUR AAA CLO UCITS ETF Dist|Broad Market / Other|Broad Market / Other|20.16|3.12||3.12|4|EUR
+GIGE.DE|Goldman Sachs EUR InvGr Crp Bd Act UCITS ETF EUR D|Broad Market / Other|Broad Market / Other|49.3|3.11||3.11|2|EUR
+JGGE.DE|JPM EUR Aggregate Bond Active UCITS ETF EUR dist|Fixed Income|Bonds|9.65|3.1||3.1|2|EUR
+IUSA.DE|iShares Core S&P 500 UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|65.21|0.87|2.22|3.09|4|EUR
+LGWS.DE|Amundi MSCI EMU Value Factor UCITS ETF Dist|Broad Market / Other|Broad Market / Other|190.04|2.93||2.93|1|EUR
+UEEA.DE|iShares MSCI World SRI UCITS ETF EUR Hedged (Dist)|Broad Market / Other|Broad Market / Other|8.05|1.24|1.64|2.88|4|EUR
+XGII.DE|Xtrackers II Global Inflation-Linked Bond UCITS 1D EUR Hedged ETF|Fixed Income|Bonds|186.43|1.07|1.8|2.86|4|EUR
+CHSP.DE|UBS J.P. Morgan Global Gov ESG Liquid Bond UCITS hEUR dis ETF|Fixed Income|Bonds|8.6|2.84||2.84|2|EUR
+OIGS.DE|Amundi STOXX Europe 600 Energy Screened UCITS Dist ETF|Energy|Energy|141.56|2.83||2.83|1|EUR
+BJLT.DE|BNPP Easy EUR Corp Bond SRI PAB 7-10Y UCITS ETF D|Fixed Income|Bonds|10.03|2.69||2.69|1|EUR
+XWD1.DE|Xtrackers MSCI World Swap UCITS 1D ETF|Broad Market / Other|Broad Market / Other|25.55|1.48|1.17|2.65|2|EUR
+FYEI.DE|Fidelity EUR HY Crp Bd Rs Enh PAB UCITS ETFInc EUR|Broad Market / Other|Broad Market / Other|4.74|2.65||2.65|2|EUR
+V3GE.DE|Vanguard ESG Global Corporate Bond UCITS EUR Hedged - Dist ETF|Fixed Income|Bonds|3.86|4.51|-1.87|2.64|12|EUR
+XB27.DE|Xtrackers II Target Maturity Sept 2027 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|25.89|2.63|0.0|2.63|4|EUR
+XUIN.DE|Xtrackers MSCI USA Industrials UCITS 1D ETF|Industrials|Industrials|94.39|0.96|1.64|2.6|2|EUR
+QDVD.DE|iShares MSCI USA Quality Dividend Advanced UCITS ETF|Broad Market / Other|Broad Market / Other|58.25|1.6|0.98|2.59|4|EUR
+JGAD.DE|JPM Global Aggregate Bond Active UCITS - EUR Hedged (dist) ETF|Fixed Income|Bonds|8.23|2.59||2.59|2|EUR
+IBCD.DE|iShares $ Corp Bond UCITS ETF USD Dist|Fixed Income|Bonds|88.61|4.95|-2.38|2.56|4|EUR
+IQQ6.DE|iShares Dvlp Mrkts Prop Yld UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|22.14|3.04|-0.52|2.52|4|EUR
+LGWU.DE|Amundi MSCI EMU SmCp ESG Brd Trnstn UCITS ETF D|Broad Market / Other|Broad Market / Other|414.9|2.47||2.47|1|EUR
+TRET.DE|VanEck Global Real Estate UCITS ETF|Real Estate|Real Estate|41.56|3.2|-0.74|2.46|4|EUR
+G1CD.DE|Invesco Global Clean Energy UCITS ETF Dist|Energy|Energy|15.78|1.28|1.17|2.45|4|EUR
+SNA2.DE|iShares $ Treasury Bond UCITS ETF USD Dist|Fixed Income|Bonds|3.8|3.97|-1.52|2.45|2|EUR
 AK8F.DE|Amundi DJ Switzerland Titans 30 UCITS Dist ETF|Broad Market / Other|Broad Market / Other|10.34|2.42||2.42|2|EUR
-XGVD.DE|Xtrackers II Global Government Bond UCITS 1D EUR Hedged ETF|Fixed Income|Bonds|166.29|2.84|-0.43|2.41|4|EUR
-ECTD.DE|iShares MSCI Europe Climate Transition Aware UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|5.79|2.39||2.39|2|EUR
-BJLY.DE|BNPPE ESG Enh EUR Crp Bd December 2032 UCITS ETF D|Broad Market / Other|Broad Market / Other|10.12|2.37||2.37|1|EUR
-STXH.DE|Amundi Core Stoxx Europe 600 UCITS EUR Hedged Dist ETF|Broad Market / Other|Broad Market / Other|164.48|2.36||2.36|1|EUR
-H417.DE|HSBC PLUS EM Eq Inc Quant Active UCITS ETF USD Dis|Broad Market / Other|Broad Market / Other|10.26|2.35||2.35|3|EUR
-BJLP.DE|BNP Paribas Easy ESG Enhcd EUR Corp Bd UCITS ETF D|Broad Market / Other|Broad Market / Other|10.2|2.35||2.35|1|EUR
-MCTD.DE|iShares MSCI EMU Climate Transition Aware UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|6.18|2.34||2.34|2|EUR
-XB29.DE|Xtrackers II Target Maturity Sept 2029 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|25.8|2.33|0.0|2.33|4|EUR
-VEGE.DE|Vanguard EUR Eurozone Government 1-3 Year Bond UCITS EUR Distributing ETF|Fixed Income|Bonds|4.93|2.33||2.33|12|EUR
-PSWD.DE|Invesco RAFI All-World Fundamental Val UCITS ETF D|Broad Market / Other|Broad Market / Other|35.65|1.68|0.65|2.32|4|EUR
-CEUE.DE|Amundi MSCI Europe ESG Broad Transition UCITS DR - EUR (D) ETF|Broad Market / Other|Broad Market / Other|14.75|2.31||2.31|1|EUR
-XIEE.DE|Xtrackers MSCI Europe UCITS 1D ETF|Broad Market / Other|Broad Market / Other|89.32|2.59|-0.28|2.3|4|EUR
-EXU1.DE|Xtrackers MSCI World ex USA UCITS ETF|Broad Market / Other|Broad Market / Other|10.9|2.28||2.28|4|EUR
-EWSD.DE|Invesco EURO STOXX 50 Equal Weight UCITS Dist ETF|Broad Market / Other|Broad Market / Other|5.29|2.27||2.27|2|EUR
-EGVD.DE|Invesco EUR Gv and Rltd Grn Bd Wghtd UCITS ETF Dis|Broad Market / Other|Broad Market / Other|4.79|3.15|-0.88|2.27|4|EUR
-EXHD.DE|iShares eb.rexx Government Germany 5.5-10.5yr UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|113.89|1.53|0.7|2.24|3|EUR
-UIM7.DE|UBS MSCI World UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|426.05|0.92|1.31|2.23|2|EUR
-SYB3.DE|State Street SPDR Bloomberg 1-3 Year Euro Government Bond UCITS ETF|Fixed Income|Bonds|51.79|2.21||2.21|2|EUR
-E6BR.DE|Amundi STOXX Europe 600 Basic Resources UCITS Dist ETF|Materials|Materials|140.08|2.21||2.21|1|EUR
+XGVD.DE|Xtrackers II Global Government Bond UCITS 1D EUR Hedged ETF|Fixed Income|Bonds|166.83|2.83|-0.43|2.4|4|EUR
+ECTD.DE|iShares MSCI Europe Climate Transition Aware UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|5.79|2.38||2.38|2|EUR
+BJLY.DE|BNPPE ESG Enh EUR Crp Bd December 2032 UCITS ETF D|Broad Market / Other|Broad Market / Other|10.14|2.37||2.37|1|EUR
+STXH.DE|Amundi Core Stoxx Europe 600 UCITS EUR Hedged Dist ETF|Broad Market / Other|Broad Market / Other|164.1|2.36||2.36|1|EUR
+MCTD.DE|iShares MSCI EMU Climate Transition Aware UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|6.15|2.36||2.36|2|EUR
+BJLP.DE|BNP Paribas Easy ESG Enhcd EUR Corp Bd UCITS ETF D|Broad Market / Other|Broad Market / Other|10.22|2.35||2.35|1|EUR
+PSWD.DE|Invesco RAFI All-World Fundamental Val UCITS ETF D|Broad Market / Other|Broad Market / Other|35.38|1.69|0.65|2.34|4|EUR
+XB29.DE|Xtrackers II Target Maturity Sept 2029 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|25.78|2.33|0.0|2.33|4|EUR
+VEGE.DE|Vanguard EUR Eurozone Government 1-3 Year Bond UCITS EUR Distributing ETF|Fixed Income|Bonds|4.94|2.33||2.33|12|EUR
+H417.DE|HSBC PLUS EM Eq Inc Quant Active UCITS ETF USD Dis|Broad Market / Other|Broad Market / Other|10.51|2.3||2.3|3|EUR
+XIEE.DE|Xtrackers MSCI Europe UCITS 1D ETF|Broad Market / Other|Broad Market / Other|89.9|2.57|-0.28|2.29|4|EUR
+EXU1.DE|Xtrackers MSCI World ex USA UCITS ETF|Broad Market / Other|Broad Market / Other|10.85|2.29||2.29|4|EUR
+CEUE.DE|Amundi MSCI Europe ESG Broad Transition UCITS DR - EUR (D) ETF|Broad Market / Other|Broad Market / Other|14.83|2.29||2.29|1|EUR
+E6BR.DE|Amundi STOXX Europe 600 Basic Resources UCITS Dist ETF|Materials|Materials|135.62|2.28||2.28|1|EUR
+EGVD.DE|Invesco EUR Gv and Rltd Grn Bd Wghtd UCITS ETF Dis|Broad Market / Other|Broad Market / Other|4.8|3.14|-0.88|2.26|4|EUR
+EWSD.DE|Invesco EURO STOXX 50 Equal Weight UCITS Dist ETF|Broad Market / Other|Broad Market / Other|5.32|2.25||2.25|2|EUR
+UIM7.DE|UBS MSCI World UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|422.7|0.93|1.31|2.24|2|EUR
+EXHD.DE|iShares eb.rexx Government Germany 5.5-10.5yr UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|114.0|1.53|0.7|2.23|3|EUR
+SYB3.DE|State Street SPDR Bloomberg 1-3 Year Euro Government Bond UCITS ETF|Fixed Income|Bonds|51.78|2.21||2.21|2|EUR
 VCAS.DE|Vanguard EUR Cash UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|15.01|2.2||2.2|12|EUR
-EXV2.DE|iShares STOXX Europe 600 Telecommunications UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|25.91|2.38|-0.23|2.16|4|EUR
-6TVL.DE|Amundi STOXX Europe 600 Consumer Discretionary UCITS Dist ETF|Consumer Discretionary|Consumer Discretionary|36.93|2.14||2.14|1|EUR
-BJLZ.DE|BNPPE ESG Enh EUR Crp Bd December 2029 UCITS ETF D|Broad Market / Other|Broad Market / Other|10.35|2.13||2.13|1|EUR
-IQQ4.DE|iShares Asia Property Yield UCITS ETF USD Dist|Real Estate|Real Estate|18.92|3.7|-1.62|2.08|4|EUR
-MWOE.DE|Amundi Core MSCI World UCITS Dist ETF|Broad Market / Other|Broad Market / Other|15.87|1.11|0.96|2.07|1|EUR
-CHSB.DE|UBS S&P USA Div Arist ESG Elite UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|4.31|2.05||2.05|2|EUR
-AK8E.DE|Amundi SDAX UCITS Dist ETF|Broad Market / Other|Broad Market / Other|10.31|2.04||2.04|2|EUR
-SYBK.DE|StSt SPDR BBG U.S. HY Crp Scored UCITS ETF Dist|Broad Market / Other|Broad Market / Other|35.2|7.01|-5.6|2.01|2|EUR
-WEXF.DE|Amundi MSCI World ex USA UCITS Dist ETF|Broad Market / Other|Broad Market / Other|11.71|1.94||1.94|1|EUR
-EPAZ.DE|Amundi S&P Eurozone Climate Paris Aligned UCITS Dist ETF|Broad Market / Other|Broad Market / Other|26.26|1.94||1.94|1|EUR
-5MVW.DE|iShares MSCI World Energy Sector UCITS ETF USD D|Energy|Energy|8.78|2.41|-0.63|1.78|2|EUR
-XB31.DE|Xtrackers II Target Maturity Sept 2031 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|29.34|1.77|0.0|1.77|4|EUR
-IQQI.DE|iShares Global Infrastructure UCITS ETF USD (Dist)|Utilities|Utilities|34.92|2.01|-0.28|1.73|4|EUR
+EXV2.DE|iShares STOXX Europe 600 Telecommunications UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|25.97|2.38|-0.23|2.15|4|EUR
+BJLZ.DE|BNPPE ESG Enh EUR Crp Bd December 2029 UCITS ETF D|Broad Market / Other|Broad Market / Other|10.36|2.12||2.12|1|EUR
+6TVL.DE|Amundi STOXX Europe 600 Consumer Discretionary UCITS Dist ETF|Consumer Discretionary|Consumer Discretionary|37.26|2.12||2.12|1|EUR
+IQQ4.DE|iShares Asia Property Yield UCITS ETF USD Dist|Real Estate|Real Estate|18.87|3.71|-1.62|2.09|4|EUR
+MWOE.DE|Amundi Core MSCI World UCITS Dist ETF|Broad Market / Other|Broad Market / Other|15.71|1.12|0.96|2.08|1|EUR
+SYBK.DE|StSt SPDR BBG U.S. HY Crp Scored UCITS ETF Dist|Broad Market / Other|Broad Market / Other|34.96|7.06|-5.6|2.06|2|EUR
+CHSB.DE|UBS S&P USA Div Arist ESG Elite UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|4.34|2.04||2.04|2|EUR
+AK8E.DE|Amundi SDAX UCITS Dist ETF|Broad Market / Other|Broad Market / Other|10.33|2.03||2.03|2|EUR
+WEXF.DE|Amundi MSCI World ex USA UCITS Dist ETF|Broad Market / Other|Broad Market / Other|11.65|1.95||1.95|1|EUR
+EPAZ.DE|Amundi S&P Eurozone Climate Paris Aligned UCITS Dist ETF|Broad Market / Other|Broad Market / Other|26.46|1.93||1.93|1|EUR
+5MVW.DE|iShares MSCI World Energy Sector UCITS ETF USD D|Energy|Energy|8.69|2.44|-0.63|1.8|2|EUR
+XB31.DE|Xtrackers II Target Maturity Sept 2031 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|29.41|1.77|0.0|1.77|4|EUR
 EU03.DE|iShares Govt Bond 0-3 month UCITS EUR (Dist) ETF|Fixed Income|Bonds|5.07|1.73||1.73|2|EUR
-XB33.DE|Xtrackers II Target Maturity Sept 2033 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|28.08|1.71|0.0|1.71|4|EUR
-EUN5.DE|iShares Core   Corp Bond UCITS ETF EUR D|Fixed Income|Bonds|116.9|3.41|-1.69|1.71|2|EUR
+IQQI.DE|iShares Global Infrastructure UCITS ETF USD (Dist)|Utilities|Utilities|34.9|2.01|-0.28|1.73|4|EUR
+AEMD.DE|Amundi Core MSCI Emerging Markets UCITS EUR Dist ETF|Broad Market / Other|Broad Market / Other|67.29|1.71|0.0|1.71|1|EUR
+XB33.DE|Xtrackers II Target Maturity Sept 2033 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|28.07|1.71|0.0|1.71|4|EUR
+IS0R.DE|iShares $ High Yield Corp Bond UCITS ETF USD D|Fixed Income|Bonds|81.73|6.22|-4.52|1.71|4|EUR
+EUN5.DE|iShares Core   Corp Bond UCITS ETF EUR D|Fixed Income|Bonds|117.01|3.4|-1.69|1.71|2|EUR
 10AJ.DE|Amundi FTSE EPRA NAREIT Global UCITS Dist ETF|Broad Market / Other|Broad Market / Other|56.75|2.66|-0.98|1.68|1|EUR
-EXVM.DE|iShares eb.rexx Government Germany 0-1yr UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|76.86|0.77|0.91|1.68|3|EUR
-IS0R.DE|iShares $ High Yield Corp Bond UCITS ETF USD D|Fixed Income|Bonds|82.21|6.19|-4.52|1.67|4|EUR
-AEMD.DE|Amundi Core MSCI Emerging Markets UCITS EUR Dist ETF|Broad Market / Other|Broad Market / Other|68.71|1.67|0.0|1.67|1|EUR
-BJLQ.DE|BNP Paribas Easy ESG Enhcd EUR Govt Bd UCITS ETF D|Broad Market / Other|Broad Market / Other|9.73|1.64||1.64|1|EUR
-XUEN.DE|Xtrackers MSCI USA Energy UCITS 1D ETF|Energy|Energy|57.5|1.94|-0.31|1.63|2|EUR
-IS04.DE|iShares $ Treasury Bond 20+yr UCITS ETF USD D|Fixed Income|Bonds|2.8|4.56|-2.94|1.62|2|EUR
-INDU.DE|Amundi STOXX Europe 600 Industrials UCITS Dist ETF|Industrials|Industrials|195.04|1.58||1.58|1|EUR
-GB1D.DE|Invesco Gl HY Corp Bd ESG Cl Trnstn UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.97|6.54|-5.19|1.54|4|EUR
-2B7F.DE|iShares Automation & Robotics UCITS ETF USD D|Information Technology|Technology Hardware & Software|11.23|0.32|1.22|1.54|2|EUR
-EUHI.DE|PIMCO Advantage Euro Short-Term High Yield Corporate Bond UCITS - EUR Income ETF|Fixed Income|Bonds|8.98|4.68|-3.14|1.54|12|EUR
-XUTC.DE|Xtrackers MSCI USA Information Technology UCITS 1D ETF|Information Technology|Technology Hardware & Software|139.96|0.29|1.21|1.5|2|EUR
-FAHY.DE|Invesco US High Yield Fallen Angels UCITS ETF Dist|Fixed Income|Bonds|18.62|6.49|-6.83|1.49|4|EUR
+EXVM.DE|iShares eb.rexx Government Germany 0-1yr UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|76.88|0.77|0.91|1.68|3|EUR
+XUEN.DE|Xtrackers MSCI USA Energy UCITS 1D ETF|Energy|Energy|57.15|1.95|-0.31|1.64|2|EUR
+BJLQ.DE|BNP Paribas Easy ESG Enhcd EUR Govt Bd UCITS ETF D|Broad Market / Other|Broad Market / Other|9.76|1.64||1.64|1|EUR
+IS04.DE|iShares $ Treasury Bond 20+yr UCITS ETF USD D|Fixed Income|Bonds|2.81|4.55|-2.94|1.61|2|EUR
+INDU.DE|Amundi STOXX Europe 600 Industrials UCITS Dist ETF|Industrials|Industrials|194.5|1.59||1.59|1|EUR
+2B7F.DE|iShares Automation & Robotics UCITS ETF USD D|Information Technology|Technology Hardware & Software|10.98|0.33|1.22|1.55|2|EUR
+GB1D.DE|Invesco Gl HY Corp Bd ESG Cl Trnstn UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.98|6.54|-5.19|1.54|4|EUR
+FAHY.DE|Invesco US High Yield Fallen Angels UCITS ETF Dist|Fixed Income|Bonds|18.5|6.53|-6.83|1.53|4|EUR
+EUHI.DE|PIMCO Advantage Euro Short-Term High Yield Corporate Bond UCITS - EUR Income ETF|Fixed Income|Bonds|9.02|4.66|-3.14|1.52|12|EUR
+XUTC.DE|Xtrackers MSCI USA Information Technology UCITS 1D ETF|Information Technology|Technology Hardware & Software|135.44|0.3|1.21|1.51|2|EUR
 AK8G.DE|Amundi MDAX ESG UCITS ETF|Broad Market / Other|Broad Market / Other|10.38|1.45||1.45|2|EUR
-UIMT.DE|UBS MSCI Pacific Socially Responsible UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|87.14|1.4||1.4|2|EUR
-SPSA.DE|State Street SPDR MSCI All Country World Investable Market UCITS ETF|Broad Market / Other|Broad Market / Other|12.09|1.3||1.3|4|EUR
-UIM2.DE|UBS Factor MSCI EMU Quality Screened UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|27.95|1.63|-0.33|1.3|1|EUR
-DFOP.DE|Amundi STOXX Europe 600 Consumer Staples UCITS Dist ETF|Consumer Staples|Consumer Staples|143.52|1.25||1.25|1|EUR
-6PSA.DE|Invesco RAFI US Fundamental Value UCITS ETF Dist|Broad Market / Other|Broad Market / Other|40.04|1.1|0.15|1.25|4|EUR
-XB30.DE|Xtrackers II Target Maturity Sept 2030 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|35.37|1.24||1.24|4|EUR
-IQQF.DE|iShares MSCI AC Far East ex-Jpn UCITS ETF USD D|Broad Market / Other|Broad Market / Other|73.26|1.18|0.05|1.23|4|EUR
-XB28.DE|Xtrackers II Target Maturity Sept 2028 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|35.79|1.23||1.23|4|EUR
-WEBG.DE|Amundi Prime All Country World UCITS Dist ETF|Broad Market / Other|Broad Market / Other|13.18|1.22||1.22|1|EUR
-SPYJ.DE|State Street SPDR Dow Jones Global Real Estate UCITS ETF|Real Estate|Real Estate|33.68|2.45|-1.25|1.2|4|EUR
-XEQL.DE|Xtrackers S&P 500 Equal Weight Swap UCITS 1D ETF|Broad Market / Other|Broad Market / Other|35.02|1.2||1.2|2|EUR
-XHYG.DE|Xtrackers II EUR High Yield Corporate Bond UCITS 1D ETF|Fixed Income|Bonds|15.2|5.33|-4.13|1.2|4|EUR
-LYX4.DE|Amundi STOXX Europe 600 Basic Materials UCITS Dist ETF|Materials|Materials|276.95|1.2||1.2|1|EUR
-XB34.DE|Xtrackers II Target Maturity Sept 2034 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|33.7|1.19||1.19|4|EUR
-BCFJ.DE|UBS MSCI World Selection UCITS hEUR dis ETF|Broad Market / Other|Broad Market / Other|24.43|1.18||1.18|2|EUR
-EHLT.DE|Amundi STOXX Europe 600 Healthcare UCITS Dist ETF|Health Care|Pharmaceuticals & Biotech|211.4|1.18||1.18|1|EUR
-MWOL.DE|Amundi Prime Global UCITS Dist ETF|Broad Market / Other|Broad Market / Other|43.03|1.17||1.17|1|EUR
-2B7J.DE|iShares MSCI World SRI UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|10.17|1.2|-0.06|1.13|4|EUR
-JPVD.DE|JPM US Val Eq Active UCITS ETF - USD (dist)|Broad Market / Other|Broad Market / Other|33.78|1.0||1.0|1|EUR
-UIMM.DE|UBS MSCI World Socially Responsible UClTS USD dis ETF|Broad Market / Other|Broad Market / Other|180.62|0.91|0.07|0.98|2|EUR
-WDSD.DE|StSt SPDR MSCI World Small Cap UCITS ETF Dist|Broad Market / Other|Broad Market / Other|11.7|0.95||0.95|3|EUR
+UIMT.DE|UBS MSCI Pacific Socially Responsible UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|86.25|1.41||1.41|2|EUR
+SPSA.DE|State Street SPDR MSCI All Country World Investable Market UCITS ETF|Broad Market / Other|Broad Market / Other|11.93|1.32||1.32|4|EUR
+UIM2.DE|UBS Factor MSCI EMU Quality Screened UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|27.93|1.63|-0.33|1.3|1|EUR
+IQQF.DE|iShares MSCI AC Far East ex-Jpn UCITS ETF USD D|Broad Market / Other|Broad Market / Other|71.05|1.21|0.05|1.26|4|EUR
+WEBG.DE|Amundi Prime All Country World UCITS Dist ETF|Broad Market / Other|Broad Market / Other|13.04|1.24||1.24|1|EUR
+DFOP.DE|Amundi STOXX Europe 600 Consumer Staples UCITS Dist ETF|Consumer Staples|Consumer Staples|144.32|1.24||1.24|1|EUR
+XB30.DE|Xtrackers II Target Maturity Sept 2030 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|35.4|1.24||1.24|4|EUR
+6PSA.DE|Invesco RAFI US Fundamental Value UCITS ETF Dist|Broad Market / Other|Broad Market / Other|40.31|1.09|0.15|1.24|4|EUR
+XB28.DE|Xtrackers II Target Maturity Sept 2028 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|35.81|1.23||1.23|4|EUR
+XHYG.DE|Xtrackers II EUR High Yield Corporate Bond UCITS 1D ETF|Fixed Income|Bonds|15.17|5.34|-4.13|1.21|4|EUR
+LYX4.DE|Amundi STOXX Europe 600 Basic Materials UCITS Dist ETF|Materials|Materials|274.4|1.21||1.21|1|EUR
+SPYJ.DE|State Street SPDR Dow Jones Global Real Estate UCITS ETF|Real Estate|Real Estate|33.59|2.45|-1.25|1.21|4|EUR
+XEQL.DE|Xtrackers S&P 500 Equal Weight Swap UCITS 1D ETF|Broad Market / Other|Broad Market / Other|35.19|1.19||1.19|2|EUR
+MWOL.DE|Amundi Prime Global UCITS Dist ETF|Broad Market / Other|Broad Market / Other|42.67|1.18||1.18|1|EUR
+XB34.DE|Xtrackers II Target Maturity Sept 2034 EUR Corporate Bond UCITS ETF|Fixed Income|Bonds|33.78|1.18||1.18|4|EUR
+EHLT.DE|Amundi STOXX Europe 600 Healthcare UCITS Dist ETF|Health Care|Pharmaceuticals & Biotech|213.75|1.17||1.17|1|EUR
+BCFJ.DE|UBS MSCI World Selection UCITS hEUR dis ETF|Broad Market / Other|Broad Market / Other|24.76|1.17||1.17|2|EUR
+2B7J.DE|iShares MSCI World SRI UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|10.08|1.21|-0.06|1.15|4|EUR
+JPVD.DE|JPM US Val Eq Active UCITS ETF - USD (dist)|Broad Market / Other|Broad Market / Other|33.81|1.0||1.0|1|EUR
+UIMM.DE|UBS MSCI World Socially Responsible UClTS USD dis ETF|Broad Market / Other|Broad Market / Other|178.08|0.92|0.07|0.99|2|EUR
+WDSD.DE|StSt SPDR MSCI World Small Cap UCITS ETF Dist|Broad Market / Other|Broad Market / Other|11.77|0.95||0.95|3|EUR
 CBUL.DE|iShares USD TIPS 0-5 UCITS EUR Hedged (Dist) UCITS ETF|Broad Market / Other|Broad Market / Other|4.17|5.91|-10.99|0.91|2|EUR
-XZEG.DE|Xtrackers II ESG Global Government Bond UCITS 4D - EUR Hedged ETF|Fixed Income|Bonds|5.45|2.6|-1.75|0.86|4|EUR
-TRD7.DE|Invesco US Treasury Bond 3-7 Year UCITS ETF Dist|Fixed Income|Bonds|33.7|3.97|-3.11|0.86|4|EUR
+XZEG.DE|Xtrackers II ESG Global Government Bond UCITS 4D - EUR Hedged ETF|Fixed Income|Bonds|5.47|2.6|-1.75|0.85|4|EUR
 US4E.DE|State Street SPDR S&P 400 U.S. Mid Cap UCITS ETF|Broad Market / Other|Broad Market / Other|33.53|0.85||0.85|4|EUR
-US4D.DE|StSt SPDR S&P 400 U.S. Mid Cap UCITS ETF Dist|Broad Market / Other|Broad Market / Other|31.69|0.83||0.83|4|EUR
-WEBI.DE|Amundi Core MSCI USA UCITS Dist ETF|Broad Market / Other|Broad Market / Other|50.4|0.82||0.82|1|EUR
-UCTD.L|iShares MSCI USA Clmt Trans Aware UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.96|0.81||0.81|2|USD
-S5SD.DE|UBS S&P 500 Scored & Screened UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|43.2|0.79||0.79|2|EUR
-SYBY.DE|StSt SPDR Bloomberg U.S. TIPS UCITS ETF Dist|Broad Market / Other|Broad Market / Other|24.98|5.79|-9.21|0.79|2|EUR
-XISP.DE|Xtrackers S&P 500 Swap II UCITS - 1D ETF|Broad Market / Other|Broad Market / Other|35.84|0.75||0.75|2|EUR
-WEBP.DE|Amundi S&P 500 Climate Paris Aligned UCITS Dist ETF|Broad Market / Other|Broad Market / Other|28.49|0.75||0.75|1|EUR
-SYBR.DE|StSt SPDR BBG 1-10 Y U.S. Corpo Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|26.7|4.49|-3.84|0.64|2|EUR
-IUSC.DE|iShares MSCI EM Latin America UCITS ETF USD D|Broad Market / Other|Broad Market / Other|16.26|3.9|-3.32|0.59|2|EUR
-IQQW.DE|iShares MSCI World UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|90.57|0.86|-0.36|0.5|4|EUR
-SYBJ.DE|StSt SPDR Bloomberg Euro HY Bond UCITS ETF Dist|Fixed Income|Bonds|49.44|5.46|-23.48|0.46|2|EUR
-BCFN.DE|UBS Nasdaq-100 UCITS ETF USD dis|Information Technology|Technology Hardware & Software|28.24|0.45||0.45|2|EUR
-JPGD.DE|JPM US Gro Eq Active UCITS ETF - USD (dist)|Broad Market / Other|Broad Market / Other|30.28|0.4||0.4|1|EUR
-JAUD.DE|JPM US Equity Active UCITS ETF - USD (dist)|Broad Market / Other|Broad Market / Other|31.67|0.39||0.39|1|EUR
-EUNW.DE|iShares   High Yield Corp Bond UCITS ETF EUR D|Fixed Income|Bonds|88.3|5.32|-9.36|0.32|3|EUR
-JYEH.DE|JPMorgan Global High Yield Corporate Bond Multi-Factor UCITS ETF EUR Hedged (dist)|Fixed Income|Bonds|88.11|5.3|-9.74|0.3|2|EUR
-UDHY.DE|iShares Broad $ High Yield Corp Bd UCITS ETF USD D|Fixed Income|Bonds|4.1|5.28|-19.71|0.28|3|EUR
-EUNY.DE|iShares EM Dividend UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|16.05|5.16|-6.59|0.16|4|EUR
-UIM3.DE|UBS FTSE 100 UCITS ETF GBP dis|Broad Market / Other|Broad Market / Other|114.98|2.72|-2.56|0.16|2|EUR
-XDGE.DE|Xtrackers USD Corporate Bond UCITS 2D EUR Hedged ETF|Fixed Income|Bonds|9.64|5.08|-7.41|0.08|4|EUR
-XUTD.DE|Xtrackers II US Treasuries UCITS ETF 1D|Broad Market / Other|Broad Market / Other|172.29|3.48|-3.48|0.0|4|EUR
-IS3L.DE|iShares $ Ultrashort Bond UCITS ETF USD Dist|Fixed Income|Bonds|91.57|5.0|-5.52|-0.0|4|EUR
-DX2S.DE|Xtrackers S&P ASX 200 UCITS 1D ETF|Broad Market / Other|Broad Market / Other|43.58|2.74|-2.76|-0.01|2|EUR
-4UB9.DE|UBS MSCI World SR UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|22.85|1.05|-1.07|-0.02|2|EUR
-SXRH.DE|iShares $ TIPS 0-5 UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|4.35|4.94|-13.08|-0.06|2|EUR
-XZDW.DE|Xtrackers MSCI World High Dividend Yield ESG UCITS ETF|Broad Market / Other|Broad Market / Other|39.51|1.95|-2.06|-0.11|4|EUR
-SYBS.DE|State Street SPDR Bloomberg Sterling Corporate Bond UCITS ETF|Fixed Income|Bonds|59.74|4.71|-13.47|-0.29|2|EUR
+TRD7.DE|Invesco US Treasury Bond 3-7 Year UCITS ETF Dist|Fixed Income|Bonds|33.81|3.95|-3.11|0.84|4|EUR
+WEBI.DE|Amundi Core MSCI USA UCITS Dist ETF|Broad Market / Other|Broad Market / Other|50.05|0.83||0.83|1|EUR
+US4D.DE|StSt SPDR S&P 400 U.S. Mid Cap UCITS ETF Dist|Broad Market / Other|Broad Market / Other|31.61|0.83||0.83|4|EUR
+UCTD.L|iShares MSCI USA Clmt Trans Aware UCITS ETF USD D|Broad Market / Other|Broad Market / Other|5.05|0.8||0.8|2|USD
+SYBY.DE|StSt SPDR Bloomberg U.S. TIPS UCITS ETF Dist|Broad Market / Other|Broad Market / Other|25.01|5.79|-9.21|0.79|2|EUR
+S5SD.DE|UBS S&P 500 Scored & Screened UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|43.74|0.78||0.78|2|EUR
+XISP.DE|Xtrackers S&P 500 Swap II UCITS - 1D ETF|Broad Market / Other|Broad Market / Other|35.98|0.75||0.75|2|EUR
+WEBP.DE|Amundi S&P 500 Climate Paris Aligned UCITS Dist ETF|Broad Market / Other|Broad Market / Other|28.78|0.74||0.74|1|EUR
+SYBR.DE|StSt SPDR BBG 1-10 Y U.S. Corpo Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|26.68|4.49|-3.84|0.65|2|EUR
+IUSC.DE|iShares MSCI EM Latin America UCITS ETF USD D|Broad Market / Other|Broad Market / Other|16.19|3.92|-3.32|0.6|2|EUR
+IQQW.DE|iShares MSCI World UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|89.56|0.87|-0.36|0.51|4|EUR
+BCFN.DE|UBS Nasdaq-100 UCITS ETF USD dis|Information Technology|Technology Hardware & Software|27.83|0.46||0.46|2|EUR
+SYBJ.DE|StSt SPDR Bloomberg Euro HY Bond UCITS ETF Dist|Fixed Income|Bonds|49.47|5.46|-23.48|0.46|2|EUR
+JPGD.DE|JPM US Gro Eq Active UCITS ETF - USD (dist)|Broad Market / Other|Broad Market / Other|30.83|0.4||0.4|1|EUR
+JAUD.DE|JPM US Equity Active UCITS ETF - USD (dist)|Broad Market / Other|Broad Market / Other|32.06|0.38||0.38|1|EUR
+UDHY.DE|iShares Broad $ High Yield Corp Bd UCITS ETF USD D|Fixed Income|Bonds|4.07|5.33|-19.71|0.33|3|EUR
+EUNW.DE|iShares   High Yield Corp Bond UCITS ETF EUR D|Fixed Income|Bonds|88.31|5.32|-9.36|0.32|3|EUR
+JYEH.DE|JPMorgan Global High Yield Corporate Bond Multi-Factor UCITS ETF EUR Hedged (dist)|Fixed Income|Bonds|88.08|5.3|-9.74|0.3|2|EUR
+EUNY.DE|iShares EM Dividend UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|15.71|5.27|-6.59|0.27|4|EUR
+UIM3.DE|UBS FTSE 100 UCITS ETF GBP dis|Broad Market / Other|Broad Market / Other|115.54|2.71|-2.56|0.15|2|EUR
+XDGE.DE|Xtrackers USD Corporate Bond UCITS 2D EUR Hedged ETF|Fixed Income|Bonds|9.66|5.07|-7.41|0.07|4|EUR
+XUTD.DE|Xtrackers II US Treasuries UCITS ETF 1D|Broad Market / Other|Broad Market / Other|172.14|3.48|-3.48|0.01|4|EUR
+IS3L.DE|iShares $ Ultrashort Bond UCITS ETF USD Dist|Fixed Income|Bonds|91.4|5.01|-5.52|0.01|4|EUR
+DX2S.DE|Xtrackers S&P ASX 200 UCITS 1D ETF|Broad Market / Other|Broad Market / Other|43.47|2.75|-2.76|-0.01|2|EUR
+4UB9.DE|UBS MSCI World SR UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|22.59|1.07|-1.07|-0.01|2|EUR
+SXRH.DE|iShares $ TIPS 0-5 UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|4.34|4.96|-13.08|-0.04|2|EUR
+XZDW.DE|Xtrackers MSCI World High Dividend Yield ESG UCITS ETF|Broad Market / Other|Broad Market / Other|38.97|1.97|-2.06|-0.09|4|EUR
+SYBS.DE|State Street SPDR Bloomberg Sterling Corporate Bond UCITS ETF|Fixed Income|Bonds|59.98|4.69|-13.47|-0.31|2|EUR
 QDVL.DE|iShares   Corp Bond 0-3Yr ESG SRI UCITS ETF EUR D|Fixed Income|Bonds|4.89|2.81|-3.15|-0.34|2|EUR
 SYBQ.DE|StSt SPDR BBG 0-5 Y Strlg Corp Bd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|34.49|4.6|-16.88|-0.4|2|EUR
-ZPR5.DE|StSt SPDR ICE BofA 0-5Y EMUSDGvtBd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|24.55|4.55|-17.85|-0.45|2|EUR
+ZPR5.DE|StSt SPDR ICE BofA 0-5Y EMUSDGvtBd UCITS ETF Dist|Broad Market / Other|Broad Market / Other|24.61|4.54|-17.85|-0.46|2|EUR
 SXRR.DE|iShares $ Floating Rate Bd UCITS ETF EUR Hgd Dist|Broad Market / Other|Broad Market / Other|4.2|4.4|-16.24|-0.6|2|EUR
-CBU4.DE|iShares iBond Dec 2028 Term $ Corp UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.66|4.35|-7.24|-0.65|4|EUR
-UEF7.DE|UBS BBG US Liquid Corp 1-5 UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|12.34|4.32|-7.36|-0.68|2|EUR
-IQQB.DE|iShares MSCI Brazil UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|21.49|4.31|-17.98|-0.69|4|EUR
-UEEH.DE|iShares Edge MSCI World Minimum Volatility UCITS USD (Dist) ETF|Broad Market / Other|Broad Market / Other|6.26|1.49|-2.25|-0.76|2|EUR
-VUSC.DE|Vanguard USD Corpo 1-3 Year Bd UCITS ETF USD D|Broad Market / Other|Broad Market / Other|44.39|4.21|-8.63|-0.79|12|EUR
-QDVY.DE|iShares $ Floating Rate Bd UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|4.58|4.19|-17.78|-0.81|2|EUR
-CBU8.DE|iShares iBond Dec 2026 Term $ Corp UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.62|4.14|-10.8|-0.86|4|EUR
-ASRG.DE|BNPP Easy EUR HY SRI Fossil Free UCITS ETF Dis|Broad Market / Other|Broad Market / Other|8.8|4.09|-19.82|-0.91|1|EUR
-LYPU.DE|Amundi Australia S&P/ASX 200 UCITS ETF Dist|Broad Market / Other|Broad Market / Other|54.88|2.79|-3.7|-0.92|1|EUR
-XHY1.DE|Xtrackers II Rolling Target Maturity Sept 2027 EUR High Yield UCITS ETF|Fixed Income|Bonds|8.53|4.05|-15.05|-0.95|2|EUR
-IUSP.DE|iShares JPM EM Local Govt Bond UCITS ETF USD D|Fixed Income|Bonds|39.88|4.02|-15.07|-0.98|3|EUR
-WELL.DE|Amundi S&P World Information technology Screened UCITS Dist ETF|Information Technology|Technology Hardware & Software|24.5|0.29|-1.33|-1.04|1|EUR
-EXV5.DE|iShares STOXX Europe 600 Automobiles & Parts UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|36.54|3.94|-23.84|-1.06|2|EUR
-IS3F.DE|iShares $ Corp Bd Int Rate Hgd UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|95.14|3.92|-15.8|-1.08|4|EUR
-EXHC.DE|iShares eb.rexx Government Germany 2.5-5.5yr UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|92.57|1.08|-2.22|-1.15|3|EUR
-ZPRG.DE|State Street SPDR S&P Global Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|34.9|3.85|-7.73|-1.15|4|EUR
-ECMF.DE|Invesco EUR Corp Bd ESG Mlt Factor UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.95|3.17|-4.38|-1.2|4|EUR
-3SUE.DE|iShares MSCI Wld Cons Stpls Sec Adv UCITS ETF USDD|Broad Market / Other|Broad Market / Other|5.94|2.02|-3.24|-1.22|2|EUR
-IBCN.DE|iShares   Govt Bond 3-5yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|155.71|2.5|-3.74|-1.24|2|EUR
-ZSRI.DE|BNP Paribas Easy MSCI Europe SRI PAB UCITS ETF|Broad Market / Other|Broad Market / Other|33.65|2.35|-3.59|-1.25|1|EUR
-IUSU.DE|iShares $ Treasury Bd 1-3yr UCITS ETF USD Dist|Fixed Income|Bonds|115.5|3.7|-7.16|-1.3|2|EUR
-DXS1.DE|Xtrackers II GBP Overnight Rate Swap UCITS 1D ETF|Broad Market / Other|Broad Market / Other|216.85|3.67|-14.4|-1.33|2|EUR
-TRD1.DE|Invesco US Treasury Bond 0-1 Year UCITS ETF Dist|Fixed Income|Bonds|37.27|3.62|-14.68|-1.38|4|EUR
-IBCC.DE|iShares $ Treasury Bond 0-1yr UCITS ETF USD D|Fixed Income|Bonds|4.54|3.62|-27.28|-1.38|2|EUR
-IQQC.DE|iShares China Large Cap UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|82.77|2.07|-3.49|-1.43|4|EUR
-EXI2.DE|iShares Dow Jones Global Titans 50 UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|110.86|0.34|-1.77|-1.43|3|EUR
-UEFF.DE|UBS Core BBG US Treasury 1-3 UCITS USD dis ETF|Fixed Income|Bonds|22.1|3.32|-6.78|-1.68|2|EUR
-SXRF.DE|iShares $ Intermediate Credit Bond UCITS ETF USD D|Fixed Income|Bonds|4.31|3.25|-8.67|-1.75|3|EUR
+CBU4.DE|iShares iBond Dec 2028 Term $ Corp UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.65|4.36|-7.24|-0.64|4|EUR
+UEF7.DE|UBS BBG US Liquid Corp 1-5 UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|12.36|4.31|-7.36|-0.69|2|EUR
+IQQB.DE|iShares MSCI Brazil UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|21.46|4.31|-17.98|-0.69|4|EUR
+UEEH.DE|iShares Edge MSCI World Minimum Volatility UCITS USD (Dist) ETF|Broad Market / Other|Broad Market / Other|6.24|1.49|-2.25|-0.76|2|EUR
+VUSC.DE|Vanguard USD Corpo 1-3 Year Bd UCITS ETF USD D|Broad Market / Other|Broad Market / Other|44.35|4.21|-8.63|-0.79|12|EUR
+QDVY.DE|iShares $ Floating Rate Bd UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|4.57|4.2|-17.78|-0.8|2|EUR
+XBAG.DE|Xtrackers II ESG Global Aggregate Bond UCITS 1D ETF|Fixed Income|Bonds|34.15|3.1|-3.95|-0.85|4|EUR
+CBU8.DE|iShares iBond Dec 2026 Term $ Corp UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.63|4.13|-10.8|-0.87|4|EUR
+ASRG.DE|BNPP Easy EUR HY SRI Fossil Free UCITS ETF Dis|Broad Market / Other|Broad Market / Other|8.81|4.09|-19.82|-0.91|1|EUR
+LYPU.DE|Amundi Australia S&P/ASX 200 UCITS ETF Dist|Broad Market / Other|Broad Market / Other|54.73|2.8|-3.7|-0.91|1|EUR
+XHY1.DE|Xtrackers II Rolling Target Maturity Sept 2027 EUR High Yield UCITS ETF|Fixed Income|Bonds|8.5|4.06|-15.05|-0.94|2|EUR
+IUSP.DE|iShares JPM EM Local Govt Bond UCITS ETF USD D|Fixed Income|Bonds|39.65|4.04|-15.07|-0.96|3|EUR
+WELL.DE|Amundi S&P World Information technology Screened UCITS Dist ETF|Information Technology|Technology Hardware & Software|24.52|0.29|-1.33|-1.04|1|EUR
+EXV5.DE|iShares STOXX Europe 600 Automobiles & Parts UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|36.43|3.95|-23.84|-1.05|2|EUR
+IS3F.DE|iShares $ Corp Bd Int Rate Hgd UCITS ETF USD Dist|Broad Market / Other|Broad Market / Other|95.04|3.92|-15.8|-1.08|4|EUR
+EXHC.DE|iShares eb.rexx Government Germany 2.5-5.5yr UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|92.55|1.08|-2.22|-1.15|3|EUR
+ZPRG.DE|State Street SPDR S&P Global Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|34.96|3.84|-7.73|-1.16|4|EUR
+ECMF.DE|Invesco EUR Corp Bd ESG Mlt Factor UCITS ETF Dist|Broad Market / Other|Broad Market / Other|4.96|3.17|-4.38|-1.21|4|EUR
+IBCN.DE|iShares   Govt Bond 3-5yr UCITS ETF EUR (Dist)|Fixed Income|Bonds|155.88|2.5|-3.74|-1.24|2|EUR
+ZSRI.DE|BNP Paribas Easy MSCI Europe SRI PAB UCITS ETF|Broad Market / Other|Broad Market / Other|33.6|2.35|-3.59|-1.24|1|EUR
+3SUE.DE|iShares MSCI Wld Cons Stpls Sec Adv UCITS ETF USDD|Broad Market / Other|Broad Market / Other|6.02|1.99|-3.24|-1.25|2|EUR
+IUSU.DE|iShares $ Treasury Bd 1-3yr UCITS ETF USD Dist|Fixed Income|Bonds|115.4|3.71|-7.16|-1.29|2|EUR
+DXS1.DE|Xtrackers II GBP Overnight Rate Swap UCITS 1D ETF|Broad Market / Other|Broad Market / Other|216.94|3.67|-14.4|-1.33|2|EUR
+IBCC.DE|iShares $ Treasury Bond 0-1yr UCITS ETF USD D|Fixed Income|Bonds|4.53|3.63|-27.28|-1.37|2|EUR
+IQQC.DE|iShares China Large Cap UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|81.12|2.11|-3.49|-1.38|4|EUR
+TRD1.DE|Invesco US Treasury Bond 0-1 Year UCITS ETF Dist|Fixed Income|Bonds|37.19|3.62|-14.68|-1.38|4|EUR
+EXI2.DE|iShares Dow Jones Global Titans 50 UCITS (DE) EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|108.6|0.35|-1.77|-1.42|3|EUR
+UEFF.DE|UBS Core BBG US Treasury 1-3 UCITS USD dis ETF|Fixed Income|Bonds|22.08|3.32|-6.78|-1.68|2|EUR
+SXRF.DE|iShares $ Intermediate Credit Bond UCITS ETF USD D|Fixed Income|Bonds|4.32|3.24|-8.67|-1.76|3|EUR
 IB28.DE|iShares iBonds Dec 2028 Term EUR Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|5.12|3.03|-7.7|-1.97|4|EUR
 EUED.DE|iShares UltraShort Bond ESG SRI UCITS EUR (Dist) ETF|Fixed Income|Bonds|5.03|2.98|-11.19|-2.02|4|EUR
-IS3M.DE|Ishs Eur Ultrashort Bd Ucits Etf (Dist)|Broad Market / Other|Broad Market / Other|101.14|2.93|-10.95|-2.07|4|EUR
-PJS1.DE|PIMCO Euro Short Maturity UCITS ETF EUR Inc|Broad Market / Other|Broad Market / Other|97.02|2.92|-11.57|-2.08|12|EUR
+IS3M.DE|Ishs Eur Ultrashort Bd Ucits Etf (Dist)|Broad Market / Other|Broad Market / Other|101.18|2.93|-10.95|-2.07|4|EUR
+PJS1.DE|PIMCO Euro Short Maturity UCITS ETF EUR Inc|Broad Market / Other|Broad Market / Other|97.08|2.92|-11.57|-2.08|12|EUR
+JMLP.DE|Alerian Midstream Energy Dividend UCITS ETF Dist|Energy|Energy|17.94|2.89|-6.6|-2.11|4|EUR
 IB26.DE|iShares iBonds Dec 2026 Term EUR Corp UCITS EUR (Dist) ETF|Broad Market / Other|Broad Market / Other|5.07|2.88|-11.9|-2.12|4|EUR
-LGQI.DE|Amundi Global Equity Quality Income UCITS ETF D|Broad Market / Other|Broad Market / Other|167.6|2.88|-6.39|-2.12|1|EUR
-JMLP.DE|Alerian Midstream Energy Dividend UCITS ETF Dist|Energy|Energy|18.09|2.86|-6.6|-2.14|4|EUR
-36B3.DE|iShares MSCI Europe SRI UCITS ETF EUR (Dist)|Broad Market / Other|Broad Market / Other|8.1|1.96|-4.14|-2.18|4|EUR
-LEEU.DE|Amundi FTSE EPRA Europ Real Estate UCITS ETF EUR D|Real Estate|Real Estate|29.11|2.82|-21.77|-2.18|1|EUR
-UIM9.DE|UBS MSCI Canada UCITS ETF CAD dis|Broad Market / Other|Broad Market / Other|56.65|1.47|-3.66|-2.19|2|EUR
-ZPRA.DE|State Street SPDR S&P Pan Asia Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|52.31|2.8|-17.31|-2.2|2|EUR
-UIMY.DE|UBS Factor MSCI EMU Low Volatility UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|19.63|2.79|-12.39|-2.21|1|EUR
-EUNJ.DE|iShares MSCI Pacific ex-Japan UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|47.68|2.7|-5.13|-2.3|3|EUR
-EUN6.DE|iShares   Govt Bond 0-1yr UCITS ETF EUR D|Fixed Income|Bonds|99.29|1.93|-4.27|-2.34|2|EUR
-APXJ.DE|Amundi MSCI Pacific Ex Japan SRI Climate Paris Aligned UCITS DR - EUR (D) ETF|Broad Market / Other|Broad Market / Other|9.92|2.62|-8.42|-2.38|1|EUR
-IS0Y.DE|iShares   Cp Bd IntRt Hedg ESG SRI UCITS ETF EURD|Broad Market / Other|Broad Market / Other|98.95|2.59|-22.01|-2.41|2|EUR
-EFRN.DE|iShares Floating Rate Bond Advanced UCITS ETF|Fixed Income|Bonds|5.03|2.58|-22.0|-2.42|2|EUR
+LGQI.DE|Amundi Global Equity Quality Income UCITS ETF D|Broad Market / Other|Broad Market / Other|168.3|2.86|-6.39|-2.14|1|EUR
+ZPRA.DE|State Street SPDR S&P Pan Asia Dividend Aristocrats UCITS ETF|Broad Market / Other|Broad Market / Other|51.99|2.82|-17.31|-2.18|2|EUR
+36B3.DE|iShares MSCI Europe SRI UCITS ETF EUR (Dist)|Broad Market / Other|Broad Market / Other|8.09|1.96|-4.14|-2.18|4|EUR
+UIM9.DE|UBS MSCI Canada UCITS ETF CAD dis|Broad Market / Other|Broad Market / Other|56.32|1.48|-3.66|-2.18|2|EUR
+LEEU.DE|Amundi FTSE EPRA Europ Real Estate UCITS ETF EUR D|Real Estate|Real Estate|29.12|2.82|-21.77|-2.18|1|EUR
+UIMY.DE|UBS Factor MSCI EMU Low Volatility UCITS EUR dis ETF|Broad Market / Other|Broad Market / Other|19.83|2.76|-12.39|-2.24|1|EUR
+EUNJ.DE|iShares MSCI Pacific ex-Japan UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|47.49|2.71|-5.13|-2.29|3|EUR
+EUN6.DE|iShares   Govt Bond 0-1yr UCITS ETF EUR D|Fixed Income|Bonds|99.27|1.93|-4.27|-2.34|2|EUR
+APXJ.DE|Amundi MSCI Pacific Ex Japan SRI Climate Paris Aligned UCITS DR - EUR (D) ETF|Broad Market / Other|Broad Market / Other|9.9|2.63|-8.42|-2.37|1|EUR
+IS0Y.DE|iShares   Cp Bd IntRt Hedg ESG SRI UCITS ETF EURD|Broad Market / Other|Broad Market / Other|98.92|2.59|-22.01|-2.41|2|EUR
+EFRN.DE|iShares Floating Rate Bond Advanced UCITS ETF|Fixed Income|Bonds|5.02|2.58|-22.0|-2.42|2|EUR
 ASR5.DE|BNPP Easy EUR Corp Bond SRI PAB 3-5Y UCITS ETF D|Fixed Income|Bonds|9.09|2.53|-15.22|-2.47|1|EUR
-6PSK.DE|Invesco RAFI Emg Mkts Fundmntal Val UCITS ETF Dist|Broad Market / Other|Broad Market / Other|10.54|2.53|-7.4|-2.47|4|EUR
-IUSB.DE|iShares Global Timber & Forestry UCITS ETF USD D|Broad Market / Other|Broad Market / Other|19.01|2.44|-12.95|-2.56|2|EUR
-UIM6.DE|UBS MSCI USA UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|630.5|0.59|-3.17|-2.58|2|EUR
-CBUD.DE|iShares MSCI Europe SRI UCITS EUR Hedged (Dist) ETF|Broad Market / Other|Broad Market / Other|5.64|1.95|-4.54|-2.6|4|EUR
-IS4S.DE|iShares Digital Security UCITS ETF USD (Dist)|Information Technology|Technology Hardware & Software|12.58|0.31|-2.99|-2.68|2|EUR
-IQQ9.DE|iShares BIC 50 UCITS ETF|Broad Market / Other|Broad Market / Other|18.17|2.27|-12.03|-2.73|2|EUR
-XU6C.DE|BNPP Easy MSCI Emerging SRI PAB UCITS ETF|Broad Market / Other|Broad Market / Other|116.46|2.2|-5.22|-2.8|1|EUR
-IBCA.DE|iShares   Govt Bond 1-3yr UCITS ETF EUR Dist|Fixed Income|Bonds|139.93|2.16|-7.23|-2.84|2|EUR
-ASR3.DE|BNPP Easy EUR Corp Bond SRI PAB 1-3Y UCITS ETF D|Fixed Income|Bonds|9.63|1.97|-26.32|-3.03|1|EUR
-XUCS.DE|Xtrackers MSCI USA Consumer Staples UCITS ETF 1D|Consumer Staples|Consumer Staples|49.6|1.68|-4.74|-3.06|2|EUR
-FVSH.DE|Franklin Euro Short Maturity UCITS ETF (Dis)|Broad Market / Other|Broad Market / Other|25.72|1.91|-13.84|-3.09|1|EUR
-AE5A.DE|Amundi Core MSCI Emerging Markets Swap UCITS Dist ETF|Broad Market / Other|Broad Market / Other|60.39|1.87|-14.46|-3.13|1|EUR
-3SUR.DE|iShares MSCI USA SRI UCITS EUR Hedged (Dist) ETF|Broad Market / Other|Broad Market / Other|2040.5|0.96|-4.1|-3.14|2|EUR
-EXX6.DE|iShares eb.rexx Government Germany 10.5+yr UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|111.19|1.83|-8.64|-3.17|3|EUR
-GASF.DE|Goldman Sachs Access China Gv Bd UCITS ETF USD Dis|Broad Market / Other|Broad Market / Other|53.05|1.76|-11.75|-3.24|2|EUR
-AYEW.DE|iShares MSCI Wld IT Sector Advanced UCITS ETF USDD|Broad Market / Other|Broad Market / Other|16.8|0.26|-3.58|-3.32|2|EUR
-IUSW.DE|iShares MSCI Saudi Arabia Capped UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.5|1.67|-25.73|-3.33|1|EUR
-IQQN.DE|iShares MSCI North America UCITS USD (Dist) ETF|Broad Market / Other|Broad Market / Other|122.4|0.59|-3.94|-3.35|4|EUR
-IQQ5.DE|iShares MSCI Turkey UCITS USD (Dist) ETF|Broad Market / Other|Broad Market / Other|17.19|1.64|-21.8|-3.36|2|EUR
-MD4X.DE|Amundi MDAX UCITS Dist ETF|Broad Market / Other|Broad Market / Other|137.42|1.63|-7.36|-3.37|1|EUR
-EUNU.DE|iShares Core Gl Aggregate Bd UCITS ETF USD Dis|Broad Market / Other|Broad Market / Other|3.88|1.59|-24.12|-3.41|1|EUR
+6PSK.DE|Invesco RAFI Emg Mkts Fundmntal Val UCITS ETF Dist|Broad Market / Other|Broad Market / Other|10.71|2.49|-7.4|-2.51|4|EUR
+IUSB.DE|iShares Global Timber & Forestry UCITS ETF USD D|Broad Market / Other|Broad Market / Other|19.04|2.43|-12.95|-2.57|2|EUR
+UIM6.DE|UBS MSCI USA UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|632.5|0.59|-3.17|-2.58|2|EUR
+CBUD.DE|iShares MSCI Europe SRI UCITS EUR Hedged (Dist) ETF|Broad Market / Other|Broad Market / Other|5.67|1.94|-4.54|-2.61|4|EUR
+IS4S.DE|iShares Digital Security UCITS ETF USD (Dist)|Information Technology|Technology Hardware & Software|12.38|0.32|-2.99|-2.67|2|EUR
+IQQ9.DE|iShares BIC 50 UCITS ETF|Broad Market / Other|Broad Market / Other|18.07|2.28|-12.03|-2.72|2|EUR
+IBCA.DE|iShares   Govt Bond 1-3yr UCITS ETF EUR Dist|Fixed Income|Bonds|140.06|2.16|-7.23|-2.84|2|EUR
+XU6C.DE|BNPP Easy MSCI Emerging SRI PAB UCITS ETF|Broad Market / Other|Broad Market / Other|119.64|2.14|-5.22|-2.86|1|EUR
+ASR3.DE|BNPP Easy EUR Corp Bond SRI PAB 1-3Y UCITS ETF D|Fixed Income|Bonds|9.64|1.97|-26.32|-3.03|1|EUR
+XUCS.DE|Xtrackers MSCI USA Consumer Staples UCITS ETF 1D|Consumer Staples|Consumer Staples|50.1|1.66|-4.74|-3.08|2|EUR
+FVSH.DE|Franklin Euro Short Maturity UCITS ETF (Dis)|Broad Market / Other|Broad Market / Other|25.73|1.91|-13.84|-3.09|1|EUR
+AE5A.DE|Amundi Core MSCI Emerging Markets Swap UCITS Dist ETF|Broad Market / Other|Broad Market / Other|59.1|1.91|-14.46|-3.09|1|EUR
+3SUR.DE|iShares MSCI USA SRI UCITS EUR Hedged (Dist) ETF|Broad Market / Other|Broad Market / Other|2067.5|0.95|-4.1|-3.15|2|EUR
+EXX6.DE|iShares eb.rexx Government Germany 10.5+yr UCITS (DE) ETF|Broad Market / Other|Broad Market / Other|111.44|1.83|-8.64|-3.17|3|EUR
+GASF.DE|Goldman Sachs Access China Gv Bd UCITS ETF USD Dis|Broad Market / Other|Broad Market / Other|53.13|1.76|-11.75|-3.24|2|EUR
+AYEW.DE|iShares MSCI Wld IT Sector Advanced UCITS ETF USDD|Broad Market / Other|Broad Market / Other|16.23|0.27|-3.58|-3.31|2|EUR
+IUSW.DE|iShares MSCI Saudi Arabia Capped UCITS ETF USD D|Broad Market / Other|Broad Market / Other|4.46|1.69|-25.73|-3.31|1|EUR
+IQQN.DE|iShares MSCI North America UCITS USD (Dist) ETF|Broad Market / Other|Broad Market / Other|121.12|0.6|-3.94|-3.34|4|EUR
+IQQ5.DE|iShares MSCI Turkey UCITS USD (Dist) ETF|Broad Market / Other|Broad Market / Other|17.03|1.65|-21.8|-3.35|2|EUR
+MD4X.DE|Amundi MDAX UCITS Dist ETF|Broad Market / Other|Broad Market / Other|136.2|1.64|-7.36|-3.36|1|EUR
+EUNU.DE|iShares Core Gl Aggregate Bd UCITS ETF USD Dis|Broad Market / Other|Broad Market / Other|3.87|1.59|-24.12|-3.41|1|EUR
 BJLH.DE|BNP Paribas Easy JPMTilted EMU GovernmentBond IG 1-3Y - UCITS Capitalisation ETF|Broad Market / Other|Broad Market / Other|10.15|1.58|-23.02|-3.42|1|EUR
-EUN3.DE|iShares Global Govt Bond UCITS ETF USD Dist|Fixed Income|Bonds|77.84|1.57|-22.41|-3.43|1|EUR
-ICGB.DE|iShares China CNY Bond UCITS ETF USD (Dist)|Fixed Income|Bonds|5.31|1.56|-15.45|-3.44|2|EUR
-WELV.DE|Amundi S&P World Materials Screened UCITS Dist ETF|Materials|Materials|13.63|1.52|-17.41|-3.48|1|EUR
-XCJD.DE|Xtrackers MSCI Japan Climate Transition UCITS ETF|Broad Market / Other|Broad Market / Other|41.07|1.49|-7.34|-3.51|4|EUR
-DRGE.DE|L&G China CNY Bond UCITS EUR Dist ETF|Fixed Income|Bonds|11.15|1.38|-19.23|-3.62|2|EUR
-DRGN.DE|L&G China CNY Bond UCITS ETF USD Dist|Fixed Income|Bonds|9.72|1.37|-19.75|-3.63|2|EUR
-UBU5.DE|UBS MSCI USA Value UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|126.24|1.25|-7.86|-3.75|2|EUR
-XDWL.DE|Xtrackers MSCI World UCITS 1D ETF|Broad Market / Other|Broad Market / Other|113.54|1.22|-6.37|-3.78|4|EUR
+ICGB.DE|iShares China CNY Bond UCITS ETF USD (Dist)|Fixed Income|Bonds|5.3|1.57|-15.45|-3.43|2|EUR
+EUN3.DE|iShares Global Govt Bond UCITS ETF USD Dist|Fixed Income|Bonds|78.14|1.56|-22.41|-3.44|1|EUR
+WELV.DE|Amundi S&P World Materials Screened UCITS Dist ETF|Materials|Materials|13.56|1.53|-17.41|-3.47|1|EUR
+XCJD.DE|Xtrackers MSCI Japan Climate Transition UCITS ETF|Broad Market / Other|Broad Market / Other|41.83|1.46|-7.34|-3.54|4|EUR
+DRGE.DE|L&G China CNY Bond UCITS EUR Dist ETF|Fixed Income|Bonds|11.18|1.38|-19.23|-3.62|2|EUR
+DRGN.DE|L&G China CNY Bond UCITS ETF USD Dist|Fixed Income|Bonds|9.75|1.37|-19.75|-3.63|2|EUR
+UBU5.DE|UBS MSCI USA Value UCITS USD dis ETF|Broad Market / Other|Broad Market / Other|125.54|1.26|-7.86|-3.74|2|EUR
+XDWL.DE|Xtrackers MSCI World UCITS 1D ETF|Broad Market / Other|Broad Market / Other|112.3|1.23|-6.37|-3.77|4|EUR
 UEFY.DE|UBS SBI Foreign AAA-BBB 1-5 ESG UCITS CHF dis ETF|Broad Market / Other|Broad Market / Other|12.49|1.21|-5.66|-3.79|2|EUR
-XDWY.DE|Xtrackers MSCI World Screened UCITS 1D ETF|Broad Market / Other|Broad Market / Other|27.31|1.11|-7.04|-3.89|4|EUR
-VIGB.DE|VanEck iBoxx EUR Sov Cp AAA-AA 1-5 UC ETF|Broad Market / Other|Broad Market / Other|18.86|1.06|-12.29|-3.94|1|EUR
-FRCJ.DE|UBS MSCI Japan Socially Responsible UCITS JPY dis ETF|Broad Market / Other|Broad Market / Other|30.02|1.05|-8.77|-3.95|2|EUR
-IUS4.DE|iShares MSCI Japan Small Cap UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|51.99|0.98|-12.8|-4.02|1|EUR
-IUSD.DE|iShares MSCI World Islamic UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|57.82|0.97|-5.68|-4.03|2|EUR
-XD9D.DE|Xtrackers MSCI USA UCITS 1D ETF|Broad Market / Other|Broad Market / Other|25.27|0.88|-6.77|-4.12|4|EUR
-UEFZ.DE|UBS SBI Foreign AAA-BBB 5-10 ESG UCITS CHF dis ETF|Broad Market / Other|Broad Market / Other|14.87|0.88|-16.68|-4.12|2|EUR
-IQQK.DE|iShares MSCI Korea UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|90.64|0.44|-4.67|-4.22|2|EUR
-36BB.DE|iShares MSCI Wld Cons Dscrt Sec Adv UCITS ETF USDD|Broad Market / Other|Broad Market / Other|8.04|0.78|-5.68|-4.22|2|EUR
-DJAM.DE|Amundi Dow Jones Industrial Average UCITS ETF Dist|Industrials|Industrials|457.55|0.72|-5.07|-4.28|1|EUR
-JREI.DE|JPM Japan Rsrch Enh Idx Equity Actv UCITS ETF USDD|Broad Market / Other|Broad Market / Other|33.05|0.7|-23.51|-4.3|3|EUR
-XCUD.DE|Xtrackers MSCI USA Climate Transition UCITS ETF|Broad Market / Other|Broad Market / Other|49.78|0.68|-16.76|-4.32|4|EUR
-IQQH.DE|iShares Global Clean Energy Trnstn UCITS ETF USD D|Energy|Energy|7.5|0.67|-19.92|-4.33|2|EUR
-LYY4.DE|Amundi Japan TOPIX II UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|210.35|0.62|-15.48|-4.38|1|EUR
-IUS3.DE|iShares S&P SmallCap 600 UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|99.72|0.54|-27.12|-4.46|1|EUR
-UIMP.DE|UBS MSCI USA Socially Responsible UClTS USD dis ETF|Broad Market / Other|Broad Market / Other|258.25|0.44|-15.71|-4.56|2|EUR
-UBUT.DE|UBS Factor MSCI USA Qlty Scrnd UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|62.24|0.39|-14.3|-4.61|2|EUR
-LYM9.DE|Amundi MSCI New Energy UCITS ETF Dist|Energy|Energy|36.39|0.38|-20.23|-4.62|1|EUR
-EQQQ.DE|Invesco EQQQ NASDAQ-100 UCITS ETF Dist|Information Technology|Technology Hardware & Software|600.4|0.24|-12.01|-4.76|4|EUR
-EXXT.DE|iShares Nasdaq-100 UCITS (DE) ETF|Information Technology|Technology Hardware & Software|238.65|0.16|-12.36|-4.84|3|EUR
+XDWY.DE|Xtrackers MSCI World Screened UCITS 1D ETF|Broad Market / Other|Broad Market / Other|27.22|1.11|-7.04|-3.89|4|EUR
+VIGB.DE|VanEck iBoxx EUR Sov Cp AAA-AA 1-5 UC ETF|Broad Market / Other|Broad Market / Other|18.88|1.06|-12.29|-3.94|1|EUR
+FRCJ.DE|UBS MSCI Japan Socially Responsible UCITS JPY dis ETF|Broad Market / Other|Broad Market / Other|30.5|1.03|-8.77|-3.97|2|EUR
+IUSD.DE|iShares MSCI World Islamic UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|56.74|0.99|-5.68|-4.01|2|EUR
+IUS4.DE|iShares MSCI Japan Small Cap UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|51.89|0.98|-12.8|-4.02|1|EUR
+XD9D.DE|Xtrackers MSCI USA UCITS 1D ETF|Broad Market / Other|Broad Market / Other|25.25|0.88|-6.77|-4.12|4|EUR
+UEFZ.DE|UBS SBI Foreign AAA-BBB 5-10 ESG UCITS CHF dis ETF|Broad Market / Other|Broad Market / Other|14.89|0.88|-16.68|-4.12|2|EUR
+IQQK.DE|iShares MSCI Korea UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|86.74|0.46|-4.67|-4.2|2|EUR
+36BB.DE|iShares MSCI Wld Cons Dscrt Sec Adv UCITS ETF USDD|Broad Market / Other|Broad Market / Other|8.03|0.78|-5.68|-4.22|2|EUR
+DJAM.DE|Amundi Dow Jones Industrial Average UCITS ETF Dist|Industrials|Industrials|458.95|0.71|-5.07|-4.29|1|EUR
+JREI.DE|JPM Japan Rsrch Enh Idx Equity Actv UCITS ETF USDD|Broad Market / Other|Broad Market / Other|32.74|0.71|-23.51|-4.29|3|EUR
+IQQH.DE|iShares Global Clean Energy Trnstn UCITS ETF USD D|Energy|Energy|7.36|0.68|-19.92|-4.32|2|EUR
+XCUD.DE|Xtrackers MSCI USA Climate Transition UCITS ETF|Broad Market / Other|Broad Market / Other|50.35|0.67|-16.76|-4.33|4|EUR
+LYY4.DE|Amundi Japan TOPIX II UCITS ETF EUR Dist|Broad Market / Other|Broad Market / Other|213.56|0.61|-15.48|-4.39|1|EUR
+IUS3.DE|iShares S&P SmallCap 600 UCITS ETF USD (Dist)|Broad Market / Other|Broad Market / Other|99.43|0.54|-27.12|-4.46|1|EUR
+UIMP.DE|UBS MSCI USA Socially Responsible UClTS USD dis ETF|Broad Market / Other|Broad Market / Other|254.0|0.44|-15.71|-4.56|2|EUR
+LYM9.DE|Amundi MSCI New Energy UCITS ETF Dist|Energy|Energy|36.24|0.39|-20.23|-4.61|1|EUR
+UBUT.DE|UBS Factor MSCI USA Qlty Scrnd UCITS ETF USD dis|Broad Market / Other|Broad Market / Other|62.3|0.39|-14.3|-4.61|2|EUR
+EQQQ.DE|Invesco EQQQ NASDAQ-100 UCITS ETF Dist|Information Technology|Technology Hardware & Software|587.0|0.24|-12.01|-4.76|4|EUR
+EXXT.DE|iShares Nasdaq-100 UCITS (DE) ETF|Information Technology|Technology Hardware & Software|233.5|0.16|-12.36|-4.84|3|EUR
